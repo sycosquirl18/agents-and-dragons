@@ -1,6 +1,6 @@
 #!/usr/bin/env node
-// Mechanical checks on the Codex. Catches the failures agents make most often — dead links, unindexed files,
-// missing frontmatter, files that outgrew the Split Rule — so the Loremaster can spend its run on meaning
+// Mechanical checks on the Codex. Catches the failures agents make most often — dead links and anchors, unindexed
+// files, missing frontmatter, files that outgrew the Split Rule — so the Loremaster can spend its run on meaning
 // instead of bookkeeping.
 //
 //   node scripts/check-codex.mjs          fail on errors
@@ -41,14 +41,41 @@ const linkTargets = new Set();
 // Links inside code fences and inline code are illustrations, not references.
 const stripCode = (s) => s.replace(/```[\s\S]*?```/g, "").replace(/`[^`\n]*`/g, "");
 
+// GitHub's heading slugger: lowercase, drop punctuation, replace *each* space with a hyphen.
+// Whitespace is not collapsed, so "A — B" becomes "a--b". Short, plain headings are safest.
+const slug = (h) => h.trim().toLowerCase().replace(/[^\w\s-]/g, "").replace(/\s/g, "-");
+
+const headingCache = new Map();
+const headingsOf = (file) => {
+  const key = resolve(file);
+  if (!headingCache.has(key)) {
+    const src = existsSync(key) ? stripCode(readFileSync(key, "utf8")) : "";
+    headingCache.set(key, new Set([...src.matchAll(/^#{1,6}\s+(.+)$/gm)].map((m) => slug(m[1]))));
+  }
+  return headingCache.get(key);
+};
+
 const checkLinks = (file, raw) => {
   const id = rel(file);
   for (const m of stripCode(raw).matchAll(/\[[^\]]*\]\(([^)\s]+)\)/g)) {
-    const href = m[1].split("#")[0].trim();
-    if (!href || /^(https?:|mailto:)/.test(href)) continue;
-    const target = resolve(dirname(file), href);
-    if (!existsSync(target)) err(id, `broken link -> ${href}`);
-    else linkTargets.add(resolve(target));
+    const spec = m[1].trim();
+    if (/^(https?:|mailto:)/.test(spec)) continue;
+    const hash = spec.indexOf("#");
+    const href = (hash === -1 ? spec : spec.slice(0, hash)).trim();
+    const anchor = hash === -1 ? "" : spec.slice(hash + 1).trim();
+
+    const target = href ? resolve(dirname(file), href) : resolve(file);
+    if (href) {
+      if (!existsSync(target)) {
+        err(id, `broken link -> ${href}`);
+        continue;
+      }
+      linkTargets.add(resolve(target));
+    }
+    // Anchors are silently dead on GitHub, so they have to be checked here or not at all.
+    if (anchor && target.endsWith(".md") && !headingsOf(target).has(anchor)) {
+      err(id, `broken anchor -> ${spec} (no heading '#${anchor}' in ${rel(target)})`);
+    }
   }
 };
 

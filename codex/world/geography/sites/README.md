@@ -29,11 +29,17 @@ Named places small enough to stand in. Grouped by the [region](../README.md) tha
 | [Mere Ilyx](mere-ilyx.md) | site | The only standing water in the Ashfields. Nobody farms the shore. |
 | [The Kiln Road](the-kiln-road.md) | site | Kilnworks paving running east into [the Spine](../regions/the-spine.md) and past it |
 
+## [Vaultspire](../regions/vaultspire.md)
+
+| Site | | |
+| --- | --- | --- |
+| [The Drowned Kiln](the-drowned-kiln.md) | site | The vault's original furnace. Still firing, still underwater, still sealed |
+
 ## Adding one
 
 A site is anywhere a [scene](../../../rules/scenes.md) could be set: a town, a cave network, a lake, a ruin, one
 memorable room. Write it, link it from its region **and** from this index, and give it at least one hook that is
 not yet answered.
 
-Sites under [Vaultspire](../regions/vaultspire.md) are listed as districts in the city's own file, because they are
-inside one building.
+Vaultspire's *districts* are listed in the city's own file rather than here, because they are rooms in one building.
+A place gets its own site file when it is large enough to spend a whole session inside.

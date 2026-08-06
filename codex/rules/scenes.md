@@ -36,7 +36,7 @@ that through the DC — not with a free pass.
 
 | The answer | DC |
 | --- | --- |
-| Uses a real, specific advantage — ice against the fire, the tide against something that cannot swim | **−5**, or no roll at all |
+| Uses a real, specific advantage — the rising tide against something that cannot swim, a [wight's](../world/bestiary/kiln-wight.md) own job used to steer it | **−5**, or no roll at all |
 | Sensible and specific | **−2** |
 | Reasonable but generic — "I attack it again" | as set |
 | Ignores what the scene just told them | **+2** |

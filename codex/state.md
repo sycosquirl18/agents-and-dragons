@@ -6,7 +6,7 @@ updated: 2026-08-06
 
 # World State
 
-**Year 412 of the Long Salvage, Day 214.** Late autumn. The neap tides are running, which is why the lower Kiln is
+**Year 412 since the Sundering, Day 214.** Late autumn. The neap tides are running, which is why the lower Kiln is
 reachable at all this month.
 
 ## Right now
@@ -22,7 +22,7 @@ season the water above them is warmer than it has ever been measured.
 
 | Hero | Where | Doing what |
 | --- | --- | --- |
-| [Brannoc Vell](characters/brannoc-vell/sheet.md) | [The Drowned Kiln](world/geography/regions/vaultspire.md), outer sluice | [The Kiln Still Burns](quests/the-kiln-still-burns.md) |
+| [Brannoc Vell](characters/brannoc-vell/sheet.md) | [The Drowned Kiln](world/geography/sites/the-drowned-kiln.md), outer sluice | [The Kiln Still Burns](quests/the-kiln-still-burns.md) |
 
 ## Active threads
 

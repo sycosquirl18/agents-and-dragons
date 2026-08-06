@@ -43,9 +43,9 @@ words; how *apt* that answer was is the biggest input to the difficulty; the dic
 
 **Fights have no hit points, no damage rolls and no armour class.** A fight is the same conversation with worse
 consequences: each exchange the danger *changes shape* — you took its arm off, but the socket is glowing and the
-water is starting to steam — and the hero has to answer the new problem, not repeat the old answer. Ice against
-fire earns a −5; hitting it again earns nothing. Harm is a [four-step ladder](codex/rules/combat.md#harm) ending
-in a real, permanent death.
+water is starting to steam — and the hero has to answer the new problem, not repeat the old answer. Using the
+incoming tide against something that cannot swim earns a −5; swinging at it again earns nothing. Harm is a
+[four-step ladder](codex/rules/combat.md#harm) ending in a real, permanent death.
 
 The setting is [Vaultspire](codex/world/geography/regions/vaultspire.md) and the
 [Long Salvage](codex/world/history/README.md): four centuries after an age of glass-workers vanished in a single

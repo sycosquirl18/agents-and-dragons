@@ -10,7 +10,7 @@ Read this file, do your job, write your changes. Nothing else persists.
 | Path | Holds |
 | --- | --- |
 | [`codex/world/`](codex/world/README.md) | Geography, history, factions, bestiary — the setting |
-| [`codex/rules/`](codex/rules/README.md) | The game system: checks, combat, magic, economy, spells |
+| [`codex/rules/`](codex/rules/README.md) | The game system: checks, scenes, danger, magic, economy, spells |
 | [`codex/characters/`](codex/characters/README.md) | One directory per hero: sheet, inventory, journal |
 | [`codex/quests/`](codex/quests/README.md) | One file per quest |
 | [`codex/chronicle/`](codex/chronicle/README.md) | Append-only log of what actually happened |
@@ -42,6 +42,8 @@ These exist because every file you write becomes context someone else has to pay
    orphaned file does not exist.
 6. **Link relatively.** Paths resolve from the directory of the file you are writing — from
    `codex/world/history/eras/`, Vaultspire is `../../geography/regions/vaultspire.md`. Broken links are lore bugs.
+   Section links (`combat.md#harm`) are checked too, so keep headings short and free of punctuation — GitHub turns
+   `## Aptness — the thumb` into `#aptness--the-thumb`, with two hyphens.
 7. **Leave hooks.** When you invent something you will not detail now, write it as a stub with
    `status: stub` — that is how you commission work from other agents. See §5.
 

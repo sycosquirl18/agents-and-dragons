@@ -21,7 +21,7 @@ there have adapted to it in ways the upper city finds distasteful.
 | **The Cant** | Upper vault. Concord halls, licence offices, the money. Never floods. Named for a [Reaver](../../history/eras/the-reaving.md), which the Concord does not advertise. |
 | **Tideline** | The band that floods. Markets that pack up in an hour, houses on stilts and pulleys, the best food. |
 | **The Underspire** | Below the waterline, reachable at neap tide. Salvage crews, and whatever they haven't reported. |
-| [The Drowned Kiln](../../../quests/the-kiln-still-burns.md) | Not a district. The vault's original furnace, still burning, currently closed. |
+| [The Drowned Kiln](../sites/the-drowned-kiln.md) | Not a district. The vault's original furnace, still burning, currently closed. |
 
 ## Beyond the walls
 
@@ -62,7 +62,8 @@ who surveys carefully (Wits, DC 15, requires instruments) discovers the vault di
 
 ## Hooks
 
-- [The Drowned Kiln](../../../quests/the-kiln-still-burns.md) — three crews down, no bodies.
+- [The Drowned Kiln](../sites/the-drowned-kiln.md) — three crews down, no bodies.
+  [Quest](../../../quests/the-kiln-still-burns.md).
 - **The Underspire's unreported galleries** — Pellick's charts show rooms the Concord's don't, and
   [the Glass Peace](../../history/events/the-glass-peace.md) explains whose they were. `status: stub`
 - **Why the Covenant buys dead men's rights** — [Ashen Covenant](../../factions/ashen-covenant.md), and
