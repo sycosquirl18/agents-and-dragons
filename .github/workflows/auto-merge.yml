@@ -5,6 +5,14 @@ name: Auto-merge codex updates
 #
 # It only ever touches PRs that are (a) labelled `codex-update`, (b) authored by a bot, and (c) touching nothing
 # outside codex/. Anything else is left for a human. Remove the `codex-update` label to veto a change.
+#
+# This job runs the Codex check itself rather than trusting the PR's own checks, because on an agent's PR there
+# aren't any. GitHub does not run workflows for events raised by GITHUB_TOKEN: a PR opened by the safe-outputs job
+# gets its `pull_request` runs parked in an approval-required state, waiting for a human to press a button. Waiting
+# for a human is the one thing this repository cannot do. So the sweep performs the merge locally, runs
+# `check-codex.mjs` on the merged tree, and only lands the PR if the world still holds together.
+#
+# See docs/operations.md#the-write-loop.
 
 on:
   schedule:
@@ -24,6 +32,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
 
       - name: Merge eligible codex PRs
         env:
@@ -33,16 +47,15 @@ jobs:
           set -euo pipefail
 
           prs=$(gh pr list --repo "$REPO" --state open --label codex-update \
-                  --json number,author,isDraft,files,mergeable,mergeStateStatus,statusCheckRollup --limit 30)
+                  --json number,author,isDraft,files,mergeable,statusCheckRollup --limit 30)
 
           echo "$prs" | jq -c '.[]' | while read -r pr; do
             num=$(echo "$pr" | jq -r '.number')
             author=$(echo "$pr" | jq -r '.author.login')
             draft=$(echo "$pr" | jq -r '.isDraft')
             mergeable=$(echo "$pr" | jq -r '.mergeable')
-            state=$(echo "$pr" | jq -r '.mergeStateStatus')
 
-            echo "::group::PR #$num (author=$author mergeable=$mergeable state=$state)"
+            echo "::group::PR #$num (author=$author mergeable=$mergeable)"
 
             if [ "$draft" = "true" ]; then
               echo "skip: draft"; echo "::endgroup::"; continue
@@ -64,29 +77,44 @@ jobs:
               echo "::endgroup::"; continue
             fi
 
-            # Respect the Codex consistency check rather than bypassing it.
-            failed=$(echo "$pr" | jq -r '[.statusCheckRollup[]? | select(.conclusion=="FAILURE" or .conclusion=="TIMED_OUT" or .conclusion=="CANCELLED")] | length')
-            pending=$(echo "$pr" | jq -r '[.statusCheckRollup[]? | select(.status=="IN_PROGRESS" or .status=="QUEUED" or .status=="PENDING")] | length')
+            # A genuinely red check still vetoes. Queued and action_required do not — that is the permanent resting
+            # state of a run GitHub created but will not start, and blocking on it would stall the world forever.
+            failed=$(echo "$pr" | jq -r '[.statusCheckRollup[]? | select(.conclusion=="FAILURE" or .conclusion=="TIMED_OUT" or .conclusion=="STARTUP_FAILURE")] | length')
             if [ "$failed" != "0" ]; then
               echo "skip: $failed failing check(s)"
               gh pr edit "$num" --repo "$REPO" --add-label needs-review
               echo "::endgroup::"; continue
             fi
-            if [ "$pending" != "0" ]; then
-              echo "skip: $pending check(s) still running; next sweep will pick it up"
+
+            # Validate the merge *result*, not the branch: two agents can each write a perfectly valid Codex whose
+            # union has a dangling link. `merge-tree` computes that result in memory — it never touches the working
+            # tree, so nothing leaks between PRs and there is no dirty-state failure mode. Recomputed against
+            # current main every time, so a merge earlier in this same sweep is already accounted for.
+            git fetch -q origin main
+            git fetch -q origin "pull/$num/head"
+
+            if ! tree=$(git merge-tree --write-tree FETCH_HEAD origin/main 2>/dev/null); then
+              echo "conflicting — attempting update-branch"
+              if gh pr update-branch "$num" --repo "$REPO" --rebase; then
+                echo "rebased; next sweep will land it"
+              else
+                gh pr edit "$num" --repo "$REPO" --add-label needs-rebase
+                echo "skip: unresolvable conflict"
+              fi
               echo "::endgroup::"; continue
             fi
 
-            # Two agents editing the same file is normal here; rebase before giving up.
-            if [ "$mergeable" = "CONFLICTING" ]; then
-              echo "conflicting — attempting update-branch"
-              if ! gh pr update-branch "$num" --repo "$REPO" --rebase 2>&1; then
-                gh pr edit "$num" --repo "$REPO" --add-label needs-rebase
-                echo "skip: unresolvable conflict"; echo "::endgroup::"; continue
-              fi
-              echo "rebased; will merge on the next sweep once GitHub recomputes mergeability"
+            rm -rf /tmp/merged && mkdir -p /tmp/merged
+            git archive "$tree" | tar -x -C /tmp/merged
+
+            if ! report=$(cd /tmp/merged && node scripts/check-codex.mjs 2>&1); then
+              echo "skip: the Codex check fails on the merge result"
+              echo "$report"
+              gh pr edit "$num" --repo "$REPO" --add-label needs-review
+              gh pr comment "$num" --repo "$REPO" --body "$(printf 'Held for review: merging this would leave the Codex inconsistent.\n\n```\n%s\n```\n\nFix it on the branch, or drop the `codex-update` label to retire it.\n' "$report")"
               echo "::endgroup::"; continue
             fi
+            echo "$report"
 
             if gh pr merge "$num" --repo "$REPO" --squash --delete-branch; then
               echo "merged #$num"
