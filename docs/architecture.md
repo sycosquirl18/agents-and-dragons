@@ -35,15 +35,17 @@ trigger (cron | dispatch | slash command | another agent)
    │
    ├─ threat detection .... scans the agent's output before anything is applied
    │
-   └─ safe-outputs job .... contents:write, opens the PR
-                              │
-                              ▼
-                        codex-check.yml → auto-merge.yml → main
+   └─ post-step ........... outside the sandbox, deterministic, not agent-authored
+                            commits codex/ and pushes to main
 ```
 
-The agent never holds a write token. That is the whole security model, and it is why unattended auto-merge is
-tolerable: the worst a compromised or confused agent can do is propose a bad PR, which is gated by path restrictions
-and the consistency check.
+The agent never holds a write token — the push happens in a fixed shell script the agent cannot read, edit, or reach,
+using a PAT that is never exposed inside the sandbox. Two limits keep an unattended direct push tolerable:
+
+- **Path restriction.** The post-step stages `codex/` and nothing else. Edits to workflows, scripts, or `AGENTS.md`
+  are reported as a warning and discarded, so an agent cannot rewrite its own machinery or grant itself more.
+- **Reversibility.** Every push is one commit with the run URL in its trailer. The blast radius of a bad run is
+  `git revert`.
 
 ## How agents coordinate
 
@@ -63,11 +65,20 @@ depends on another agent having *just* run is an agent that breaks.
 
 ### The dispatch race
 
-`dispatch-workflow` fires immediately, but the dispatcher's own PR has not merged yet — auto-merge sweeps every 15
-minutes. So a dispatched agent may read a `state.md` that predates the dispatch.
+`dispatch-workflow` fires immediately, and the dispatcher's own push lands seconds later — but the order is not
+guaranteed. A dispatched agent may read a `state.md` that predates the dispatch.
 
 This is why the Dungeon Master puts the full situation in the `directive` input rather than only writing it to
 `state.md`. Anything a worker needs *right now* travels with the dispatch; anything durable goes in the Codex.
+
+### Losing the race to main
+
+Several agents can be awake at once, so a push can be rejected as non-fast-forward. The post-step retries up to five
+times, rebasing onto `main` between attempts, which resolves the common case: two agents touching different files.
+
+If both edited the same lines, the rebase conflicts and the run fails with its work dropped. That is deliberate —
+there is no correct automatic answer to "which agent's version of this fact is true", and the next scheduled run
+starts from the world as it actually is.
 
 ## Context economy
 

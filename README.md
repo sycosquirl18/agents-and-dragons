@@ -19,18 +19,16 @@ Nothing runs continuously. The world advances one workflow run at a time, and ev
         │ agent workflow│ ────────▶ │    codex/    │
         │  (markdown +  │           │   markdown   │
         │  frontmatter) │ ◀──────── │   the world  │
-        └───────┬───────┘   writes  └──────────────┘
-                │                          ▲
-                │ safe-outputs             │
-                ▼                          │
-        ┌───────────────┐           ┌──────┴───────┐
-        │  pull request │ ────────▶ │  auto-merge  │
-        └───────────────┘           └──────────────┘
+        └───────────────┘   writes  └──────────────┘
+                                           ▲
+                    commit + push          │
+                    (post-step, codex/ only)
 ```
 
-The agent job itself is **read-only**. It cannot push. Edits are captured by gh-aw's safe-outputs, opened as a PR, and
-merged by [`auto-merge.yml`](.github/workflows/auto-merge.yml). The result: the world's git history *is* its history,
-and every change is reviewable and revertible.
+The agent job itself is **read-only** and sandboxed — it edits files in its workspace but holds no write token. When
+it finishes, a deterministic post-step the agent cannot influence commits `codex/` and pushes straight to `main`.
+
+No pull request, no review, no queue. The commit history *is* the world's history, and `git revert` is the undo.
 
 ## The game
 

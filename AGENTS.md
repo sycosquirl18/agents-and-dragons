@@ -116,9 +116,12 @@ You cannot call another agent directly. You hand off by leaving state:
 
 ## 8. Output
 
-Your changes are submitted as a pull request by the workflow's safe-outputs and merged automatically. So:
+Your changes to `codex/` are committed and pushed **straight to `main`** when your run ends. There is no pull
+request and no review. So:
 
-- Write a PR title in the voice of your role — it becomes the world's commit history.
+- Before you finish, write your commit message to `.commit-msg` in the repo root: a subject line in the voice of
+  your role, a blank line, then two or three lines on what changed and why. It becomes the world's history.
+- Nothing you write outside `codex/` is kept. If a change is genuinely needed elsewhere, open an issue.
 - If there is genuinely nothing worth changing, say so and make no edits. **Empty output is a valid, respectable
   result.** Do not manufacture busywork to look productive.
 - Touch the fewest files that accomplish the task.

@@ -34,13 +34,13 @@ Before writing anything, be able to answer all five. Ask the user about any you 
 `.github/workflows/<kebab-name>.md`. Start from the template in
 [`docs/agent-authoring.md`](../../../docs/agent-authoring.md) and adjust:
 
-- `imports: [shared/codex.md]` always; add `shared/dice.md` if it rolls.
-- `permissions:` stays read-only. Writes go through `safe-outputs`. Never add `contents: write`.
+- `imports:` always includes `shared/codex.md` and `shared/commit.md`; add `shared/dice.md` if it rolls.
+- `permissions:` stays read-only. The commit post-step uses its own token. Never add `contents: write` — gh-aw
+  rejects it outright.
 - **Never add `copilot-requests: write`.** It makes gh-aw ignore `COPILOT_GITHUB_TOKEN` and bill inference to the
   repository owner instead of the intended account. See [operations.md](../../../docs/operations.md#auth).
-- `safe-outputs.create-pull-request.labels` **must include `codex-update`**, or auto-merge will not land it.
+- `safe-outputs:` only for issues, comments, and dispatches. Codex file changes need no safe output at all.
 - `concurrency.group` unique per agent, so two runs never fight.
-- `title-prefix` short and in the agent's voice: `[lore] `, `[turn] `, `[economy] `.
 
 ### 4. Write the prompt body
 
@@ -105,7 +105,7 @@ If the agent needs a new *kind* of Codex file, add its `type` to the `TYPES` lis
 | --- | --- |
 | `permissions: contents: write` | Breaks the security model; gh-aw rejects it in strict mode |
 | `permissions: copilot-requests: write` | Silently redirects inference billing to the repo owner |
-| Omitting the `codex-update` label | The PR never merges and quietly rots |
+| Forgetting to import `shared/commit.md` | The agent does its work and throws it away |
 | "Review the entire world and improve it" | Reads everything, costs a fortune, does nothing well |
 | An agent that both writes lore and audits it | It will always approve of itself |
 | Letting the agent decide outcomes | Everything drifts to maximum drama; use `roll_dice` |

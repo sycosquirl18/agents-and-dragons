@@ -19,6 +19,7 @@ engine:
 
 imports:
   - shared/codex.md
+  - shared/commit.md
 
 network:
   allowed: [defaults]
@@ -30,13 +31,6 @@ concurrency:
   group: chronicler
   cancel-in-progress: false
 
-safe-outputs:
-  create-pull-request:
-    title-prefix: "[chronicle] "
-    labels: [codex-update, agent]
-    draft: false
-    max: 1
-    if-no-changes: warn
 ---
 
 # Chronicler

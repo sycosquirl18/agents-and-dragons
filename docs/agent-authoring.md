@@ -36,6 +36,7 @@ engine:
 
 imports:
   - shared/codex.md           # tools + Codex operating procedure. Always.
+  - shared/commit.md          # commits codex/ to main when the run ends. Always.
   - shared/dice.md            # only if the agent rolls for things.
 
 network:
@@ -47,14 +48,6 @@ max-turns: 70
 concurrency:
   group: rumour-mill          # stops two copies fighting over the same files
   cancel-in-progress: false
-
-safe-outputs:
-  create-pull-request:
-    title-prefix: "[rumours] "
-    labels: [codex-update, agent]   # `codex-update` is what auto-merge looks for
-    draft: false
-    max: 1
-    if-no-changes: warn
 ---
 
 # Rumour Mill
@@ -113,19 +106,24 @@ a quartermaster. It produces noticeably better output than a spec written as bul
 To let the Dungeon Master dispatch your agent, add its filename to `dispatch-workflow.workflows` in
 [`dungeon-master.md`](../.github/workflows/dungeon-master.md) — otherwise compilation fails, deliberately.
 
-## Safe outputs
+## How writes happen
 
-The agent job cannot push. It edits files in its sandbox and a separate job turns those edits into a PR.
+The agent job cannot push. It edits files in its sandbox; when it finishes, the post-step from
+[`shared/commit.md`](../.github/workflows/shared/commit.md) commits `codex/` and pushes to `main`. Importing that
+file is all an agent has to do — there is no PR and nothing to configure.
+
+The post-step stages `codex/` and nothing else. Edits anywhere else are warned about and dropped, so an agent that
+needs to change rules infrastructure should open an issue instead.
+
+Safe outputs are still used for everything that is *not* a file change:
 
 | Output | For |
 | --- | --- |
-| `create-pull-request` | Codex changes. Needs `labels: [codex-update]` to auto-merge |
 | `create-issue` | `lore-gap`, `rules-gap`, anything needing human or cross-agent judgement |
 | `add-comment` | Replying on the issue that triggered you |
 | `dispatch-workflow` | Orchestrators only |
 
-Auto-merge will refuse anything touching files outside `codex/`. An agent that needs to change rules infrastructure
-should open an issue instead.
+An agent that only writes Codex files needs no `safe-outputs:` block at all.
 
 ## The dice tool
 

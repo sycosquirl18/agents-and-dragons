@@ -21,6 +21,7 @@ engine:
 
 imports:
   - shared/codex.md
+  - shared/commit.md
   - shared/dice.md
 
 network:
@@ -34,12 +35,6 @@ concurrency:
   cancel-in-progress: false
 
 safe-outputs:
-  create-pull-request:
-    title-prefix: "[hero] "
-    labels: [codex-update, agent]
-    draft: false
-    max: 1
-    if-no-changes: warn
   add-comment:
     max: 1
 ---

@@ -30,17 +30,31 @@ Copilot subscription.
 
 The token must be a fine-grained PAT. gh-aw rejects `gho_*` OAuth tokens (what `gh auth token` returns) at activation.
 
+### The push token
+
+Agents commit to `main` themselves, which needs a **second** fine-grained PAT in `CODEX_PUSH_TOKEN`. This one is
+about repo write access and has nothing to do with billing, so it can belong to whoever owns the repository.
+
+1. [**Create a fine-grained PAT**](https://github.com/settings/personal-access-tokens/new?name=CODEX_PUSH_TOKEN&description=Agents+and+Dragons+world+pushes)
+   with **Repository access → only `agents-and-dragons`**, and **Repository permissions → Contents: Read and write**.
+   Nothing else.
+2. Add it:
+   ```bash
+   gh aw secrets set CODEX_PUSH_TOKEN --value "<the PAT>"
+   ```
+
+Why a PAT rather than the built-in `GITHUB_TOKEN`: gh-aw refuses to grant the agent job `contents: write` on
+principle, and a PAT is scoped independently of job permissions. It also fixes a quieter problem — **GitHub does not
+raise workflow events for pushes made with `GITHUB_TOKEN`**, so a world pushed by the Actions token would never
+trigger [`codex-check.yml`](../.github/workflows/codex-check.yml). Pushes made with a PAT do.
+
+If the secret is missing, agents fail loudly on their final step rather than doing a run's work and dropping it.
+
 Check what is configured:
 
 ```bash
 gh aw secrets bootstrap --non-interactive
 ```
-
-### Repo settings
-
-Actions must be allowed to open pull requests, or every safe-output job fails:
-
-**Settings → Actions → General → Workflow permissions → "Allow GitHub Actions to create and approve pull requests".**
 
 ## Starting the world
 
@@ -48,8 +62,7 @@ Actions must be allowed to open pull requests, or every safe-output job fails:
 gh workflow run "Dungeon Master"
 ```
 
-Everything else follows: the DM dispatches workers, workers open PRs,
-[`auto-merge.yml`](../.github/workflows/auto-merge.yml) lands them within 15 minutes.
+Everything else follows: the DM dispatches workers, each worker pushes its own commit to `main` as it finishes.
 
 ## Cadence
 
@@ -75,9 +88,8 @@ gh aw status                  # what is enabled, and when it last ran
 gh aw logs                    # recent runs, durations, token counts
 gh aw logs dungeon-master     # one agent
 gh aw audit                   # cost breakdown
-gh pr list --label codex-update      # world changes in flight
-gh issue list --label lore-gap       # contradictions awaiting judgement
 git log --oneline -- codex/          # the history of the world
+gh issue list --label lore-gap       # contradictions awaiting judgement
 ```
 
 ## Cost control
@@ -110,9 +122,9 @@ For a fixed-term experiment, add `stop-after: "+72h"` to a workflow's `on:` bloc
 | --- | --- | --- |
 | Every agent fails at inference | `COPILOT_GITHUB_TOKEN` missing, expired, or an OAuth (`gho_*`) token | Recreate as a fine-grained PAT — see [Auth](#auth) |
 | Inference billed to the wrong account | A workflow has `copilot-requests: write` | Remove it; that permission overrides the PAT |
-| PRs pile up unmerged | Actions cannot create PRs, or checks failing | Check repo setting above; `gh pr checks <n>` |
-| `needs-rebase` labels | Two agents edited the same file | `gh pr update-branch`, or close the stale one |
-| `needs-review` labels | PR touched files outside `codex/` | Review by hand — this is working as intended |
+| Agents run but the world never changes | `CODEX_PUSH_TOKEN` missing or lacking Contents: write | Check the final step's log — see [The push token](#the-push-token) |
+| `Could not rebase onto main` | Two agents edited the same lines | Nothing to do; that run's work is dropped and redone next cycle |
+| `Changes outside codex/ were discarded` | An agent tried to edit its own machinery | Working as intended. If the change was wanted, make it yourself |
 | `codex-check` fails | Broken link, orphan, or oversized file | `node scripts/check-codex.mjs` locally |
 | Lock files stale | Frontmatter edited without recompiling | `gh aw compile` and commit |
 | Jobs sit `queued` with no runner, or a push starts nothing | Usually not your repo | Check [githubstatus.com](https://www.githubstatus.com) — an Actions capacity incident delays both runner assignment and webhook delivery. Wait it out; queued runs pick up on recovery |

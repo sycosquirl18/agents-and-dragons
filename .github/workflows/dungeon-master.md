@@ -24,6 +24,7 @@ engine:
 
 imports:
   - shared/codex.md
+  - shared/commit.md
   - shared/dice.md
 
 network:
@@ -37,12 +38,6 @@ concurrency:
   cancel-in-progress: false
 
 safe-outputs:
-  create-pull-request:
-    title-prefix: "[dm] "
-    labels: [codex-update, agent]
-    draft: false
-    max: 1
-    if-no-changes: warn
   dispatch-workflow:
     workflows: [adventurer, world-designer, quartermaster, rules-smith]
     max: 3
