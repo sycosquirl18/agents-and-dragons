@@ -115,6 +115,7 @@ For a fixed-term experiment, add `stop-after: "+72h"` to a workflow's `on:` bloc
 | `needs-review` labels | PR touched files outside `codex/` | Review by hand — this is working as intended |
 | `codex-check` fails | Broken link, orphan, or oversized file | `node scripts/check-codex.mjs` locally |
 | Lock files stale | Frontmatter edited without recompiling | `gh aw compile` and commit |
+| Jobs sit `queued` with no runner, or a push starts nothing | Usually not your repo | Check [githubstatus.com](https://www.githubstatus.com) — an Actions capacity incident delays both runner assignment and webhook delivery. Wait it out; queued runs pick up on recovery |
 | Agent produced nothing | Often correct | Check `gh aw logs <name>` before assuming a bug |
 | Lore contradictions | Normal at this scale | Loremaster files `lore-gap`; you adjudicate |
 
