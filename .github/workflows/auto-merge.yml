@@ -1,0 +1,97 @@
+name: Auto-merge codex updates
+
+# Agent jobs are read-only by design: gh-aw captures their edits and opens a PR. This is the other half of the loop —
+# it lands those PRs so the world can actually advance without a human in the way.
+#
+# It only ever touches PRs that are (a) labelled `codex-update`, (b) authored by a bot, and (c) touching nothing
+# outside codex/. Anything else is left for a human. Remove the `codex-update` label to veto a change.
+
+on:
+  schedule:
+    - cron: "*/15 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: auto-merge
+  cancel-in-progress: false
+
+jobs:
+  merge:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Merge eligible codex PRs
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO: ${{ github.repository }}
+        run: |
+          set -euo pipefail
+
+          prs=$(gh pr list --repo "$REPO" --state open --label codex-update \
+                  --json number,author,isDraft,files,mergeable,mergeStateStatus,statusCheckRollup --limit 30)
+
+          echo "$prs" | jq -c '.[]' | while read -r pr; do
+            num=$(echo "$pr" | jq -r '.number')
+            author=$(echo "$pr" | jq -r '.author.login')
+            draft=$(echo "$pr" | jq -r '.isDraft')
+            mergeable=$(echo "$pr" | jq -r '.mergeable')
+            state=$(echo "$pr" | jq -r '.mergeStateStatus')
+
+            echo "::group::PR #$num (author=$author mergeable=$mergeable state=$state)"
+
+            if [ "$draft" = "true" ]; then
+              echo "skip: draft"; echo "::endgroup::"; continue
+            fi
+
+            # Only bots. A human PR wearing this label still gets reviewed by a human.
+            case "$author" in
+              *"[bot]"|github-actions|Copilot) ;;
+              *) echo "skip: human author"; echo "::endgroup::"; continue ;;
+            esac
+
+            # Blast radius: agents may only rewrite the world, never the machinery that runs it.
+            stray=$(echo "$pr" | jq -r '.files[].path' | grep -v '^codex/' || true)
+            if [ -n "$stray" ]; then
+              echo "skip: touches files outside codex/:"; echo "$stray"
+              gh pr edit "$num" --repo "$REPO" --add-label needs-review
+              gh pr comment "$num" --repo "$REPO" --body \
+                "Held for review: this PR changes files outside \`codex/\`, which auto-merge will not do unattended."
+              echo "::endgroup::"; continue
+            fi
+
+            # Respect the Codex consistency check rather than bypassing it.
+            failed=$(echo "$pr" | jq -r '[.statusCheckRollup[]? | select(.conclusion=="FAILURE" or .conclusion=="TIMED_OUT" or .conclusion=="CANCELLED")] | length')
+            pending=$(echo "$pr" | jq -r '[.statusCheckRollup[]? | select(.status=="IN_PROGRESS" or .status=="QUEUED" or .status=="PENDING")] | length')
+            if [ "$failed" != "0" ]; then
+              echo "skip: $failed failing check(s)"
+              gh pr edit "$num" --repo "$REPO" --add-label needs-review
+              echo "::endgroup::"; continue
+            fi
+            if [ "$pending" != "0" ]; then
+              echo "skip: $pending check(s) still running; next sweep will pick it up"
+              echo "::endgroup::"; continue
+            fi
+
+            # Two agents editing the same file is normal here; rebase before giving up.
+            if [ "$mergeable" = "CONFLICTING" ]; then
+              echo "conflicting — attempting update-branch"
+              if ! gh pr update-branch "$num" --repo "$REPO" --rebase 2>&1; then
+                gh pr edit "$num" --repo "$REPO" --add-label needs-rebase
+                echo "skip: unresolvable conflict"; echo "::endgroup::"; continue
+              fi
+              echo "rebased; will merge on the next sweep once GitHub recomputes mergeability"
+              echo "::endgroup::"; continue
+            fi
+
+            if gh pr merge "$num" --repo "$REPO" --squash --delete-branch; then
+              echo "merged #$num"
+            else
+              echo "merge failed for #$num; leaving it for the next sweep"
+            fi
+            echo "::endgroup::"
+          done

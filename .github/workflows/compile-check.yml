@@ -1,0 +1,39 @@
+name: Check compiled workflows
+
+# The .lock.yml files are what GitHub actually runs. If someone edits an agent's frontmatter and forgets
+# `gh aw compile`, the change silently does nothing. This catches that.
+
+on:
+  pull_request:
+    paths:
+      - ".github/workflows/**"
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/**"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  compile:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: github/gh-aw/actions/setup-cli@main
+
+      - name: Recompile agents
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh aw compile
+
+      - name: Fail if lock files are stale
+        run: |
+          if ! git diff --quiet; then
+            echo "::error::Compiled .lock.yml files are out of date. Run 'gh aw compile' and commit the result."
+            git --no-pager diff --stat
+            exit 1
+          fi
+          echo "All agent lock files are up to date."
