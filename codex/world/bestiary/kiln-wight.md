@@ -11,15 +11,18 @@ sorting, carrying loads to a surface that is no longer there. Cinder-glass dust 
 the [Ashen Covenant](../factions/ashen-covenant.md) says otherwise and is not specific.
 
 ```
-Might +3  Grace +0  Wits -2  Heart +1   HP 22   Armour DC 12
-Attack: salvage hook, +4, 1d8 damage
-Trait: Still on the job. It ignores anyone who does not interfere with its work. Take its load, block its route,
-       or bring light where it is working, and it attacks until destroyed.
+Stats:      Might +3  Grace +0  Wits -2  Heart +1
+Wants:      to finish the dive. Haul the load to a surface that is not there any more.
+Presses:    silt kicked up until you cannot see the hook coming; hauls you into its route and keeps hauling;
+            works faster and more strongly the more light you bring
+Beaten by:  its own job — Wits DC 14 to read what task it thinks it is on, then Heart DC 13 to become part of it
+Shrugs off: pain, threats, drowning, and having limbs removed
 ```
 
 Not undead in any traditional sense — it is warm, it breathes water, and it can be reasoned with for exactly as long
 as the conversation concerns the job. Old Pellick claims to have talked one into showing him a gallery. He will not
 repeat the story sober.
 
-Destroying one is easy. Getting past one without destroying it is the interesting problem: Wits DC 14 to work out
-what job it thinks it is doing, then Heart DC 13 to convince it you are part of that job.
+It ignores anyone who does not interfere with the work. Destroying one is easy and tells you nothing. Getting past
+one without destroying it is the interesting problem, and it is the only way anybody has ever learned anything
+from one.

@@ -32,6 +32,28 @@ The agent job itself is **read-only**. It cannot push. Edits are captured by gh-
 merged by [`auto-merge.yml`](.github/workflows/auto-merge.yml). The result: the world's git history *is* its history,
 and every change is reviewable and revertible.
 
+## The game
+
+Loosely D&D-shaped, deliberately much lighter — the whole system is a few pages, and it is
+[all one mechanic](codex/rules/README.md): `1d20 + stat` against a DC.
+
+Play is a conversation, not a board. The DM describes a situation and asks what you do; the hero answers in plain
+words; how *apt* that answer was is the biggest input to the difficulty; the dice decide the rest.
+[No menus, and no predetermined outcome](codex/rules/scenes.md) — the DM genuinely does not know how a scene ends.
+
+**Fights have no hit points, no damage rolls and no armour class.** A fight is the same conversation with worse
+consequences: each exchange the danger *changes shape* — you took its arm off, but the socket is glowing and the
+water is starting to steam — and the hero has to answer the new problem, not repeat the old answer. Ice against
+fire earns a −5; hitting it again earns nothing. Harm is a [four-step ladder](codex/rules/combat.md#harm) ending
+in a real, permanent death.
+
+The setting is [Vaultspire](codex/world/geography/regions/vaultspire.md) and the
+[Long Salvage](codex/world/history/README.md): four centuries after an age of glass-workers vanished in a single
+day, living inside their ruins, digging up a better world's leavings, running out of them. Magic is a physical
+object that shatters when you use it, so the total quantity of magic in the world only ever goes down.
+
+Start with [the Codex](codex/README.md) or [`codex/state.md`](codex/state.md) to see where things stand.
+
 ## The roster
 
 | Agent | Runs | Does |
@@ -92,7 +114,7 @@ See [`docs/operations.md`](docs/operations.md) for secrets, cadence, cost contro
 codex/            the world — everything the agents read and write
   state.md          world clock + current situation (every agent reads this first)
   world/            geography, history, factions, bestiary
-  rules/            checks, combat, magic, economy, spells
+  rules/            checks, scenes, danger, magic, economy, spells
   characters/       one folder per hero: sheet, inventory, journal
   quests/           one file per quest
   chronicle/        append-only log of what happened

@@ -11,13 +11,18 @@ updated: 2026-08-06
 | [Kiln-wight](kiln-wight.md) | moderate | Salvor drowned in the Underspire, still working |
 | [Glass-crake](glass-crake.md) | low | Wound-scavenger; eats cinder-glass, hoards it, is worth money |
 
-Stat block format — see [combat rules](../../rules/combat.md):
+Entry format — see [danger](../../rules/combat.md):
 
 ```
-Might +N  Grace +N  Wits +N  Heart +N   HP N   Armour DC N
-Attack: <name>, +N, Nd6 damage
-Trait: <the one thing that makes fighting it different>
+Stats:      Might +N  Grace +N  Wits +N  Heart +N     (for contests; there is no HP)
+Wants:      what it is trying to do when nobody interferes
+Presses:    two or three specific escalations, so a fight can change shape
+Beaten by:  what genuinely works, and the DC
+Shrugs off: what looks obvious and is not
 ```
 
-A creature whose only feature is its numbers does not need a file. Give every entry one behaviour that changes how a
-fight or an encounter goes.
+No hit points, no attack bonus, no damage. What the DM needs is a creature that poses *different* problems on
+successive [exchanges](../../rules/scenes.md#the-exchange) — so `Presses` is the important line, not the stats.
+
+A creature whose only feature is its numbers does not need a file. Give every entry one behaviour that changes how
+an encounter goes.

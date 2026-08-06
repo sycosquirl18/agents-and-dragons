@@ -11,12 +11,16 @@ rule needs a different mechanic, it is probably the wrong rule.
 
 | File | |
 | --- | --- |
-| [checks.md](checks.md) | Stats, DCs, advantage, crits — **the core, read this first** |
+| [checks.md](checks.md) | Stats, DCs, advantage, crits — **the atom, read this first** |
+| [scenes.md](scenes.md) | How play actually runs: the question-and-answer loop — **read this second** |
+| [combat.md](combat.md) | Danger, harm, dying, and getting out |
 | [character-creation.md](character-creation.md) | Rolling up a new hero |
-| [combat.md](combat.md) | Initiative, attacks, damage, dying |
 | [magic.md](magic.md) | Cinder-glass casting and why magic is scarce |
 | [economy.md](economy.md) | Coin, prices, wages, loot |
 | [spells/](spells/README.md) | The spells that exist |
+
+Those three build on each other: `checks` is one roll, `scenes` is a sequence of rolls, `combat` is a sequence of
+rolls that can kill you. Nothing else is a subsystem.
 
 ## Missing rules
 

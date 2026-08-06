@@ -20,7 +20,7 @@ Each hero gets a directory with exactly three files. Keeping them separate matte
 
 | File | |
 | --- | --- |
-| `sheet.md` | Stats, HP, skills, trait/bond/flaw, background. Small and stable. |
+| `sheet.md` | Stats, [condition](../rules/combat.md#harm), skills, trait/bond/flaw, background. Small and stable. |
 | `inventory.md` | Everything carried, and coin. Audited by the [Quartermaster](../../.github/workflows/quartermaster.md). |
 | `journal.md` | Append-only, in the hero's voice, with the tape of every roll that mattered. Split by era when it passes 150 lines. |
 

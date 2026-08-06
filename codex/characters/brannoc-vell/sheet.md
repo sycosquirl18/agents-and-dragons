@@ -21,8 +21,9 @@ failing to report a find. He did report it. The clerk who lost the paperwork was
 
 *Rolled: Might 4d6 [5,2,3,3] = 13 · Grace 4d6 [6,4,4,1] = 15 · Wits 4d6 [4,4,3,3] = 14 · Heart 4d6 [2,2,2,3] = 9*
 
-**HP 9 / 9** — `8 + Might mod`
-**Armour DC 12** — oiled leathers
+## Condition
+
+**Unharmed.** No named injuries. See the [harm ladder](../../rules/combat.md#harm).
 
 ## Skills
 

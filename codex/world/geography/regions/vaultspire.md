@@ -18,10 +18,18 @@ there have adapted to it in ways the upper city finds distasteful.
 
 | District | |
 | --- | --- |
-| **The Cant** | Upper vault. Concord halls, licence offices, the money. Never floods. |
+| **The Cant** | Upper vault. Concord halls, licence offices, the money. Never floods. Named for a [Reaver](../../history/eras/the-reaving.md), which the Concord does not advertise. |
 | **Tideline** | The band that floods. Markets that pack up in an hour, houses on stilts and pulleys, the best food. |
 | **The Underspire** | Below the waterline, reachable at neap tide. Salvage crews, and whatever they haven't reported. |
 | [The Drowned Kiln](../../../quests/the-kiln-still-burns.md) | Not a district. The vault's original furnace, still burning, currently closed. |
+
+## Beyond the walls
+
+| | |
+| --- | --- |
+| [The Saltmarch](the-saltmarch.md) | The drowned coast, and [Catch](../sites/catch.md), which sells cheaper than the Cant does |
+| [The Ashfields](the-ashfields.md) | Where the food comes from, three days east on [the Kiln Road](../sites/the-kiln-road.md) |
+| [The Glass Wound](the-glass-wound.md) | Where the [magic](../../../rules/magic.md) comes from, and it is running out |
 
 ## Who runs it
 
@@ -55,6 +63,9 @@ who surveys carefully (Wits, DC 15, requires instruments) discovers the vault di
 ## Hooks
 
 - [The Drowned Kiln](../../../quests/the-kiln-still-burns.md) — three crews down, no bodies.
-- **The Underspire's unreported galleries** — Pellick's charts show rooms the Concord's don't. `status: stub`
-- **Why the Covenant buys dead men's rights** — [Ashen Covenant](../../factions/ashen-covenant.md).
+- **The Underspire's unreported galleries** — Pellick's charts show rooms the Concord's don't, and
+  [the Glass Peace](../../history/events/the-glass-peace.md) explains whose they were. `status: stub`
+- **Why the Covenant buys dead men's rights** — [Ashen Covenant](../../factions/ashen-covenant.md), and
+  [the Last Lens](../../history/events/the-last-lens.md), which happened the same year.
 - The warm water is coming from *below*, and below is [the Saltmarch](the-saltmarch.md), which should be cold.
+  So is [the Weeping Bore](../sites/the-weeping-bore.md), forty miles away.

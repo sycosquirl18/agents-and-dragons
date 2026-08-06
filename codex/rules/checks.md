@@ -8,6 +8,8 @@ updated: 2026-08-06
 
 **`1d20 + stat modifier` vs DC. Meet it or beat it.** Roll with the `roll_dice` tool, never by choosing a number.
 
+This is the atom. [scenes.md](scenes.md) is how these get strung together into play.
+
 ## Stats
 
 | Stat | Covers |
@@ -37,6 +39,9 @@ The roll is for when the tide is coming in.
 
 Circumstance shifts the DC by ±2 (minor) or ±5 (major) — adjust the DC, not the roll, so the tape stays readable.
 The right tool, a relevant background, or good preparation is worth −2 to −5 DC.
+
+The largest single input is usually how *apt* the hero's answer was; that has its own ladder in
+[scenes.md](scenes.md#aptness).
 
 ## Advantage
 

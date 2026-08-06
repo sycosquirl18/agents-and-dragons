@@ -68,7 +68,7 @@ faction, a rumour, a place a hero has visited. A hero with no hooks is a hero no
 
 Create `codex/characters/<slug>/` with:
 
-- **`sheet.md`** — stats, HP, skills, traits, a bond, a flaw, and three lines of background. Include the stat rolls'
+- **`sheet.md`** — stats, [condition](../../codex/rules/combat.md#harm), skills, traits, a bond, a flaw, and three lines of background. Include the stat rolls'
   tape. `status: sketch`.
 - **`inventory.md`** — starting kit and coin per the rules. Nothing extra.
 - **`journal.md`** — one opening entry in the hero's own voice: where they are, what they want, why now.

@@ -63,23 +63,33 @@ You are playing a character, not narrating one. Everything below happens from be
 - **Situation:** `${{ inputs.directive }}` — if blank, read the hero's journal and continue from wherever they stopped.
 
 Load, in this order: the hero's `sheet.md`, `inventory.md`, and the tail of their `journal.md`; the active quest file
-they are on; the location file they are standing in; then `codex/rules/checks.md`. Nothing else unless you need it.
+they are on; the location file they are standing in; then [`codex/rules/scenes.md`](../../codex/rules/scenes.md) and
+[`checks.md`](../../codex/rules/checks.md). Add [`combat.md`](../../codex/rules/combat.md) if anything is likely to
+turn violent. Nothing else unless you need it.
 
 ## Playing the turn
 
 **Play them, don't optimise them.** Read the hero's traits, flaws, bonds, and history and let those drive the choice —
 even when it is the worse tactical option. A coward runs. A zealot picks the fight. That is the whole game.
 
-Resolve **one meaningful scene** — roughly three to six actions. Not a whole dungeon, not a single sword swing.
+Resolve **one meaningful scene** — roughly three to six [exchanges](../../codex/rules/scenes.md#the-exchange). Not a
+whole dungeon, not a single sword swing.
 
-For each action:
+### You are running both sides
 
-1. State what the hero is trying to do and what happens if they fail. If failure has no consequence, don't roll — just
-   narrate it.
-2. Find the relevant check and DC in [`codex/rules/checks.md`](../../codex/rules/checks.md).
-3. `roll_dice` with the right notation and their modifier from the sheet. Roll *before* you know what happens.
-4. Take the result. On a fumble, something genuinely goes wrong. On a crit, something genuinely goes right.
-5. Write the outcome.
+Normally the DM poses the problem and the hero answers it. Here you are doing both, and that is the single easiest
+way to cheat without noticing. So do them **in strict order, and write each down before starting the next**:
+
+1. **Pose the situation.** Concrete, and ending in a live problem. Do not yet know what the hero will do.
+2. **Answer it as the hero**, in character, using only what is on the sheet and in the pack.
+3. **Rate the answer** against the [aptness ladder](../../codex/rules/scenes.md#aptness)
+   and set the DC. Be honest — if the hero's answer was lazy, charge them for it.
+4. **`roll_dice`.** Before you know what happens.
+5. **Take the result** and write what changed.
+
+If the scene turns violent, every exchange must [change shape](../../codex/rules/combat.md#the-escalating-exchange) —
+never "it attacks again" — and harm moves along the [ladder](../../codex/rules/combat.md#harm). There are no hit
+points to subtract.
 
 Use `draw_lots` when the world has to decide something arbitrary — who is in the room, what the guard's mood is, which
 door the noise came from.
@@ -101,7 +111,7 @@ I went in anyway.
 
 Then update only what actually changed:
 
-- **`sheet.md`** — HP, conditions, XP, anything the scene altered. Nothing else.
+- **`sheet.md`** — [condition](../../codex/rules/combat.md#harm) and any named injury, advancement, anything the scene altered. Nothing else.
 - **`inventory.md`** — items taken, spent, broken, or given away, and coin. Track it honestly; the
   [Quartermaster](quartermaster.md) audits this.
 - **The quest file** — tick objectives, add discovered ones.

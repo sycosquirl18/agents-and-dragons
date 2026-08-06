@@ -15,9 +15,10 @@ Do not re-roll. Do not swap. A hero with a 5 in Heart is a specific person; a he
 
 If the total of all four modifiers is below −2, the hero may raise one stat by 2. That is the only adjustment allowed.
 
-## Health
+## Condition
 
-**HP = 8 + Might modifier.** Minimum 4.
+Heroes have no hit points. They start **Unharmed** and move along the [harm ladder](combat.md#harm) when the
+fiction says so. Record the current state and any named injury on the sheet.
 
 ## Skills
 
@@ -37,7 +38,7 @@ One line each. These are what the [Adventurer](../../.github/workflows/adventure
 
 - Clothes, a knife, and a pack.
 - One tool set matching a trained skill.
-- One weapon, or one piece of armour (Armour DC 12).
+- One weapon, or one piece of armour.
 - `2d6 × 5` silver. See [economy](economy.md).
 - **No cinder-glass.** Heroes do not start with [magic](magic.md); it must be found, bought, or taken.
 
