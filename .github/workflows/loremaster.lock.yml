@@ -58,7 +58,7 @@
 name: "Loremaster"
 on:
   schedule:
-    - cron: "9 15 * * *"  # Friendly format: daily (scattered)
+    - cron: "39 3 * * *"  # Friendly format: daily (scattered)
   workflow_dispatch:
     inputs:
       aw_context:

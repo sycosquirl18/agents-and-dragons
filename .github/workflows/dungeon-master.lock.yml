@@ -59,7 +59,7 @@
 name: "Dungeon Master"
 on:
   schedule:
-    - cron: "23 */6 * * *"  # Friendly format: every 6h (scattered)
+    - cron: "47 */6 * * *"  # Friendly format: every 6h (scattered)
   workflow_dispatch:
     inputs:
       aw_context:

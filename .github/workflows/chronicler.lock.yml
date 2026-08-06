@@ -58,7 +58,7 @@
 name: "Chronicler"
 on:
   schedule:
-    - cron: "8 2 * * 3"  # Friendly format: weekly (scattered)
+    - cron: "6 22 * * 6"  # Friendly format: weekly (scattered)
   workflow_dispatch:
     inputs:
       aw_context:

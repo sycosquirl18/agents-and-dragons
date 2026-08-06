@@ -59,7 +59,7 @@
 name: "World Designer"
 on:
   schedule:
-    - cron: "21 9 * * *"  # Friendly format: daily (scattered)
+    - cron: "49 23 * * *"  # Friendly format: daily (scattered)
   workflow_dispatch:
     inputs:
       aw_context:

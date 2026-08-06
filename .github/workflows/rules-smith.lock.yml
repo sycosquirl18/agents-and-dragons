@@ -59,7 +59,7 @@
 name: "Rules Smith"
 on:
   schedule:
-    - cron: "22 22 * * 5"  # Friendly format: weekly (scattered)
+    - cron: "7 4 * * 1"  # Friendly format: weekly (scattered)
   workflow_dispatch:
     inputs:
       aw_context:

@@ -59,7 +59,7 @@
 name: "Quartermaster"
 on:
   schedule:
-    - cron: "49 17 * * 6"  # Friendly format: weekly (scattered)
+    - cron: "24 23 * * 4"  # Friendly format: weekly (scattered)
   workflow_dispatch:
     inputs:
       aw_context:
