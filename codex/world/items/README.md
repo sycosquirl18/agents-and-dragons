@@ -22,6 +22,7 @@ Minted one at a time by [the Armorer](../../../.github/workflows/armorer.md).
 | [The Quiet Chop](the-quiet-chop.md) | Notable. A forged licence counter-stamp, one hair off the Concord's true die | Harrow Mecks' coat lining, Vaultspire |
 | [The True Die](the-true-die.md) | Useful. The Concord's actual master counter-stamp, missing since the crews were lost | Nyella Sift's back room, Vaultspire |
 | [The Drawn Snuffer](the-drawn-snuffer.md) | Notable. A Covenant factor's ceremonial candle-snuffer for signing over dead salvors' rights | Caude Renne's stall, Tideline |
+| [The Muffled Tally-Bell](the-muffled-tally-bell.md) | Useful. A grange watch-bell wax-wrapped to stay silent, one use before it splits | Hesk's wagon yard, Threshing |
 
 ## Writing one
 
