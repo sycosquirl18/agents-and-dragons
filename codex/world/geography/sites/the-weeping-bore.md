@@ -25,6 +25,12 @@ is not connected to the water table. It does it anyway.
 | 5 | 140–190 ft | Plate. Two crews at a time, by rota, by [Concord](../../factions/salvors-concord.md) licence. |
 | 6 | 190–210 ft | Sunk four years ago. Idle. Nobody will say by whose order. |
 
+## People
+
+| | |
+| --- | --- |
+| [**Dorcas Weel**](../people/dorcas-weel.md) | Concord rota-warden. Countersigns every crew's licence in person and keeps re-chalking Level 6's uncrossed peg, tenday after tenday, for no reason anyone will confirm. |
+
 ## The rule about the dark
 
 Cutting is done by lamp. **The Bore's standing rule is that no crew works a face with fewer than three lamps lit**,

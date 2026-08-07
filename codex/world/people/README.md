@@ -28,6 +28,7 @@ hold the [turn baton](../../quests/README.md#the-turn-baton). Nobody here ever w
 | [Corda Vane](corda-vane.md) | Threshing's grain-taster; has found three-year-old grain dressed as new in two hoarding granaries and wants it reported |
 | [Ynda Cray](ynda-cray.md) | Threshing's unofficial wagon-yard reckoner; noticed two granges settling debts early and in full, all season |
 | [Ilsa Ferrick](ilsa-ferrick.md) | Lives alone on Mere Ilyx's shore; gauges the lake's knocking by weighted line each new moon and wants it gauged past three hundred feet, where hers keeps fraying through |
+| [Dorcas Weel](dorcas-weel.md) | Concord rota-warden at the Weeping Bore; still chalks Level 6's uncrossed peg every tenday and has noticed two crews trading shifts off the books |
 
 ## When someone gets a file
 
