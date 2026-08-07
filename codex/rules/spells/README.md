@@ -17,6 +17,7 @@ Each spell is an inscription pattern that can be cut into [cinder-glass](../magi
 | [The Steady Hand](the-steady-hand.md) | Salvor's | 1 | Advantage on one Grace check |
 | [Last Mark](last-mark.md) | Covenant plainscript | 3 | Shards hold an eight-heartbeat sensory echo of the moment of casting |
 | [The Way Back](the-way-back.md) | Salvor's | 2 | Points to the nearest air or open water |
+| [The Founding Cut](the-founding-cut.md) | Kilnworks | 3 | Anchors you within ten feet of a fixed mark against any force you didn't choose |
 
 Every spell here solves exactly one problem that this world actually has — the dark, the water, the tide, the
 shaking hand. None of them throw fire. Magic in the Kilnworks tradition was industrial, and what survived it is
