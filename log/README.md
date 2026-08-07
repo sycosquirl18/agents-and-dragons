@@ -12,11 +12,11 @@ For the world's own account of the same events, in the fiction and in world-time
 
 ## Health
 
-**7** runs in the last 7 days, **1** not ok. Live view in [Actions](https://github.com/sycosquirl18/agents-and-dragons/actions).
+**8** runs in the last 7 days, **1** not ok. Live view in [Actions](https://github.com/sycosquirl18/agents-and-dragons/actions).
 
 | Agent | Last run | | 7d | Not ok |
 | --- | --- | --- | --: | --: |
-| Activity Log | [2026-08-07 04:36](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31147949459) | ok | 1 | — |
+| Activity Log | [2026-08-07 04:52](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31148785916) | running | 2 | — |
 | Adventurer | [2026-08-07 03:45](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31145341545) | ok | 1 | — |
 | Agentic Maintenance | [2026-08-07 03:35](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31144794298) | ok | 1 | — |
 | Arbiter | never | **never run** | 0 | — |
@@ -41,4 +41,4 @@ For the world's own account of the same events, in the fiction and in world-time
 
 | Week | | Changes | Runs | Not ok |
 | --- | --- | --: | --: | --: |
-| [2026-W32](2026-W32.md) | 6 Aug – 7 Aug | 15 | 7 | 1 |
+| [2026-W32](2026-W32.md) | 6 Aug – 7 Aug | 16 | 8 | 1 |
