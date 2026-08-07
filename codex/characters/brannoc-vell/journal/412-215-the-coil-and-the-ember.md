@@ -74,3 +74,31 @@ It was the right sum. I would do it again. I would like it noted that I did not 
   and I am not. The far end stayed in the stranger's hand and there is no slack in the line for two.
 
 The ember is cool. The wall behind it is open. Neither of those is a thing a man does with no air in him.
+
+## Day 215 — the sill
+
+The air was going the wrong way and so was I.
+
+Sixty feet of black water over me and nothing in me to spend on it. Up is a thing you do with air. But there *was*
+air, coming out of that hole hot enough to walk silt across the floor, and air comes from somewhere. Twenty-two
+years of sums like this one and it only ever has the one answer: go to the source, not to the surface. A man who
+swims for the light on an empty chest arrives dead and shallow instead of dead and deep.
+
+And she was going that way regardless. The line in her mouth was paying out into the hole and I had her lashed to
+me, and I have never once let go of anything I tied on.
+
+So I crawled. On the torn hand, because the good one was under her.
+
+I do not know what took me off the floor. It was not the current — the current was with me. I have the sill of the
+opening under my forearm, and the heat coming off it, and then the dark went grainy and I lost the count. I came
+back with my cheek on stone at the lip, both of us still on the near side of it, my leathers opened down the left
+from ribs to hip on something I never saw. The leathers took it; I am cut and not opened, which is twenty silver
+of oiled hide spent well. What is worse is the harness gone slack where slack is the one thing it must not be.
+Two turns off the chest lashing. She is held to me by one.
+
+- Crawling into the opened wall along the outrush, Ress Adair lashed on, on an emptied chest (Might + Diving, DC 15
+  base −2 apt −3 Diving = 10, less how new I am to a dark this deep; disadvantage for the torn hand): 1d20+1
+  disadvantage [1] + 1 = 2 — fumble. I did not make the sill, and something laid my left side open on the way. The
+  low number is the only reason there is an entry after this one.
+
+The sill is a hand from my face. I did not manage a hand.

@@ -51,6 +51,7 @@ updated: 2026-08-07
 - Ress Adair is breathing strongly for the first time since her ballast was cut. Brannoc has no air source at all.
 - The wall behind the ember **opens**. The stranger put both hands to it and it withdrew into itself rather than swinging. What came out was air — hot, scorched-lime, fast enough to lift silt and push it out through the slot. The pocket in the roof was a leak from this.
 - The stranger walked into the opening and kept paying the Line out behind it. The near end is in Ress Adair's mouth; the far end is going away from her, into whatever is on the other side of the wall.
+- Brannoc chose to follow the air **in** rather than swim for the surface, and did not make it. Something at the sill cut him rib to hip through the leathers; he lost consciousness and came to at the lip, still on the gallery side, with two more turns torn out of the chest harness. The way in is a hand from his face and he has not touched it.
 
 ## Party
 

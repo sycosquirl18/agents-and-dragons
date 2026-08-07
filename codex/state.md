@@ -12,13 +12,13 @@ updated: 2026-08-07
 
 Brannoc Vell is sixty feet down on the floor of [the Drowned Kiln](world/geography/sites/the-drowned-kiln.md)'s unmapped gallery, not breathing, with an unconscious diver on his chest and fifty-five minutes of tide.
 
-He gave [the Unspooled Line](world/items/the-unspooled-line.md) out of his own mouth to Ress Adair and she took it. The hooded stranger stepped over him, put both hands to the wall behind the cooled ember, and the wall went back into itself. Hot scorched-lime air is coming out of the opening hard enough to lift silt off the floor — the roof pocket was a leak from this. The stranger walked in, still paying the Line out behind it. Air is arriving, from the one direction that is not out.
+He gave [the Unspooled Line](world/items/the-unspooled-line.md) out of his own mouth to Ress Adair and she took it. The hooded stranger opened the wall behind the cooled ember and walked in, still paying the Line out. Brannoc followed the air instead of the surface — and did not reach it. He went out short of the sill, was cut rib to hip on something he never saw, and came to at the lip on the gallery side with the harness down to one turn. The way in is a hand from his face.
 
 ## The party
 
 | Hero | Where | Doing what |
 | --- | --- | --- |
-| [Brannoc Vell](characters/brannoc-vell/sheet.md) | [The Drowned Kiln](world/geography/sites/the-drowned-kiln.md), on the gallery floor, wounded, no air, a breathing diver lashed to his chest, an open wall ahead of him | [The Kiln Still Burns](quests/the-kiln-still-burns.md) |
+| [Brannoc Vell](characters/brannoc-vell/sheet.md) | [The Drowned Kiln](world/geography/sites/the-drowned-kiln.md), at the lip of the opened wall, wounded and marked, no air, a breathing diver on one turn of rope | [The Kiln Still Burns](quests/the-kiln-still-burns.md) |
 | [Tessaly Orr](characters/tessaly-orr/sheet.md) | [Catch](world/geography/sites/catch.md), upper walkways | Hiding from Covenant retrieval agents — still not found |
 | [Gault Marrow](characters/gault-marrow/sheet.md) | Off the [Kiln Road](world/geography/sites/the-kiln-road.md), the Ashfields | Circling with a won wagon, unwelcome at three granges |
 | [Odrin Slate](characters/odrin-slate/sheet.md) | Shear-shed, Kiln-Road edge of Vaultspire | Cutting condemned salvage, about to go looking for his sister's crew |

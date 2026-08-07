@@ -15,9 +15,9 @@ updated: 2026-08-07
 | Item | |
 | --- | --- |
 | Diving kit | Weights, line, hooks, wax. Worn. |
-| Oiled leathers | Armour: turns one Wounded into Marked per fight, then needs repair |
+| Oiled leathers | Armour: turns one Wounded into Marked per fight, then needs repair. **Spent** — cut through down the left side at the sill; will not turn another until repaired. |
 | Knife | Blade snapped on calcified lock-wire. Handle only — needs reblading. |
-| Rope, 50ft | Chest harness lashing Ress Adair face-to-face with him; one turn torn out on the slot rim |
+| Rope, 50ft | Chest harness lashing Ress Adair face-to-face with him. Three turns torn out now — one on the slot rim, two at the sill. She is on the last one. |
 | A coil that is not rope | [The Unspooled Line](../../world/items/the-unspooled-line.md). Given by the hooded stranger, then given away again — its near end is in Ress Adair's mouth, its far end in the stranger's hand. Not his. |
 | *Umber Cord* chain, 40ft | Hangs plumb from the slot into the gallery, above and behind him now; the lean is gone |
 | Lamp and three hours of oil | Useless below the sluice, where it will not stay lit |
