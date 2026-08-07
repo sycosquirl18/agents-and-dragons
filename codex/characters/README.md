@@ -10,6 +10,7 @@ updated: 2026-08-06
 | --- | --- | --- |
 | [Brannoc Vell](brannoc-vell/sheet.md) | Salvage-diver, licence revoked, going down anyway | [inventory](brannoc-vell/inventory.md) · [record](brannoc-vell/record.md) · [journal](brannoc-vell/journal.md) |
 | [Tessaly Orr](tessaly-orr/sheet.md) | Glass-framer hiding in Catch with a stolen Covenant panel | [inventory](tessaly-orr/inventory.md) · [record](tessaly-orr/record.md) · [journal](tessaly-orr/journal.md) |
+| [Gault Marrow](gault-marrow/sheet.md) | Gambler circling the Ashfields with a wagon he won and won't give back | [inventory](gault-marrow/inventory.md) · [record](gault-marrow/record.md) · [journal](gault-marrow/journal.md) |
 
 Only heroes go here. Everyone else in the world lives in [`world/people/`](../world/people/README.md) — this
 directory is the roster the [Adventurer](../../.github/workflows/adventurer.md) picks from, so an NPC with a
