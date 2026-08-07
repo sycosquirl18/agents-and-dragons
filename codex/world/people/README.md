@@ -13,6 +13,7 @@ hold the [turn baton](../../quests/README.md#the-turn-baton). Nobody here ever w
 | Who | |
 | --- | --- |
 | [Old Pellick](old-pellick.md) | Deepest-diving salvor alive, retired, lungs ruined. Will not go back down and will not say why |
+| [Caude Renne](caude-renne.md) | Ashen Covenant factor in Tideline; buys salvage rights openly, wants a witness's name today |
 
 ## When someone gets a file
 
