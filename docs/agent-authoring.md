@@ -33,6 +33,7 @@ permissions:                  # read-only. Writes happen in the safe-outputs job
 
 engine:
   id: copilot
+  model: claude-sonnet-5   # required; claude-opus-5 for world-wide judgement. See operations.md#models
 
 imports:
   - shared/codex.md           # tools + Codex operating procedure. Always.

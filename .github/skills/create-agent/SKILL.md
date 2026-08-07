@@ -37,6 +37,10 @@ Before writing anything, be able to answer all five. Ask the user about any you 
 
 - `imports:` always includes `shared/codex.md` and `shared/commit.md`; add `shared/dice.md` if it rolls, and
   `shared/spark.md` if it invents things that would otherwise all come out the same.
+- `engine.model:` is required — pick one, do not leave it off. Omitting it silently inherits whatever gh-aw's
+  compiled-in default happens to be, which is how thirteen agents ended up pinned to a model three weeks from
+  retirement. `claude-sonnet-5` unless the agent exercises real judgement over the whole world, in which case
+  `claude-opus-5`. See [Models](../../../docs/operations.md#models).
 - `permissions:` stays read-only. The commit post-step uses its own token. Never add `contents: write` — gh-aw
   rejects it outright.
 - **Never add `copilot-requests: write`.** It makes gh-aw ignore `COPILOT_GITHUB_TOKEN` and bill inference to the

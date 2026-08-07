@@ -24,6 +24,7 @@ permissions:
 
 engine:
   id: copilot
+  model: claude-opus-5
 
 imports:
   - shared/codex.md

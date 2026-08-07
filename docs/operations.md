@@ -148,6 +148,45 @@ git log --oneline -- codex/          # the history of the world
 gh issue list --label lore-gap       # contradictions awaiting judgement
 ```
 
+## Models
+
+Each agent picks its own, in its `engine:` block:
+
+```yaml
+engine:
+  id: copilot
+  model: claude-opus-5
+```
+
+| Model | Agents | Why |
+| --- | --- | --- |
+| `claude-opus-5` | [Dungeon Master](../.github/workflows/dungeon-master.md), [Adventurer](../.github/workflows/adventurer.md), [Arbiter](../.github/workflows/arbiter.md), [Rules Smith](../.github/workflows/rules-smith.md) | The two that write the story, and the two that overrule it |
+| `claude-sonnet-5` | Everyone else | One small artefact per run, or bookkeeping |
+
+The split is by **judgement, not by output size**. The Dungeon Master reads every hero record and decides what the
+world does; the Adventurer writes the prose anyone actually reads and has to take a bad roll honestly. The Arbiter
+and Rules Smith run rarely and are allowed to overrule canon, so being right matters more than being cheap. The
+minting agents each produce one item, spell, creature or NPC per run against a `spark` prompt — a narrow, well-bounded
+job.
+
+**Nothing validates the model name.** `model: not-a-real-model` compiles clean and fails at runtime, because the
+[schema](https://github.com/github/gh-aw) accepts any string. Check a new value against
+[supported models](https://docs.github.com/en/copilot/reference/ai-models/supported-models) before committing it.
+
+**Models retire, and a pinned world does not notice.** The compiled `.lock.yml` carries the literal model string, so
+a retirement lands as every agent failing at once, on a schedule nobody is watching. Claude Sonnet 4.6 — this repo's
+inherited default until August 2026 — retires **1 September 2026**. Check the
+[retirement table](https://docs.github.com/en/copilot/reference/ai-models/supported-models#model-retirement-history)
+when you next touch this.
+
+Aliases (`sonnet`, `opus`, `mini`) resolve at runtime against the live catalogue and follow upgrades automatically.
+Concrete IDs are used here instead: an autonomous world should not change its mind about how it thinks without
+someone deciding to. Reasoning effort can be appended where a run is rare and worth the extra thought:
+`model: claude-opus-5?effort=high`.
+
+To change every agent at once without editing files, set the repo variable `GH_AW_DEFAULT_MODEL_COPILOT` — but note
+an explicit `model:` in a workflow beats it, so today that variable would do nothing.
+
 ## Cost control
 
 Every agent ships with `timeout-minutes`, `max-turns`, and gh-aw's default `max-ai-credits` budget. To tighten:
@@ -161,6 +200,10 @@ max-turns: 40
 
 The dominant cost driver is **how much of the Codex each run reads**, not how much it writes. If spend climbs, the
 fix is almost always to make a prompt more specific about which files to open.
+
+The second driver is **fan-out**. The Dungeon Master dispatches every hero holding a baton on every run, so with a
+full party of eight the Adventurer can run far more often than its "dispatched" cadence suggests — and it is on the
+most expensive model. If spend needs cutting, move the Adventurer to `claude-sonnet-5` before touching anything else.
 
 ## Pausing
 

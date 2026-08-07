@@ -22,6 +22,7 @@ permissions:
 
 engine:
   id: copilot
+  model: claude-sonnet-5
 
 imports:
   - shared/codex.md
