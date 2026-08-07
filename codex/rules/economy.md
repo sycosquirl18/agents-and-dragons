@@ -1,7 +1,7 @@
 ---
 type: rule
 status: sketch
-updated: 2026-08-06
+updated: 2026-08-07
 ---
 
 # Economy
@@ -66,3 +66,9 @@ Never delete a hero's coin. Give them somewhere to spend it.
 
 These are Vaultspire prices. Grain is cheaper in [the Ashfields](../world/geography/regions/the-ashfields.md); glass
 is cheaper at [the Wound](../world/geography/regions/the-glass-wound.md); everything is dearer across the tide.
+
+**Ruling (Arbiter, 412).** What is cheaper at the Wound is **blank** glass — a third of the inscribed price, as
+[magic](magic.md#inscribing) has it, and worth carrying only if you know a hand who will cut it. The 40 and 200 above
+are inscribed pieces, and those cost the same at the Wound as in the Cant, because the
+[Concord](../world/factions/salvors-concord.md)'s licence controls the market, not the mileage. There is no cheap
+glass at the source. There is only unfinished glass, and almost nobody can finish it.

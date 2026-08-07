@@ -1,7 +1,7 @@
 ---
 type: region
 status: sketch
-updated: 2026-08-06
+updated: 2026-08-07
 ---
 
 # The Glass Wound
@@ -23,8 +23,9 @@ world and the least pleasant to be near.
 | **Straightness** | Absolute. It ignores rock, river and valley, which no fault does. |
 
 Nobody living has been to the bottom. The [cutting works](../sites/the-weeping-bore.md) go down about two hundred
-feet, which is where the glass stops being salvage-grade and starts being
-[Plate](../../../rules/magic.md#grades-of-glass).
+feet, and that is the floor of the trade, not a threshold — glass improves the whole way down. Chip above sixty
+feet, poor [Plate](../../../rules/magic.md#grades-of-glass) from sixty, sound Plate below a hundred and forty. The
+Bore's [level table](../sites/the-weeping-bore.md#the-works) is the authority on which depth yields what.
 
 ## The glass
 
@@ -34,6 +35,12 @@ harder to bring up alive.
 
 The [Concord](../../factions/salvors-concord.md) licenses cutting exactly as it licenses diving, and for the same
 reason: it is the only way to keep the price where it is.
+
+**Ruling (Arbiter, 412).** The trench being bottomless does not make glass renewable, and the
+[magic rules](../../../rules/magic.md) are right that the supply is shrinking. What is finite is not the substance
+but the **face** — glass has to be cut off a worked wall by a crew that can be got back up, and every foot cut makes
+the next foot deeper, hotter and slower. Cut faces do not heal, and the widening adds rim, not reachable wall. The
+world is not running out of cinder-glass. It is running out of cinder-glass it can reach.
 
 ## Crossing it
 
