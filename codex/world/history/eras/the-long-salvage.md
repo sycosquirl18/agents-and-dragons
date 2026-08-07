@@ -41,7 +41,7 @@ which looks identical to a cartel and is being treated as one by everybody it im
 
 [Cinder-glass](../../../rules/magic.md) is worse: every casting destroys a piece permanently, nobody can make more,
 and the total quantity of magic in the world therefore only ever falls. The
-[Quartermaster](../../../../.github/workflows/quartermaster.md) tracks the number.
+[Assayer](../../../../.github/workflows/assayer.md) tracks the number.
 
 The [Ashen Covenant](../../factions/ashen-covenant.md) has spent four years buying dead salvors' rights, which
 implies it expects those rights to be worth more later. It is the only institution in the world acting as though

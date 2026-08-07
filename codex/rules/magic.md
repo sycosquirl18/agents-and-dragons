@@ -61,6 +61,6 @@ Almost nobody can do this. Those who can are the most closely watched people in
 - Casting in public is a claim of wealth, and is treated as one.
 - The [Salvor's Concord](../world/factions/salvors-concord.md) licenses glass salvage like everything else.
 - Every casting permanently reduces the world's total magic. The
-  [Quartermaster](../../.github/workflows/quartermaster.md) tracks the supply as an economic quantity.
+  [Assayer](../../.github/workflows/assayer.md) tracks the supply as an economic quantity.
 
 Individual spells: [spells/](spells/README.md). Inscription hands: [traditions](traditions.md).

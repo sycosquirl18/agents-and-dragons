@@ -30,6 +30,7 @@ imports:
   - shared/codex.md
   - shared/commit.md
   - shared/dice.md
+  - shared/spark.md
 
 network:
   allowed: [defaults]
@@ -58,7 +59,13 @@ Build **one** thing per run, properly. One realised location is worth ten sketch
 ## Build it
 
 Read the parent region file, the neighbours it links to, and any Chronicle entry that mentions it — the place must
-agree with everything already written about it. Then write:
+agree with everything already written about it.
+
+Then call **`spark`** and take a word or two into the place with you. A location built purely from what a stub
+implies comes out as the average of every fantasy location; a location with one genuinely odd thing in it comes out
+as itself. Draw before you plan, and translate the word rather than using it.
+
+Then write:
 
 - **What it is** — two or three sentences. Concrete and sensory. Not "an ancient place of mystery" but "the kilns
   still fire, underwater, and the water above them is warm enough to swim in."

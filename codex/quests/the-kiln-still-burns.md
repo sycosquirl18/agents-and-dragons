@@ -1,7 +1,8 @@
 ---
 type: quest
 status: active
-updated: 2026-08-06
+updated: 2026-08-07
+turn: brannoc-vell
 ---
 
 # The Kiln Still Burns

@@ -54,14 +54,45 @@ They don't talk. They leave state for each other, which means coordination survi
 | Channel | Written by | Read by |
 | --- | --- | --- |
 | `codex/state.md` | Dungeon Master | Everyone, first |
+| `turn:` on a quest | Dungeon Master, Adventurer | Both, before writing |
 | `status: stub` files | Anyone | World Designer |
-| `lore-gap` issues | Loremaster, anyone | Loremaster, humans |
+| `lore-gap` issues | Custodian, anyone | Arbiter, humans |
 | `rules-gap` issues | Adventurer, anyone | Rules Smith |
 | Chronicle entries | Anyone | Chronicler, Dungeon Master |
 | `dispatch-workflow` | Dungeon Master | The dispatched agent, immediately |
 
 Only the last is synchronous. Everything else is a message in a bottle, which is the right default: an agent that
 depends on another agent having *just* run is an agent that breaks.
+
+### The turn baton
+
+The Dungeon Master and the Adventurer both write quest files, and they alternate. A `turn:` field in each active
+quest's frontmatter says whose move it is — `dm`, or a hero slug. Whoever holds it acts and passes it in the same
+change; whoever does not holds off entirely. See [the quest index](../codex/quests/README.md#the-turn-baton).
+
+This is what makes a quest a *conversation* rather than two agents narrating over each other. It also bounds the
+work: the DM poses one beat, the hero answers with one exchange, and neither can run ahead of the other. The
+[checker](../scripts/check-codex.mjs) rejects an active quest with a missing or unrecognised `turn:`, because a
+dropped baton silently deadlocks the thread.
+
+### Dispatch, and why only the DM has it
+
+`dispatch-workflow` is the one place an agent starts another agent. It is a `safe-outputs` entry naming an
+allow-list of workflows and a per-run cap:
+
+```yaml
+safe-outputs:
+  dispatch-workflow:
+    workflows: [adventurer, world-designer, assayer, rules-smith, armorer, magician, arbiter]
+    max: 3
+```
+
+Any agent *can* be given it. Only the Dungeon Master has it, deliberately: **gh-aw has no recursion or depth guard.**
+If the Adventurer could dispatch the DM and the DM dispatches the Adventurer, the pair would ping-pong until the
+credit ceiling stopped them. A star topology with one hub cannot loop.
+
+It is a spawn, not a call. The dispatch triggers an independent workflow run with its own checkout and context; the
+dispatcher does not block, does not get a return value, and has usually finished before the worker starts.
 
 ### The dispatch race
 
@@ -98,12 +129,16 @@ it becomes unusable the moment agents start needing to grep everything.
 | Failure | Symptom | Mitigation |
 | --- | --- | --- |
 | Context bloat | Runs get slow and expensive; agents miss things | Split Rule, enforced by the checker |
-| Lore drift | Two files disagree | Loremaster; `lore-gap` issues |
-| Wealth inflation | Heroes can buy anything | Quartermaster audit + sinks |
+| Structural rot | Dead links, orphans, stale indexes | Custodian, nightly |
+| Lore drift | Two files disagree | Custodian files `lore-gap`; Arbiter rules |
+| Tonal drift | Something that doesn't belong to this world | Arbiter, twice weekly |
+| Scale drift | A reward makes the price list meaningless | Assayer keeps every number readable against a day's wage |
 | Narrative stall | Quests never resolve | DM instructed to close threads |
-| Sameness | Every agent writes the same voice | Distinct role prompts; dice over taste |
+| Deadlocked quest | `turn:` never passed; nobody may act | Checker rejects it; Custodian resets a stuck baton |
+| Sameness | Every agent writes the same voice | Distinct role prompts; dice over taste; `spark` for creative agents |
 | Merge storms | Agents conflict on the same file | Per-agent concurrency groups + rebase-then-retry |
-| Runaway spend | Cron × 8 agents × tokens | `max-ai-credits`, `timeout-minutes`, `stop-after` |
+| Dispatch loops | Two agents dispatch each other forever | Only the DM dispatches; gh-aw has no depth guard |
+| Runaway spend | Cron × 11 agents × tokens | `max-ai-credits`, `timeout-minutes`, `stop-after` |
 
 ## Adding to the system
 

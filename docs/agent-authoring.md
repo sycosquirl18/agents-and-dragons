@@ -91,7 +91,7 @@ fills with noise. Every agent's prompt ends with permission to stop.
 Import `shared/dice.md` and tell it what to roll for.
 
 **Write in the agent's voice.** These prompts read as if addressed to a person with a role — a historian, an auditor,
-a quartermaster. It produces noticeably better output than a spec written as bullet points.
+an assayer. It produces noticeably better output than a spec written as bullet points.
 
 ## Choosing a trigger
 
@@ -140,6 +140,40 @@ draw_lots(options: "goblin*3; ogre; wraith", count: "1", unique: "true")
 Both are `mcp-scripts` — plain JavaScript in the frontmatter of
 [`shared/dice.md`](../.github/workflows/shared/dice.md), run on the runner host, outside the agent sandbox. Adding a
 new deterministic tool means adding another entry there (or in a new `shared/*.md`); no server, no MCP package.
+
+Randomness is `crypto.getRandomValues` with rejection sampling, so a `d20` is genuinely uniform rather than
+`Date.now() % 20`, which is not.
+
+## The spark tool
+
+Import `shared/spark.md` for agents that invent things:
+
+```
+spark(count: "10", parts: "nouns,adjectives,verbs")
+  → { nouns: [...], adjectives: [...], verbs: [...], pool_sizes, detail }
+```
+
+It draws random words from [`data/words/`](../data/words/README.md) — about 17,000 English nouns, adjectives and
+verbs derived from WordNet. The agent throws most of them away, picks from the survivors with `draw_lots`, and uses
+at least one as a *seed*, not as vocabulary.
+
+The point is that a model left alone reaches for the same handful of ideas, and the cursed blade shows up for the
+seventh time. Real randomness in the prompt is the cheapest fix. Give it to any agent whose output would otherwise
+converge — [Armorer](../.github/workflows/armorer.md), [Magician](../.github/workflows/magician.md), and
+[World Designer](../.github/workflows/world-designer.md) all have it. Do not give it to auditors; there is nothing
+creative about a link check.
+
+## Human players
+
+The [Recruiter](../.github/workflows/recruiter.md) already builds a hero from a GitHub issue, and hero files carry
+no marker saying whether an AI or a person decides what they do next. That is deliberate. A human player is
+intended to be the same architecture with a different input: the
+[baton](../codex/quests/README.md#the-turn-baton) reads `turn: <their-hero>`, and instead of the Adventurer
+answering, a person comments on an issue thread and an agent transcribes it into the journal under the same rules
+and the same rolls.
+
+Nothing here is built yet. When it is, it should reuse the quest baton, the journal format, and `roll_dice`
+unchanged — the only new part is where the answer comes from.
 
 ## Testing before you unleash it
 

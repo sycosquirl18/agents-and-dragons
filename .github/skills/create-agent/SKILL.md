@@ -9,8 +9,9 @@ An agent is one markdown file in `.github/workflows/`: YAML frontmatter (when it
 prompt body (its job). `gh aw compile` turns it into a `.lock.yml` that GitHub Actions runs.
 
 Read [`AGENTS.md`](../../../AGENTS.md) and [`docs/agent-authoring.md`](../../../docs/agent-authoring.md) before
-starting. Read one existing agent as a model — [`loremaster.md`](../../workflows/loremaster.md) for a maintenance
-agent, [`adventurer.md`](../../workflows/adventurer.md) for one that rolls dice and role-plays.
+starting. Read one existing agent as a model — [`custodian.md`](../../workflows/custodian.md) for a maintenance
+agent, [`adventurer.md`](../../workflows/adventurer.md) for one that rolls dice and role-plays,
+[`armorer.md`](../../workflows/armorer.md) for one that invents things.
 
 ## Procedure
 
@@ -34,13 +35,18 @@ Before writing anything, be able to answer all five. Ask the user about any you 
 `.github/workflows/<kebab-name>.md`. Start from the template in
 [`docs/agent-authoring.md`](../../../docs/agent-authoring.md) and adjust:
 
-- `imports:` always includes `shared/codex.md` and `shared/commit.md`; add `shared/dice.md` if it rolls.
+- `imports:` always includes `shared/codex.md` and `shared/commit.md`; add `shared/dice.md` if it rolls, and
+  `shared/spark.md` if it invents things that would otherwise all come out the same.
 - `permissions:` stays read-only. The commit post-step uses its own token. Never add `contents: write` — gh-aw
   rejects it outright.
 - **Never add `copilot-requests: write`.** It makes gh-aw ignore `COPILOT_GITHUB_TOKEN` and bill inference to the
   repository owner instead of the intended account. See [operations.md](../../../docs/operations.md#auth).
 - `safe-outputs:` only for issues, comments, and dispatches. Codex file changes need no safe output at all.
+- **Do not give it `dispatch-workflow`** unless you have thought hard about it. Only the Dungeon Master dispatches,
+  because gh-aw has no recursion guard and two agents that can dispatch each other will.
 - `concurrency.group` unique per agent, so two runs never fight.
+- Check the compiled cron does not land near another agent that writes the same files — see
+  [Cadence](../../../docs/operations.md#cadence). Fuzzy schedules are name-hashed, not collision-free.
 
 ### 4. Write the prompt body
 
@@ -93,8 +99,12 @@ gh aw logs <name>        # what it did and what it cost
 
 If the agent needs a tool that does not exist, add an `mcp-scripts` entry to a file under
 `.github/workflows/shared/` — plain JavaScript, shell, or Python in frontmatter, no server required. See
-[`shared/dice.md`](../../workflows/shared/dice.md) for the pattern. Put genuinely shared tools in their own
-`shared/<tool>.md` so other agents can import them.
+[`shared/dice.md`](../../workflows/shared/dice.md) for the pattern, or
+[`shared/spark.md`](../../workflows/shared/spark.md) for one that reads data files out of the repository. Put
+genuinely shared tools in their own `shared/<tool>.md` so other agents can import them.
+
+Scripts run from `$RUNNER_TEMP`, not the checkout, so resolve repository paths from `GITHUB_WORKSPACE` rather than
+`__dirname` or a relative path.
 
 If the agent needs a new *kind* of Codex file, add its `type` to the `TYPES` list in
 [`scripts/check-codex.mjs`](../../../scripts/check-codex.mjs) and document it in `AGENTS.md` §4.

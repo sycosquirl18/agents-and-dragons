@@ -66,17 +66,32 @@ Everything else follows: the DM dispatches workers, each worker pushes its own c
 
 ## Cadence
 
-| Agent | Schedule |
-| --- | --- |
-| Dungeon Master | every 6h |
-| World Designer | daily + on dispatch |
-| Loremaster | daily |
-| Chronicler, Quartermaster, Rules Smith | weekly |
-| Adventurer | on dispatch only |
-| Recruiter | on `/recruit` |
+All times UTC. `gh aw compile` scatters fuzzy schedules so agents don't all wake at once; a few are pinned to keep
+writers of the same files apart.
 
-Schedules are *fuzzy* — `gh aw compile` scatters them so eight agents don't all wake at midnight. Roughly 4 DM turns
-and a dozen worker runs a day.
+| Time | Agent | Every |
+| --- | --- | --- |
+| 00:47, 06:47, 12:47, 18:47 | Dungeon Master | 6h |
+| 02:20 | Custodian | day |
+| 03:39 | Assayer | Wed |
+| 04:07 | Rules Smith | Mon |
+| 06:13 | Arbiter | Tue, Sat |
+| 11:20 | Magician | day |
+| 17:51 | Armorer | day |
+| 22:06 | Chronicler | Sat |
+| 23:49 | World Designer | day |
+| — | Adventurer | on dispatch only |
+| — | Recruiter | on `/recruit` |
+
+That is roughly 4 DM beats, 4 hero exchanges and 3 new pieces of world a day.
+
+**When adding an agent, check the minute it landed on.** Fuzzy schedules are name-hashed, not collision-free — two
+agents have already been assigned the identical minute in this repo. Two agents that write the same file want a
+clear half-hour between them, since a run can take 25 minutes:
+
+```bash
+grep -h "cron:" .github/workflows/*.lock.yml | sort -t' ' -k3
+```
 
 Slower is usually better. A world that advances four times a day accumulates more interesting history than one
 thrashing every fifteen minutes, and it costs a fraction as much.
@@ -129,7 +144,9 @@ For a fixed-term experiment, add `stop-after: "+72h"` to a workflow's `on:` bloc
 | Lock files stale | Frontmatter edited without recompiling | `gh aw compile` and commit |
 | Jobs sit `queued` with no runner, or a push starts nothing | Usually not your repo | Check [githubstatus.com](https://www.githubstatus.com) — an Actions capacity incident delays both runner assignment and webhook delivery. Wait it out; queued runs pick up on recovery |
 | Agent produced nothing | Often correct | Check `gh aw logs <name>` before assuming a bug |
-| Lore contradictions | Normal at this scale | Loremaster files `lore-gap`; you adjudicate |
+| Lore contradictions | Normal at this scale | Custodian files `lore-gap`; Arbiter rules on them; you adjudicate the rest |
+| A quest stops advancing | Its `turn:` baton was never passed | `grep -rn "^turn:" codex/quests/`; set it and note why |
+| `spark` errors with "could not find data/words" | The word lists are missing from the checkout | Confirm `data/words/*.txt` is committed |
 
 ## Rolling back the world
 

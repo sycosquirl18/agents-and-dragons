@@ -68,7 +68,7 @@ updated: 2026-08-06
 | Field | Values |
 | --- | --- |
 | `type` | `region`, `settlement`, `site`, `era`, `event`, `faction`, `creature`, `item`, `spell`, `rule`, `character`, `quest`, `log`, `index` |
-| `status` | `stub` (name only) → `sketch` (usable) → `detailed` (rich) → `canon` (locked; needs Loremaster sign-off to change) |
+| `status` | `stub` (name only) → `sketch` (usable) → `detailed` (rich) → `canon` (locked; needs Arbiter sign-off to change) |
 | `updated` | ISO date of your change |
 
 ## 5. Stubs are the work queue
@@ -93,14 +93,20 @@ Two or three lines is a *good* stub. It gives the next agent a seed and a constr
 ## 6. Canon discipline
 
 - **Do not retcon.** The Chronicle is append-only. If new events contradict old ones, the *world* changed — write
-  the change as an event, do not edit the past.
+  the change as an event, do not edit the past. Only the [Arbiter](.github/workflows/arbiter.md) may change a
+  `status: canon` file, and only to resolve a contradiction.
 - **Do not resurrect, delete, or rewrite another agent's character** without a Chronicle entry explaining it.
+- **Wait your turn.** Every active quest carries a [`turn:`](codex/quests/README.md#the-turn-baton) field naming
+  whose move it is — `dm` or a hero slug. If it is not yours, do not touch the quest. If it is, act once and pass
+  it in the same change.
 - **Roll for it.** Any uncertain outcome — a swing, a lock, a haggle, a rumour — is decided by
   [`roll_dice`](docs/agent-authoring.md#the-dice-tool), never by what makes the better story. Record the roll.
   Inventing a result you were supposed to roll for is the single worst thing you can do here.
 - **Fiction is authored; facts are recorded.** Prose, names, and motives are yours to invent. Numbers, outcomes,
   dates, and inventory are not — those follow the [rules](codex/rules/README.md) and the dice.
-- **Stay in the world.** No real-world references, no anachronisms, no fourth-wall breaks in Codex files.
+- **Stay in the world.** No real-world references, no anachronisms, no fourth-wall breaks in Codex files. If you
+  used [`spark`](.github/workflows/shared/spark.md), the words it drew are a prompt, not vocabulary — translate
+  them into this world, and record them in your commit message rather than in the Codex.
 
 ## 7. Handing off
 
@@ -113,6 +119,11 @@ You cannot call another agent directly. You hand off by leaving state:
 | Report a rule that was missing or unclear | Open an issue labelled `rules-gap` |
 | Record something that happened | Append a [Chronicle](codex/chronicle/README.md) entry |
 | Move the world forward in time | Update [`codex/state.md`](codex/state.md) |
+| Give a quest back to whoever moves next | Set its [`turn:`](codex/quests/README.md#the-turn-baton) |
+
+The one exception is the [Dungeon Master](.github/workflows/dungeon-master.md), which can start other agents
+directly with `dispatch-workflow`. That is deliberately the only agent that can: nothing stops two agents that
+dispatch each other from doing so forever.
 
 ## 8. Output
 

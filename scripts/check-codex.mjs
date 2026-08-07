@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 // Mechanical checks on the Codex. Catches the failures agents make most often — dead links and anchors, unindexed
-// files, missing frontmatter, files that outgrew the Split Rule — so the Loremaster can spend its run on meaning
+// files, missing frontmatter, files that outgrew the Split Rule — so the Custodian can spend its run on structure
 // instead of bookkeeping.
 //
 //   node scripts/check-codex.mjs          fail on errors
@@ -17,6 +17,12 @@ const MAX_LINES = 150;
 const TYPES = ["region", "settlement", "site", "era", "event", "faction", "creature", "item", "spell",
   "rule", "character", "quest", "log", "index"];
 const STATUSES = ["stub", "sketch", "detailed", "canon", "active", "resolved", "failed", "abandoned", "dead"];
+
+// Whose move it is on an active quest. `dm` means the world owes the next beat; a hero slug means that hero
+// owes the next answer. This is the only thing stopping two agents writing the same quest in the same hour.
+const HEROES = existsSync(join(CODEX, "characters"))
+  ? readdirSync(join(CODEX, "characters")).filter((n) => statSync(join(CODEX, "characters", n)).isDirectory())
+  : [];
 
 const errors = [];
 const warnings = [];
@@ -102,6 +108,21 @@ for (const file of files) {
     else if (!STATUSES.includes(fields.status)) warn(id, `unknown status '${fields.status}'`);
     if (!fields.updated) err(id, "frontmatter missing `updated`");
     else if (!/^\d{4}-\d{2}-\d{2}$/.test(fields.updated)) err(id, `updated '${fields.updated}' is not YYYY-MM-DD`);
+
+    // --- the turn baton ---
+    if (fields.type === "quest") {
+      if (fields.status === "active") {
+        if (!fields.turn) {
+          err(id, "active quest has no `turn` — must be `dm` or a hero slug, so agents know whose move it is");
+        } else if (fields.turn !== "dm" && !HEROES.includes(fields.turn)) {
+          err(id, `turn '${fields.turn}' is neither \`dm\` nor a hero in codex/characters/ (${HEROES.join(", ") || "none"})`);
+        }
+      } else if (fields.turn && fields.turn !== "none") {
+        warn(id, `\`turn: ${fields.turn}\` on a ${fields.status} quest — nobody's move; use \`turn: none\``);
+      }
+    } else if (fields.turn) {
+      warn(id, "`turn` only means something on a quest file");
+    }
   }
 
   // --- structure ---

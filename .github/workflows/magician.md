@@ -27,6 +27,7 @@ imports:
   - shared/codex.md
   - shared/commit.md
   - shared/dice.md
+  - shared/spark.md
 
 network:
   allowed: [defaults]
@@ -76,6 +77,9 @@ Otherwise every spell you cut is a Load 3 Kilnworks masterwork. Roll, then write
 - **Load** — `roll_dice` 1d6. 1–3 → Load 1, 4–5 → Load 2, 6 → Load 3. The Load must match the misfire you then
   write: quiet failure is 1, a failure that takes the room is 3.
 - **Cost** — grade *and* inscription. A common spell on a Plate costs more than a rare one on a Chip. Say both.
+
+Then call **`spark`** before you settle on what the inscription actually *does*. A drawn verb is a better starting
+point than the first effect that came to mind, and the first effect that came to mind is usually fire.
 
 ## Write it
 

@@ -6,7 +6,7 @@ updated: 2026-08-06
 
 # Economy
 
-Maintained by the [Quartermaster](../../.github/workflows/quartermaster.md). Every number here is anchored to one
+Maintained by the [Assayer](../../.github/workflows/assayer.md). Every number here is anchored to one
 reference point, and changing that point changes everything else:
 
 > **An unskilled labourer in [Vaultspire](../world/geography/regions/vaultspire.md) earns 2 silver a day.**

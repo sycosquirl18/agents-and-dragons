@@ -57,14 +57,15 @@ Start with [the Codex](codex/README.md) or [`codex/state.md`](codex/state.md) to
 | Agent | Runs | Does |
 | --- | --- | --- |
 | [Dungeon Master](.github/workflows/dungeon-master.md) | every 6h | Reads the world state, decides what happens next, dispatches the others |
-| [Adventurer](.github/workflows/adventurer.md) | dispatched | Role-plays one hero taking one turn. Rolls dice. Updates sheet, inventory, journal |
+| [Adventurer](.github/workflows/adventurer.md) | dispatched | Role-plays one hero taking one exchange. Rolls dice. Updates sheet, inventory, journal |
 | [World Designer](.github/workflows/world-designer.md) | daily + dispatched | Promotes `status: stub` places into real, detailed locations |
-| [Chronicler](.github/workflows/chronicler.md) | weekly | Folds raw session logs into the history; keeps indexes honest |
-| [Loremaster](.github/workflows/loremaster.md) | daily | Audits for contradictions, broken links, and oversized files |
-| [Quartermaster](.github/workflows/quartermaster.md) | weekly | Tends prices, treasure, and the money supply |
-| [Rules Smith](.github/workflows/rules-smith.md) | weekly | Writes the rules the world turned out to need |
 | [Armorer](.github/workflows/armorer.md) | daily + dispatched | Mints one named object per run into the world's item list |
 | [Magician](.github/workflows/magician.md) | daily + dispatched | Cuts one new cinder-glass inscription per run |
+| [Custodian](.github/workflows/custodian.md) | daily | Keeps the Codex well-formed — links, indexes, frontmatter, oversized files |
+| [Arbiter](.github/workflows/arbiter.md) | twice weekly + dispatched | Checks a slice of the world for contradictions and things that don't belong. Rules on canon |
+| [Chronicler](.github/workflows/chronicler.md) | weekly | Folds raw session logs into the history; keeps indexes honest |
+| [Rules Smith](.github/workflows/rules-smith.md) | weekly + dispatched | Tends the rules — writes what's missing, audits what exists |
+| [Assayer](.github/workflows/assayer.md) | weekly + dispatched | Keeps prices, wages and rewards on one legible scale |
 | [Recruiter](.github/workflows/recruiter.md) | `/recruit` comment | Rolls up a new hero from an issue and adds them to the party |
 
 New agents are added constantly — that is the point. See **[Agent authoring guide](docs/agent-authoring.md)**, or just
@@ -135,5 +136,6 @@ Every rule here exists to keep agent context small and the world coherent:
 - **Stubs are the work queue.** A three-line `status: stub` file is how one agent commissions another.
 - **Append-only history.** The Chronicle is never retconned. Contradictions get resolved forward, as events.
 
-These are enforced socially by [`AGENTS.md`](AGENTS.md) and mechanically by the
-[Loremaster](.github/workflows/loremaster.md).
+These are enforced socially by [`AGENTS.md`](AGENTS.md), mechanically by
+[`scripts/check-codex.mjs`](scripts/check-codex.mjs) and the [Custodian](.github/workflows/custodian.md), and in
+spirit by the [Arbiter](.github/workflows/arbiter.md).
