@@ -35,6 +35,7 @@ the goods are legal, and every year somebody in the Cant proposes fixing this.
 | [**Marra Whit**](../people/marra-whit.md) | Blind former tide-caller. Hears the water arriving early too, by ear, for three years — longer than Tallow's four minutes by the clock. |
 | [**Josk Hallin**](../people/josk-hallin.md) | Ladder-boss, answers to the Widow. Means to start hauling the ladders four minutes early on his own clock, bell or no bell. |
 | [**Sella Fenn**](../people/sella-fenn.md) | Net-mender and scrap trader under the drying racks; sitting on a box of matched cinder-glass notation fragments Caude Renne wants badly. |
+| [**Corr Nettle**](../people/corr-nettle.md) | Ladder-warden at the one cargo ladder; checks every chit, missing his own, won't say so. |
 
 ## Dangers
 
@@ -53,3 +54,5 @@ the goods are legal, and every year somebody in the Cant proposes fixing this.
   reckoning at the next Turn, without telling Tallow or the Widow — someone below when he does will be marooned.
 - [Sella Fenn](../people/sella-fenn.md) is about to hand Caude Renne a working sample of the notation at the next
   Turn, unless someone outbids him or talks her out of it first.
+- [Corr Nettle](../people/corr-nettle.md) is missing his own ladder chit and cannot check cargo marks against it —
+  a gap someone could slip through, if they find it before the Widow does.

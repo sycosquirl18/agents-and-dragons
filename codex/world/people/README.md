@@ -19,6 +19,7 @@ hold the [turn baton](../../quests/README.md#the-turn-baton). Nobody here ever w
 | [Josk Hallin](josk-hallin.md) | Ladder-boss of Catch; means to start hauling the ladders four minutes early on his own reckoning, bell or no bell |
 | [Sella Fenn](sella-fenn.md) | Net-mender and scrap trader in Catch; holds a box of matched cinder-glass notation fragments the Covenant wants badly |
 | [Denna Hask](denna-hask.md) | Tideline tackle-monger; sells unlicensed diving gear on Old Pellick's silent credit and won't say why he gives it |
+| [Corr Nettle](corr-nettle.md) | Catch's ladder-warden; checks every chit at the one cargo ladder and is quietly missing his own |
 
 ## When someone gets a file
 
