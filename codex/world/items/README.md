@@ -20,6 +20,7 @@ Minted one at a time by [the Armorer](../../../.github/workflows/armorer.md).
 | [The Sixth Tally](the-sixth-tally.md) | Notable. A licence tag for a crew that was never stood down | A Tideline pawnbroker's drawer, unsold |
 | [The Marriage Knot](the-marriage-knot.md) | Notable. A tailor's measuring-cord with a knot spaced for "past counting" | Mabb Orrin's stall in Catch, not for sale |
 | [The Quiet Chop](the-quiet-chop.md) | Notable. A forged licence counter-stamp, one hair off the Concord's true die | Harrow Mecks' coat lining, Vaultspire |
+| [The True Die](the-true-die.md) | Useful. The Concord's actual master counter-stamp, missing since the crews were lost | Nyella Sift's back room, Vaultspire |
 
 ## Writing one
 
