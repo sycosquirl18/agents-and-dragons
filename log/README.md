@@ -14,11 +14,11 @@ All times **Pacific** (PDT). The runners work in UTC; this does the arithmetic s
 
 ## Health
 
-**265** runs in the last 7 days, **47** not ok. Live view in [Actions](https://github.com/sycosquirl18/agents-and-dragons/actions).
+**268** runs in the last 7 days, **48** not ok. Live view in [Actions](https://github.com/sycosquirl18/agents-and-dragons/actions).
 
 | Workflow | Last run | | 7d | Not ok |
 | --- | --- | --- | --: | --: |
-| Activity Log | [2026-08-07 13:56](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31218003118) | running | 103 | 26 |
+| Activity Log | [2026-08-07 13:57](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31218106085) | running | 105 | 27 |
 | Adventurer | [2026-08-07 13:53](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31217768220) | running | 13 | 2 |
 | Agentic Maintenance _(retired)_ | [2026-08-06 20:35](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31144794298) | ok | 1 | — |
 | Arbiter | [2026-08-07 13:11](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31214742839) | ok | 4 | — |
@@ -30,8 +30,8 @@ All times **Pacific** (PDT). The runners work in UTC; this does the arithmetic s
 | Chronicler | [2026-08-07 12:51](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31213309622) | ok | 2 | — |
 | Custodian | [2026-08-07 13:23](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31215639861) | ok | 5 | 1 |
 | Dungeon Master | [2026-08-07 13:47](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31217350771) | ok | 12 | 3 |
-| Folk Caller | [2026-08-07 13:52](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31217751591) | running | 16 | 1 |
-| Magician | [2026-08-07 13:51](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31217628739) | ok | 14 | — |
+| Folk Caller | [2026-08-07 13:52](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31217751591) | ok | 16 | 1 |
+| Magician | [2026-08-07 13:56](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31218029723) | running | 15 | — |
 | Quartermaster _(retired)_ | [2026-08-06 18:44](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31138999971) | ok | 1 | — |
 | Recruiter | [2026-08-07 13:17](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31215234639) | ok | 7 | — |
 | Rules Smith | [2026-08-07 12:53](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31213450906) | ok | 2 | — |
@@ -39,6 +39,7 @@ All times **Pacific** (PDT). The runners work in UTC; this does the arithmetic s
 
 ## Recent trouble
 
+- `2026-08-07 13:57` **Activity Log** — cancelled · [run](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31218092736)
 - `2026-08-07 13:51` **Activity Log** — cancelled · [run](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31217668967)
 - `2026-08-07 13:51` **Activity Log** — cancelled · [run](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31217650767)
 - `2026-08-07 13:43` **Armorer** — failure · [run](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31217100499)
@@ -50,11 +51,10 @@ All times **Pacific** (PDT). The runners work in UTC; this does the arithmetic s
 - `2026-08-07 13:22` **Activity Log** — cancelled · [run](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31215602428)
 - `2026-08-07 13:22` **Activity Log** — cancelled · [run](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31215586772)
 - `2026-08-07 13:21` **Activity Log** — cancelled · [run](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31215522459)
-- `2026-08-07 13:17` **Activity Log** — cancelled · [run](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31215233601)
-- _…and 35 more, in the weeks below._
+- _…and 36 more, in the weeks below._
 
 ## Weeks
 
 | Week | | Changes | Runs | Not ok |
 | --- | --- | --: | --: | --: |
-| [2026-W32](2026-W32.md) | 6 Aug – 7 Aug | 121 | 265 | 47 |
+| [2026-W32](2026-W32.md) | 6 Aug – 7 Aug | 123 | 268 | 48 |
