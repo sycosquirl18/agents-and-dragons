@@ -18,9 +18,8 @@ updated: 2026-08-07
 | Oiled leathers | Armour: turns one Wounded into Marked per fight, then needs repair |
 | Salvage hook | Reach; doubles as a tool |
 | Knife | Blade snapped on calcified lock-wire. Handle only — needs reblading. |
-| Rope, 50ft | Salt-stiff |
-| Iron drift | Kilnworks, off the *Umber Cord*. Pellick's. Head mushroomed flat |
-| *Umber Cord* chain, 40ft | On the beach. Free of all three pins, coral-grown but sound |
+| Rope, 50ft | Rigged as a harness, lashing the second diver to him |
+| *Umber Cord* chain, 40ft | Hung in the gallery below the slot, leaning off plumb toward the glow |
 | Lamp and three hours of oil | Useless below the sluice, where it will not stay lit |
 | Pellick's chart of the Underspire | Hand-drawn, forty years old, shows galleries the Concord's charts do not |
 
@@ -30,6 +29,11 @@ updated: 2026-08-07
   [Drawn Breath](../../rules/spells/drawn-breath.md) costs more than he has, which is the central practical problem
   of his life.
 - **No licence.** Revoked spring 412.
+
+## Lost below
+
+- **Pellick's iron drift** — off the *Umber Cord*, dropped onto the gallery floor when he came off the chain.
+  Pellick has not been told.
 
 ## Owed
 

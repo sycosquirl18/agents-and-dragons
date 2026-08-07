@@ -2,7 +2,7 @@
 type: character
 status: sketch
 recruited: 412-214
-updated: 2026-08-06
+updated: 2026-08-07
 ---
 
 # Brannoc Vell
@@ -24,7 +24,8 @@ failing to report a find. He did report it. The clerk who lost the paperwork was
 
 ## Condition
 
-**Unharmed.** No named injuries. See the [harm ladder](../../rules/combat.md#harm).
+**Wounded** — *right hand torn* (two fingers stripped on the slot rim). Disadvantage on anything needing a firm
+grip or fine work with that hand. See the [harm ladder](../../rules/combat.md#harm).
 
 ## Skills
 

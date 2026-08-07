@@ -16,6 +16,7 @@ updated: 2026-08-07
 - [x] Get past the inner grate
 - [x] Find out what happened to Sella's crew
 - [x] Reach and enter the gallery below the passage floor — **chain in, diver alive**
+- [ ] Get the second diver to the surface alive — **first attempt failed**
 - [ ] Find out what is heating the water
 - [ ] Get out before the tide turns — **six hours from Day 214, dawn**
 
@@ -32,6 +33,7 @@ updated: 2026-08-07
 - The second diver on the gallery floor is breathing.
 - The neap window is shorter than expected. Breaking the pins cost an hour of it.
 - Hung in the gallery, the chain leans off plumb toward the amber glow, and the pull strengthens the longer it hangs. The water is warmer in that direction.
+- Brannoc chose the diver over the glow and did not get her up. Both are in the passage above the slot; the chain still hangs below, still leaning. Pellick's drift is on the gallery floor.
 
 ## Unknown
 

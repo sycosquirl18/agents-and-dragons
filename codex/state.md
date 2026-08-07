@@ -10,7 +10,7 @@ updated: 2026-08-07
 
 ## Right now
 
-Brannoc Vell is in the gallery below the passage floor, on one lungful, with the *Umber Cord* chain fed through the slot. Sella's second diver is on the floor beside him, still breathing. The chain will not hang plumb — it leans toward the amber light deeper in, and pulls harder the longer it hangs. The water is warmer that way. Roughly two hours of tide. Pellick waits above and will not go near the waterline.
+Brannoc Vell chose the diver over the light. He lashed her to himself and came off the chain twelve feet up, tearing his right hand open on the slot rim and losing Pellick's drift into the gallery. Both are now in the passage above the slot, sixty feet down, with his breath long spent. The chain still hangs below, still leaning toward the glow. Roughly two hours of tide. Pellick waits above and will not go near the waterline.
 
 The kilns are still firing. The water above them is the warmest it has ever been measured.
 
@@ -18,7 +18,7 @@ The kilns are still firing. The water above them is the warmest it has ever been
 
 | Hero | Where | Doing what |
 | --- | --- | --- |
-| [Brannoc Vell](characters/brannoc-vell/sheet.md) | [The Drowned Kiln](world/geography/sites/the-drowned-kiln.md), in the gallery below the passage floor | [The Kiln Still Burns](quests/the-kiln-still-burns.md) |
+| [Brannoc Vell](characters/brannoc-vell/sheet.md) | [The Drowned Kiln](world/geography/sites/the-drowned-kiln.md), in the passage above the slot, wounded and out of breath | [The Kiln Still Burns](quests/the-kiln-still-burns.md) |
 | [Tessaly Orr](characters/tessaly-orr/sheet.md) | [Catch](world/geography/sites/catch.md), upper walkways | Hiding from Covenant retrieval agents — still not found |
 | [Gault Marrow](characters/gault-marrow/sheet.md) | Off the [Kiln Road](world/geography/sites/the-kiln-road.md), the Ashfields | Circling with a won wagon, unwelcome at three granges |
 | [Odrin Slate](characters/odrin-slate/sheet.md) | Shear-shed, Kiln-Road edge of Vaultspire | Cutting condemned salvage, about to go looking for his sister's crew |
