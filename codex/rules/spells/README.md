@@ -22,6 +22,7 @@ Each spell is an inscription pattern that can be cut into [cinder-glass](../magi
 | [The True Edge](the-true-edge.md) | Kilnworks | 1 | Tells you, without a check, whether a fixed fitting is sound or already flawed |
 | [The Clutched Breath](the-clutched-breath.md) | Salvor's | 2 | Advantage on one held-breath exchange check past the fourth |
 | [The Cool Reckoning](the-cool-reckoning.md) | Kilnworks | 1 | Tells you, in exact degrees, how far a touched point has drifted from its calibrated temperature |
+| [The Stopped Vein](the-stopped-vein.md) | Salvor's | 1 | Stops an open wound bleeding for an hour |
 
 Every spell here solves exactly one problem that this world actually has — the dark, the water, the tide, the
 shaking hand. None of them throw fire. Magic in the Kilnworks tradition was industrial, and what survived it is
