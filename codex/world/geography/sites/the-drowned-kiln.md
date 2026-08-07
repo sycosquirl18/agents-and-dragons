@@ -22,7 +22,7 @@ Only at neap tide, and only from the Underspire. Spring tides shut it completely
 | **The outer grate** | Concord seal. Currently cut — see the [Chronicle](../../../chronicle/412-214-the-seal-was-cut.md). |
 | **The settling galleries** | Where licensed crews actually worked. Wide, silted, warm. This is the part that appears on charts. |
 | **The inner grate** | Kilnworks-made, closed since year 0. No hinge, no lock anyone recognises, no record of it ever being opened. |
-| **The firing floor** | Below the inner grate. The heat comes from here and so does the light. Nobody living has been. |
+| [The firing floor](the-firing-floor.md) | Below the inner grate. The heat comes from here and so does the light. As of Day 215, someone has been. |
 
 The whole descent is a **six-hour** proposition from slack water. That number is not negotiable and everyone who
 works the Kiln plans around it, which is why "the tide turned" is a Tideline euphemism for a funeral.

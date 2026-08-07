@@ -43,6 +43,7 @@ Named places small enough to stand in. Grouped by the [region](../README.md) tha
 | Site | | |
 | --- | --- | --- |
 | [The Drowned Kiln](the-drowned-kiln.md) | site | The vault's original furnace. Still firing, still underwater, still sealed |
+| [The Firing Floor](the-firing-floor.md) | site | Behind the wall that opened — a shaft of reading light nobody living has stood in |
 | [The Settling Galleries](the-settling-galleries.md) | site | Flooded sorting-floors below the sluice; the Concord calls them settling galleries because the name stuck wrong |
 
 ## Adding one
