@@ -3,7 +3,7 @@ type: quest
 status: active
 updated: 2026-08-07
 
-turn: dm
+turn: brannoc-vell
 ---
 
 # The Kiln Still Burns
@@ -26,6 +26,7 @@ turn: dm
 - The water in the sluice is blood-warm in late autumn, sixty feet down.
 - Old Pellick, who will not go back, says *"it isn't the water that's wrong down there."*
 - The kilns have burned underwater since year 0. See [the Sundering](../world/history/eras/the-sundering.md).
+- One of Sella's crew is dead just inside the inner grate — no wound, no held object, no explanation. The water is hotter here than in the sluice. A warm glow rises from below.
 
 ## Unknown
 

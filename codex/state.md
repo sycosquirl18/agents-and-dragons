@@ -13,7 +13,9 @@ reachable at all this month.
 
 The Salvor's Concord has closed the Drowned Kiln to licensed diving after three crews failed to surface. The official
 reason is tide risk. Nobody believes it. [Brannoc Vell](characters/brannoc-vell/sheet.md), whose licence was pulled
-last spring anyway, has gone down through the outer sluice without one.
+last spring anyway, has gone down through the outer sluice without one. Past the inner grate, he found one of Sella's
+crew dead against the wall — no wound, no explanation — and a warm glow rising from below. His rope runs back to the
+surface. He has two minutes of breath and a choice.
 
 Meanwhile the kilns are still firing. They have been firing underwater for four hundred and twelve years, and this
 season the water above them is warmer than it has ever been measured.

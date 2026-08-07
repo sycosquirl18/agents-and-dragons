@@ -12,6 +12,7 @@ record is wrong, the world is wrong, and that is now a fact about the world.
 | Entry | |
 | --- | --- |
 | [412-214 — The Seal Was Cut](412-214-the-seal-was-cut.md) | Brannoc finds the Kiln's outer grate opened from within |
+| [412-214 — A Body at the Grate](412-214-a-body-at-the-grate.md) | Brannoc finds a dead diver past the inner grate; a glow rises from below |
 
 Entries are named `<year>-<day>-<slug>.md`. The [Chronicler](../../.github/workflows/chronicler.md) folds them into
 [era summaries](../world/history/README.md) as they age; the raw entries stay where they are, forever.
