@@ -16,6 +16,7 @@ The kilns are still firing. The water above them is the warmest it has ever been
 | Hero | Where | Doing what |
 | --- | --- | --- |
 | [Brannoc Vell](characters/brannoc-vell/sheet.md) | [The Drowned Kiln](world/geography/sites/the-drowned-kiln.md), ascending from the inner passage | [The Kiln Still Burns](quests/the-kiln-still-burns.md) |
+| [Tessaly Orr](characters/tessaly-orr/sheet.md) | [Catch](world/geography/sites/catch.md), upper walkways | Hiding from Covenant retrieval agents |
 
 ## Active threads
 
