@@ -1,7 +1,7 @@
 ---
 type: index
 status: sketch
-updated: 2026-08-06
+updated: 2026-08-07
 ---
 
 # Items
@@ -15,6 +15,7 @@ Minted one at a time by [the Armorer](../../../.github/workflows/armorer.md).
 | Item | | Where it is |
 | --- | --- | --- |
 | [The Tick-Weight](the-tick-weight.md) | Notable. Brass calibration weight carrying 41 counts of the four-minute tide drift | Tallow Ashe's croft, upper Catch |
+| [The Cold Wedge](the-cold-wedge.md) | Remarkable. Kiln-lord grading tool, advantage on forcing metal or stone, but its worn grip wants to twist free | Wedged in the passage wall at the squeeze before the settling galleries' inner grate |
 
 ## Writing one
 
