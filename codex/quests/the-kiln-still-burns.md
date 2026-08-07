@@ -43,6 +43,7 @@ updated: 2026-08-07
 - The chain hangs plumb, but its links are worn round from forty years in a fairlead: a salvage hook lashed over a crippled wrist will not stay on them. Brannoc came off at twenty feet with Ress Adair lashed to his chest, kept hold of her, and lost the hook into the slot.
 - With the seep stopped, the pocket does not refill. Every further attempt is paid for out of a fixed quantity of air, and two have been paid already. What is left is a finger's depth — enough for **one**.
 - Someone came up through the slot from the gallery: hooded, breathing without surfacing, carrying a coil that is not rope. They did not take the air. They offered the coil and pointed **down**, toward the ember — not up. Ninety minutes of tide.
+- The coil is [the Unspooled Line](../world/items/the-unspooled-line.md) — it reads as ordinary rope wound tight, but paid out underwater its strands separate into threads too fine to grip, and it does not sink. It smells of the same scorched lime as the roof pocket.
 
 ## Unknown
 
