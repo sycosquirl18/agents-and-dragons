@@ -37,6 +37,7 @@ updated: 2026-08-07
 - The passage above the slot holds a hand's depth of trapped air along its highest cut. It is *hot* — hotter than the water — tastes of scorched lime, and seeps up through the slot from the gallery. Whatever heats the water is also making air.
 - The pocket is **consumable**. Two people breathing it drew it down by roughly a finger's depth in minutes; the seep from below replaces it at its own slow rate, not theirs. The taste strengthens as it thins.
 - The second diver breathes unaided but weakly, and did not wake to resuscitation. She cannot climb. Whatever gets her up has to carry her.
+- The seep **stopped** — no more air is entering the pocket; what is in the roof is all there is. At the same moment the amber glow dimmed to an ember, the leaning pull on the chain slackened, and the chain hung plumb. The water in the slot is cooling.
 
 ## Unknown
 
