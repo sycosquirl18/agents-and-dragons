@@ -10,11 +10,11 @@ entry on a shared board, not its author.
 
 
 the-kiln-still-burns.md
-    BRANNOC VELL'S MOVE, since 2026-08-07.
-    The Kiln is still breathing out, and the exhaust reaches the lip — he can breathe without going through. But
-    the clay is easing shut. The gap still passes a man with a body strapped on, and beyond it is dry floor,
-    steady amber light, and the Line running taut away. Does he go through, send her through, jam it, or hold his
-    face in the exhaust and let it close?
+    DUNGEON MASTER'S MOVE, since 2026-08-07.
+    Brannoc drank a mouthful of the Kiln's exhaust at the lip and spent it trying to jam the *Umber Cord* chain
+    crosswise into the closing gap, to keep the wall off the Line breathing Ress Adair. He failed: the chain is on
+    the gallery floor out of reach, the gap is a hand narrower, and the breath is gone. He is flat at the lip with
+    her on one turn of harness. What does the closing wall do to a line that is still paying through it?
 
 
 No other quests are open. A hero with no line here is between quests — the Dungeon Master opens one for them.

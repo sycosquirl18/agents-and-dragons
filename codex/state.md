@@ -14,7 +14,7 @@ Brannoc Vell is sixty feet down at the lip of the opened wall in [the Drowned Ki
 
 He gave [the Unspooled Line](world/items/the-unspooled-line.md) out of his own mouth to Ress Adair and she took it. The hooded stranger opened the wall behind the cooled ember and walked in, still paying the Line out. Brannoc followed the air instead of the surface — and did not reach it. He went out short of the sill, was cut rib to hip on something he never saw, and came to at the lip on the gallery side with the harness down to one turn.
 
-The Kiln is still breathing out, and at the lip the exhaust reaches his face: foul, searing, but air, without going through. The clay is easing shut behind the stranger. The gap still passes a man with a body strapped on. Through it: dry floor, steady amber light, and the Line running taut away across it.
+The Kiln is still breathing out, and at the lip the exhaust reaches his face: foul, searing, but air, without going through. He drank one mouthful of it and spent it trying to jam the *Umber Cord* chain crosswise into the gap, to keep the closing clay off the Line that is breathing Ress Adair. The chain came out of his torn hand onto the gallery floor, out of reach. The gap is a hand narrower. Beyond it: dry floor, steady amber light, and the Line still paying, with nothing between it and the wall.
 
 ## The party
 

@@ -102,3 +102,30 @@ Two turns off the chest lashing. She is held to me by one.
   low number is the only reason there is an entry after this one.
 
 The sill is a hand from my face. I did not manage a hand.
+
+## Day 215 — the chain in the gap
+
+I put my mouth in the exhaust first, because a man makes no decisions without air in him. It is not air a lung
+wants. Scorched lime, hot enough to blister the inside of the nose, and it went down like swallowing a lamp. But
+it went down, and the grey went off the edges of things, and I could count again.
+
+Counting is the whole trade and the count was ugly. The clay is easing shut. The line out of her mouth runs
+through the gap to a man on the far side of it who has not looked back once. A wall closing on a line is a knife,
+and the knife falls on her, not on him. Whatever I do about myself, that gap does not get to close on that line.
+
+Above and behind me, plumb out of the slot, was forty feet of *Umber Cord* — the only hard thing within reach in
+this whole drowned hole, and I broke three pins for it yesterday. Chain does not care what clay wants. Get a bight
+of it into the gap crosswise and the wall has to eat iron before it eats her.
+
+I got it. I got a double bight of it up off the floor and into the mouth of the opening, both of us braced under
+it, and then the right hand went — the two fingers on that hand are meat and string and I have known it since the
+slot rim. It did not slip out of my grip so much as my grip stopped being one. Forty feet of *Umber Cord* came
+down across the pair of us and slewed off the ember-side of the sill into the gallery, and it is lying there now
+where I cannot reach it without unlashing her, and the gap is a hand narrower than it was when I started.
+
+- Hauling the *Umber Cord* chain into the closing gap to keep the wall off the Line (Might, DC 15 −2 apt −3
+  Kilnworks salvage = 10; disadvantage for the torn hand): 1d20+1 disadvantage [2] + 1 = 3 — the chain came down.
+  It is on the gallery floor out of reach, the gap is narrower, and I spent the last of the exhaust breath doing it.
+
+I am flat at the lip with her on one turn and the count is worse than it was. The line is still paying. She is
+still breathing. Neither of those is my doing any more.

@@ -55,6 +55,13 @@ updated: 2026-08-07
 - The exhaust still runs, and at the lip it reaches his face. Air 1d20 [14] — breathable there, foul and searing, without going through. He is no longer certainly dying of air; he is dying of the tide.
 - The wall is **closing**. Closure 1d20 [2] — the clay face is easing back out of itself, slowly and silently. The gap still passes a man with a body strapped on. It will not for long, and there is no way to know how long.
 - Visible through the gap, a body's length in: floor that looks dry, steady amber light rather than the ember's dying orange, and the Line running taut away across it, still paying. Visibility 1d20 [9] — no stranger, no ceiling, and no way to tell whether the far side is flooded.
+- The exhaust at the lip can be **drunk**. Brannoc took a mouthful of it and it served — searing, lime-foul, and
+  enough to think on. It buys a working breath without going through, and he has spent that one.
+- He chose to defend the Line rather than pass through: a closing wall on a paying line is a knife, and the cut
+  falls on Ress Adair's end, not the stranger's. He tried to jam a bight of the *Umber Cord* chain crosswise into
+  the gap. Might, DC 15 −2 apt −3 salvage = 10, disadvantage (torn hand): [2]+1 = 3 — failed. The chain came out
+  of his ruined right hand and slewed off the sill onto the gallery floor, out of reach without unlashing her.
+  The gap is a hand narrower and nothing now stands between the closing clay and the Line.
 
 ## Party
 
