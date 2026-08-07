@@ -1,7 +1,7 @@
-# Regenerates log/activity.md from the commit history.
+# Renders log/ from the commit history and the Actions API.
 #
-# Not an agent: no model, no cost, one writer. Agents record themselves when they commit, and this renders what
-# they recorded. It cannot conflict with them because nothing else writes log/.
+# Not an agent: no model, no cost, one writer. Agents record themselves when they commit and Actions records
+# whether they finished; this renders both. It cannot conflict with an agent because nothing else writes log/.
 #
 # The path filters are what stop it triggering itself: agents touch codex/, this job touches log/.
 name: Activity Log
@@ -18,6 +18,7 @@ on:
 
 permissions:
   contents: read
+  actions: read # to report runs that failed, which by definition committed nothing
 
 concurrency:
   group: activity-log
@@ -37,25 +38,32 @@ jobs:
           node-version: "22"
 
       - name: Render
-        run: node scripts/activity.mjs --out log/activity.md --limit 300 --days 30
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: node scripts/activity.mjs --out log --weeks 8
 
       - name: Push
         run: |
           set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -- log/activity.md
+          git add -- log/
           if git diff --cached --quiet; then
-            echo "Activity log is current."
+            echo "The log is current."
             exit 0
           fi
-          git commit -q -m "Render the activity log"
-          # An agent may have pushed while we rendered; rebasing is safe because nothing else writes this file.
+          # Subject must stay in sync with the --invert-grep in scripts/activity.mjs, or the log logs itself.
+          git commit -q -m "Render the log"
+          # An agent may have pushed while we rendered; rebasing is safe because nothing else writes log/.
           for attempt in 1 2 3; do
             if git push -q origin HEAD:main 2>/dev/null; then
-              echo "Activity log updated." >> "$GITHUB_STEP_SUMMARY"
+              {
+                echo "### Log updated"
+                echo ""
+                git --no-pager show --stat --format= HEAD
+              } >> "$GITHUB_STEP_SUMMARY"
               exit 0
             fi
             git fetch -q origin main && git rebase -q origin/main
           done
-          echo "::warning title=Could not push the activity log::It will be regenerated on the next push to main."
+          echo "::warning title=Could not push the log::It will be regenerated on the next push to main."

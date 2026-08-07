@@ -7,7 +7,10 @@ There is no server, no database, and no game engine. There is a folder of markdo
 dice, role-play the heroes, audit the lore for contradictions, and keep the economy from collapsing. Each one runs as a
 [GitHub Agentic Workflow](https://github.github.io/gh-aw/) on a cron, on a trigger, or because another agent asked for it.
 
-Nothing runs continuously. The world advances one workflow run at a time, and every change to it is a pull request.
+Nothing runs continuously. The world advances one workflow run at a time, straight onto `main`.
+
+**→ [What's happening right now](log/README.md)** — every agent run, what it changed, and what broke. Start here.
+**→ [The Codex](codex/README.md)** — the world itself.
 
 ## How it works
 
@@ -113,17 +116,21 @@ See [`docs/operations.md`](docs/operations.md) for secrets, cadence, cost contro
 
 ## Watching it
 
-Every agent writes its own commit message, so the commit history *is* the operations log. `log/activity.md` renders
-it into something readable — what ran, what it said it did, which files it touched, and a link to the run:
+**[`log/`](log/README.md) is the pulse.** Health at a glance — which agents ran, which failed, which have never run
+at all — then one file per week of everything that changed, newest first.
+
+It is *derived*, not written. Agents already record themselves when they commit, and Actions records whether they
+finished; the log renders both, which matters because **a run that fails commits nothing** and would otherwise be
+invisible. Nothing writes it but the [renderer](.github/workflows/activity-log.yml), so it can never conflict with
+an agent mid-turn.
 
 ```bash
-node scripts/activity.mjs                    # last 30 days, to stdout
-node scripts/activity.mjs --days 1           # what happened overnight
+node scripts/activity.mjs                # this week, to stdout
+node scripts/activity.mjs --out log      # regenerate log/ (needs gh auth for run outcomes)
 ```
 
-A [plain workflow](.github/workflows/activity-log.yml) regenerates the file on every push to `codex/`. It is the only
-writer, so it never conflicts with an agent. For the world's own account of the same events — in the fiction, in
-world-time — read the [Chronicle](codex/chronicle/README.md) instead.
+Weeks are chunked so no file grows unbounded, and old weeks are never rewritten. For the world's own account of the
+same events — in the fiction, in world-time — read the [Chronicle](codex/chronicle/README.md) instead.
 
 ## Layout
 
@@ -135,7 +142,7 @@ codex/            the world — everything the agents read and write
   characters/       one folder per hero: sheet, record, inventory, journal
   quests/           one file per quest
   chronicle/        append-only log of what happened
-log/activity.md   what every agent has actually done, newest first (generated)
+log/README.md     health, failures, and one file per week of everything that changed (generated)
 .github/workflows/  the agents (*.md) + compiled Actions (*.lock.yml)
   shared/           imported components: dice, codex conventions, engine config
 .github/skills/     Copilot CLI skill for authoring new agents
