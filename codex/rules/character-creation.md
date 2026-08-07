@@ -1,17 +1,24 @@
 ---
 type: rule
 status: canon
-updated: 2026-08-06
+updated: 2026-08-07
 ---
 
 # Character Creation
 
 ## Stats
 
-Roll `4d6` four times, once per stat, in order: **Might, Grace, Wits, Heart**. Use the
-`roll_dice` tool and record the tape on the sheet.
+Roll `4d6` four times, once per stat, in order: **Might, Grace, Wits, Heart**, and **drop the lowest die** of each.
+Use the `roll_dice` tool and record the whole tape on the sheet, dropped die included.
+
+That gives 3–18, which is the range [checks.md](checks.md#stats) declares and the ceiling
+[advancement](#level) enforces. Straight `4d6` does not, and a score outside 3–18 has no modifier the rest of the
+system can read.
 
 Do not re-roll. Do not swap. A hero with a 5 in Heart is a specific person; a hero with four 13s is nobody.
+
+*Changed 412-214. Sheets rolled before that date kept the sum of all four dice; those scores stand as rolled and are
+not recalculated.*
 
 If the total of all four modifiers is below −2, the hero may raise one stat by 2. That is the only adjustment allowed.
 
