@@ -2,6 +2,9 @@
 type: index
 status: sketch
 updated: 2026-08-07
+---
+
+# World State
 
 **Year 412 since the Sundering, Day 214.** Late autumn. The neap tides are running shorter than the moon says they should.
 

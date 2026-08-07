@@ -153,9 +153,10 @@ if (repo) {
         const [name, status, conclusion, at, url] = l.split("\t");
         return { name, status, conclusion, at: new Date(at).toISOString(), url };
       })
-      // The two CI checks report on the world rather than being part of it. The renderer itself stays in: if it
-      // starts failing the log stops updating, and the next run that succeeds should say so.
-      .filter((r) => !/^Check (the Codex|compiled workflows)$/.test(r.name))
+      // Everything is included, deliberately. An earlier version filtered the CI checks out as "meta-workflows
+      // that report on the world rather than being part of it" — and then hid six hours of red `Check the Codex`
+      // caused by an agent eating state.md's frontmatter. A check that fails means the world is malformed, which
+      // is the single most important thing this file can tell you.
       .sort((a, b) => b.at.localeCompare(a.at));
     runsAvailable = true;
   } catch {
@@ -173,7 +174,6 @@ const declared = existsSync(".github/workflows")
       .filter((f) => f.endsWith(".lock.yml") || f.endsWith(".yml"))
       .map((f) => readFileSync(join(".github/workflows", f), "utf8").match(/^name:\s*"?(.+?)"?\s*$/m)?.[1])
       .filter(Boolean)
-      .filter((n) => !/^Check (the Codex|compiled workflows)$/.test(n))
   : [];
 
 // --- assemble --------------------------------------------------------------------------------------------------
@@ -269,7 +269,7 @@ function renderIndex(archived) {
         `Live view in [Actions](${base}/actions).`,
       "",
     );
-    out.push("| Agent | Last run | | 7d | Not ok |", "| --- | --- | --- | --: | --: |");
+    out.push("| Workflow | Last run | | 7d | Not ok |", "| --- | --- | --- | --: | --: |");
     for (const name of [...new Set([...declared, ...runs.map((r) => r.name)])].sort()) {
       const mine = runs.filter((r) => r.name === name);
       const last = mine[0];
