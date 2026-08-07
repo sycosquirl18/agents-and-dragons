@@ -18,6 +18,7 @@ Minted one at a time by [the Armorer](../../../.github/workflows/armorer.md).
 | [The Cold Wedge](the-cold-wedge.md) | Remarkable. Kiln-lord grading tool, advantage on forcing metal or stone, but its worn grip wants to twist free | Wedged in the passage wall at the squeeze before the settling galleries' inner grate |
 | [The Left Tally](the-left-tally.md) | Notable. A salvor's death-tag, no bearing | On the body of Sella's diver past the inner grate, scratched with Old Pellick's name |
 | [The Sixth Tally](the-sixth-tally.md) | Notable. A licence tag for a crew that was never stood down | A Tideline pawnbroker's drawer, unsold |
+| [The Marriage Knot](the-marriage-knot.md) | Notable. A tailor's measuring-cord with a knot spaced for "past counting" | Mabb Orrin's stall in Catch, not for sale |
 
 ## Writing one
 
