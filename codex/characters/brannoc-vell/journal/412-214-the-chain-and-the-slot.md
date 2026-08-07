@@ -101,3 +101,35 @@ from below at its own pace and not at mine. The taste is stronger the lower it g
 thing under it, which I am starting to think about more than I want to.
 
 Two hours of tide. One hand. Sixty feet. And now a clock inside the clock.
+
+## Year 412, Day 214 — Sixty feet of plumb iron
+
+The seep stopped. I had my face in the pocket and I felt it go — not thin, *stop*, the way a tap stops. And with it
+the heat went out of the water in the slot, and the light down there went from a coal to the memory of one.
+
+A better man would have wondered what that meant. What I thought was: the chain is hanging straight now.
+
+It had leaned the whole time, pulled off plumb toward the glow, and that lean is what put me off the iron the first
+time. Now it hangs true, sixty feet of it, and there is a hand's less air in this roof than there was, and two of us
+in it. That is not a choice. That is a door closing slowly enough for you to watch.
+
+I took the rope off my shoulder and lashed Ress Adair to my chest instead of my back, so her face would be nearest
+mine at the top if there is a top, and I took the salvage hook and set it over my right wrist with a turn of line,
+because a hook does not need two fingers and a hand does. Left hand on the links. Right arm hooked over. Climb like
+that, one bite at a time, and never let the hook come off the iron.
+
+I got twenty feet. Maybe less. I stopped counting links because counting was costing me.
+
+The hook is a salvor's hook, not a climber's, and the *Umber Cord*'s links are worn round from forty years of
+running through a fairlead. It rode up the curve of a link, and it slipped, and I had a woman's whole weight on my
+torn hand for as long as it takes to know you have lost. Then the hook was gone into the dark and I was going after
+it, and I had the sense left to keep hold of her and not the iron.
+
+We came down onto the slot lip and I got us back up under the roof and there was air there, still. Less of it. And
+the last of it is now the last of it, because nothing is filling it any more.
+
+- Climbing the plumb chain with Ress Adair lashed to me, salvage hook lashed over the torn right wrist (Might +
+  Diving, DC 12, disadvantage for the hand): 1d20+1 disadvantage [2] + 1 = 3 — off the iron at twenty feet. Salvage
+  hook lost into the slot. Both of us back in the pocket, and the pocket is what is left of it.
+
+Twenty-two years I have come up. I have never once had to work out how many times I get to try.

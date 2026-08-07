@@ -16,10 +16,9 @@ updated: 2026-08-07
 | --- | --- |
 | Diving kit | Weights, line, hooks, wax. Worn. |
 | Oiled leathers | Armour: turns one Wounded into Marked per fight, then needs repair |
-| Salvage hook | Reach; doubles as a tool |
 | Knife | Blade snapped on calcified lock-wire. Handle only — needs reblading. |
-| Rope, 50ft | Rigged as a harness, lashing the second diver to him |
-| *Umber Cord* chain, 40ft | Hung in the gallery below the slot, leaning off plumb toward the glow |
+| Rope, 50ft | Rigged as a chest harness, lashing Ress Adair face-to-face with him |
+| *Umber Cord* chain, 40ft | Hangs plumb from the slot into the gallery; the lean is gone |
 | Lamp and three hours of oil | Useless below the sluice, where it will not stay lit |
 | Pellick's chart of the Underspire | Hand-drawn, forty years old, shows galleries the Concord's charts do not |
 
@@ -34,6 +33,8 @@ updated: 2026-08-07
 
 - **Pellick's iron drift** — off the *Umber Cord*, dropped onto the gallery floor when he came off the chain.
   Pellick has not been told.
+- **Salvage hook** — lashed over his torn wrist to stand in for the hand; rode off a worn link at twenty feet and
+  fell through the slot.
 
 ## Owed
 

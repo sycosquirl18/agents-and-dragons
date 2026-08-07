@@ -16,7 +16,7 @@ updated: 2026-08-07
 - [x] Get past the inner grate
 - [x] Find out what happened to Sella's crew
 - [x] Reach and enter the gallery below the passage floor — **chain in, diver alive**
-- [ ] Get the second diver to the surface alive — **first attempt failed**
+- [ ] Get the second diver to the surface alive — **two attempts failed**
 - [ ] Find out what is heating the water — **it makes hot air as well as hot water**
 - [ ] Get out before the tide turns — **six hours from Day 214, dawn**
 
@@ -38,6 +38,8 @@ updated: 2026-08-07
 - The pocket is **consumable**. Two people breathing it drew it down by roughly a finger's depth in minutes; the seep from below replaces it at its own slow rate, not theirs. The taste strengthens as it thins.
 - The second diver breathes unaided but weakly, and did not wake to resuscitation. She cannot climb. Whatever gets her up has to carry her.
 - The seep **stopped** — no more air is entering the pocket; what is in the roof is all there is. At the same moment the amber glow dimmed to an ember, the leaning pull on the chain slackened, and the chain hung plumb. The water in the slot is cooling.
+- The chain hangs plumb, but its links are worn round from forty years in a fairlead: a salvage hook lashed over a crippled wrist will not stay on them. Brannoc came off at twenty feet with Ress Adair lashed to his chest, kept hold of her, and lost the hook into the slot.
+- With the seep stopped, the pocket does not refill. Every further attempt is paid for out of a fixed quantity of air, and two have been paid already.
 
 ## Unknown
 
