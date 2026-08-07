@@ -18,7 +18,9 @@ Brannoc rode that jet's boil six feet downstream and came away with the *Umber C
 
 The tide turned early. The making water is coming down the sluice to meet the Kiln's breath, and the jet at the gap is already slackening. When they meet there will be no breath at all — and no rising water above a man who cannot climb sixty feet one-handed with a body strapped on.
 
-In [Catch](world/geography/sites/catch.md), sixteen miles of tide away, the [Covenant](world/factions/ashen-covenant.md)'s retrieval agents have stopped hunting Tessaly Orr. [Ren Tallow](characters/ren-tallow/sheet.md) walked in off the Vaultspire road with the pre-Turn fragment in her pack, and they want the paper more. She has ninety minutes to the Turn, two men at four paces, and no ladder behind her that somebody has not already been paid for.
+In [Catch](world/geography/sites/catch.md), sixteen miles of tide away, the [Covenant](world/factions/ashen-covenant.md)'s retrieval agents have stopped hunting Tessaly Orr. [Ren Tallow](characters/ren-tallow/sheet.md) walked in off the Vaultspire road with the pre-Turn fragment in her pack, and they want the paper more.
+
+She did not run. She named the bought ladders aloud, to the whole market floor, and the floor went busy rather than angry — Catch will not cross the Widow Sarn for a stranger. Both agents closed the last two paces. Ren cannot now be bought quietly, which is the Covenant's problem; she is unarmed in the open with the fragment on her, which is hers.
 
 ## The party
 
@@ -31,7 +33,7 @@ In [Catch](world/geography/sites/catch.md), sixteen miles of tide away, the [Cov
 | [Nyella Sift](characters/nyella-sift/sheet.md) | Back room near Vaultspire's licensing offices | Forging Concord paperwork for revoked and locked-out divers |
 | [Corwin Ash](characters/corwin-ash/sheet.md) | [Catch](world/geography/sites/catch.md) | Asking around about a bootprint pressed into rotten salvage |
 | [Perrin Fen](characters/perrin-fen/sheet.md) | Underspire waterline, Vaultspire | Newly arrived, chasing why Tideline's lamps have started burning wrong |
-| [Ren Tallow](characters/ren-tallow/sheet.md) | [Catch](world/geography/sites/catch.md), the market floor | Two Covenant agents at four paces, ninety minutes to the Turn — [What the Covenant Buys](quests/what-the-covenant-buys.md) |
+| [Ren Tallow](characters/ren-tallow/sheet.md) | [Catch](world/geography/sites/catch.md), the market floor, back to the drying racks | Named the bought ladders aloud; the floor went busy and both agents closed — [What the Covenant Buys](quests/what-the-covenant-buys.md) |
 
 ## Active threads
 

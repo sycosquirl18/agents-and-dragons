@@ -16,6 +16,7 @@ the Cant, and they would rather have the document than the glassmaker.
 
 - [ ] Get off the market floor before the Turn
 - [ ] Find out who in Catch sold the Covenant its way up
+- [ ] Survive being a loud problem instead of a quiet purchase
 - [ ] Keep the pre-Turn fragment out of Covenant hands
 - [ ] Decide what Tessaly Orr is owed, and whether she is told
 
@@ -28,6 +29,10 @@ the Cant, and they would rather have the document than the glassmaker.
   [Widow Sarn](../world/geography/sites/catch.md)'s, and access is hers to withdraw.
 - Tessaly Orr is in the upper walkways and does not know the hunt has changed shape.
 - The Turn is running four minutes early, as it has all year. Catch knows. The Covenant does not.
+- Ren said the bought-ladders accusation aloud on the market floor (Heart DC 16: 1d20+3 [10] + 3 = 13, failed). The
+  floor did not turn on the agents; it turned busy. Catch will not cross the Widow Sarn over a stranger's footnote.
+- A rack-hand two stalls from the Sarn ladders stopped working when the accusation was made and did not look up.
+- Whatever the Covenant meant to offer can no longer be offered quietly: the floor heard Ren name the Cant.
 
 ## Unknown
 

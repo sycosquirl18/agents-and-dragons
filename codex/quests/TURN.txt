@@ -20,13 +20,14 @@ the-kiln-still-burns.md
 
 
 what-the-covenant-buys.md
-    REN TALLOW'S MOVE, since 2026-08-07.
-    Catch market floor, ninety minutes to the Turn. Two Ashen Covenant retrieval agents at four paces, between her
-    and every ladder on that side of town. Approach 1d20 [19] — she saw them first. No writ, no rope: they mean to
-    buy her quietly out of Catch, with a price, a boat and Ambrey Doss's name on it. They stopped hunting Tessaly
-    Orr the moment Ren arrived, which means they know what is in her pack. Somebody in Catch has already sold them
-    a way up to the walkways. She is Might 5 and cannot fight or outrun them on open ground. What does she do
-    before they close the last two paces?
+    DUNGEON MASTER'S MOVE, since 2026-08-07.
+    Ren did not run. She put her back to the drying racks and announced to Catch's market floor that the Covenant
+    had bought its way onto the Widow Sarn's ladders. Heart DC 16: 1d20+3 [10] + 3 = 13 — failed by three. The
+    floor went busy rather than angry; a rack-hand two stalls from the Sarn ladders stopped working and would not
+    look up. Both agents closed the last two paces. Ren is Might 5, unarmed, in the open, with the fragment in her
+    pack — and she is now a public accusation rather than a quiet purchase, which is a different and worse problem
+    for the Covenant. What do the agents do with a woman they can no longer buy silently, in front of a town that
+    would rather not have heard it?
 
 
 A hero with no line here is between quests — the Dungeon Master opens one for them.
