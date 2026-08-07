@@ -14,6 +14,7 @@ updated: 2026-08-07
 | [Tally-daw](tally-daw.md) | moderate | Ashfield grange bird that raises an alarm on unweighed grain |
 | [Settle-crow](settle-crow.md) | low | Ashfield scavenger that only gathers once a bargain is struck |
 | [Toll-creeper](toll-creeper.md) | low | Catch shore crab swarm that strips drying racks and ropes at ebb |
+| [Warmrun Eel](warmrun-eel.md) | high | Underspire migrant shoal that follows heat; this year's run started early |
 
 Entry format — see [danger](../../rules/combat.md):
 
