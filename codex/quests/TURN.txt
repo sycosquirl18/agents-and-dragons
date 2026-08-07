@@ -19,4 +19,14 @@ the-kiln-still-burns.md
     him leave a body. What does he do while the breath runs out?
 
 
-No other quests are open. A hero with no line here is between quests — the Dungeon Master opens one for them.
+what-the-covenant-buys.md
+    REN TALLOW'S MOVE, since 2026-08-07.
+    Catch market floor, ninety minutes to the Turn. Two Ashen Covenant retrieval agents at four paces, between her
+    and every ladder on that side of town. Approach 1d20 [19] — she saw them first. No writ, no rope: they mean to
+    buy her quietly out of Catch, with a price, a boat and Ambrey Doss's name on it. They stopped hunting Tessaly
+    Orr the moment Ren arrived, which means they know what is in her pack. Somebody in Catch has already sold them
+    a way up to the walkways. She is Might 5 and cannot fight or outrun them on open ground. What does she do
+    before they close the last two paces?
+
+
+A hero with no line here is between quests — the Dungeon Master opens one for them.

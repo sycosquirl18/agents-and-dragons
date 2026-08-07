@@ -6,7 +6,7 @@ updated: 2026-08-07
 
 # World State
 
-**Year 412 since the Sundering, Day 215.** Late autumn, midday. The tide has turned early again — earlier than the neap reckoning allowed for, and nobody above the water is counting.
+**Year 412 since the Sundering, Day 215.** Late autumn, early afternoon. The tide has turned early again — earlier than the neap reckoning allowed for, and nobody above the water is counting.
 
 ## Right now
 
@@ -18,22 +18,25 @@ Brannoc rode that jet's boil six feet downstream and came away with the *Umber C
 
 The tide turned early. The making water is coming down the sluice to meet the Kiln's breath, and the jet at the gap is already slackening. When they meet there will be no breath at all — and no rising water above a man who cannot climb sixty feet one-handed with a body strapped on.
 
+In [Catch](world/geography/sites/catch.md), sixteen miles of tide away, the [Covenant](world/factions/ashen-covenant.md)'s retrieval agents have stopped hunting Tessaly Orr. [Ren Tallow](characters/ren-tallow/sheet.md) walked in off the Vaultspire road with the pre-Turn fragment in her pack, and they want the paper more. She has ninety minutes to the Turn, two men at four paces, and no ladder behind her that somebody has not already been paid for.
+
 ## The party
 
 | Hero | Where | Doing what |
 | --- | --- | --- |
 | [Brannoc Vell](characters/brannoc-vell/sheet.md) | [The Drowned Kiln](world/geography/sites/the-drowned-kiln.md), on the bared gallery floor six feet downstream of the halted wall, wounded and marked, chain in hand, a man's arm growing out of the floor under it, a diver on one turn of rope, and the tide making | [The Kiln Still Burns](quests/the-kiln-still-burns.md) |
-| [Tessaly Orr](characters/tessaly-orr/sheet.md) | [Catch](world/geography/sites/catch.md), upper walkways | Hiding from Covenant retrieval agents — still not found |
+| [Tessaly Orr](characters/tessaly-orr/sheet.md) | [Catch](world/geography/sites/catch.md), upper walkways | Hidden from Covenant agents who have stopped looking for her — which she does not know |
 | [Gault Marrow](characters/gault-marrow/sheet.md) | Off the [Kiln Road](world/geography/sites/the-kiln-road.md), the Ashfields | Circling with a won wagon, unwelcome at three granges |
 | [Odrin Slate](characters/odrin-slate/sheet.md) | Shear-shed, Kiln-Road edge of Vaultspire | Cutting condemned salvage, about to go looking for his sister's crew |
 | [Nyella Sift](characters/nyella-sift/sheet.md) | Back room near Vaultspire's licensing offices | Forging Concord paperwork for revoked and locked-out divers |
 | [Corwin Ash](characters/corwin-ash/sheet.md) | [Catch](world/geography/sites/catch.md) | Asking around about a bootprint pressed into rotten salvage |
 | [Perrin Fen](characters/perrin-fen/sheet.md) | Underspire waterline, Vaultspire | Newly arrived, chasing why Tideline's lamps have started burning wrong |
-| [Ren Tallow](characters/ren-tallow/sheet.md) | [Catch](world/geography/sites/catch.md) | Newly arrived, carrying a pre-Turn fragment the Covenant wanted buried |
+| [Ren Tallow](characters/ren-tallow/sheet.md) | [Catch](world/geography/sites/catch.md), the market floor | Two Covenant agents at four paces, ninety minutes to the Turn — [What the Covenant Buys](quests/what-the-covenant-buys.md) |
 
 ## Active threads
 
 - **The Kiln Still Burns** — three crews lost. [Quest](quests/the-kiln-still-burns.md).
+- **What the Covenant Buys** — the hunt in Catch changes target. [Quest](quests/what-the-covenant-buys.md).
 - **The Concord's silence** — the [Salvor's Concord](world/factions/salvors-concord.md) knows something it is not
   saying about why the water is warming.
 - **Covenant interest** — the [Ashen Covenant](world/factions/ashen-covenant.md) has been buying salvage rights

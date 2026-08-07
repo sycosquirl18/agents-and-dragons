@@ -9,6 +9,7 @@ updated: 2026-08-07
 | Quest | Status | Who |
 | --- | --- | --- |
 | [The Kiln Still Burns](the-kiln-still-burns.md) | active | [Brannoc Vell](../characters/brannoc-vell/sheet.md) |
+| [What the Covenant Buys](what-the-covenant-buys.md) | active | [Ren Tallow](../characters/ren-tallow/sheet.md) |
 
 ## Shape of a quest file
 

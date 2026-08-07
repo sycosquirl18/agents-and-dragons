@@ -26,6 +26,7 @@ record is wrong, the world is wrong, and that is now a fact about the world.
 | [412-215 — The Wall Closes](412-215-the-wall-closes.md) | The exhaust reaches the lip and Brannoc can breathe it — but the clay is easing shut |
 | [412-215 — A Hand's Width](412-215-a-hands-width.md) | The wall stops on the Line it cannot cut, the exhaust becomes a jet, and the stripped silt uncovers a second Concord tag |
 | [412-215 — A Line of Tags](412-215-a-line-of-tags.md) | Hob Cardew is set into the gallery floor, three more tags lie beyond him, and the tide turns early |
+| [412-215 — They Stopped Looking for the Glassmaker](412-215-they-stopped-looking-for-the-glassmaker.md) | The Covenant's agents in Catch abandon the hunt for Tessaly Orr the moment Ren Tallow walks in |
 
 Entries are named `<year>-<day>-<slug>.md`. The [Chronicler](../../.github/workflows/chronicler.md) folds them into
 [era summaries](../world/history/README.md) as they age; the raw entries stay where they are, forever.
