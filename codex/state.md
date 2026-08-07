@@ -7,7 +7,7 @@ updated: 2026-08-07
 
 ## Right now
 
-Brannoc Vell has surfaced from the inner passage. He found the slot, he knows where the gallery is. He has four hours before the tide closes the sluice — less if the anomaly holds. Old Pellick is on the beach with a length of chain from the *Umber Cord*, long enough to reach the gallery floor and heavy enough to hold, but coral-fouled and locked at three shackle pins. Brannoc has to decide whether to spend time cracking the chain or find another way.
+Brannoc Vell has surfaced from the inner passage. He found the slot, he knows where the gallery is. He has four hours before the tide closes the sluice — less if the anomaly holds. Old Pellick is on the beach with a length of chain from the *Umber Cord*, long enough to reach the gallery floor and heavy enough to hold, but coral-fouled and locked at three shackle pins. Brannoc tried to crack the first pin with his knife; the blade snapped on a calcified lock-wire still under tension. The chain is still locked. The knife is a handle. He needs another way to break three pins before the tide runs.
 
 The kilns are still firing. The water above them is the warmest it has ever been measured.
 

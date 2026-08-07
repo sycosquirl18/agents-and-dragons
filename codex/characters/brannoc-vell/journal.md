@@ -77,3 +77,13 @@ I am out of rope and nearly out of breath. I have seen enough to know there is s
 and water, and someone down there who is not coming up on their own.
 
 I marked the slot in my mind — wall feature, depth, bearing — and turned for the surface.
+
+## Year 412, Day 214 — The beach, Umber Cord chain
+
+Pellick had it laid out on the shingle. Forty feet, iron-black with old coral, locked at three shackle pins. I knew the type — Umber Cord rigging, deep-sea grade, the shackles set with threaded pins and lock-wire rather than the drop-forged kind. The coral had got into the threads but not uniformly. On a good day, read the angle of the fouling, work the loose ones first with a thin blade, let the tension off the last pin do the work.
+
+I did not read it right. I got my knife blade into the first pin's collar and levered at the angle the coral suggested, and the blade snapped against something denser underneath — the coral had calcified around a broken lock-wire that was still under tension. The jolt drove the handle into my palm hard enough to go numb.
+
+- Working the fouled shackle pins (Wits + Kilnworks salvage, DC 8): 1d20+2 [1] + 2 = 3 — the chain did not move, the knife blade snapped, and my hand went numb for a minute. Three pins still locked. One less tool.
+
+The chain is still fouled. The knife is still in my hand but the blade is gone to the shingle. Pellick did not say anything. He knows what that face means.

@@ -1,7 +1,7 @@
 ---
 type: character
 status: sketch
-updated: 2026-08-06
+updated: 2026-08-07
 ---
 
 # Brannoc Vell — Inventory
@@ -17,7 +17,7 @@ updated: 2026-08-06
 | Diving kit | Weights, line, hooks, wax. Worn. |
 | Oiled leathers | Armour: turns one Wounded into Marked per fight, then needs repair |
 | Salvage hook | Reach; doubles as a tool |
-| Knife | Close work |
+| Knife | Blade snapped on calcified lock-wire. Handle only — needs reblading. |
 | Rope, 50ft | Salt-stiff |
 | Lamp and three hours of oil | Useless below the sluice, where it will not stay lit |
 | Pellick's chart of the Underspire | Hand-drawn, forty years old, shows galleries the Concord's charts do not |
