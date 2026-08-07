@@ -3,15 +3,13 @@ type: index
 status: sketch
 updated: 2026-08-07
 
-**Year 412 since the Sundering, Day 214.** Late autumn. The neap tides are running, which is why the lower Kiln is
-reachable at all this month.
+**Year 412 since the Sundering, Day 214.** Late autumn. The neap tides are running shorter than the moon says they should.
 
 ## Right now
 
-Brannoc Vell went down through the outer sluice, got past the inner grate, found one of Sella's crew dead against the wall — no wound — and pushed deeper on held breath until his rope ran out. At the limit he saw a slot opening in the passage floor with an amber glow inside, and a second unmoving diver on the gallery floor below. He is now ascending. He knows where the slot is. He needs more rope, or longer breath, or both, to go back.
+Brannoc Vell has surfaced from the inner passage. He found the slot, he knows where the gallery is. He has four hours before the tide closes the sluice — less if the anomaly holds. Old Pellick is on the beach with a length of chain from the *Umber Cord*, long enough to reach the gallery floor and heavy enough to hold, but coral-fouled and locked at three shackle pins. Brannoc has to decide whether to spend time cracking the chain or find another way.
 
-Meanwhile the kilns are still firing. They have been firing underwater for four hundred and twelve years, and this
-season the water above them is warmer than it has ever been measured.
+The kilns are still firing. The water above them is the warmest it has ever been measured.
 
 ## The party
 
