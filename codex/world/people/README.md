@@ -14,7 +14,7 @@ hold the [turn baton](../../quests/README.md#the-turn-baton). Nobody here ever w
 | --- | --- |
 | [Old Pellick](old-pellick.md) | Deepest-diving salvor alive, retired, lungs ruined. Will not go back down and will not say why |
 | [Caude Renne](caude-renne.md) | Ashen Covenant factor in Tideline; buys salvage rights openly, wants a witness's name today |
-| [Ossel Tick](ossel-tick.md) | Former tide-caller of Catch; drowned 411; his counted drift is scratched into The Tick-Weight |
+| [Ossel Tick](ossel-tick.md) | Tide-caller of Catch before Tallow; noticed the drift by a sweating tide-weight a year before he trusted it; drowned 411 |
 | [Marra Whit](marra-whit.md) | Blind former tide-caller of Catch; hears the early tide by ear, three years running, and is done being humoured |
 | [Josk Hallin](josk-hallin.md) | Ladder-boss of Catch; means to start hauling the ladders four minutes early on his own reckoning, bell or no bell |
 | [Sella Fenn](sella-fenn.md) | Net-mender and scrap trader in Catch; holds a box of matched cinder-glass notation fragments the Covenant wants badly |
