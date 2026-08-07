@@ -22,6 +22,7 @@ thing yet to an answer for [The Ashfields'](../geography/regions/the-ashfields.m
 | [Weepbloom](weepbloom.md) | moderate | Weeping Bore fungal mat that sours cinder-glass seams if fed; thrives on Level 6's idle years |
 | [Gasp-Limpet](gasp-limpet.md) | high | Underspire shell colony that filters trapped air pockets thin, and can vent one all at once |
 | [Glow-clutch](glow-clutch.md) | moderate | Underspire lamp-grub farmed for light; abandons a hook for any stronger warmth nearby |
+| [Rim-swift](rim-swift.md) | low | Glass Wound rim bird; crews read its flock height as an early warmth warning |
 
 Entry format — see [danger](../../rules/combat.md):
 
