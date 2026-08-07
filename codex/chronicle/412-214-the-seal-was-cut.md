@@ -8,7 +8,7 @@ updated: 2026-08-06
 
 On the neap tide of the two hundred and fourteenth day,
 [Brannoc Vell](../characters/brannoc-vell/sheet.md) — unlicensed since spring, and diving anyway — walked the outer
-sluice of the [Drowned Kiln](../quests/the-kiln-still-burns.md) and found the
+sluice of the [Drowned Kiln](../world/geography/sites/the-drowned-kiln.md) and found the
 [Concord's](../world/factions/salvors-concord.md) seal already broken.
 
 Not forced. Cut, cleanly, with a proper torch, by someone with time and equipment. And cut from the inner side.
