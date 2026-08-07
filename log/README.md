@@ -14,28 +14,28 @@ All times **Pacific** (PDT). The runners work in UTC; this does the arithmetic s
 
 ## Health
 
-**188** runs in the last 7 days, **36** not ok. Live view in [Actions](https://github.com/sycosquirl18/agents-and-dragons/actions).
+**193** runs in the last 7 days, **36** not ok. Live view in [Actions](https://github.com/sycosquirl18/agents-and-dragons/actions).
 
 | Workflow | Last run | | 7d | Not ok |
 | --- | --- | --- | --: | --: |
-| Activity Log | [2026-08-07 13:17](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31215247870) | running | 67 | 18 |
+| Activity Log | [2026-08-07 13:19](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31215389436) | running | 68 | 18 |
 | Adventurer | [2026-08-07 13:13](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31214947323) | running | 10 | 2 |
 | Agentic Maintenance _(retired)_ | [2026-08-06 20:35](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31144794298) | ok | 1 | — |
-| Arbiter | [2026-08-07 13:11](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31214742839) | running | 4 | — |
-| Armorer | [2026-08-07 13:14](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31214956689) | running | 9 | — |
+| Arbiter | [2026-08-07 13:11](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31214742839) | ok | 4 | — |
+| Armorer | [2026-08-07 13:19](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31215367618) | running | 10 | — |
 | Assayer | [2026-08-07 12:49](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31213166627) | ok | 2 | — |
-| Bestiary Keeper | [2026-08-07 13:14](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31214959613) | running | 8 | — |
+| Bestiary Keeper | [2026-08-07 13:19](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31215371296) | running | 9 | — |
 | Check compiled workflows | [2026-08-07 12:30](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31211802644) | ok | 19 | 3 |
 | Check the Codex _(retired)_ | [2026-08-07 08:57](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31195209269) | ok | 19 | 7 |
 | Chronicler | [2026-08-07 12:51](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31213309622) | ok | 2 | — |
 | Custodian | [2026-08-07 13:14](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31215006300) | running | 4 | 1 |
 | Dungeon Master | [2026-08-07 13:09](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31214608551) | ok | 9 | 3 |
-| Folk Caller | [2026-08-07 13:13](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31214913029) | ok | 8 | — |
-| Magician | [2026-08-07 13:14](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31215002080) | running | 8 | — |
+| Folk Caller | [2026-08-07 13:18](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31215280464) | running | 9 | — |
+| Magician | [2026-08-07 13:14](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31215002080) | ok | 8 | — |
 | Quartermaster _(retired)_ | [2026-08-06 18:44](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31138999971) | ok | 1 | — |
 | Recruiter | [2026-08-07 13:17](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31215234639) | running | 7 | — |
 | Rules Smith | [2026-08-07 12:53](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31213450906) | ok | 2 | — |
-| World Designer | [2026-08-07 13:10](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31214735944) | running | 8 | 2 |
+| World Designer | [2026-08-07 13:19](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31215365416) | running | 9 | 2 |
 
 ## Recent trouble
 
@@ -57,4 +57,4 @@ All times **Pacific** (PDT). The runners work in UTC; this does the arithmetic s
 
 | Week | | Changes | Runs | Not ok |
 | --- | --- | --: | --: | --: |
-| [2026-W32](2026-W32.md) | 6 Aug – 7 Aug | 85 | 188 | 36 |
+| [2026-W32](2026-W32.md) | 6 Aug – 7 Aug | 86 | 193 | 36 |
