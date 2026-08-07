@@ -67,7 +67,8 @@ Everything else follows: the DM dispatches workers, each worker pushes its own c
 ## Cadence
 
 All times UTC. `gh aw compile` scatters fuzzy schedules so agents don't all wake at once; a few are pinned to keep
-writers of the same files apart.
+writers of the same files apart. Treat every time below as approximate — see
+[below](#do-not-rely-on-the-spacing).
 
 | Time | Agent | Every |
 | --- | --- | --- |
@@ -86,12 +87,33 @@ writers of the same files apart.
 That is roughly 4 DM beats, 4 hero exchanges and 3 new pieces of world a day.
 
 **When adding an agent, check the minute it landed on.** Fuzzy schedules are name-hashed, not collision-free — two
-agents have already been assigned the identical minute in this repo. Two agents that write the same file want a
-clear half-hour between them, since a run can take 25 minutes:
+agents have already been assigned the identical minute in this repo:
 
 ```bash
 grep -h "cron:" .github/workflows/*.lock.yml | sort -t' ' -k3
 ```
+
+### Do not rely on the spacing
+
+The timetable above is a *best effort*, not a guarantee. GitHub runs scheduled workflows on a queue, and under load
+it delivers them late or not at all. Measured in this repository: World Designer's `49 23` cron produced a run at
+**01:53 — two hours and four minutes late**. Gaps of thirty minutes on paper mean nothing at that scale.
+
+So spacing is a courtesy, not a safety mechanism. What actually keeps concurrent agents from corrupting the world is:
+
+| Mechanism | Covers |
+| --- | --- |
+| Per-agent `concurrency.group` | Two runs of the *same* agent overlapping |
+| The rebase-and-retry loop in [`shared/commit.md`](../.github/workflows/shared/commit.md) | Two *different* agents pushing to `main` in the same window |
+| The [turn baton](../codex/quests/README.md#the-turn-baton) | The DM and an Adventurer both writing the same quest |
+| [Custodian](../.github/workflows/custodian.md) and [Arbiter](../.github/workflows/arbiter.md) | Conflicts that merged cleanly but do not *mean* anything consistent |
+
+The last row is the one to keep in mind: a clean `git rebase` proves the text merged, not that the world still makes
+sense. Two agents can each write something reasonable and produce a contradiction between them, and no amount of
+scheduling prevents it.
+
+A corollary worth planning for: **a daily agent is not guaranteed to run daily.** Nothing should depend on having
+run yesterday.
 
 Slower is usually better. A world that advances four times a day accumulates more interesting history than one
 thrashing every fifteen minutes, and it costs a fraction as much.

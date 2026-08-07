@@ -75,8 +75,14 @@ puzzle you already solved, and the table has nothing to do.
    grep -rn "^turn:" codex/quests/
    ```
 
-   Your candidates are the quests reading `turn: dm`, plus threads that are not quests at all — factions, stubs,
-   weather in the world. **If every quest is waiting on a hero and nothing else needs pressure, dispatch the
+   A hero-held quest is not stalled, it is *waiting on a dispatch from you*. The Adventurer has no schedule of its
+   own, so a quest reading `turn: <hero>` advances only when you send that hero's Adventurer to answer.
+   **Dispatch every hero currently holding a baton, every run, before you do anything else** — that is not
+   optional and it is not conditional on whether you found other work. Forget it and the quest is frozen until a
+   human notices.
+
+   Your *writing* candidates are the quests reading `turn: dm`, plus threads that are not quests at all — factions,
+   stubs, weather in the world. **If every quest is waiting on a hero and nothing else needs pressure, dispatch the
    adventurers and write nothing.** That is a correct run.
 
 3. **Find the pressure.** A world is interesting when something is *about to happen*. Among what is actually yours,

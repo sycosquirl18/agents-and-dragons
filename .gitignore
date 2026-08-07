@@ -3,6 +3,10 @@ node_modules/
 Thumbs.db
 *.log
 
+# Agents write their commit subject here; shared/commit.md reads it and it never belongs to the world.
+# Untracked, it would trip the "changes outside codex/" warning on every productive run.
+.commit-msg
+
 # gh-aw local artifacts
 .github/aw/actions-lock.json.bak
 .github/aw/imports/

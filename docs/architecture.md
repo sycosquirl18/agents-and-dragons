@@ -111,6 +111,12 @@ If both edited the same lines, the rebase conflicts and the run fails with its w
 there is no correct automatic answer to "which agent's version of this fact is true", and the next scheduled run
 starts from the world as it actually is.
 
+This retry loop, not the timetable, is what makes concurrent agents safe. Scheduled runs are delivered late by
+[hours](operations.md#do-not-rely-on-the-spacing) when GitHub is busy, so no two agents can be assumed to be apart
+just because their crons are. Note also what a clean rebase does *not* prove: the text merged, but two agents can
+still have written a contradiction into different files. That is the
+[Arbiter](../.github/workflows/arbiter.md)'s job, not git's.
+
 ## Context economy
 
 The binding constraint on this project is not compute, it is the agent's context window. Every convention in

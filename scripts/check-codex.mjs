@@ -16,7 +16,16 @@ const MAX_LINES = 150;
 
 const TYPES = ["region", "settlement", "site", "era", "event", "faction", "creature", "npc", "item", "spell",
   "rule", "character", "quest", "log", "index"];
-const STATUSES = ["stub", "sketch", "detailed", "canon", "active", "resolved", "failed", "abandoned", "dead"];
+
+// Content ripens: stub -> sketch -> detailed -> canon. Quests and characters run on their own lifecycles.
+// Statuses are checked *per type* because they are not interchangeable: a quest wearing a content status
+// (`status: sketch`) would slip past the turn-baton rule below, which only fires on `active`.
+const CONTENT_STATUSES = ["stub", "sketch", "detailed", "canon"];
+const STATUS_BY_TYPE = {
+  quest: ["active", "resolved", "failed", "abandoned"],
+  character: [...CONTENT_STATUSES, "dead"],
+};
+const STATUSES = [...new Set([...CONTENT_STATUSES, ...Object.values(STATUS_BY_TYPE).flat()])];
 
 // Whose move it is on an active quest. `dm` means the world owes the next beat; a hero slug means that hero
 // owes the next answer. This is the only thing stopping two agents writing the same quest in the same hour.
@@ -112,6 +121,12 @@ for (const file of files) {
     else if (!TYPES.includes(fields.type)) warn(id, `unknown type '${fields.type}'`);
     if (!fields.status) err(id, "frontmatter missing `status`");
     else if (!STATUSES.includes(fields.status)) warn(id, `unknown status '${fields.status}'`);
+    else if (TYPES.includes(fields.type)) {
+      const allowed = STATUS_BY_TYPE[fields.type] ?? CONTENT_STATUSES;
+      if (!allowed.includes(fields.status)) {
+        err(id, `status '${fields.status}' is not valid for a ${fields.type} (expected: ${allowed.join(", ")})`);
+      }
+    }
     if (!fields.updated) err(id, "frontmatter missing `updated`");
     else if (!/^\d{4}-\d{2}-\d{2}$/.test(fields.updated)) err(id, `updated '${fields.updated}' is not YYYY-MM-DD`);
 
