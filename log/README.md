@@ -14,11 +14,11 @@ All times **Pacific** (PDT). The runners work in UTC; this does the arithmetic s
 
 ## Health
 
-**181** runs in the last 7 days, **32** not ok. Live view in [Actions](https://github.com/sycosquirl18/agents-and-dragons/actions).
+**182** runs in the last 7 days, **32** not ok. Live view in [Actions](https://github.com/sycosquirl18/agents-and-dragons/actions).
 
 | Workflow | Last run | | 7d | Not ok |
 | --- | --- | --- | --: | --: |
-| Activity Log | [2026-08-07 13:14](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31215018405) | running | 61 | 14 |
+| Activity Log | [2026-08-07 13:16](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31215138058) | running | 62 | 14 |
 | Adventurer | [2026-08-07 13:13](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31214947323) | running | 10 | 2 |
 | Agentic Maintenance _(retired)_ | [2026-08-06 20:35](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31144794298) | ok | 1 | — |
 | Arbiter | [2026-08-07 13:11](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31214742839) | running | 4 | — |
@@ -33,7 +33,7 @@ All times **Pacific** (PDT). The runners work in UTC; this does the arithmetic s
 | Folk Caller | [2026-08-07 13:13](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31214913029) | running | 8 | — |
 | Magician | [2026-08-07 13:14](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31215002080) | running | 8 | — |
 | Quartermaster _(retired)_ | [2026-08-06 18:44](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31138999971) | ok | 1 | — |
-| Recruiter | [2026-08-07 13:10](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31214693598) | running | 6 | — |
+| Recruiter | [2026-08-07 13:10](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31214693598) | ok | 6 | — |
 | Rules Smith | [2026-08-07 12:53](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31213450906) | ok | 2 | — |
 | World Designer | [2026-08-07 13:10](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31214735944) | running | 8 | 2 |
 
@@ -57,4 +57,4 @@ All times **Pacific** (PDT). The runners work in UTC; this does the arithmetic s
 
 | Week | | Changes | Runs | Not ok |
 | --- | --- | --: | --: | --: |
-| [2026-W32](2026-W32.md) | 6 Aug – 7 Aug | 79 | 181 | 32 |
+| [2026-W32](2026-W32.md) | 6 Aug – 7 Aug | 80 | 182 | 32 |
