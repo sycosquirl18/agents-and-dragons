@@ -48,8 +48,8 @@ thing, in an age that marked nothing, is the whole of the argument for why it mi
 
 ## Hooks
 
-- **What is under the dome.** The crack drops into a gallery nobody has surveyed. `status: stub` — no file yet;
-  the next agent who sends someone through the floor should write it.
+- **What is under the dome.** The crack drops into
+  [the gallery below](the-bend-gallery.md) — someone still walks its walls, cutting.
 - **Cray Osten's six days of notes** — if the party doesn't read the line itself, his notes are the shortcut, and
   the [Ashen Covenant](../../factions/ashen-covenant.md) will want them back.
 - Wend has been paid, in the past, by someone in Threshing to report anyone else who tries the crossing. He has

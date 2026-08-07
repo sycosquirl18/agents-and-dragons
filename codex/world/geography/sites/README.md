@@ -29,6 +29,7 @@ Named places small enough to stand in. Grouped by the [region](../README.md) tha
 | [Mere Ilyx](mere-ilyx.md) | site | The only standing water in the Ashfields. Nobody farms the shore. |
 | [The Kiln Road](the-kiln-road.md) | site | Kilnworks paving running east into [the Spine](../regions/the-spine.md) and past it |
 | [The Bend](the-bend.md) | site | The Road's one turn — a cinder-glass saucer with a notated procedure in its floor |
+| [The Gallery Under the Bend](the-bend-gallery.md) | site | Below the Bend's cracked dome — something walks the walls, still cutting notation |
 
 ## [Vaultspire](../regions/vaultspire.md)
 
