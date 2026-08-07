@@ -14,11 +14,11 @@ All times **Pacific** (PDT). The runners work in UTC; this does the arithmetic s
 
 ## Health
 
-**182** runs in the last 7 days, **32** not ok. Live view in [Actions](https://github.com/sycosquirl18/agents-and-dragons/actions).
+**184** runs in the last 7 days, **34** not ok. Live view in [Actions](https://github.com/sycosquirl18/agents-and-dragons/actions).
 
 | Workflow | Last run | | 7d | Not ok |
 | --- | --- | --- | --: | --: |
-| Activity Log | [2026-08-07 13:16](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31215138058) | running | 62 | 14 |
+| Activity Log | [2026-08-07 13:17](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31215177531) | running | 64 | 16 |
 | Adventurer | [2026-08-07 13:13](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31214947323) | running | 10 | 2 |
 | Agentic Maintenance _(retired)_ | [2026-08-06 20:35](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31144794298) | ok | 1 | — |
 | Arbiter | [2026-08-07 13:11](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31214742839) | running | 4 | — |
@@ -30,7 +30,7 @@ All times **Pacific** (PDT). The runners work in UTC; this does the arithmetic s
 | Chronicler | [2026-08-07 12:51](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31213309622) | ok | 2 | — |
 | Custodian | [2026-08-07 13:14](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31215006300) | running | 4 | 1 |
 | Dungeon Master | [2026-08-07 13:09](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31214608551) | ok | 9 | 3 |
-| Folk Caller | [2026-08-07 13:13](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31214913029) | running | 8 | — |
+| Folk Caller | [2026-08-07 13:13](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31214913029) | ok | 8 | — |
 | Magician | [2026-08-07 13:14](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31215002080) | running | 8 | — |
 | Quartermaster _(retired)_ | [2026-08-06 18:44](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31138999971) | ok | 1 | — |
 | Recruiter | [2026-08-07 13:10](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31214693598) | ok | 6 | — |
@@ -39,6 +39,8 @@ All times **Pacific** (PDT). The runners work in UTC; this does the arithmetic s
 
 ## Recent trouble
 
+- `2026-08-07 13:16` **Activity Log** — cancelled · [run](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31215155032)
+- `2026-08-07 13:16` **Activity Log** — cancelled · [run](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31215138058)
 - `2026-08-07 13:12` **Activity Log** — cancelled · [run](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31214819212)
 - `2026-08-07 13:11` **Activity Log** — cancelled · [run](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31214801836)
 - `2026-08-07 13:07` **Activity Log** — cancelled · [run](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31214501032)
@@ -49,12 +51,10 @@ All times **Pacific** (PDT). The runners work in UTC; this does the arithmetic s
 - `2026-08-07 13:00` **Activity Log** — cancelled · [run](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31213953462)
 - `2026-08-07 12:59` **Custodian** — failure · [run](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31213918459)
 - `2026-08-07 12:57` **Activity Log** — failure · [run](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31213751232)
-- `2026-08-07 12:57` **Activity Log** — cancelled · [run](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31213732263)
-- `2026-08-07 12:57` **Activity Log** — cancelled · [run](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31213728164)
-- _…and 20 more, in the weeks below._
+- _…and 22 more, in the weeks below._
 
 ## Weeks
 
 | Week | | Changes | Runs | Not ok |
 | --- | --- | --: | --: | --: |
-| [2026-W32](2026-W32.md) | 6 Aug – 7 Aug | 80 | 182 | 32 |
+| [2026-W32](2026-W32.md) | 6 Aug – 7 Aug | 82 | 184 | 34 |
