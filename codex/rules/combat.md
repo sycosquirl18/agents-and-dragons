@@ -1,7 +1,7 @@
 ---
 type: rule
 status: canon
-updated: 2026-08-06
+updated: 2026-08-07
 ---
 
 # Danger
@@ -76,6 +76,10 @@ Their `recruited:` date is in the sheet's frontmatter as a world date; today's i
 **Subtract the shallows number from the DC of any roll whose failure you intend to kill them** — the same way every
 other circumstance is applied, on the [DC and not the roll](checks.md#modifiers). A hero in their first week is
 facing 5s where a veteran faces 15s, and it is very hard to lose them by accident.
+
+**Ruling (Arbiter, 412).** The shallows sit *outside* the [±7 cap](scenes.md#aptness). The cap governs how much a
+hero's own cleverness, kit and training can bend a roll; the shallows are not something the hero did. Apply the cap
+to aptness, circumstance and skill first, then subtract the shallows number from the result.
 
 And once, and only once:
 

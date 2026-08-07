@@ -1,7 +1,7 @@
 ---
 type: index
 status: sketch
-updated: 2026-08-06
+updated: 2026-08-07
 ---
 
 # Spells
@@ -26,8 +26,8 @@ shaking hand. None of them throw fire. Magic in the Kilnworks tradition was indu
 the tooling, not the weaponry. A spell is an apt answer in a [scene](../scenes.md#aptness) because it is
 *specific*, not because it is powerful.
 
-Only one [Covenant plainscript](../traditions.md#covenant-plainscript) spell is listed here, and the Covenant does
-not sell it. That scarcity is a fact about the world, not a gap in the record.
+Only two [Covenant plainscript](../traditions.md#covenant-plainscript) spells are listed here, and the Covenant
+sells neither. That scarcity is a fact about the world, not a gap in the record.
 
 ## Writing a new spell
 

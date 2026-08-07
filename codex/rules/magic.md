@@ -1,7 +1,7 @@
 ---
 type: rule
 status: canon
-updated: 2026-08-06
+updated: 2026-08-07
 ---
 
 # Magic
@@ -16,6 +16,11 @@ economics and politics before it is adventure.
 ## Casting
 
 1. You must be holding the glass and able to speak.
+
+**Ruling (Arbiter, 412).** "Able to speak" means able to voice the inscription, and underwater that means spending
+breath to do it — which is exactly why [held breath](breath.md) charges a casting an exchange of air. A diver can
+cast. A gagged, throttled, or silenced one cannot, in or out of the water.
+
 2. `1d20 + Wits` vs the spell's DC.
 3. **The glass shatters either way.** Success or failure, it is gone.
 4. On a **natural 1**, it shatters *and* the spell goes somewhere it should not have. See the spell's Misfire line.
