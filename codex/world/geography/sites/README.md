@@ -1,7 +1,7 @@
 ---
 type: index
 status: sketch
-updated: 2026-08-06
+updated: 2026-08-07
 ---
 
 # Sites
@@ -28,6 +28,7 @@ Named places small enough to stand in. Grouped by the [region](../README.md) tha
 | [Threshing](threshing.md) | settlement | Grange town, granary, and the room where the grain price is actually set |
 | [Mere Ilyx](mere-ilyx.md) | site | The only standing water in the Ashfields. Nobody farms the shore. |
 | [The Kiln Road](the-kiln-road.md) | site | Kilnworks paving running east into [the Spine](../regions/the-spine.md) and past it |
+| [The Bend](the-bend.md) | site | The Road's one turn — a cinder-glass saucer with a notated procedure in its floor |
 
 ## [Vaultspire](../regions/vaultspire.md)
 

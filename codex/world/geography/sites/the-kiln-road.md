@@ -1,7 +1,7 @@
 ---
 type: site
 status: sketch
-updated: 2026-08-06
+updated: 2026-08-07
 ---
 
 # The Kiln Road
@@ -41,7 +41,9 @@ who have walked it describe as a *quality of the road* rather than an absence of
 
 ## Hooks
 
-- **The bend.** Something was there. The Road went around it, and the Kilnworks did not go around things.
+- **[The Bend](the-bend.md).** Four miles south of Mere Ilyx, the only turn in the Road's length — a saucer of
+  cinder-glass with a procedure written into its floor. Something was there, and the Kilnworks did not go around
+  things.
 - The one party that came back from the east came back **early**, will not say how far they got, and sold their
   wagon.
 - The Road ends somewhere. Nobody in four hundred years has followed it to find out, and everyone assumes somebody
