@@ -1,7 +1,7 @@
 ---
 type: region
-status: stub
-updated: 2026-08-06
+status: sketch
+updated: 2026-08-07
 ---
 
 # The Spine
@@ -14,3 +14,17 @@ western faces at a scale that makes the [vaults](../../history/eras/the-kilnwork
 stopped, apparently abruptly, and there is unworked stone still sitting on the cutting floors.
 
 Nobody in Vaultspire has any commercial reason to go. Everything the Spine has, the Wound has closer.
+
+## What's here
+
+| | |
+| --- | --- |
+| **[The Cutting Floors](../sites/the-cutting-floors.md)** | The lowest quarry terrace, still tended by someone keeping the old tally. |
+| **The upper terraces** | Six more, higher and colder, unvisited in living memory. `stub` |
+
+## Hooks
+
+- Whoever cut the terraces stopped mid-block, not mid-season — the last course on the lowest terrace is squared,
+  scored for the next cut, and never struck. `stub`
+- The one party that came back from further up the Kiln Road sold their wagon rather than say what turned them
+  around. Whether it was in the Spine or before it is unknown.

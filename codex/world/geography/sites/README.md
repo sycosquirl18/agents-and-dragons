@@ -31,6 +31,12 @@ Named places small enough to stand in. Grouped by the [region](../README.md) tha
 | [The Bend](the-bend.md) | site | The Road's one turn — a cinder-glass saucer with a notated procedure in its floor |
 | [The Gallery Under the Bend](the-bend-gallery.md) | site | Below the Bend's cracked dome — something walks the walls, still cutting notation |
 
+## [The Spine](../regions/the-spine.md)
+
+| Site | | |
+| --- | --- | --- |
+| [The Cutting Floors](the-cutting-floors.md) | site | Lowest quarry terrace, cutting stopped mid-block; one tally-keeper still counting |
+
 ## [Vaultspire](../regions/vaultspire.md)
 
 | Site | | |
