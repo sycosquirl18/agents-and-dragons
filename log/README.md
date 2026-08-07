@@ -14,11 +14,11 @@ All times **Pacific** (PDT). The runners work in UTC; this does the arithmetic s
 
 ## Health
 
-**170** runs in the last 7 days, **30** not ok. Live view in [Actions](https://github.com/sycosquirl18/agents-and-dragons/actions).
+**173** runs in the last 7 days, **32** not ok. Live view in [Actions](https://github.com/sycosquirl18/agents-and-dragons/actions).
 
 | Workflow | Last run | | 7d | Not ok |
 | --- | --- | --- | --: | --: |
-| Activity Log | [2026-08-07 13:10](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31214733400) | running | 56 | 12 |
+| Activity Log | [2026-08-07 13:12](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31214833631) | running | 59 | 14 |
 | Adventurer | [2026-08-07 13:02](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31214139963) | ok | 9 | 2 |
 | Agentic Maintenance _(retired)_ | [2026-08-06 20:35](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31144794298) | ok | 1 | — |
 | Arbiter | [2026-08-07 13:11](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31214742839) | running | 4 | — |
@@ -39,6 +39,8 @@ All times **Pacific** (PDT). The runners work in UTC; this does the arithmetic s
 
 ## Recent trouble
 
+- `2026-08-07 13:12` **Activity Log** — cancelled · [run](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31214819212)
+- `2026-08-07 13:11` **Activity Log** — cancelled · [run](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31214801836)
 - `2026-08-07 13:07` **Activity Log** — cancelled · [run](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31214501032)
 - `2026-08-07 13:06` **Activity Log** — cancelled · [run](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31214439847)
 - `2026-08-07 13:05` **Activity Log** — cancelled · [run](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31214307255)
@@ -49,12 +51,10 @@ All times **Pacific** (PDT). The runners work in UTC; this does the arithmetic s
 - `2026-08-07 12:57` **Activity Log** — failure · [run](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31213751232)
 - `2026-08-07 12:57` **Activity Log** — cancelled · [run](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31213732263)
 - `2026-08-07 12:57` **Activity Log** — cancelled · [run](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31213728164)
-- `2026-08-07 12:54` **Activity Log** — cancelled · [run](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31213540650)
-- `2026-08-07 12:54` **Activity Log** — cancelled · [run](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31213524457)
-- _…and 18 more, in the weeks below._
+- _…and 20 more, in the weeks below._
 
 ## Weeks
 
 | Week | | Changes | Runs | Not ok |
 | --- | --- | --: | --: | --: |
-| [2026-W32](2026-W32.md) | 6 Aug – 7 Aug | 74 | 170 | 30 |
+| [2026-W32](2026-W32.md) | 6 Aug – 7 Aug | 77 | 173 | 32 |
