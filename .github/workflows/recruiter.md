@@ -13,6 +13,12 @@ on:
     name: recruit
     events: [issues, issue_comment]
   reaction: eyes
+  workflow_dispatch:
+    inputs:
+      concept:
+        description: "Optional steer for who to roll up, e.g. 'someone from the Saltmarch who owes money'."
+        required: false
+        type: string
 
 permissions:
   contents: read
@@ -66,7 +72,8 @@ title, the body, and the comment that invoked you. Turn whatever they wrote into
 from *"a disgraced tax collector who talks to crows"* to *"idk something cool"*. Both are valid inputs. Fill every
 gap they left with dice, not with your own taste.
 
-**On the daily schedule** — nobody asked, so the world provides. Call **`spark`** first and build someone around a
+**On the daily schedule, or a manual dispatch** — nobody asked, so the world provides. If a `concept` input was
+given, build to it the way you would a human's request; otherwise call **`spark`** first and build someone around a
 drawn word, then read `codex/state.md` for what the world currently needs walking into it. Do not make a hero who
 duplicates one already on the roster: read `codex/characters/README.md` and go somewhere the party is thin. If the
 party already covers the ground and nothing suggests a new face, **write nothing.** Eight mediocre heroes are worse
