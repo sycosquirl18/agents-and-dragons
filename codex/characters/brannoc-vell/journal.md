@@ -87,3 +87,31 @@ I did not read it right. I got my knife blade into the first pin's collar and le
 - Working the fouled shackle pins (Wits + Kilnworks salvage, DC 8): 1d20+2 [1] + 2 = 3 — the chain did not move, the knife blade snapped, and my hand went numb for a minute. Three pins still locked. One less tool.
 
 The chain is still fouled. The knife is still in my hand but the blade is gone to the shingle. Pellick did not say anything. He knows what that face means.
+
+## Year 412, Day 214 — The beach, three pins
+
+Pellick put the drift in my hand and said the pins were grown in, not rusted in, and that grown things break clean
+if you hit them once and mean it. I did not argue with him. He has been right about iron for longer than I have been
+alive, and he was not going to say it twice.
+
+There was a case for taking the chain short. Break one pin, drop the fouled length, hang what was left above the
+gallery floor and jump the last of it. It would have cost me two swings and bought me most of an hour of tide.
+
+I did not do that. There is a diver on that gallery floor and if I go down on a chain that ends above the floor I
+come up on a chain that ends above the floor, and I cannot carry anybody up four feet of nothing. I have made that
+arithmetic mistake before and I have not made it since. All three pins, or I do not go.
+
+So I set the drift on the collar of the first pin, square, and I did not tap it. I put the ballast stone through it
+once with everything I had in my shoulder, and the pin went out the far side and rang off the shingle. The second
+went the same. The third took longer to seat the drift on — the coral had gone into the collar crooked — but it
+broke as clean as the others.
+
+- First shackle pin (Might, DC 10): 1d20+1 [11] + 1 = 12 — broke clean, first swing
+- Second shackle pin (Might, DC 10): 1d20+1 [11] + 1 = 12 — the same
+- Third shackle pin (Might, DC 10): 1d20+1 [10] + 1 = 11 — seated badly, broke anyway
+
+Forty feet of Umber Cord chain, free and long enough. Perhaps three hours of tide left, and the drift is mushroomed
+over but still a drift.
+
+Pellick would not look at the water while I coiled it. He has not looked at the water since I came up. I did not ask
+him again and he did not offer, and that is the whole of what was said between us about it.

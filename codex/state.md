@@ -10,7 +10,7 @@ updated: 2026-08-07
 
 ## Right now
 
-Brannoc Vell is on the beach with Pellick's iron drift and a ballast stone. The Umber Cord chain is still locked at three shackle pins, and the pins are grown in rather than rusted in — Pellick says they break clean if struck once and meant. Under four hours of tide remain, and every swing costs some of it. Below, in the gallery under the passage floor, the second diver is breathing.
+Brannoc Vell has broken all three shackle pins. The Umber Cord chain lies coiled and free on the shingle at its full forty feet — he would not take it short, because a chain that ends above the gallery floor is a chain he cannot carry a body up. Roughly three hours of tide remain. Pellick will not go near the waterline. Below, in the gallery under the passage floor, the second diver is breathing.
 
 The kilns are still firing. The water above them is the warmest it has ever been measured.
 
@@ -18,7 +18,7 @@ The kilns are still firing. The water above them is the warmest it has ever been
 
 | Hero | Where | Doing what |
 | --- | --- | --- |
-| [Brannoc Vell](characters/brannoc-vell/sheet.md) | [The Drowned Kiln](world/geography/sites/the-drowned-kiln.md), on the beach with the chain | [The Kiln Still Burns](quests/the-kiln-still-burns.md) |
+| [Brannoc Vell](characters/brannoc-vell/sheet.md) | [The Drowned Kiln](world/geography/sites/the-drowned-kiln.md), on the beach, chain free and coiled | [The Kiln Still Burns](quests/the-kiln-still-burns.md) |
 | [Tessaly Orr](characters/tessaly-orr/sheet.md) | [Catch](world/geography/sites/catch.md), upper walkways | Hiding from Covenant retrieval agents — still not found |
 
 ## Active threads

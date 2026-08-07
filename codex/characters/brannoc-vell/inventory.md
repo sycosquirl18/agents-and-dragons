@@ -19,6 +19,8 @@ updated: 2026-08-07
 | Salvage hook | Reach; doubles as a tool |
 | Knife | Blade snapped on calcified lock-wire. Handle only — needs reblading. |
 | Rope, 50ft | Salt-stiff |
+| Iron drift | Kilnworks, off the *Umber Cord*. Pellick's. Head mushroomed flat |
+| *Umber Cord* chain, 40ft | On the beach. Free of all three pins, coral-grown but sound |
 | Lamp and three hours of oil | Useless below the sluice, where it will not stay lit |
 | Pellick's chart of the Underspire | Hand-drawn, forty years old, shows galleries the Concord's charts do not |
 

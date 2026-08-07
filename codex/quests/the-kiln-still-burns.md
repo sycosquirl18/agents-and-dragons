@@ -15,7 +15,7 @@ updated: 2026-08-07
 - [x] Reach the outer sluice at neap tide
 - [x] Get past the inner grate
 - [x] Find out what happened to Sella's crew
-- [ ] Reach and enter the gallery below the passage floor — **three pins to break; Pellick's iron drift in hand; under four hours to tide**
+- [ ] Reach and enter the gallery below the passage floor — **chain free at full forty feet; roughly three hours to tide**
 - [ ] Find out what is heating the water
 - [ ] Get out before the tide turns — **six hours from Day 214, dawn**
 
@@ -27,10 +27,10 @@ updated: 2026-08-07
 - The kilns have burned underwater since year 0. See [the Sundering](../world/history/eras/the-sundering.md).
 - One of Sella's crew is dead just inside the inner grate — no wound, no held object, no explanation.
 - A second unmoving diver with kit is visible on the floor of a gallery below the main passage, reached by a slot opening. The amber glow comes from deeper inside that gallery.
-- A length of chain from the *Umber Cord* wreck is on the beach, long enough to reach the gallery floor, but coral-fouled and locked at three shackle pins.
-- Old Pellick has given Brannoc a Kilnworks iron drift off the *Umber Cord*, and a ballast stone to swing. He says the pins are grown in, not rusted in, and grown things break clean if struck once and meant.
+- The *Umber Cord* chain is free at its full forty feet — all three pins broken — and long enough to reach the gallery floor.
+- Old Pellick has given Brannoc a Kilnworks iron drift off the *Umber Cord*. He will not go back in the water.
 - The second diver on the gallery floor is breathing.
-- The neap window is shorter than expected: four hours remain, not six.
+- The neap window is shorter than expected. Breaking the pins cost an hour of it.
 
 ## Unknown
 

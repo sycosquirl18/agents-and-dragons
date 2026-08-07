@@ -17,3 +17,4 @@ the whole [journal](journal.md).
 - **412-214** Surfaced. Four hours to tide. Umber Cord chain on the beach — long enough but fouled at three pins. Chain serviceability 1d20 [7] — not ready.
 - **412-214** Attempted to crack fouled shackle pins on Umber Cord chain; knife blade snapped on calcified lock-wire. Chain still locked at all three pins. Knife blade lost. Wits+Kilnworks salvage [1]+2=3 — fumble.
 - **412-214** Pellick produced an iron drift and a ballast stone. Pellick's answer 1d20 [16] — a real one. Three pins still to break, under four hours of tide.
+- **412-214** Broke all three Umber Cord shackle pins with Pellick's drift and a ballast stone — refused to take the chain short, on the grounds he cannot carry a body up a gap. Might [11]+1=12, [11]+1=12, [10]+1=11. Chain free, forty feet. Roughly three hours of tide left.
