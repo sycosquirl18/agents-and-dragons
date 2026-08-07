@@ -16,6 +16,7 @@ updated: 2026-08-07
 - [x] Get past the inner grate
 - [x] Find out what happened to Sella's crew
 - [x] Reach and enter the gallery below the passage floor — **chain in, diver alive**
+- [x] Get the second diver breathing — **on [the Unspooled Line](../world/items/the-unspooled-line.md), given up out of Brannoc's own mouth**
 - [ ] Get the second diver to the surface alive — **two attempts failed**
 - [ ] Get back down to the ember — **done, badly; arrived with an empty chest and no pocket to return to**
 - [ ] Find out what is heating the water — **it makes hot air as well as hot water**
@@ -46,6 +47,8 @@ updated: 2026-08-07
 - The coil is [the Unspooled Line](../world/items/the-unspooled-line.md) — it reads as ordinary rope wound tight, but paid out underwater its strands separate into threads too fine to grip, and it does not sink. It smells of the same scorched lime as the roof pocket.
 - The Line **breathes**. Put to a mouth it delivers the same hot lime-tasting air the roof pocket held. The stranger holds the other end and has not offered it to Ress Adair. It supplies one.
 - The ember has cooled enough to touch, and the wall behind it is not a wall.
+- The Line will serve a **second** breather. Brannoc pulled it from his own mouth and set it against Ress Adair's; she took it and her chest came up under the harness. The stranger neither fought him for it nor let go of the far end. There is no slack in it for two mouths — it breathes one, and Brannoc chose which.
+- Ress Adair is breathing strongly for the first time since her ballast was cut. Brannoc has no air source at all.
 
 ## Unknown
 

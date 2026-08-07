@@ -13,12 +13,13 @@ the same scorched lime as the air pocket in
 [the passage above the slot](../geography/sites/the-drowned-kiln.md#the-gallery-below-the-passage).
 
 **Bearing:** Put to a mouth underwater, the separated strands deliver the same hot lime-tasting air as the roof
-pocket, and keep delivering it. Observed once, for one breather, with the far end in someone else's hand — nobody
-has tested whether it works for two, or for how long. `stub`
+pocket, and keep delivering it. It has now served two breathers in turn, but never at once — there is no slack in
+it for two mouths. `stub`
 
 **Where it is:** On the floor of
 [the gallery below the passage](../geography/sites/the-drowned-kiln.md#the-gallery-below-the-passage), one end at
-[Brannoc Vell](../../characters/brannoc-vell/sheet.md)'s mouth and the other in the hooded figure's hand.
+Ress Adair's mouth — moved there by [Brannoc Vell](../../characters/brannoc-vell/sheet.md), who had been breathing
+it — and the other still in the hooded figure's hand, which neither fought him nor let go.
 
 **Worth:** Not for sale. Nobody has priced a thing that does not sink.
 

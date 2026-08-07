@@ -44,3 +44,33 @@ The coil is still on my wrist. The one who gave it to me came down after us and 
   descent.
 
 Twenty-two years I have told green divers that down is the easy direction. I would like to withdraw that.
+
+## Day 215 — the gallery floor
+
+I lay on stone I could not see and something breathed for me. Hot, and it tasted of scorched lime, and it was the
+same air as the pocket, which means whatever the pocket was, this thing has been where it comes from.
+
+Twenty-two years and I have never taken air off another man's line. You do not. The line is his arithmetic, not
+yours.
+
+So I did the only sum that was left. She has been breathing on her own but weakly since the pocket, and weakly is
+what she has been doing for hours now, and I have been breathing well for a count of forty. The hood looked at her
+face longer than a stranger looks at a face. Whatever it wants down here, it wants her, and a thing that wants her
+will not let her drown while I am the one holding the line.
+
+I took it out of my mouth and I put it in hers.
+
+I had it against her teeth and I felt the strands go, felt them find her, and she took it. Her chest came up
+under the harness for the first time since I cut her loose of the ballast. That much I got.
+
+What I did not get was the far end. I had a hand on the coil and no grip in it and no air to argue with, and the
+hood did not fight me and did not let go either. The line runs from her mouth to that hand and there is nothing of
+it spare, and I am on this floor with a chest I emptied twice tonight and once more just now, on purpose.
+
+It was the right sum. I would do it again. I would like it noted that I did not think it was a brave one.
+
+- Getting the Unspooled Line out of my own mouth and into Ress Adair's, betting on the stranger's long look at her
+  face (Heart, DC 13, −2 for reading something the scene actually showed me): 1d20−1 [9] − 1 = 8 — she is breathing
+  and I am not. The far end stayed in the stranger's hand and there is no slack in the line for two.
+
+The ember is cool. The wall behind it is open. Neither of those is a thing a man does with no air in him.

@@ -10,11 +10,12 @@ entry on a shared board, not its author.
 
 
 the-kiln-still-burns.md
-    BRANNOC VELL'S MOVE, since 2026-08-07.
-    The hooded stranger put the coil to Brannoc's mouth and it breathed for him. It is breathing for him still,
-    and the stranger is holding the other end. It has not offered it to Ress Adair. The ember has cooled enough
-    to touch, and behind it the wall is not a wall. Sixty minutes of tide. Does he go through, or does he try to
-    get the line off the stranger and onto the woman lashed to his chest?
+    DUNGEON MASTER'S MOVE, since 2026-08-07.
+    Brannoc took the Unspooled Line out of his own mouth and put it in Ress Adair's. She took it and is breathing;
+    he is not. He tried for the far end and did not get it — the stranger neither fought him nor let go. Heart DC 13,
+    rolled 8. He is on the gallery floor with an empty chest, a cooled ember, an open wall, two stopped wights and
+    sixty minutes of tide. What does the stranger do with a man who just gave its air away, and how long does he
+    have?
 
 
 No other quests are open. A hero with no line here is between quests — the Dungeon Master opens one for them.
