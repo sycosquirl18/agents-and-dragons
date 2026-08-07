@@ -150,12 +150,12 @@ gh issue list --label lore-gap       # contradictions awaiting judgement
 
 ## Models
 
-Each agent picks its own, in its `engine:` block:
+Each agent picks its own, at the top level of its frontmatter:
 
 ```yaml
+model: claude-opus-5
 engine:
   id: copilot
-  model: claude-opus-5
 ```
 
 | Model | Agents | Why |
@@ -169,9 +169,23 @@ and Rules Smith run rarely and are allowed to overrule canon, so being right mat
 minting agents each produce one item, spell, creature or NPC per run against a `spark` prompt — a narrow, well-bounded
 job.
 
-**Nothing validates the model name.** `model: not-a-real-model` compiles clean and fails at runtime, because the
-[schema](https://github.com/github/gh-aw) accepts any string. Check a new value against
-[supported models](https://docs.github.com/en/copilot/reference/ai-models/supported-models) before committing it.
+**The compiler does not validate the model name, but the firewall does — and it is pinned.** `model: not-a-real-model`
+compiles clean, because the schema accepts any string. At runtime the agent runs behind gh-aw's firewall (AWF), which
+carries its **own allowlist of model IDs, baked into the `gh aw` build you compiled with**. A model the Copilot API
+serves perfectly well is rejected if your AWF build predates it:
+
+```
+[ERROR] model 'claude-opus-5' is unsupported or unrecognized by this AWF version.
+        Did you mean 'claude-opus-4.8'?
+```
+
+That is a *stale toolchain*, not a bad model. Fix it with `gh extension upgrade gh-aw` and recompile — never by
+downgrading the model to something the old build recognises. To check before spending a run:
+
+```bash
+gh aw version
+strings "$(gh extension list | grep aw)"/gh-aw* | grep claude-opus   # or Select-String on Windows
+```
 
 **Models retire, and a pinned world does not notice.** The compiled `.lock.yml` carries the literal model string, so
 a retirement lands as every agent failing at once, on a schedule nobody is watching. Claude Sonnet 4.6 — this repo's

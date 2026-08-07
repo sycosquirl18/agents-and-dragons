@@ -31,9 +31,10 @@ permissions:                  # read-only. Writes happen in the safe-outputs job
                               # Deliberately no `copilot-requests: write` — see docs/operations.md#auth.
                               # That permission bills the repo owner and overrides COPILOT_GITHUB_TOKEN.
 
+model: claude-sonnet-5        # required; claude-opus-5 for world-wide judgement. See operations.md#models
+
 engine:
   id: copilot
-  model: claude-sonnet-5   # required; claude-opus-5 for world-wide judgement. See operations.md#models
 
 imports:
   - shared/codex.md           # tools + Codex operating procedure. Always.

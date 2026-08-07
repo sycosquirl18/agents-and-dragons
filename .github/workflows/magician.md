@@ -20,10 +20,9 @@ permissions:
   issues: read
   pull-requests: read
 
+model: claude-sonnet-5
 engine:
   id: copilot
-  model: claude-sonnet-5
-
 imports:
   - shared/codex.md
   - shared/commit.md

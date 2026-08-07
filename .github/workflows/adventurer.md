@@ -22,10 +22,9 @@ permissions:
   issues: read
   pull-requests: read
 
+model: claude-opus-5
 engine:
   id: copilot
-  model: claude-opus-5
-
 imports:
   - shared/codex.md
   - shared/commit.md
