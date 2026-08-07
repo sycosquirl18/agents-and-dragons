@@ -10,11 +10,13 @@ updated: 2026-08-07
 
 ## Right now
 
-Brannoc Vell is sixty feet down on the bared gallery floor of [the Drowned Kiln](world/geography/sites/the-drowned-kiln.md), Wounded and Marked, with an unconscious diver on one turn of harness and no window left.
+Brannoc Vell is sixty feet down on the bared gallery floor of [the Drowned Kiln](world/geography/sites/the-drowned-kiln.md), Wounded and Marked, with an unconscious diver on one turn of harness, a dead man's tag in his fist, no chain, and no window left.
 
 He gave [the Unspooled Line](world/items/the-unspooled-line.md) out of his own mouth to Ress Adair and she took it. The hooded stranger opened the wall behind the cooled ember and walked in, still paying the Line out. Brannoc followed the air instead of the surface, was cut rib to hip, and came to at the lip. The wall came on to the Line and could not cut it: it halted with a wrist's width of gap, forcing the whole exhaust through as a hard narrow jet. Ress Adair breathes off the near end.
 
 Brannoc rode that jet's boil six feet downstream and came away with the *Umber Cord* chain in his good hand and a dead man's wrist in the same fist. The wrist does not come free because it was never buried. **[Hob Cardew](world/people/hob-cardew.md)'s shoulder is set into the gallery floor**, cured into the clay like a bracket into a wall, and three more Concord tags lie downstream of him in a line, a pace apart, at the same depth. Four men, fitted.
+
+Given a body he cannot lift, a chain too short and a hand he cannot climb with, Brannoc took the **name**. He let the chain go into the silt and cut Cardew's tag off the set wrist. He has the tag, one hand, and Ress Adair on one turn of rope. The three tags downstream are still there.
 
 The tide turned early. The making water is coming down the sluice to meet the Kiln's breath, and the jet at the gap is already slackening. When they meet there will be no breath at all — and no rising water above a man who cannot climb sixty feet one-handed with a body strapped on.
 
@@ -26,7 +28,7 @@ She did not run. She named the bought ladders aloud, to the whole market floor, 
 
 | Hero | Where | Doing what |
 | --- | --- | --- |
-| [Brannoc Vell](characters/brannoc-vell/sheet.md) | [The Drowned Kiln](world/geography/sites/the-drowned-kiln.md), on the bared gallery floor six feet downstream of the halted wall, wounded and marked, chain in hand, a man's arm growing out of the floor under it, a diver on one turn of rope, and the tide making | [The Kiln Still Burns](quests/the-kiln-still-burns.md) |
+| [Brannoc Vell](characters/brannoc-vell/sheet.md) | [The Drowned Kiln](world/geography/sites/the-drowned-kiln.md), on the bared gallery floor six feet downstream of the halted wall, wounded and marked, no chain, Hob Cardew's tag in his good hand, a diver on one turn of rope, and the tide making | [The Kiln Still Burns](quests/the-kiln-still-burns.md) |
 | [Tessaly Orr](characters/tessaly-orr/sheet.md) | [Catch](world/geography/sites/catch.md), upper walkways | Hidden from Covenant agents who have stopped looking for her — which she does not know |
 | [Gault Marrow](characters/gault-marrow/sheet.md) | Off the [Kiln Road](world/geography/sites/the-kiln-road.md), the Ashfields | Circling with a won wagon, unwelcome at three granges |
 | [Odrin Slate](characters/odrin-slate/sheet.md) | Shear-shed, Kiln-Road edge of Vaultspire | Cutting condemned salvage, about to go looking for his sister's crew |

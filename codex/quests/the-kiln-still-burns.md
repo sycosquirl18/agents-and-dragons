@@ -21,7 +21,7 @@ updated: 2026-08-07
 - [ ] Get back down to the ember — **done, badly; arrived with an empty chest and no pocket to return to**
 - [ ] Find out what is heating the water — **it makes hot air as well as hot water, and it is behind the wall**
 - [ ] Get out before the tide turns — **the tide turned early, Day 215; the window is gone**
-- [ ] Bring up [Hob Cardew](../world/people/hob-cardew.md) — **he does not come up; he is set into the floor**
+- [ ] Bring up [Hob Cardew](../world/people/hob-cardew.md) — **he does not come up; he is set into the floor. Brannoc took his tag instead**
 
 ## Known
 
@@ -81,6 +81,10 @@ updated: 2026-08-07
 - Tide 1d20 [2] — it turns **early**, the way the Saltmarch has been running all year. The forty minutes was
   never forty. The sluice above is already making, and Brannoc feels it as a slackening of the jet: the Kiln's
   exhaust is meeting water coming the other way. When they meet, the gap stops blowing.
+- Brannoc took the **name** and left everything else. He let the *Umber Cord* chain go into the silt to free his
+  good hand and worked Hob Cardew's Concord tag off the set wrist at the crimp. Grace+Diving, DC 10: [17]+2 = 19.
+  He has the tag, no chain, one hand, Ress Adair on one turn of harness, and one or two breaths of slackening jet.
+  Cardew stays fitted in the floor; the three tags downstream are untouched and he did not go for them.
 
 ## Party
 

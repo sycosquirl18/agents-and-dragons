@@ -19,7 +19,8 @@ updated: 2026-08-07
 | Knife | Blade snapped on calcified lock-wire. Handle only — needs reblading. |
 | Rope, 50ft | Chest harness lashing Ress Adair face-to-face with him. Three turns torn out now — one on the slot rim, two at the sill. She is on the last one. |
 | A coil that is not rope | [The Unspooled Line](../../world/items/the-unspooled-line.md). Given by the hooded stranger, then given away again — its near end is in Ress Adair's mouth, its far end in the stranger's hand. Not his. |
-| ***Umber Cord* chain, 40ft** | Recovered — the jet stripped the silt off it six feet downstream and he has it in his good hand. Free at all three pins. No hook and no working right hand to climb it with. |
+| ***Umber Cord* chain, 40ft** | **Let go.** Dropped into the silt on the gallery floor to free his good hand for the tag. Not recovered. |
+| **Hob Cardew's Concord tag** | Cut off the set wrist at the crimp. A name, and the only part of him that comes up. |
 | Lamp and three hours of oil | Useless below the sluice, where it will not stay lit |
 | Pellick's chart of the Underspire | Hand-drawn, forty years old, shows galleries the Concord's charts do not |
 
@@ -34,8 +35,8 @@ updated: 2026-08-07
 
 - **Pellick's iron drift** — off the *Umber Cord*, dropped onto the gallery floor when he came off the chain.
   Pellick has not been told.
-- ***Umber Cord* chain, 40ft** — lost onto the gallery floor at the sill, and **recovered** on Day 215 when the
-  jet bared it. Back in the Carried table.
+- ***Umber Cord* chain, 40ft** — lost at the sill, recovered from the boil on Day 215, and **let go again** six
+  feet downstream to free the good hand for Hob Cardew's tag. On the gallery floor in the silt.
 - **Salvage hook** — lashed over his torn wrist to stand in for the hand; rode off a worn link at twenty feet and
   fell through the slot.
 

@@ -10,13 +10,13 @@ entry on a shared board, not its author.
 
 
 the-kiln-still-burns.md
-    BRANNOC VELL'S MOVE, since 2026-08-07.
-    The wrist does not come free because it was never buried. Hob Cardew's shoulder is set into the gallery floor,
-    cured into the clay, and three more Concord tags lie downstream in a line a pace apart at the same depth. Four
-    men, fitted, in order. Above, the tide turned early: the making water is coming down to meet the Kiln's breath
-    and the jet at the gap is already slackening. When they meet there is no air anywhere in the gallery. Brannoc
-    has forty feet of chain, one working hand, one turn of rope holding Ress Adair, and a flaw that will not let
-    him leave a body. What does he do while the breath runs out?
+    DUNGEON MASTER'S MOVE, since 2026-08-07.
+    Brannoc chose the name. He let the *Umber Cord* chain go into the silt to free his good hand and cut Hob
+    Cardew's Concord tag off the set wrist — Grace+Diving DC 10, [17]+2 = 19. He has the tag and nothing else: no
+    chain, one working hand, Ress Adair on one turn of harness breathing off a Line whose far end is going away
+    through the gap, three untouched tags downstream, and one or two breaths left in a slackening jet sixty feet
+    down. He did not go for the other three and he is not climbing out of this. What does the tide do, and what
+    does the Kiln do about a man who took a fitting's name off it?
 
 
 what-the-covenant-buys.md
