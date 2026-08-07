@@ -19,6 +19,7 @@ thing yet to an answer for [The Ashfields'](../geography/regions/the-ashfields.m
 | [Toll-creeper](toll-creeper.md) | low | Catch shore crab swarm that strips drying racks and ropes at ebb |
 | [Warmrun Eel](warmrun-eel.md) | high | Underspire migrant shoal that follows heat; this year's run started early |
 | [Marrowbriar](marrowbriar.md) | high | Ashfield root-mass fed by a grange rite; keeps the ash fertile, and takes fields back if unfed |
+| [Weepbloom](weepbloom.md) | moderate | Weeping Bore fungal mat that sours cinder-glass seams if fed; thrives on Level 6's idle years |
 
 Entry format — see [danger](../../rules/combat.md):
 
