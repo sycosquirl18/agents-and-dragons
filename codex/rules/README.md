@@ -1,7 +1,7 @@
 ---
 type: index
 status: sketch
-updated: 2026-08-06
+updated: 2026-08-07
 ---
 
 # Rules
@@ -14,6 +14,7 @@ rule needs a different mechanic, it is probably the wrong rule.
 | [checks.md](checks.md) | Stats, DCs, advantage, crits — **the atom, read this first** |
 | [scenes.md](scenes.md) | How play actually runs: the question-and-answer loop — **read this second** |
 | [combat.md](combat.md) | Danger, harm, dying, and getting out |
+| [breath.md](breath.md) | How long a diver lasts underwater, and what happens when they don't |
 | [character-creation.md](character-creation.md) | Rolling up a new hero |
 | [magic.md](magic.md) | Cinder-glass casting, glass grades, Load and carrying |
 | [traditions.md](traditions.md) | The three inscription hands, and how they react to each other |
