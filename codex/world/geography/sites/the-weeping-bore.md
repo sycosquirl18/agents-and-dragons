@@ -40,7 +40,8 @@ hero was carrying.
 ## Hooks
 
 - **Level 6.** Sunk in 408, the year of [the Last Lens](../../history/events/the-last-lens.md), and idle since.
-  The rota still lists it. The licence for it is still issued, to nobody.
+  The rota still lists it. The licence for it is still issued, to nobody. Its tally-peg, uncrossed on the rota
+  board since that year, is [an item](../items/the-uncrossed-peg.md) waiting for someone to claim it.
 - The weeping is **warm**, and warm water below Vaultspire is
   [the same open question](../regions/vaultspire.md) forty miles away.
 - Cut faces at level 5 have been found already cut — cleanly, and not by a crew on the rota. `stub`

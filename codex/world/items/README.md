@@ -23,6 +23,7 @@ Minted one at a time by [the Armorer](../../../.github/workflows/armorer.md).
 | [The True Die](the-true-die.md) | Useful. The Concord's actual master counter-stamp, missing since the crews were lost | Nyella Sift's back room, Vaultspire |
 | [The Drawn Snuffer](the-drawn-snuffer.md) | Notable. A Covenant factor's ceremonial candle-snuffer for signing over dead salvors' rights | Caude Renne's stall, Tideline |
 | [The Muffled Tally-Bell](the-muffled-tally-bell.md) | Useful. A grange watch-bell wax-wrapped to stay silent, one use before it splits | Hesk's wagon yard, Threshing |
+| [The Uncrossed Peg](the-uncrossed-peg.md) | Notable. A rota tally-peg claiming the never-stood-down Level 6 crew slot | The Weeping Bore's rota board, shaft-head shed |
 
 ## Writing one
 
