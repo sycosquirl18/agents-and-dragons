@@ -25,6 +25,7 @@ hold the [turn baton](../../quests/README.md#the-turn-baton). Nobody here ever w
 | [Wick Sorrel](wick-sorrel.md) | Wool-and-tallow broker at Threshing's wagon yard; owed a wagon by Gault Marrow and has noticed two granges hoarding wool along with grain |
 | [Coss Yarrow](coss-yarrow.md) | Self-appointed toll-taker on the Kiln Road east of Threshing; no grange sent him, and he's twice let Gault Marrow's wagon through unpaid |
 | [Enna Tallis](enna-tallis.md) | Threshing's granary reckoner; has tracked the calendar discrepancy against her own timepiece for a decade and been ignored twice |
+| [Corda Vane](corda-vane.md) | Threshing's grain-taster; has found three-year-old grain dressed as new in two hoarding granaries and wants it reported |
 
 ## When someone gets a file
 
