@@ -27,13 +27,14 @@ Each spell is an inscription pattern that can be cut into [cinder-glass](../magi
 | [The Held Hitch](the-held-hitch.md) | Kilnworks | 2 | A marked line won't slip while hauling a load, for ten minutes |
 | [The Clocked Grip](the-clocked-grip.md) | Kilnworks | 1 | One hand's grip on a chain or line cannot be torn loose, for ten minutes |
 | [The Sorted Cargo](the-sorted-cargo.md) | Kilnworks | 2 | Touch a body and know instantly: living, dead under a day, or dead longer |
+| [The Sealed Writ](the-sealed-writ.md) | Covenant plainscript | 3 | Bars one named threshold to everyone but the caster, for an hour |
 
 Every spell here solves exactly one problem that this world actually has — the dark, the water, the tide, the
 shaking hand. None of them throw fire. Magic in the Kilnworks tradition was industrial, and what survived it is
 the tooling, not the weaponry. A spell is an apt answer in a [scene](../scenes.md#aptness) because it is
 *specific*, not because it is powerful.
 
-Only two [Covenant plainscript](../traditions.md#covenant-plainscript) spells are listed here, and the Covenant
+Only three [Covenant plainscript](../traditions.md#covenant-plainscript) spells are listed here, and the Covenant
 sells neither. That scarcity is a fact about the world, not a gap in the record.
 
 ## Writing a new spell
