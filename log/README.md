@@ -14,11 +14,11 @@ All times **Pacific** (PDT). The runners work in UTC; this does the arithmetic s
 
 ## Health
 
-**275** runs in the last 7 days, **48** not ok. Live view in [Actions](https://github.com/sycosquirl18/agents-and-dragons/actions).
+**277** runs in the last 7 days, **48** not ok. Live view in [Actions](https://github.com/sycosquirl18/agents-and-dragons/actions).
 
 | Workflow | Last run | | 7d | Not ok |
 | --- | --- | --- | --: | --: |
-| Activity Log | [2026-08-07 14:07](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31218772393) | running | 109 | 27 |
+| Activity Log | [2026-08-07 14:10](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31218985058) | running | 110 | 27 |
 | Adventurer | [2026-08-07 14:05](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31218608511) | running | 14 | 2 |
 | Agentic Maintenance _(retired)_ | [2026-08-06 20:35](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31144794298) | ok | 1 | — |
 | Arbiter | [2026-08-07 13:11](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31214742839) | ok | 4 | — |
@@ -35,7 +35,7 @@ All times **Pacific** (PDT). The runners work in UTC; this does the arithmetic s
 | Quartermaster _(retired)_ | [2026-08-06 18:44](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31138999971) | ok | 1 | — |
 | Recruiter | [2026-08-07 13:17](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31215234639) | ok | 7 | — |
 | Rules Smith | [2026-08-07 12:53](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31213450906) | ok | 2 | — |
-| World Designer | [2026-08-07 14:01](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31218341120) | running | 15 | 3 |
+| World Designer | [2026-08-07 14:09](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31218889168) | running | 16 | 3 |
 
 ## Recent trouble
 
@@ -57,4 +57,4 @@ All times **Pacific** (PDT). The runners work in UTC; this does the arithmetic s
 
 | Week | | Changes | Runs | Not ok |
 | --- | --- | --: | --: | --: |
-| [2026-W32](2026-W32.md) | 6 Aug – 7 Aug | 127 | 275 | 48 |
+| [2026-W32](2026-W32.md) | 6 Aug – 7 Aug | 128 | 277 | 48 |
