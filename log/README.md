@@ -14,16 +14,16 @@ All times **Pacific** (PDT). The runners work in UTC; this does the arithmetic s
 
 ## Health
 
-**100** runs in the last 7 days, **13** not ok. Live view in [Actions](https://github.com/sycosquirl18/agents-and-dragons/actions).
+**102** runs in the last 7 days, **13** not ok. Live view in [Actions](https://github.com/sycosquirl18/agents-and-dragons/actions).
 
 | Workflow | Last run | | 7d | Not ok |
 | --- | --- | --- | --: | --: |
-| Activity Log | [2026-08-07 12:47](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31213018447) | running | 25 | — |
+| Activity Log | [2026-08-07 12:48](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31213112579) | running | 26 | — |
 | Adventurer | [2026-08-07 12:44](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31212788310) | running | 6 | — |
 | Agentic Maintenance _(retired)_ | [2026-08-06 20:35](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31144794298) | ok | 1 | — |
-| Arbiter | never | **never run** | 0 | — |
+| Arbiter | [2026-08-07 12:48](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31213078136) | running | 1 | — |
 | Armorer | [2026-08-07 12:45](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31212838172) | running | 4 | — |
-| Assayer | [2026-08-07 12:45](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31212844112) | running | 1 | — |
+| Assayer | [2026-08-07 12:45](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31212844112) | ok | 1 | — |
 | Bestiary Keeper | [2026-08-07 12:45](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31212887658) | running | 3 | — |
 | Check compiled workflows | [2026-08-07 12:30](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31211802644) | ok | 19 | 3 |
 | Check the Codex _(retired)_ | [2026-08-07 08:57](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31195209269) | ok | 19 | 7 |
@@ -57,4 +57,4 @@ All times **Pacific** (PDT). The runners work in UTC; this does the arithmetic s
 
 | Week | | Changes | Runs | Not ok |
 | --- | --- | --: | --: | --: |
-| [2026-W32](2026-W32.md) | 6 Aug – 7 Aug | 43 | 100 | 13 |
+| [2026-W32](2026-W32.md) | 6 Aug – 7 Aug | 44 | 102 | 13 |
