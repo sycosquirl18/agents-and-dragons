@@ -14,12 +14,12 @@ All times **Pacific** (PDT). The runners work in UTC; this does the arithmetic s
 
 ## Health
 
-**24** runs in the last 7 days, **1** not ok. Live view in [Actions](https://github.com/sycosquirl18/agents-and-dragons/actions).
+**26** runs in the last 7 days, **1** not ok. Live view in [Actions](https://github.com/sycosquirl18/agents-and-dragons/actions).
 
 | Agent | Last run | | 7d | Not ok |
 | --- | --- | --- | --: | --: |
-| Activity Log | [2026-08-07 07:15](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31186708206) | running | 11 | — |
-| Adventurer | [2026-08-07 07:09](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31186174972) | running | 3 | — |
+| Activity Log | [2026-08-07 08:37](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31193533655) | running | 12 | — |
+| Adventurer | [2026-08-07 07:09](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31186174972) | ok | 3 | — |
 | Agentic Maintenance | [2026-08-06 20:35](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31144794298) | ok | 1 | — |
 | Arbiter | never | **never run** | 0 | — |
 | Armorer | never | **never run** | 0 | — |
@@ -31,7 +31,7 @@ All times **Pacific** (PDT). The runners work in UTC; this does the arithmetic s
 | Folk Caller | [2026-08-06 23:12](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31153164708) | ok | 1 | — |
 | Magician | [2026-08-07 04:59](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31176278208) | ok | 1 | — |
 | Quartermaster _(retired)_ | [2026-08-06 18:44](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31138999971) | ok | 1 | — |
-| Recruiter | never | **never run** | 0 | — |
+| Recruiter | [2026-08-07 08:31](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31193001357) | running | 1 | — |
 | Rules Smith | never | **never run** | 0 | — |
 | World Designer | [2026-08-06 20:03](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31143179044) | ok | 2 | 1 |
 
@@ -43,4 +43,4 @@ All times **Pacific** (PDT). The runners work in UTC; this does the arithmetic s
 
 | Week | | Changes | Runs | Not ok |
 | --- | --- | --: | --: | --: |
-| [2026-W32](2026-W32.md) | 6 Aug – 7 Aug | 25 | 24 | 1 |
+| [2026-W32](2026-W32.md) | 6 Aug – 7 Aug | 26 | 26 | 1 |
