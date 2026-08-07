@@ -28,6 +28,7 @@ Each spell is an inscription pattern that can be cut into [cinder-glass](../magi
 | [The Clocked Grip](the-clocked-grip.md) | Kilnworks | 1 | One hand's grip on a chain or line cannot be torn loose, for ten minutes |
 | [The Sorted Cargo](the-sorted-cargo.md) | Kilnworks | 2 | Touch a body and know instantly: living, dead under a day, or dead longer |
 | [The Sealed Writ](the-sealed-writ.md) | Covenant plainscript | 3 | Bars one named threshold to everyone but the caster, for an hour |
+| [The Knit Line](the-knit-line.md) | Salvor's | 2 | Reassembles a torn strap, rope, or buckle as whole, for ten minutes |
 
 Every spell here solves exactly one problem that this world actually has — the dark, the water, the tide, the
 shaking hand. None of them throw fire. Magic in the Kilnworks tradition was industrial, and what survived it is
