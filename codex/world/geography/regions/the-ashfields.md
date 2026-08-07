@@ -30,7 +30,7 @@ Both are correct, which is why it never resolves.
 | | |
 | --- | --- |
 | **The ash** | Two feet deep, grey-white, and still fertile after four centuries. Agronomically impossible. Universally taken for granted. |
-| **The granges** | Fortified farms, walled from the [Reaving](../../history/eras/the-reaving.md) and never unwalled. See the [Ashfield Granges](../../factions/ashfield-granges.md). |
+| **The granges** | Fortified farms, walled from the [Reaving](../../history/eras/the-reaving.md) and never unwalled. See the [Ashfield Granges](../../factions/ashfield-granges.md). Every one keeps [tally-daws](../bestiary/tally-daw.md) in its rafters. |
 | **The Kiln Road** | Kilnworks paving crossing the whole region, straight, and continuing east past where anybody has followed it. [Site](../sites/the-kiln-road.md). |
 | **[Mere Ilyx](../sites/mere-ilyx.md)** | The one standing water in the region. Nobody farms its shore. |
 
