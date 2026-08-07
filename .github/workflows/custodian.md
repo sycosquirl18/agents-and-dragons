@@ -56,6 +56,21 @@ Run the checker first. It does most of your job in a second, for free:
 node scripts/check-codex.mjs
 ```
 
+**Its output is a work order, not a sample. Clear every broken link and every missing index row it reports, in the
+same run, before you do anything else.** The rotating slice below governs what you *read*; it does not license you
+to leave a reported link broken because it fell outside your slice. These are the cheapest fixes you will ever
+make — none of them needs judgement, and each one you skip is a dead end for every agent that follows.
+
+Broken links are nearly always a miscounted `../`, not a missing file. The checker tells you where it thinks the
+file actually is:
+
+```
+codex/world/people/harrow-mecks.md: broken link -> ../nyella-sift.md (did you mean ../../characters/nyella-sift/sheet.md?)
+```
+
+Trust that suggestion when the target exists and the name matches; open the file and pick the right target when it
+is ambiguous. Re-run the checker at the end and confirm the path errors are gone.
+
 Then the things it cannot see:
 
 ```bash
@@ -71,7 +86,7 @@ days. You cannot read everything; do not try. Fresh contradictions live in fresh
 
 | Problem | What you do |
 | --- | --- |
-| Broken relative link or anchor | Fix it |
+| Broken relative link or anchor | Fix it — **every one the checker reports, every run** |
 | File not listed in its parent index | Add it with a one-line gloss |
 | Index entry pointing at a deleted file | Remove it |
 | Missing or malformed frontmatter, stale `updated:` | Fix it |
