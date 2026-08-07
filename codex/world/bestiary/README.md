@@ -10,6 +10,7 @@ updated: 2026-08-06
 | --- | --- | --- |
 | [Kiln-wight](kiln-wight.md) | moderate | Salvor drowned in the Underspire, still working |
 | [Glass-crake](glass-crake.md) | low | Wound-scavenger; eats cinder-glass, hoards it, is worth money |
+| [Sluice-grebe](sluice-grebe.md) | low | Nesting bird that backs up Vaultspire's drains and breaks flood timing |
 
 Entry format — see [danger](../../rules/combat.md):
 
