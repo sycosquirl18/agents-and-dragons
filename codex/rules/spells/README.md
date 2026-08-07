@@ -16,6 +16,7 @@ Each spell is an inscription pattern that can be cut into [cinder-glass](../magi
 | [The Held Wall](the-held-wall.md) | Kilnworks | 3 | Water will not cross a line, for ten minutes |
 | [The Steady Hand](the-steady-hand.md) | Salvor's | 1 | Advantage on one Grace check |
 | [Last Mark](last-mark.md) | Covenant plainscript | 3 | Shards hold an eight-heartbeat sensory echo of the moment of casting |
+| [The Way Back](the-way-back.md) | Salvor's | 2 | Points to the nearest air or open water |
 
 Every spell here solves exactly one problem that this world actually has — the dark, the water, the tide, the
 shaking hand. None of them throw fire. Magic in the Kilnworks tradition was industrial, and what survived it is
