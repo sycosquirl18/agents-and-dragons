@@ -58,7 +58,9 @@ outstanding and was not phrased as an offer — see [Threshing](../sites/threshi
 
 ## Hooks
 
-- **The eleven-year calendar discrepancy** is deliberate. Somebody out here knows why. `stub`
+- **The eleven-year calendar discrepancy** is deliberate. Somebody out here knows why. `stub` —
+  [Enna Tallis](../people/enna-tallis.md) has been measuring it for a decade and nobody has asked her the right
+  question yet.
 - The ash is still fertile after four hundred years. **Nothing is.**
 - Three granges have stopped selling to Vaultspire entirely this season and are storing instead. Their
   [settle-crows](../bestiary/settle-crow.md) have gone quiet along with them.

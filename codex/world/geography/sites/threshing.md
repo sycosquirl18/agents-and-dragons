@@ -33,6 +33,7 @@ eleven farms are not underbid into ruin by four buyers, and point out that they 
 | **Brother Idren** | [Ashen Covenant](../../factions/ashen-covenant.md) almoner. Popular. Has asked to see the pre-Turn documents four times. |
 | **Hesk** | Runs the wagon yard. Knows who has travelled the Kiln Road east and how far, because he sells them the wheels. |
 | [**Wick Sorrel**](../people/wick-sorrel.md) | Wool-and-tallow broker at the wagon yard. Owed a wagon by [Gault Marrow](../../characters/gault-marrow/sheet.md); has noticed two granges hoarding wool along with grain. |
+| [**Enna Tallis**](../people/enna-tallis.md) | Granary reckoner below the Long Room. Has tracked the calendar discrepancy against her own timepiece for ten years and been ignored twice. |
 
 ## Dangers
 
