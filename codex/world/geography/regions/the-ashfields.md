@@ -53,4 +53,5 @@ was not phrased as an offer.
 
 - **The eleven-year calendar discrepancy** is deliberate. Somebody out here knows why. `stub`
 - The ash is still fertile after four hundred years. **Nothing is.**
-- Three granges have stopped selling to Vaultspire entirely this season and are storing instead.
+- Three granges have stopped selling to Vaultspire entirely this season and are storing instead. Their
+  [settle-crows](../bestiary/settle-crow.md) have gone quiet along with them.
