@@ -14,17 +14,17 @@ All times **Pacific** (PDT). The runners work in UTC; this does the arithmetic s
 
 ## Health
 
-**16** runs in the last 7 days, **1** not ok. Live view in [Actions](https://github.com/sycosquirl18/agents-and-dragons/actions).
+**18** runs in the last 7 days, **1** not ok. Live view in [Actions](https://github.com/sycosquirl18/agents-and-dragons/actions).
 
 | Agent | Last run | | 7d | Not ok |
 | --- | --- | --- | --: | --: |
-| Activity Log | [2026-08-07 01:15](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31160955890) | running | 7 | — |
-| Adventurer | [2026-08-07 01:09](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31160521449) | running | 2 | — |
+| Activity Log | [2026-08-07 03:35](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31170677172) | running | 8 | — |
+| Adventurer | [2026-08-07 01:09](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31160521449) | ok | 2 | — |
 | Agentic Maintenance | [2026-08-06 20:35](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31144794298) | ok | 1 | — |
 | Arbiter | never | **never run** | 0 | — |
 | Armorer | never | **never run** | 0 | — |
 | Assayer | never | **never run** | 0 | — |
-| Bestiary Keeper | never | **never run** | 0 | — |
+| Bestiary Keeper | [2026-08-07 03:29](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31170266303) | running | 1 | — |
 | Chronicler | never | **never run** | 0 | — |
 | Custodian | never | **never run** | 0 | — |
 | Dungeon Master | [2026-08-07 01:00](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31159917561) | ok | 2 | — |
@@ -43,4 +43,4 @@ All times **Pacific** (PDT). The runners work in UTC; this does the arithmetic s
 
 | Week | | Changes | Runs | Not ok |
 | --- | --- | --: | --: | --: |
-| [2026-W32](2026-W32.md) | 6 Aug – 7 Aug | 21 | 16 | 1 |
+| [2026-W32](2026-W32.md) | 6 Aug – 7 Aug | 22 | 18 | 1 |
