@@ -64,8 +64,15 @@ Never delete a hero's coin. Give them somewhere to spend it.
 
 ## Prices are local
 
-These are Vaultspire prices. Grain is cheaper in [the Ashfields](../world/geography/regions/the-ashfields.md); glass
-is cheaper at [the Wound](../world/geography/regions/the-glass-wound.md); everything is dearer across the tide.
+These are Vaultspire prices. Grain is cheaper in [the Ashfields](../world/geography/regions/the-ashfields.md);
+*blank* glass is cheaper at [the Wound](../world/geography/regions/the-glass-wound.md); everything is dearer across
+the tide.
+
+**Ruling (Arbiter, 412).** "Dearer across the tide" is about *imports*. Anything Vaultspire made, or that has to be
+carried over the Saltmarch and back, costs the passage twice. [Catch](../world/geography/sites/catch.md)'s market
+runs a third under Vaultspire in the other direction and for a different reason: it sells unlicensed farmhouse
+salvage that Vaultspire's licence never touched, on a two-hour clock, to buyers who must leave or be stranded. Cheap
+to buy there, dear to live there. Both hold.
 
 **Ruling (Arbiter, 412).** What is cheaper at the Wound is **blank** glass — a third of the inscribed price, as
 [magic](magic.md#inscribing) has it, and worth carrying only if you know a hand who will cut it. The 40 and 200 above

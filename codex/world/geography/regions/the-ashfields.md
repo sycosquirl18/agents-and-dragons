@@ -10,7 +10,14 @@ Dry, flat, and the only place in reach that grows enough grain to feed
 [Vaultspire](vaultspire.md). The soil is ash laid down in year 0 and it is extraordinarily good, which the
 Ashfielders consider the one thing the [Sundering](../../history/eras/the-sundering.md) owed them.
 
-They sell to Vaultspire at Vaultspire's prices and have opinions about it.
+They sell to Vaultspire, and both ends of the road insist they are the ones who set the number.
+
+**Ruling (Arbiter, 412).** Both are describing the same transaction from opposite ends, and neither is lying. The
+[Long Room](../sites/threshing.md#the-long-room) sets the price the grain is *offered* at; the Concord's four buyers
+are the only mouth in reach large enough to take a season, and they agree in advance what they will *pay*. The
+season's number is whichever side blinks, and it has gone the buyers' way for four hundred years — which is why
+Vaultspire calls it a market and the Ashfields call it a cartel of four. Three granges storing rather than selling
+is the first time the Long Room has tried not blinking.
 
 ## The bargain
 
