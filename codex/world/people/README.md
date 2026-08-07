@@ -23,6 +23,7 @@ hold the [turn baton](../../quests/README.md#the-turn-baton). Nobody here ever w
 | [Corr Nettle](corr-nettle.md) | Catch's ladder-warden; checks every chit at the one cargo ladder and is quietly missing his own |
 | [Dovie Wrack](dovie-wrack.md) | Catch's death-teller; hears divers' chests for a coin and has noticed the drowned all show a kiln-worker's congestion, not a diver's |
 | [Wick Sorrel](wick-sorrel.md) | Wool-and-tallow broker at Threshing's wagon yard; owed a wagon by Gault Marrow and has noticed two granges hoarding wool along with grain |
+| [Coss Yarrow](coss-yarrow.md) | Self-appointed toll-taker on the Kiln Road east of Threshing; no grange sent him, and he's twice let Gault Marrow's wagon through unpaid |
 
 ## When someone gets a file
 

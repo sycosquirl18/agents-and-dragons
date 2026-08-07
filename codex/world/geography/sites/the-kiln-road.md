@@ -31,6 +31,12 @@ length and there is nothing there to bend around.
 The Road is faster than open country by roughly half, needs no guide, and cannot be lost. This is why parties keep
 going east on it long after they meant to stop.
 
+## Who is there
+
+| Name | |
+| --- | --- |
+| [**Coss Yarrow**](../people/coss-yarrow.md) | Grange enforcer, self-appointed, four days east of Threshing where wagon traffic stops. Tolls anything still moving. No grange sent him. |
+
 ## What is on it
 
 Nothing. No milestones, no markers, no waystations, no inscriptions, no drainage furniture, no junctions. In an age
@@ -44,6 +50,8 @@ who have walked it describe as a *quality of the road* rather than an absence of
 - **[The Bend](the-bend.md).** Four miles south of Mere Ilyx, the only turn in the Road's length — a saucer of
   cinder-glass with a procedure written into its floor. Something was there, and the Kilnworks did not go around
   things.
+- **[Coss Yarrow](../people/coss-yarrow.md)** has set up an unsanctioned toll where wagon traffic thins, four
+  days east of Threshing — [Gault Marrow](../../characters/gault-marrow/sheet.md) has already turned back from it once.
 - The one party that came back from the east came back **early**, will not say how far they got, and sold their
   wagon.
 - The Road ends somewhere. Nobody in four hundred years has followed it to find out, and everyone assumes somebody
