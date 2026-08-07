@@ -35,6 +35,12 @@ Grange children are told it is stones settling. Grange adults do not sleep withi
 | **Fish** | Yes, and they are ordinary, and the granges eat them without comment. |
 | **The floor** | Visible for the first forty feet: pale, flat, and *regular*. Swimmers describe it as paved. |
 
+## People worth meeting
+
+| Name | |
+| --- | --- |
+| **[Ilsa Ferrick](../../people/ilsa-ferrick.md)** | Lives alone on the shore. Gauges the knocking by weighted line each new moon; wants someone to gauge past three hundred feet, where her line keeps fraying through. |
+
 ## Hooks
 
 - **Paved.** Diving it is Might DC 15 for the cold alone, and no salvor from Vaultspire has ever been invited.
@@ -44,3 +50,5 @@ Grange children are told it is stones settling. Grange adults do not sleep withi
   [Kilnworks](../../history/eras/the-kilnworks.md) built nothing this far east except
   [the Road](the-kiln-road.md) — which passes four miles south of the mere and, uniquely along its length,
   **bends** to do it.
+- [Ilsa Ferrick](../../people/ilsa-ferrick.md) has felt the paved floor herself, wading at the shallow edge —
+  it is real underfoot, not just something swimmers describe.

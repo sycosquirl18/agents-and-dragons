@@ -27,6 +27,7 @@ hold the [turn baton](../../quests/README.md#the-turn-baton). Nobody here ever w
 | [Enna Tallis](enna-tallis.md) | Threshing's granary reckoner; has tracked the calendar discrepancy against her own timepiece for a decade and been ignored twice |
 | [Corda Vane](corda-vane.md) | Threshing's grain-taster; has found three-year-old grain dressed as new in two hoarding granaries and wants it reported |
 | [Ynda Cray](ynda-cray.md) | Threshing's unofficial wagon-yard reckoner; noticed two granges settling debts early and in full, all season |
+| [Ilsa Ferrick](ilsa-ferrick.md) | Lives alone on Mere Ilyx's shore; gauges the lake's knocking by weighted line each new moon and wants it gauged past three hundred feet, where hers keeps fraying through |
 
 ## When someone gets a file
 
