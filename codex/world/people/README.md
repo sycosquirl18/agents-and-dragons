@@ -14,6 +14,7 @@ hold the [turn baton](../../quests/README.md#the-turn-baton). Nobody here ever w
 | --- | --- |
 | [Old Pellick](old-pellick.md) | Deepest-diving salvor alive, retired, lungs ruined. Will not go back down and will not say why |
 | [Caude Renne](caude-renne.md) | Ashen Covenant factor in Tideline; buys salvage rights openly, wants a witness's name today |
+| [Ossel Tick](ossel-tick.md) | Former tide-caller of Catch; drowned 411; his counted drift is scratched into The Tick-Weight |
 
 ## When someone gets a file
 

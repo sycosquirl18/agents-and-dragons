@@ -14,8 +14,7 @@ Minted one at a time by [the Armorer](../../../.github/workflows/armorer.md).
 
 | Item | | Where it is |
 | --- | --- | --- |
-
-*Nothing minted yet.*
+| [The Tick-Weight](the-tick-weight.md) | Notable. Brass calibration weight carrying 41 counts of the four-minute tide drift | Tallow Ashe's croft, upper Catch |
 
 ## Writing one
 
