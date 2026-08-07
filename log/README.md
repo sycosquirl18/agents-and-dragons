@@ -14,15 +14,15 @@ All times **Pacific** (PDT). The runners work in UTC; this does the arithmetic s
 
 ## Health
 
-**252** runs in the last 7 days, **45** not ok. Live view in [Actions](https://github.com/sycosquirl18/agents-and-dragons/actions).
+**254** runs in the last 7 days, **45** not ok. Live view in [Actions](https://github.com/sycosquirl18/agents-and-dragons/actions).
 
 | Workflow | Last run | | 7d | Not ok |
 | --- | --- | --- | --: | --: |
-| Activity Log | [2026-08-07 13:48](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31217453068) | running | 96 | 24 |
+| Activity Log | [2026-08-07 13:50](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31217545948) | running | 97 | 24 |
 | Adventurer | [2026-08-07 13:39](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31216823633) | ok | 12 | 2 |
 | Agentic Maintenance _(retired)_ | [2026-08-06 20:35](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31144794298) | ok | 1 | — |
 | Arbiter | [2026-08-07 13:11](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31214742839) | ok | 4 | — |
-| Armorer | [2026-08-07 13:43](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31217100499) | **failure** | 14 | 1 |
+| Armorer | [2026-08-07 13:48](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31217467469) | running | 15 | 1 |
 | Assayer | [2026-08-07 12:49](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31213166627) | ok | 2 | — |
 | Bestiary Keeper | [2026-08-07 13:47](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31217347112) | running | 15 | — |
 | Check compiled workflows | [2026-08-07 12:30](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31211802644) | ok | 19 | 3 |
@@ -57,4 +57,4 @@ All times **Pacific** (PDT). The runners work in UTC; this does the arithmetic s
 
 | Week | | Changes | Runs | Not ok |
 | --- | --- | --: | --: | --: |
-| [2026-W32](2026-W32.md) | 6 Aug – 7 Aug | 114 | 252 | 45 |
+| [2026-W32](2026-W32.md) | 6 Aug – 7 Aug | 115 | 254 | 45 |
