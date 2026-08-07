@@ -6,6 +6,9 @@ updated: 2026-08-07
 
 # Bestiary
 
+The ash's four-hundred-year fertility is [Marrowbriar](marrowbriar.md), fed by an unwritten grange rite — the closest
+thing yet to an answer for [The Ashfields'](../geography/regions/the-ashfields.md) "nothing is" hook.
+
 | Creature | Threat | |
 | --- | --- | --- |
 | [Kiln-wight](kiln-wight.md) | moderate | Salvor drowned in the Underspire, still working |
@@ -15,6 +18,7 @@ updated: 2026-08-07
 | [Settle-crow](settle-crow.md) | low | Ashfield scavenger that only gathers once a bargain is struck |
 | [Toll-creeper](toll-creeper.md) | low | Catch shore crab swarm that strips drying racks and ropes at ebb |
 | [Warmrun Eel](warmrun-eel.md) | high | Underspire migrant shoal that follows heat; this year's run started early |
+| [Marrowbriar](marrowbriar.md) | high | Ashfield root-mass fed by a grange rite; keeps the ash fertile, and takes fields back if unfed |
 
 Entry format — see [danger](../../rules/combat.md):
 
