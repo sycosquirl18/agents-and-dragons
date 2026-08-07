@@ -9,7 +9,7 @@ updated: 2026-08-07
 **What it is:** A block of dull, light-swallowing iron the size of a thumb, cast two centuries ago for the
 [Salvor's Concord's](../factions/salvors-concord.md) founding vault-warden. It is the master counter-stamp every
 licence in [Vaultspire](../geography/regions/vaultspire.md) is checked against — not a licence itself, but the thing
-that makes a licence real. [The Quiet Chop](the-quiet-chop.md), Harrow Mecks' forged counter-stamp, is a hair off
+that makes a licence real. [The Quiet Chop](the-quiet-chop.md), [Harrow Mecks'](../people/harrow-mecks.md) forged counter-stamp, is a hair off
 this die because whoever cut it never held the true one to copy.
 
 **Bearing:** Advantage on any check to forge or pass off Concord paperwork as genuine — a licence, a revocation

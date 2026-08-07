@@ -9,7 +9,7 @@ updated: 2026-08-07
 
 Salvage-diver, forty-one, of [Tideline](../../world/geography/regions/vaultspire.md). Licence revoked spring 412 for
 failing to report a find. He did report it. The clerk who lost the paperwork was
-[Harrow Mecks](../../world/factions/salvors-concord.md), who has been apologetic and useless about it since.
+[Harrow Mecks](../../world/people/harrow-mecks.md), who has been apologetic and useless about it since.
 
 ## Stats
 

@@ -13,7 +13,7 @@ master book. Nobody has ever checked closely enough to notice.
 **Bearing:** None — it is not a weapon or a tool, it is a forgery instrument. If used, treat any licence it marks as
 genuine to every eye but a direct comparison against the Concord's register in Vaultspire.
 
-**Where it is:** In [Harrow Mecks'](../factions/salvors-concord.md#levers) coat lining. It is how he restores revoked
+**Where it is:** In [Harrow Mecks'](../people/harrow-mecks.md) coat lining. It is how he restores revoked
 licences for a favour instead of coin — he was never selling the register itself, he was selling five minutes alone
 with this.
 

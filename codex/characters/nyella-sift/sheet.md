@@ -36,7 +36,7 @@ Total of modifiers is +6 — no adjustment applies.
 
 - **Trait** — Signs every forgery with a tiny sifted mark only she would notice, like she's daring someone to catch
   her.
-- **Bond** — Owes her start to **Harrow Mecks**, the licence-clerk who taught her the register's blind spots and
+- **Bond** — Owes her start to **[Harrow Mecks](../../world/people/harrow-mecks.md)**, the licence-clerk who taught her the register's blind spots and
   now expects a cut of everything she sells.
 - **Flaw** — Cannot resist improving on a forgery past what the job needed, leaving a trail of paperwork too good
   to be real. It has nearly gotten her caught twice.

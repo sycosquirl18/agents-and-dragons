@@ -28,6 +28,6 @@ risk. The tide risk that month was ordinary.
 
 ## Levers
 
-- **Harrow Mecks**, licence-clerk, sells the register to anyone who asks nicely and in coin.
+- **[Harrow Mecks](../people/harrow-mecks.md)**, licence-clerk, sells the register to anyone who asks nicely and in coin.
 - A revoked licence can be restored — the price is a favour, never money.
 - The Concord cannot police the Underspire at neap tide and knows it.
