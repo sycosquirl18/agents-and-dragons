@@ -34,6 +34,7 @@ the goods are legal, and every year somebody in the Cant proposes fixing this.
 | **The Widow Sarn** | Owns the ladders. Not a figure of speech: she owns them, and access to the upper town is hers to withdraw. |
 | [**Marra Whit**](../people/marra-whit.md) | Blind former tide-caller. Hears the water arriving early too, by ear, for three years — longer than Tallow's four minutes by the clock. |
 | [**Josk Hallin**](../people/josk-hallin.md) | Ladder-boss, answers to the Widow. Means to start hauling the ladders four minutes early on his own clock, bell or no bell. |
+| [**Sella Fenn**](../people/sella-fenn.md) | Net-mender and scrap trader under the drying racks; sitting on a box of matched cinder-glass notation fragments Caude Renne wants badly. |
 
 ## Dangers
 
@@ -50,3 +51,5 @@ the goods are legal, and every year somebody in the Cant proposes fixing this.
   with standing listens to her first — which would end Catch's exemption on someone else's schedule.
 - [Josk Hallin](../people/josk-hallin.md) means to start hauling the ladders four minutes early on his own
   reckoning at the next Turn, without telling Tallow or the Widow — someone below when he does will be marooned.
+- [Sella Fenn](../people/sella-fenn.md) is about to hand Caude Renne a working sample of the notation at the next
+  Turn, unless someone outbids him or talks her out of it first.
