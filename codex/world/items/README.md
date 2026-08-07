@@ -26,6 +26,7 @@ Minted one at a time by [the Armorer](../../../.github/workflows/armorer.md).
 | [The Uncrossed Peg](the-uncrossed-peg.md) | Notable. A rota tally-peg claiming the never-stood-down Level 6 crew slot | The Weeping Bore's rota board, shaft-head shed |
 | [The Last Lamp of Level Six](the-last-lamp-of-level-six.md) | Storied. A Bore cutter's lamp that has burned unfed for four years and cannot be put out | Ashen Covenant chapterhouse, the Cant, unseen since 408 |
 | [The Numb Testimony](the-numb-testimony.md) | Useful. A Concord-issue anaesthetic flask paid to divers who sign a companion's death-statement clean | Concord notary's side room, Tideline licensing counter |
+| [The Undoing Seal](the-undoing-seal.md) | Notable. A dead clerk's reverse counter-stamp that voids a licence as a quiet "lapsed" | Locked drawer, Cant registry offices, Vaultspire |
 
 ## Writing one
 

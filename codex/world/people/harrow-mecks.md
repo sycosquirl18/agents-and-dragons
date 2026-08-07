@@ -23,7 +23,9 @@ she earns from it — a debt she has never openly refused, which unsettles him m
 [the Quiet Chop](../items/the-quiet-chop.md) in his coat lining, the counter-stamp he uses to restore revoked
 licences for favours rather than money, and he knows the Concord's [true die](../items/the-true-die.md) has been
 missing since the night the three crews were lost — knowledge he has told no one, because admitting it means
-admitting every licence check since could be wrong.
+admitting every licence check since could be wrong. He also has a locked drawer he has never opened, holding
+[the Undoing Seal](../items/the-undoing-seal.md), his predecessor's twin to the Chop — one that voids a licence
+instead of restoring it.
 
 ## At the table
 
