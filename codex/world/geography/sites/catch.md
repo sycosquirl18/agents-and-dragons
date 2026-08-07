@@ -1,7 +1,7 @@
 ---
 type: settlement
 status: sketch
-updated: 2026-08-06
+updated: 2026-08-07
 ---
 
 # Catch
@@ -32,6 +32,7 @@ the goods are legal, and every year somebody in the Cant proposes fixing this.
 | **Tallow Ashe** | Tide-caller. Rings the Turn. Has rung it four minutes early all year and has told nobody why. |
 | **Mabb Orrin** | Buys anything, asks nothing, and is the fence half of Vaultspire's unlicensed salvage goes through — including [Brannoc's](../../../characters/brannoc-vell/sheet.md). |
 | **The Widow Sarn** | Owns the ladders. Not a figure of speech: she owns them, and access to the upper town is hers to withdraw. |
+| [**Marra Whit**](../people/marra-whit.md) | Blind former tide-caller. Hears the water arriving early too, by ear, for three years — longer than Tallow's four minutes by the clock. |
 
 ## Dangers
 
@@ -44,3 +45,5 @@ the goods are legal, and every year somebody in the Cant proposes fixing this.
 - **The four minutes.** Tallow rings early because the water arrives early, and she has worked out that it has been
   creeping for a year. She has not reported it because Catch's exemption depends on Catch being uninteresting.
 - Mabb has been offered a great deal of money to stop buying from unlicensed divers. Not by the Concord.
+- [Marra Whit](../people/marra-whit.md) means to ring the old warning bell herself at the next Turn if nobody
+  with standing listens to her first — which would end Catch's exemption on someone else's schedule.
