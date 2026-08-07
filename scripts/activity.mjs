@@ -44,27 +44,43 @@ const repo =
 const server = process.env.GITHUB_SERVER_URL || "https://github.com";
 const base = repo ? `${server}/${repo}` : null;
 
+// --- time ------------------------------------------------------------------------------------------------------
+// Everything displayed is Pacific. Runners work in UTC and git stores instants, but nobody reads this in UTC, and
+// a log whose timestamps need mental arithmetic is a log you stop checking. America/Los_Angeles rather than a
+// fixed -08:00 so the switch to and from daylight time is handled rather than quietly wrong for half the year.
+
+const TZ = "America/Los_Angeles";
+const fmtDay = new Intl.DateTimeFormat("en-CA", { timeZone: TZ, year: "numeric", month: "2-digit", day: "2-digit" });
+const fmtTime = new Intl.DateTimeFormat("en-GB", { timeZone: TZ, hour: "2-digit", minute: "2-digit", hour12: false });
+const fmtZone = new Intl.DateTimeFormat("en-US", { timeZone: TZ, timeZoneName: "short" });
+
+const day = (iso) => fmtDay.format(new Date(iso));
+const time = (iso) => fmtTime.format(new Date(iso));
+const zoneNow = fmtZone.formatToParts(new Date()).find((p) => p.type === "timeZoneName").value;
+
 // --- ISO weeks -------------------------------------------------------------------------------------------------
 // Chunked by week, not by a rolling window, so a regenerated file is always a *whole* week and never truncates
-// itself. Weeks that age out are simply never rewritten again.
+// itself. Weeks that age out are simply never rewritten again. Weeks are Pacific weeks: they take a local
+// `YYYY-MM-DD` produced above, not an instant, so a Monday-morning-UTC run lands in the week you saw it happen.
 
-const utcDay = (d) => new Date(Date.UTC(d.getUTCFullYear(), d.getUTCMonth(), d.getUTCDate()));
+const asUTC = (localDay) => new Date(`${localDay}T00:00:00Z`);
 
-const weekId = (date) => {
-  const t = utcDay(date);
+const weekId = (localDay) => {
+  const t = asUTC(localDay);
   t.setUTCDate(t.getUTCDate() + 4 - (t.getUTCDay() || 7)); // the Thursday that names the week
   const jan1 = new Date(Date.UTC(t.getUTCFullYear(), 0, 1));
   return `${t.getUTCFullYear()}-W${String(Math.ceil(((t - jan1) / 86400000 + 1) / 7)).padStart(2, "0")}`;
 };
 
-const weekStart = (date) => {
-  const t = utcDay(date);
+const weekStart = (localDay) => {
+  const t = asUTC(localDay);
   t.setUTCDate(t.getUTCDate() - ((t.getUTCDay() || 7) - 1));
   return t;
 };
 
-const since = weekStart(new Date());
-since.setUTCDate(since.getUTCDate() - (WEEKS - 1) * 7);
+const since = weekStart(day(new Date()));
+// One extra day of slack: the queries below are UTC, and a Pacific week begins seven or eight hours into one.
+since.setUTCDate(since.getUTCDate() - (WEEKS - 1) * 7 - 1);
 const sinceISO = since.toISOString().slice(0, 10);
 
 // --- what changed ----------------------------------------------------------------------------------------------
@@ -163,14 +179,13 @@ const declared = existsSync(".github/workflows")
 // --- assemble --------------------------------------------------------------------------------------------------
 
 const link = (text, href) => (href ? `[${text}](${href})` : text);
-const day = (iso) => iso.slice(0, 10);
-const time = (iso) => iso.slice(11, 16);
 
 const weeks = new Map();
 const bucket = (iso) => {
-  const id = weekId(new Date(iso));
+  const local = day(iso);
+  const id = weekId(local);
   if (!weeks.has(id)) weeks.set(id, { commits: [], runs: [], days: new Set() });
-  weeks.get(id).days.add(day(iso));
+  weeks.get(id).days.add(local);
   return weeks.get(id);
 };
 
@@ -194,7 +209,7 @@ function renderWeek(id) {
   out.push(
     `${span(id)} · ${cs.length} change${cs.length === 1 ? "" : "s"} to the world` +
       (runsAvailable ? ` · ${rs.length} run${rs.length === 1 ? "" : "s"}, ${trouble.length} not ok` : "") +
-      ` · [← all weeks](README.md)`,
+      ` · times ${zoneNow} · [← all weeks](README.md)`,
     "",
   );
 
@@ -238,6 +253,8 @@ function renderIndex(archived) {
     "",
     "For the world's own account of the same events, in the fiction and in world-time, read the",
     "[Chronicle](../codex/chronicle/README.md). This is the machine's account of the agents that wrote it.",
+    "",
+    `All times **Pacific** (${zoneNow}). The runners work in UTC; this does the arithmetic so you don't.`,
     "",
   );
 

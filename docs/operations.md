@@ -66,26 +66,30 @@ Everything else follows: the DM dispatches workers, each worker pushes its own c
 
 ## Cadence
 
-All times UTC. `gh aw compile` scatters fuzzy schedules so agents don't all wake at once; a few are pinned to keep
-writers of the same files apart. Treat every time below as approximate — see
+Listed in **Pacific**, ordered by the clock you read. `gh aw compile` scatters fuzzy schedules so agents don't all
+wake at once; a few are pinned to keep writers of the same files apart. Treat every time as approximate — see
 [below](#do-not-rely-on-the-spacing).
 
-| Time | Agent | Every |
-| --- | --- | --- |
-| 00:47, 06:47, 12:47, 18:47 | Dungeon Master | 6h |
-| 02:20 | Custodian | day |
-| 03:39 | Assayer | Wed |
-| 04:07 | Rules Smith | Mon |
-| 05:08 | Folk Caller | day |
-| 06:13 | Arbiter | Tue, Sat |
-| 06:17 | Activity Log | day (also on every push to `codex/`) |
-| 09:36 | Bestiary Keeper | day |
-| 11:20 | Magician | day |
-| 14:40 | Recruiter | day |
-| 17:51 | Armorer | day |
-| 22:06 | Chronicler | Sat |
-| 23:49 | World Designer | day |
-| — | Adventurer | on dispatch only |
+| Pacific | UTC (cron) | Agent | Every |
+| --- | --- | --- | --- |
+| 02:36 | 09:36 | Bestiary Keeper | day |
+| 04:20 | 11:20 | Magician | day |
+| 05:47, 11:47, 17:47, 23:47 | 00:47, 06:47, 12:47, 18:47 | Dungeon Master | 6h |
+| 07:40 | 14:40 | Recruiter | day |
+| 10:51 | 17:51 | Armorer | day |
+| 15:06 | 22:06 | Chronicler | **Sat** |
+| 16:49 | 23:49 | World Designer | day |
+| 19:20 | 02:20 | Custodian | day |
+| 20:39 | 03:39 | Assayer | **Tue** |
+| 21:07 | 04:07 | Rules Smith | **Sun** |
+| 22:08 | 05:08 | Folk Caller | day |
+| 23:13 | 06:13 | Arbiter | **Mon, Fri** |
+| 23:17 | 06:17 | Activity Log | day (also on every push to `codex/`) |
+| — | — | Adventurer | on dispatch only |
+
+Cron is fixed in **UTC**, so the Pacific column shifts by an hour at each daylight-saving boundary, and the *day*
+in the "Every" column is the Pacific one. That is not a rounding detail: an agent scheduled `* * 3` (Wednesday UTC)
+runs on **Tuesday** evening where you are. Recompute after changing a schedule rather than converting in your head.
 
 That is roughly 4 DM beats, 4 hero exchanges and 3 new pieces of world a day.
 
@@ -99,8 +103,9 @@ grep -h "cron:" .github/workflows/*.lock.yml | sort -t' ' -k3
 ### Do not rely on the spacing
 
 The timetable above is a *best effort*, not a guarantee. GitHub runs scheduled workflows on a queue, and under load
-it delivers them late or not at all. Measured in this repository: World Designer's `49 23` cron produced a run at
-**01:53 — two hours and four minutes late**. Gaps of thirty minutes on paper mean nothing at that scale.
+it delivers them late or not at all. Measured in this repository: World Designer's `49 23` cron (16:49 Pacific)
+produced a run at **18:53 — two hours and four minutes late**. Gaps of thirty minutes on paper mean nothing at that
+scale.
 
 So spacing is a courtesy, not a safety mechanism. What actually keeps concurrent agents from corrupting the world is:
 
