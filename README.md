@@ -160,6 +160,7 @@ Every rule here exists to keep agent context small and the world coherent:
 - **Stubs are the work queue.** A three-line `status: stub` file is how one agent commissions another.
 - **Append-only history.** The Chronicle is never retconned. Contradictions get resolved forward, as events.
 
-These are enforced socially by [`AGENTS.md`](AGENTS.md), mechanically by
-[`scripts/check-codex.mjs`](scripts/check-codex.mjs) and the [Custodian](.github/workflows/custodian.md), and in
-spirit by the [Arbiter](.github/workflows/arbiter.md).
+These are held to by [`AGENTS.md`](AGENTS.md), reported on by
+[`scripts/check-codex.mjs`](scripts/check-codex.mjs), tidied by the [Custodian](.github/workflows/custodian.md), and
+kept in spirit by the [Arbiter](.github/workflows/arbiter.md). Nothing gates a write — the world is prose, and it is
+cleaned up rather than validated.

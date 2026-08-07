@@ -1,17 +1,20 @@
 #!/usr/bin/env node
-// Mechanical checks on the Codex. Catches the failures agents make most often — dead links and anchors, unindexed
-// files, missing frontmatter, files that outgrew the Split Rule — so the Custodian can spend its run on structure
-// instead of bookkeeping.
+// A report on the Codex, for the Custodian to work from. Finds the things agents get wrong most often — dead
+// links and anchors, unindexed files, files that outgrew the Split Rule — so the Custodian can spend its run on
+// judgement instead of hunting.
 //
-//   node scripts/check-codex.mjs          fail on errors
-//   node scripts/check-codex.mjs --strict fail on warnings too
+// It reports; it does not judge. There is no error/warning split and it always exits 0, because none of this is
+// the kind of thing worth stopping the world over. A missing frontmatter line is untidy, not broken — the Codex
+// is prose read by language models, and they cope with untidy far better than the world copes with a gate that
+// refuses to let anyone write. Findings are a to-do list, not a verdict.
+//
+//   node scripts/check-codex.mjs
 
 import { readFileSync, readdirSync, statSync, existsSync } from "node:fs";
 import { join, dirname, relative, resolve, sep } from "node:path";
 
 const ROOT = resolve(import.meta.dirname, "..");
 const CODEX = join(ROOT, "codex");
-const STRICT = process.argv.includes("--strict");
 const MAX_LINES = 150;
 
 const TYPES = ["region", "settlement", "site", "era", "event", "faction", "creature", "npc", "item", "spell",
@@ -35,10 +38,8 @@ const STATUSES = [...new Set([...CONTENT_STATUSES, ...Object.values(STATUS_BY_TY
 const TURN_FILE = join(CODEX, "quests", "TURN.txt");
 const activeQuests = [];
 
-const errors = [];
-const warnings = [];
-const err = (file, msg) => errors.push(`${file}: ${msg}`);
-const warn = (file, msg) => warnings.push(`${file}: ${msg}`);
+const findings = [];
+const note = (file, msg) => findings.push(`${file}: ${msg}`);
 
 const walk = (dir) =>
   readdirSync(dir).flatMap((name) => {
@@ -84,14 +85,14 @@ const checkLinks = (file, raw) => {
     const target = href ? resolve(dirname(file), href) : resolve(file);
     if (href) {
       if (!existsSync(target)) {
-        err(id, `broken link -> ${href}`);
+        note(id, `broken link -> ${href}`);
         continue;
       }
       linkTargets.add(resolve(target));
     }
     // Anchors are silently dead on GitHub, so they have to be checked here or not at all.
     if (anchor && target.endsWith(".md") && !headingsOf(target).has(anchor)) {
-      err(id, `broken anchor -> ${spec} (no heading '#${anchor}' in ${rel(target)})`);
+      note(id, `broken anchor -> ${spec} (no heading '#${anchor}' in ${rel(target)})`);
     }
   }
 };
@@ -104,7 +105,7 @@ for (const file of files) {
   // --- frontmatter ---
   const fm = raw.match(/^---\r?\n([\s\S]*?)\r?\n---/);
   if (!fm) {
-    err(id, "missing frontmatter block");
+    note(id, "missing frontmatter block");
   } else {
     const fields = Object.fromEntries(
       fm[1]
@@ -113,31 +114,31 @@ for (const file of files) {
         .filter((p) => p.length >= 2)
         .map(([k, ...v]) => [k.trim(), v.join(": ").trim()])
     );
-    if (!fields.type) err(id, "frontmatter missing `type`");
-    else if (!TYPES.includes(fields.type)) warn(id, `unknown type '${fields.type}'`);
-    if (!fields.status) err(id, "frontmatter missing `status`");
-    else if (!STATUSES.includes(fields.status)) warn(id, `unknown status '${fields.status}'`);
+    if (!fields.type) note(id, "frontmatter missing `type`");
+    else if (!TYPES.includes(fields.type)) note(id, `unknown type '${fields.type}'`);
+    if (!fields.status) note(id, "frontmatter missing `status`");
+    else if (!STATUSES.includes(fields.status)) note(id, `unknown status '${fields.status}'`);
     else if (TYPES.includes(fields.type)) {
       const allowed = STATUS_BY_TYPE[fields.type] ?? CONTENT_STATUSES;
       if (!allowed.includes(fields.status)) {
-        err(id, `status '${fields.status}' is not valid for a ${fields.type} (expected: ${allowed.join(", ")})`);
+        note(id, `status '${fields.status}' is not valid for a ${fields.type} (expected: ${allowed.join(", ")})`);
       }
     }
-    if (!fields.updated) err(id, "frontmatter missing `updated`");
-    else if (!/^\d{4}-\d{2}-\d{2}$/.test(fields.updated)) err(id, `updated '${fields.updated}' is not YYYY-MM-DD`);
+    if (!fields.updated) note(id, "frontmatter missing `updated`");
+    else if (!/^\d{4}-\d{2}-\d{2}$/.test(fields.updated)) note(id, `updated '${fields.updated}' is not YYYY-MM-DD`);
 
     if (fields.turn) {
-      err(id, "`turn` no longer lives in frontmatter — whose move it is belongs in codex/quests/TURN.txt");
+      note(id, "`turn` no longer lives in frontmatter — whose move it is belongs in codex/quests/TURN.txt");
     }
     if (fields.type === "quest" && fields.status === "active") activeQuests.push(id);
   }
 
   // --- structure ---
-  if (!raw.match(/^---[\s\S]*?---\s*\r?\n\s*# /)) warn(id, "no H1 immediately after the frontmatter");
+  if (!raw.match(/^---[\s\S]*?---\s*\r?\n\s*# /)) note(id, "no H1 immediately after the frontmatter");
   if (lines.length > MAX_LINES) {
-    err(id, `${lines.length} lines exceeds the Split Rule limit of ${MAX_LINES} — split into a directory + index`);
+    note(id, `${lines.length} lines exceeds the Split Rule limit of ${MAX_LINES} — split into a directory + index`);
   } else if (lines.length > MAX_LINES * 0.85) {
-    warn(id, `${lines.length} lines, approaching the ${MAX_LINES}-line Split Rule limit`);
+    note(id, `${lines.length} lines, approaching the ${MAX_LINES}-line Split Rule limit`);
   }
 
   // --- links ---
@@ -163,7 +164,7 @@ for (const dir of dirs) {
   const index = join(dir, "README.md");
   // Deeper directories inherit their parent's index until the Split Rule gives them their own.
   if (!existsSync(index)) {
-    if (sections.has(resolve(dir))) err(rel(dir), "section has no README.md index");
+    if (sections.has(resolve(dir))) note(rel(dir), "section has no README.md index");
   }
   const expected = [
     ...readdirSync(dir)
@@ -175,24 +176,24 @@ for (const dir of dirs) {
       .filter(existsSync),
   ];
   for (const e of expected) {
-    if (!linkTargets.has(resolve(e))) err(rel(e), "orphan — nothing links to it");
+    if (!linkTargets.has(resolve(e))) note(rel(e), "orphan — nothing links to it");
   }
 }
 
 for (const required of ["codex/state.md", "codex/README.md"]) {
-  if (!existsSync(join(ROOT, required))) err(required, "required file is missing");
+  if (!existsSync(join(ROOT, required))) note(required, "required file is missing");
 }
 
 // A quest that is active but absent from the board has no baton, so no agent will ever pick it up. Matched by
 // filename substring rather than by parsing, so the board stays free to say it however it likes.
 if (activeQuests.length) {
   if (!existsSync(TURN_FILE)) {
-    err("codex/quests/TURN.txt", `missing, but ${activeQuests.length} quest(s) are active — nobody holds a baton`);
+    note("codex/quests/TURN.txt", `missing, but ${activeQuests.length} quest(s) are active — nobody holds a baton`);
   } else {
     const board = readFileSync(TURN_FILE, "utf8");
     for (const q of activeQuests) {
       if (!board.includes(q.split("/").pop())) {
-        warn("codex/quests/TURN.txt", `no entry for active quest ${q} — nobody's move, so it will never advance`);
+        note("codex/quests/TURN.txt", `no entry for active quest ${q} — nobody's move, so it will never advance`);
       }
     }
   }
@@ -201,15 +202,5 @@ if (activeQuests.length) {
 const stubs = files.filter((f) => /status:\s*stub/.test(readFileSync(f, "utf8"))).length;
 
 console.log(`Checked ${files.length} Codex files across ${dirs.length} directories (${stubs} stubs open).`);
-for (const w of warnings) console.log(`  warn   ${w}`);
-for (const e of errors) console.log(`  ERROR  ${e}`);
-
-if (errors.length) {
-  console.log(`\n${errors.length} error(s).`);
-  process.exit(1);
-}
-if (STRICT && warnings.length) {
-  console.log(`\n${warnings.length} warning(s), --strict.`);
-  process.exit(1);
-}
-console.log(warnings.length ? `\nOK with ${warnings.length} warning(s).` : "\nCodex is consistent.");
+for (const f of findings) console.log(`  - ${f}`);
+console.log(findings.length ? `\n${findings.length} thing(s) to tidy.` : "\nNothing to tidy.");

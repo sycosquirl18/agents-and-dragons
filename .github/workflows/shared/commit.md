@@ -32,35 +32,6 @@ post-steps:
         exit 0
       fi
 
-      # A run may not leave the Codex more broken than it found it.
-      #
-      # Deliberately a *relative* gate, not "the Codex must be clean". An absolute gate deadlocks the world: the
-      # moment anything is broken, every agent's push is refused — including the Custodian's, whose entire job is
-      # to fix it — and nothing can ever recover. Comparing against HEAD lets repairs through and stops damage.
-      if [ -f scripts/check-codex.mjs ]; then
-        after=$(node scripts/check-codex.mjs 2>&1 | grep -c '^  ERROR' || true)
-        before=0
-        pristine="${RUNNER_TEMP:-/tmp}/codex-head"
-        rm -rf "$pristine"
-        if git worktree add -q --detach "$pristine" HEAD 2>/dev/null; then
-          before=$(cd "$pristine" && node scripts/check-codex.mjs 2>&1 | grep -c '^  ERROR' || true)
-          git worktree remove --force "$pristine" >/dev/null 2>&1 || true
-        fi
-        if [ "$after" -gt "$before" ]; then
-          {
-            echo "### Refused: this run broke the Codex"
-            echo ""
-            echo "Errors went from **$before** to **$after**. Nothing was pushed."
-            echo ""
-            echo '```'
-            node scripts/check-codex.mjs 2>&1 | grep '^  ERROR' || true
-            echo '```'
-          } >> "$GITHUB_STEP_SUMMARY"
-          echo "::error title=Refusing to push a broken Codex::Errors rose from $before to $after. This run's work is discarded and will be redone next cycle."
-          exit 1
-        fi
-      fi
-
       # The agent writes its own commit subject; see the prompt section below.
       if [ -s .commit-msg ]; then
         subject=$(head -1 .commit-msg)

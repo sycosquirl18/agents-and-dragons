@@ -154,9 +154,8 @@ if (repo) {
         return { name, status, conclusion, at: new Date(at).toISOString(), url };
       })
       // Everything is included, deliberately. An earlier version filtered the CI checks out as "meta-workflows
-      // that report on the world rather than being part of it" — and then hid six hours of red `Check the Codex`
-      // caused by an agent eating state.md's frontmatter. A check that fails means the world is malformed, which
-      // is the single most important thing this file can tell you.
+      // that report on the world rather than being part of it" — and then hid six hours of red CI. Anything that
+      // ran and failed belongs here; deciding in advance which failures matter is how failures get missed.
       .sort((a, b) => b.at.localeCompare(a.at));
     runsAvailable = true;
   } catch {

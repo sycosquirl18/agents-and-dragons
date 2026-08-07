@@ -63,7 +63,8 @@ node scripts/check-codex.mjs
 git add .github/workflows/rumour-mill.md .github/workflows/rumour-mill.lock.yml
 ```
 
-Commit the `.lock.yml` — it is what actually runs. `codex-check.yml` fails the PR if you forget.
+Commit the `.lock.yml` — it is what actually runs. `compile-check.yml` fails if you forget, and that one is a hard
+failure: a stale lock file means the workflow that runs is not the one in the repo.
 
 ## Writing the prompt
 

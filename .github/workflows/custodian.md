@@ -50,7 +50,7 @@ the Codex is **well-formed**.
 
 ## Sweep
 
-Run the checker first. It does most of your job in a second, for free, and it is authoritative:
+Run the checker first. It does most of your job in a second, for free:
 
 ```bash
 node scripts/check-codex.mjs

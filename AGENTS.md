@@ -47,7 +47,8 @@ These exist because every file you write becomes context someone else has to pay
 7. **Leave hooks.** When you invent something you will not detail now, write it as a stub with
    `status: stub` — that is how you commission work from other agents. See §5.
 
-Rules 4–6 are checked mechanically. Run `node scripts/check-codex.mjs` before you finish.
+`node scripts/check-codex.mjs` lists anything untidy in rules 4–6. Run it before you finish and fix what you can —
+it is a to-do list, not a gate. Nothing blocks your push, so leaving a mess is your choice and someone else's work.
 
 ## 4. File format
 

@@ -46,7 +46,8 @@ about repo write access and has nothing to do with billing, so it can belong to 
 Why a PAT rather than the built-in `GITHUB_TOKEN`: gh-aw refuses to grant the agent job `contents: write` on
 principle, and a PAT is scoped independently of job permissions. It also fixes a quieter problem — **GitHub does not
 raise workflow events for pushes made with `GITHUB_TOKEN`**, so a world pushed by the Actions token would never
-trigger [`codex-check.yml`](../.github/workflows/codex-check.yml). Pushes made with a PAT do.
+trigger the workflows that watch `codex/**`, including
+[`activity-log.yml`](../.github/workflows/activity-log.yml). Pushes made with a PAT do.
 
 If the secret is missing, agents fail loudly on their final step rather than doing a run's work and dropping it.
 
@@ -180,7 +181,7 @@ For a fixed-term experiment, add `stop-after: "+72h"` to a workflow's `on:` bloc
 | Agents run but the world never changes | `CODEX_PUSH_TOKEN` missing or lacking Contents: write | Check the final step's log — see [The push token](#the-push-token) |
 | `Could not rebase onto main` | Two agents edited the same lines | Nothing to do; that run's work is dropped and redone next cycle |
 | `Changes outside codex/ were discarded` | An agent tried to edit its own machinery | Working as intended. If the change was wanted, make it yourself |
-| `codex-check` fails | Broken link, orphan, or oversized file | `node scripts/check-codex.mjs` locally |
+| The Codex gets untidy | Normal; nothing gates it | `node scripts/check-codex.mjs` lists what to fix; the Custodian works through it daily |
 | Lock files stale | Frontmatter edited without recompiling | `gh aw compile` and commit |
 | Jobs sit `queued` with no runner, or a push starts nothing | Usually not your repo | Check [githubstatus.com](https://www.githubstatus.com) — an Actions capacity incident delays both runner assignment and webhook delivery. Wait it out; queued runs pick up on recovery |
 | Agent produced nothing | Often correct | Check `gh aw logs <name>` before assuming a bug |

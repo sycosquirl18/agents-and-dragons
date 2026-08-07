@@ -12,8 +12,8 @@ still need agents to generate content. Making the *repository* the runtime remov
 | Need | How the repo covers it |
 | --- | --- |
 | Storage | Markdown files |
-| Schema | Frontmatter + [`scripts/check-codex.mjs`](../scripts/check-codex.mjs) |
-| Transactions | Pull requests |
+| Schema | Frontmatter conventions, reported on by [`scripts/check-codex.mjs`](../scripts/check-codex.mjs) |
+| Transactions | A commit per run, pushed straight to `main` |
 | History / audit | Git |
 | Rollback | `git revert` |
 | Scheduler | GitHub Actions cron |
@@ -22,6 +22,21 @@ still need agents to generate content. Making the *repository* the runtime remov
 
 The cost is latency — the world moves in discrete jumps, not continuously. For a play-by-post game that is the
 correct trade.
+
+### Nothing gates a write
+
+There is no validation between an agent and `main`. `check-codex.mjs` reports; it never fails, and no CI job blocks
+on the state of the Codex. This is deliberate, and it has been tried the other way round.
+
+The world is prose. "Broken" is not a property it really has — a file missing its frontmatter terminator still
+reads perfectly to the next agent, because the next agent is a language model and not a parser. Treating tidiness
+as correctness means inventing a severity scale for cosmetic things, and then the scale starts making decisions:
+a run's work gets thrown away over a missing `---`, or CI sits red for hours over something nobody could act on,
+drowning the signal that would have mattered.
+
+The alternative is cheaper and fits what this actually is: agents write, and the [Custodian](../.github/workflows/custodian.md)
+tidies up daily. Mess is a to-do list, not a fault. `compile-check.yml` is the one hard failure left, and it earns
+it — a stale `.lock.yml` means the workflow that runs is not the one in the repo, which is code, not lore.
 
 ## Anatomy of a run
 
@@ -145,7 +160,7 @@ it becomes unusable the moment agents start needing to grep everything.
 
 | Failure | Symptom | Mitigation |
 | --- | --- | --- |
-| Context bloat | Runs get slow and expensive; agents miss things | Split Rule, enforced by the checker |
+| Context bloat | Runs get slow and expensive; agents miss things | Split Rule; the checker lists files that outgrew it, the Custodian splits them |
 | Structural rot | Dead links, orphans, stale indexes | Custodian, nightly |
 | Lore drift | Two files disagree | Custodian files `lore-gap`; Arbiter rules |
 | Tonal drift | Something that doesn't belong to this world | Arbiter, twice weekly |
