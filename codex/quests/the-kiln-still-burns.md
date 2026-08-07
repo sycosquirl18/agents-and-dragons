@@ -19,7 +19,7 @@ updated: 2026-08-07
 - [ ] Get the second diver to the surface alive — **two attempts failed**
 - [ ] Get back down to the ember — **done, badly; arrived with an empty chest and no pocket to return to**
 - [ ] Find out what is heating the water — **it makes hot air as well as hot water**
-- [ ] Get out before the tide turns — **six hours from Day 214, dawn**
+- [ ] Get out before the tide turns — **sixty minutes left, Day 215**
 
 ## Known
 
@@ -44,6 +44,8 @@ updated: 2026-08-07
 - With the seep stopped, the pocket does not refill. Every further attempt is paid for out of a fixed quantity of air, and two have been paid already. What is left is a finger's depth — enough for **one**.
 - Someone came up through the slot from the gallery: hooded, breathing without surfacing, carrying a coil that is not rope. They did not take the air. They offered the coil and pointed **down**, toward the ember — not up. Ninety minutes of tide.
 - The coil is [the Unspooled Line](../world/items/the-unspooled-line.md) — it reads as ordinary rope wound tight, but paid out underwater its strands separate into threads too fine to grip, and it does not sink. It smells of the same scorched lime as the roof pocket.
+- The Line **breathes**. Put to a mouth it delivers the same hot lime-tasting air the roof pocket held. The stranger holds the other end and has not offered it to Ress Adair. It supplies one.
+- The ember has cooled enough to touch, and the wall behind it is not a wall.
 
 ## Unknown
 

@@ -12,12 +12,13 @@ grip, and the threads do not tangle with each other or with anything else in the
 the same scorched lime as the air pocket in
 [the passage above the slot](../geography/sites/the-drowned-kiln.md#the-gallery-below-the-passage).
 
-**Bearing:** None fixed yet — nobody has used it long enough to say. It was offered, not thrown or tied off,
-which suggests it wants a hand on it the whole time it is paid out. `stub`
+**Bearing:** Put to a mouth underwater, the separated strands deliver the same hot lime-tasting air as the roof
+pocket, and keep delivering it. Observed once, for one breather, with the far end in someone else's hand — nobody
+has tested whether it works for two, or for how long. `stub`
 
-**Where it is:** In the hand of the hooded figure that surfaced through the slot, held out toward
-[Brannoc Vell](../../characters/brannoc-vell/sheet.md). Whether he takes it is
-[his move to make](../../quests/TURN.txt).
+**Where it is:** On the floor of
+[the gallery below the passage](../geography/sites/the-drowned-kiln.md#the-gallery-below-the-passage), one end at
+[Brannoc Vell](../../characters/brannoc-vell/sheet.md)'s mouth and the other in the hooded figure's hand.
 
 **Worth:** Not for sale. Nobody has priced a thing that does not sink.
 
