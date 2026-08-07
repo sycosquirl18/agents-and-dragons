@@ -13,3 +13,4 @@ with its tape. New parts are opened when a part nears the [Split Rule](../../../
 | --- | --- |
 | [Day 213 to the inner passage](journal/412-213-to-the-inner-passage.md) | Pellick's warning, the cut seal, the dead diver, the slot |
 | [The chain and the slot](journal/412-214-the-chain-and-the-slot.md) | The fouled chain, the three pins, the fall, the air pocket |
+| [The coil and the ember](journal/412-215-the-coil-and-the-ember.md) | The hooded stranger, the coil, and going down instead of up |

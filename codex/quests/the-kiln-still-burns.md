@@ -17,6 +17,7 @@ updated: 2026-08-07
 - [x] Find out what happened to Sella's crew
 - [x] Reach and enter the gallery below the passage floor — **chain in, diver alive**
 - [ ] Get the second diver to the surface alive — **two attempts failed**
+- [ ] Get back down to the ember — **done, badly; arrived with an empty chest and no pocket to return to**
 - [ ] Find out what is heating the water — **it makes hot air as well as hot water**
 - [ ] Get out before the tide turns — **six hours from Day 214, dawn**
 
@@ -35,6 +36,7 @@ updated: 2026-08-07
 - Hung in the gallery, the chain leans off plumb toward the amber glow, and the pull strengthens the longer it hangs. The water is warmer in that direction.
 - Brannoc chose the diver over the glow and did not get her up. Both are in the passage above the slot; the chain still hangs below, still leaning. Pellick's drift is on the gallery floor.
 - The passage above the slot holds a hand's depth of trapped air along its highest cut. It is *hot* — hotter than the water — tastes of scorched lime, and seeps up through the slot from the gallery. Whatever heats the water is also making air.
+- A person came up through the slot out of the gallery — hooded, breathing without surfacing for it, uninterested in Brannoc's air, and very interested in Ress Adair's face. It gave him a warm coil that is not rope and pointed **down**, toward the ember, then followed him down.
 - The pocket is **consumable**. Two people breathing it drew it down by roughly a finger's depth in minutes; the seep from below replaces it at its own slow rate, not theirs. The taste strengthens as it thins.
 - The second diver breathes unaided but weakly, and did not wake to resuscitation. She cannot climb. Whatever gets her up has to carry her.
 - The seep **stopped** — no more air is entering the pocket; what is in the roof is all there is. At the same moment the amber glow dimmed to an ember, the leaning pull on the chain slackened, and the chain hung plumb. The water in the slot is cooling.

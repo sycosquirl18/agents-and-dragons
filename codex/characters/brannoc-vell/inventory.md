@@ -17,8 +17,9 @@ updated: 2026-08-07
 | Diving kit | Weights, line, hooks, wax. Worn. |
 | Oiled leathers | Armour: turns one Wounded into Marked per fight, then needs repair |
 | Knife | Blade snapped on calcified lock-wire. Handle only — needs reblading. |
-| Rope, 50ft | Rigged as a chest harness, lashing Ress Adair face-to-face with him |
-| *Umber Cord* chain, 40ft | Hangs plumb from the slot into the gallery; the lean is gone |
+| Rope, 50ft | Chest harness lashing Ress Adair face-to-face with him; one turn torn out on the slot rim |
+| A coil that is not rope | Given by the hooded stranger. Warm, looped on his left wrist. Unknown; not tied to Ress Adair. |
+| *Umber Cord* chain, 40ft | Hangs plumb from the slot into the gallery, above and behind him now; the lean is gone |
 | Lamp and three hours of oil | Useless below the sluice, where it will not stay lit |
 | Pellick's chart of the Underspire | Hand-drawn, forty years old, shows galleries the Concord's charts do not |
 
