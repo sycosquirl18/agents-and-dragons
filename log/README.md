@@ -14,32 +14,33 @@ All times **Pacific** (PDT). The runners work in UTC; this does the arithmetic s
 
 ## Health
 
-**107** runs in the last 7 days, **14** not ok. Live view in [Actions](https://github.com/sycosquirl18/agents-and-dragons/actions).
+**108** runs in the last 7 days, **15** not ok. Live view in [Actions](https://github.com/sycosquirl18/agents-and-dragons/actions).
 
 | Workflow | Last run | | 7d | Not ok |
 | --- | --- | --- | --: | --: |
-| Activity Log | [2026-08-07 12:50](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31213198738) | running | 29 | — |
+| Activity Log | [2026-08-07 12:50](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31213266158) | running | 30 | — |
 | Adventurer | [2026-08-07 12:44](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31212788310) | **failure** | 6 | 1 |
 | Agentic Maintenance _(retired)_ | [2026-08-06 20:35](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31144794298) | ok | 1 | — |
 | Arbiter | [2026-08-07 12:48](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31213078136) | running | 1 | — |
 | Armorer | [2026-08-07 12:45](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31212838172) | ok | 4 | — |
 | Assayer | [2026-08-07 12:49](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31213166627) | running | 2 | — |
-| Bestiary Keeper | [2026-08-07 12:45](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31212887658) | running | 3 | — |
+| Bestiary Keeper | [2026-08-07 12:45](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31212887658) | ok | 3 | — |
 | Check compiled workflows | [2026-08-07 12:30](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31211802644) | ok | 19 | 3 |
 | Check the Codex _(retired)_ | [2026-08-07 08:57](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31195209269) | ok | 19 | 7 |
-| Chronicler | [2026-08-07 12:46](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31212934726) | running | 1 | — |
+| Chronicler | [2026-08-07 12:46](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31212934726) | ok | 1 | — |
 | Custodian | never | **never run** | 0 | — |
 | Dungeon Master | [2026-08-07 12:46](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31212937143) | running | 7 | 2 |
-| Folk Caller | [2026-08-07 12:47](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31212980930) | running | 3 | — |
-| Magician | [2026-08-07 12:45](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31212885410) | running | 3 | — |
+| Folk Caller | [2026-08-07 12:47](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31212980930) | ok | 3 | — |
+| Magician | [2026-08-07 12:45](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31212885410) | ok | 3 | — |
 | Quartermaster _(retired)_ | [2026-08-06 18:44](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31138999971) | ok | 1 | — |
 | Recruiter | [2026-08-07 12:50](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31213212087) | running | 3 | — |
 | Rules Smith | [2026-08-07 12:47](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31212986430) | running | 1 | — |
-| World Designer | [2026-08-07 12:43](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31212712542) | running | 4 | 1 |
+| World Designer | [2026-08-07 12:43](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31212712542) | **failure** | 4 | 2 |
 
 ## Recent trouble
 
 - `2026-08-07 12:44` **Adventurer** — failure · [run](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31212788310)
+- `2026-08-07 12:43` **World Designer** — failure · [run](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31212712542)
 - `2026-08-07 12:39` **Dungeon Master** — failure · [run](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31212430113)
 - `2026-08-07 12:18` **Dungeon Master** — failure · [run](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31210913141)
 - `2026-08-07 08:37` **Check the Codex** — failure · [run](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31193533388)
@@ -50,11 +51,10 @@ All times **Pacific** (PDT). The runners work in UTC; this does the arithmetic s
 - `2026-08-07 01:15` **Check the Codex** — failure · [run](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31160955927)
 - `2026-08-06 21:52` **Check compiled workflows** — failure · [run](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31148785832)
 - `2026-08-06 18:53` **World Designer** — failure · [run](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31139462176)
-- `2026-08-06 13:43` **Check compiled workflows** — failure · [run](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31127814293)
-- _…and 2 more, in the weeks below._
+- _…and 3 more, in the weeks below._
 
 ## Weeks
 
 | Week | | Changes | Runs | Not ok |
 | --- | --- | --: | --: | --: |
-| [2026-W32](2026-W32.md) | 6 Aug – 7 Aug | 47 | 107 | 14 |
+| [2026-W32](2026-W32.md) | 6 Aug – 7 Aug | 48 | 108 | 15 |
