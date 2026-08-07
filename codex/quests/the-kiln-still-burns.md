@@ -27,7 +27,7 @@ updated: 2026-08-07
 - Old Pellick, who will not go back, says *"it isn't the water that's wrong down there."*
 - The kilns have burned underwater since year 0. See [the Sundering](../world/history/eras/the-sundering.md).
 - One of Sella's crew is dead just inside the inner grate — no wound, no held object, no explanation.
-- A second unmoving diver with kit is visible on the floor of a gallery below the main passage, reached by a slot opening. The amber glow comes from deeper inside that gallery.
+- The second diver is **Ress Adair**, tagged Concord issue, one of Sella's crew. See [the gallery below the passage](../world/geography/sites/the-drowned-kiln.md#the-gallery-below-the-passage).
 - The *Umber Cord* chain is free at its full forty feet — all three pins broken — and long enough to reach the gallery floor.
 - Old Pellick has given Brannoc a Kilnworks iron drift off the *Umber Cord*. He will not go back in the water.
 - The second diver on the gallery floor is breathing.

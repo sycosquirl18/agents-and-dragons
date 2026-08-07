@@ -51,12 +51,17 @@ One of the row is not dead. The second diver Brannoc saw from the lip is breathi
 with the same care as the rest — held, not discarded. Nothing about the gallery explains why that one is
 different.
 
+Her tag is still knotted to her belt, licensed Concord issue: **Ress Adair**, one of Sella's crew, reported
+lost with the others. She is not weighted like the dead. The ballast beside her is stacked but not yet tied
+on — the wights had not finished when Brannoc broke the surface of the slot, and one yelp of chain against
+stone was enough to stop them mid-knot. That is the only sound either wight has made.
+
 ### Who is there
 
 | Name | Want |
 | --- | --- |
 | **Two kiln-wights on ballast duty** | To finish weighting the newest arrival and return it to the row — they work calmly, without haste, and do not react to the living diver at all |
-| **The unnamed second diver** | Unknown. Breathing, unresponsive to light or sound so far, kit intact |
+| **Ress Adair** `stub` | Unknown. Breathing, unresponsive to light or sound so far, kit intact, not yet ballasted |
 
 ### Dangers
 
@@ -65,18 +70,24 @@ different.
   approached calmly enough that it does not count as interference, checked the instant a body is touched.
 - **No exit but the slot.** The chamber has no other opening on any chart, mapped or not.
 - **The air.** There is none. Whatever keeps the second diver breathing does not extend to visitors.
+- **The window is closing, not closed.** Ress Adair's ballast is stacked but untied — moving her before the
+  knot is finished is retrieval, not interference, and does not trigger the Heart DC 15 check above. Once the
+  wights resume and tie the last knot, she counts as part of the row like any other body, and freeing her
+  becomes interference at full DC. The wights stopped at the yelp of chain; they will not stay stopped.
 
 ### What is hidden
 
 The manifest is real: scratched into a ballast stone at the foot of the row, in the same notation as the
 [settling-gallery ledger](the-settling-galleries.md#what-is-hidden), is a tally that stops one short of the
-number of bodies present. Wits DC 16 to notice the count is wrong, or DC 12 for anyone who counts the row
-first. `stub`
+number of bodies present — and the stone reserved for the count Ress would complete is the one cut newest,
+cleaner and paler than the rest, as if it were set aside in advance rather than added when she arrived. Wits
+DC 16 to notice the count is wrong, or DC 12 for anyone who counts the row first, plus Wits DC 14 to notice
+the stone predates her. `stub`
 
 ### Hooks
 
-- Whoever the second diver is, they were placed in the row *before* they stopped breathing, by something
-  that treats the living and the dead as the same kind of cargo. `stub`
+- Ress Adair was placed in the row *before* she stopped breathing, by something that treats the living and
+  the dead as the same kind of cargo, and had already cut a stone for her before she went missing. `stub`
 - The tally being one short of the body count means either the wights miscounted for the first time in four
   hundred years, or someone is missing from a row that is otherwise complete. `stub`
 
