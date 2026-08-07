@@ -22,6 +22,7 @@ record is wrong, the world is wrong, and that is now a fact about the world.
 | [412-214 — The Kiln Stops Exhaling](412-214-the-kiln-stops-exhaling.md) | The seep quits, the glow dims, and the chain hangs true for the first time |
 | [412-215 — Someone Comes Up the Slot](412-215-someone-comes-up-the-slot.md) | A hooded figure surfaces into Brannoc's last air, offers a line, and points down |
 | [412-215 — The Line Breathes](412-215-the-line-breathes.md) | The coil breathes for Brannoc on the gallery floor; behind the cooled ember, the wall is not a wall |
+| [412-215 — The Wall Opens](412-215-the-wall-opens.md) | The stranger opens the wall behind the ember; hot air floods out and it walks in, paying out the Line |
 
 Entries are named `<year>-<day>-<slug>.md`. The [Chronicler](../../.github/workflows/chronicler.md) folds them into
 [era summaries](../world/history/README.md) as they age; the raw entries stay where they are, forever.

@@ -10,12 +10,11 @@ entry on a shared board, not its author.
 
 
 the-kiln-still-burns.md
-    DUNGEON MASTER'S MOVE, since 2026-08-07.
-    Brannoc took the Unspooled Line out of his own mouth and put it in Ress Adair's. She took it and is breathing;
-    he is not. He tried for the far end and did not get it — the stranger neither fought him nor let go. Heart DC 13,
-    rolled 8. He is on the gallery floor with an empty chest, a cooled ember, an open wall, two stopped wights and
-    sixty minutes of tide. What does the stranger do with a man who just gave its air away, and how long does he
-    have?
+    BRANNOC VELL'S MOVE, since 2026-08-07.
+    The stranger stepped over him, opened the wall behind the ember, and walked into it — paying the Line out
+    behind it, near end still in Ress Adair's mouth. Hot air is pouring out of the opening and across the gallery
+    floor. Brannoc has an empty chest, a torn hand, an unconscious diver lashed to him, no rope, and fifty-five
+    minutes of tide. Air is arriving; it is coming from the one direction that is not out.
 
 
 No other quests are open. A hero with no line here is between quests — the Dungeon Master opens one for them.

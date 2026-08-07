@@ -19,8 +19,8 @@ updated: 2026-08-07
 - [x] Get the second diver breathing — **on [the Unspooled Line](../world/items/the-unspooled-line.md), given up out of Brannoc's own mouth**
 - [ ] Get the second diver to the surface alive — **two attempts failed**
 - [ ] Get back down to the ember — **done, badly; arrived with an empty chest and no pocket to return to**
-- [ ] Find out what is heating the water — **it makes hot air as well as hot water**
-- [ ] Get out before the tide turns — **sixty minutes left, Day 215**
+- [ ] Find out what is heating the water — **it makes hot air as well as hot water, and it is behind the wall**
+- [ ] Get out before the tide turns — **fifty-five minutes left, Day 215**
 
 ## Known
 
@@ -49,6 +49,12 @@ updated: 2026-08-07
 - The ember has cooled enough to touch, and the wall behind it is not a wall.
 - The Line will serve a **second** breather. Brannoc pulled it from his own mouth and set it against Ress Adair's; she took it and her chest came up under the harness. The stranger neither fought him for it nor let go of the far end. There is no slack in it for two mouths — it breathes one, and Brannoc chose which.
 - Ress Adair is breathing strongly for the first time since her ballast was cut. Brannoc has no air source at all.
+- The wall behind the ember **opens**. The stranger put both hands to it and it withdrew into itself rather than swinging. What came out was air — hot, scorched-lime, fast enough to lift silt and push it out through the slot. The pocket in the roof was a leak from this.
+- The stranger walked into the opening and kept paying the Line out behind it. The near end is in Ress Adair's mouth; the far end is going away from her, into whatever is on the other side of the wall.
+
+## Party
+
+None. Brannoc is alone but for Ress Adair, who cannot act.
 
 ## Unknown
 
