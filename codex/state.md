@@ -10,7 +10,7 @@ updated: 2026-08-07
 
 ## Right now
 
-Brannoc Vell has broken all three shackle pins. The Umber Cord chain lies coiled and free on the shingle at its full forty feet — he would not take it short, because a chain that ends above the gallery floor is a chain he cannot carry a body up. Roughly three hours of tide remain. Pellick will not go near the waterline. Below, in the gallery under the passage floor, the second diver is breathing.
+Brannoc Vell is in the gallery below the passage floor, on one lungful, with the *Umber Cord* chain fed through the slot. Sella's second diver is on the floor beside him, still breathing. The chain will not hang plumb — it leans toward the amber light deeper in, and pulls harder the longer it hangs. The water is warmer that way. Roughly two hours of tide. Pellick waits above and will not go near the waterline.
 
 The kilns are still firing. The water above them is the warmest it has ever been measured.
 
@@ -18,7 +18,7 @@ The kilns are still firing. The water above them is the warmest it has ever been
 
 | Hero | Where | Doing what |
 | --- | --- | --- |
-| [Brannoc Vell](characters/brannoc-vell/sheet.md) | [The Drowned Kiln](world/geography/sites/the-drowned-kiln.md), on the beach, chain free and coiled | [The Kiln Still Burns](quests/the-kiln-still-burns.md) |
+| [Brannoc Vell](characters/brannoc-vell/sheet.md) | [The Drowned Kiln](world/geography/sites/the-drowned-kiln.md), in the gallery below the passage floor | [The Kiln Still Burns](quests/the-kiln-still-burns.md) |
 | [Tessaly Orr](characters/tessaly-orr/sheet.md) | [Catch](world/geography/sites/catch.md), upper walkways | Hiding from Covenant retrieval agents — still not found |
 | [Gault Marrow](characters/gault-marrow/sheet.md) | Off the [Kiln Road](world/geography/sites/the-kiln-road.md), the Ashfields | Circling with a won wagon, unwelcome at three granges |
 | [Odrin Slate](characters/odrin-slate/sheet.md) | Shear-shed, Kiln-Road edge of Vaultspire | Cutting condemned salvage, about to go looking for his sister's crew |
