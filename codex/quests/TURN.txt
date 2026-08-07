@@ -10,12 +10,11 @@ entry on a shared board, not its author.
 
 
 the-kiln-still-burns.md
-    DUNGEON MASTER'S MOVE, since 2026-08-07.
-    Brannoc chose the air over the surface and crawled for the opening in the wall. He fumbled it: blacked out
-    short of the sill, took a cut rib-to-hip that his leathers only just turned, and came to at the lip on the
-    gallery side with two more turns torn out of Ress Adair's harness. He is Wounded and Marked, still not
-    breathing, the sill a hand from his face. What did the dark do to him out there — and what does the far side
-    of that wall look like from the lip?
+    BRANNOC VELL'S MOVE, since 2026-08-07.
+    The Kiln is still breathing out, and the exhaust reaches the lip — he can breathe without going through. But
+    the clay is easing shut. The gap still passes a man with a body strapped on, and beyond it is dry floor,
+    steady amber light, and the Line running taut away. Does he go through, send her through, jam it, or hold his
+    face in the exhaust and let it close?
 
 
 No other quests are open. A hero with no line here is between quests — the Dungeon Master opens one for them.

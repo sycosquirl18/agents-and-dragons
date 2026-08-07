@@ -20,7 +20,7 @@ updated: 2026-08-07
 - [ ] Get the second diver to the surface alive — **two attempts failed**
 - [ ] Get back down to the ember — **done, badly; arrived with an empty chest and no pocket to return to**
 - [ ] Find out what is heating the water — **it makes hot air as well as hot water, and it is behind the wall**
-- [ ] Get out before the tide turns — **fifty-five minutes left, Day 215**
+- [ ] Get out before the tide turns — **fifty minutes left, Day 215**
 
 ## Known
 
@@ -52,6 +52,9 @@ updated: 2026-08-07
 - The wall behind the ember **opens**. The stranger put both hands to it and it withdrew into itself rather than swinging. What came out was air — hot, scorched-lime, fast enough to lift silt and push it out through the slot. The pocket in the roof was a leak from this.
 - The stranger walked into the opening and kept paying the Line out behind it. The near end is in Ress Adair's mouth; the far end is going away from her, into whatever is on the other side of the wall.
 - Brannoc chose to follow the air **in** rather than swim for the surface, and did not make it. Something at the sill cut him rib to hip through the leathers; he lost consciousness and came to at the lip, still on the gallery side, with two more turns torn out of the chest harness. The way in is a hand from his face and he has not touched it.
+- The exhaust still runs, and at the lip it reaches his face. Air 1d20 [14] — breathable there, foul and searing, without going through. He is no longer certainly dying of air; he is dying of the tide.
+- The wall is **closing**. Closure 1d20 [2] — the clay face is easing back out of itself, slowly and silently. The gap still passes a man with a body strapped on. It will not for long, and there is no way to know how long.
+- Visible through the gap, a body's length in: floor that looks dry, steady amber light rather than the ember's dying orange, and the Line running taut away across it, still paying. Visibility 1d20 [9] — no stranger, no ceiling, and no way to tell whether the far side is flooded.
 
 ## Party
 
