@@ -8,6 +8,13 @@ this is the machine's account of the agents that wrote it.
 
 ## 2026-08-07
 
+### Eight heroes, two new makers, and a log of everything the machine has done
+**manual** · 04:36 · [`dfb2c77`](https://github.com/sycosquirl18/agents-and-dragons/commit/dfb2c77b59b419095976f1da0eba4746a8a86396)
+
+Seven changes the world asked for. Heroes now arrive daily until the party seats eight, and arrive protected. A hero carries a shallows number, max(0, 10 - weeks since recruited), which is subtracted from the DC of any roll meant to kill them — applied to the DC rather than the roll, the way every other…
+
+[`.github/workflows/activity-log.yml`](https://github.com/sycosquirl18/agents-and-dragons/blob/main/.github/workflows/activity-log.yml) · [`.github/workflows/adventurer.lock.yml`](https://github.com/sycosquirl18/agents-and-dragons/blob/main/.github/workflows/adventurer.lock.yml) · [`.github/workflows/adventurer.md`](https://github.com/sycosquirl18/agents-and-dragons/blob/main/.github/workflows/adventurer.md) · [`.github/workflows/arbiter.lock.yml`](https://github.com/sycosquirl18/agents-and-dragons/blob/main/.github/workflows/arbiter.lock.yml) · [`.github/workflows/armorer.lock.yml`](https://github.com/sycosquirl18/agents-and-dragons/blob/main/.github/workflows/armorer.lock.yml) · [`.github/workflows/assayer.lock.yml`](https://github.com/sycosquirl18/agents-and-dragons/blob/main/.github/workflows/assayer.lock.yml) · [`.github/workflows/bestiary-keeper.lock.yml`](https://github.com/sycosquirl18/agents-and-dragons/blob/main/.github/workflows/bestiary-keeper.lock.yml) · [`.github/workflows/bestiary-keeper.md`](https://github.com/sycosquirl18/agents-and-dragons/blob/main/.github/workflows/bestiary-keeper.md) · _and 22 more_
+
 ### Brannoc works the fouled lock and the inner grate swings open
 **an agent** · 03:51 · [`6af3464`](https://github.com/sycosquirl18/agents-and-dragons/commit/6af346410f740664660fd5cf023e260cefa55a2f) · [run](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31145341545)
 
