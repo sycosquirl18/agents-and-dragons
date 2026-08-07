@@ -163,7 +163,13 @@ if (repo) {
   }
 }
 
-const BROKE = new Set(["failure", "timed_out", "startup_failure", "cancelled", "action_required"]);
+// A run that ran and failed belongs in BROKE; deciding in advance which failures matter is how failures get missed.
+// `cancelled` is deliberately *not* here. The Activity Log supersedes itself via cancel-in-progress, so a burst of
+// commits cancels every render but the last. That is the concurrency control working, not a fault, and counting it
+// made the Health line read "49 not ok" on an afternoon where five runs actually failed. A dashboard that cries
+// wolf is worse than no dashboard, so superseded runs are tracked separately and reported as their own thing.
+const BROKE = new Set(["failure", "timed_out", "startup_failure", "action_required"]);
+const SUPERSEDED = "cancelled";
 const broken = runs.filter((r) => BROKE.has(r.conclusion));
 
 // Every workflow that *should* be running. An agent that has never run at all produces no rows in the API and
@@ -261,11 +267,13 @@ function renderIndex(archived) {
     const last7 = new Date(Date.now() - 7 * 86400000).toISOString();
     const recent = runs.filter((r) => r.at >= last7);
     const bad7 = recent.filter((r) => BROKE.has(r.conclusion)).length;
+    const sup7 = recent.filter((r) => r.conclusion === SUPERSEDED).length;
 
     out.push("## Health", "");
     out.push(
-      `**${recent.length}** runs in the last 7 days, **${bad7 || "none"}** not ok. ` +
-        `Live view in [Actions](${base}/actions).`,
+      `**${recent.length}** runs in the last 7 days, **${bad7 || "none"}** not ok` +
+        (sup7 ? `, ${sup7} superseded` : "") +
+        `. Live view in [Actions](${base}/actions).`,
       "",
     );
     out.push("| Workflow | Last run | | 7d | Not ok |", "| --- | --- | --- | --: | --: |");
@@ -277,7 +285,13 @@ function renderIndex(archived) {
         continue;
       }
       const mark =
-        last.status !== "completed" ? "running" : BROKE.has(last.conclusion) ? `**${last.conclusion}**` : "ok";
+        last.status !== "completed"
+          ? "running"
+          : BROKE.has(last.conclusion)
+            ? `**${last.conclusion}**`
+            : last.conclusion === SUPERSEDED
+              ? "superseded"
+              : "ok";
       const bad = mine.filter((r) => r.at >= last7 && BROKE.has(r.conclusion)).length;
       const gone = declared.includes(name) ? "" : " _(retired)_";
       out.push(

@@ -18,7 +18,7 @@ he can sit in the back room and not think about the true die.
 
 ## What he knows
 
-He sold [Nyella Sift](nyella-sift.md) her start, teaching her the register's blind spots, and expects a cut of what
+He sold [Nyella Sift](../../characters/nyella-sift/sheet.md) her start, teaching her the register's blind spots, and expects a cut of what
 she earns from it — a debt she has never openly refused, which unsettles him more than refusal would. He also holds
 [the Quiet Chop](../items/the-quiet-chop.md) in his coat lining, the counter-stamp he uses to restore revoked
 licences for favours rather than money, and he knows the Concord's [true die](../items/the-true-die.md) has been

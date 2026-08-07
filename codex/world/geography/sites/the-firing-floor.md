@@ -24,7 +24,7 @@ miles distant, though nothing here walks a circuit. The floor is not burning. It
 
 | Name | Want |
 | --- | --- |
-| **The hooded diver** | Went in ahead of Brannoc, paying out [the Unspooled Line](../items/the-unspooled-line.md) behind it. Has not spoken. Wants something from the floor's light that it has not yet reached — it walks toward the brightest band and does not look back. |
+| **The hooded diver** | Went in ahead of Brannoc, paying out [the Unspooled Line](../../items/the-unspooled-line.md) behind it. Has not spoken. Wants something from the floor's light that it has not yet reached — it walks toward the brightest band and does not look back. |
 | **A stacked row of ledger-stones**, cinder-glass tablets set on end along the shaft wall, each one warm | Not a person. See what is hidden. |
 
 ## What is dangerous

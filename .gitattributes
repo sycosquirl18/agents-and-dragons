@@ -1,1 +1,10 @@
 .github/workflows/*.lock.yml linguist-generated=true
+
+# Index and log files grow by appending: a new item, a new person, a new entry. When two agents append at once,
+# git calls it a conflict and one run's entire work is discarded — around 90 AI credits and a turn of story, to
+# avoid interleaving two lines that were never really in competition. `union` keeps both sides instead. Order can
+# come out odd and a duplicate is possible; the Custodian tidies those, and a tidy-up is far cheaper than a lost
+# run. Deliberately NOT applied to files an agent rewrites wholesale (state.md, a site page, a quest), where
+# keeping both sides would produce duplicated prose rather than a merged list.
+codex/chronicle/**/*.md merge=union
+codex/**/README.md merge=union

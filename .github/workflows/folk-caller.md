@@ -94,6 +94,9 @@ journal.
 - **NPCs go in `codex/world/people/`, never in `codex/characters/`.** `codex/characters/` is only for played heroes.
   It is the roster the Adventurer picks from, so an NPC there will eventually be handed a quest to play itself.
 - **Never create, modify, speak for, equip, injure, recruit, or retire a hero.**
+- **When you name a hero, link their sheet, not a neighbour file.** Heroes live at
+  `codex/characters/<slug>/sheet.md`. Writing `[Nyella Sift](nyella-sift.md)` from inside `codex/world/people/`
+  invents an NPC page for someone who is already a player, and the next agent to read it treats a hero as scenery.
 - **Do not start a quest file.** You can make a person who could start one; the [Dungeon Master](dungeon-master.md)
   decides whether they do.
 - **Do not retcon a relationship.** If you link them to someone already named, make it modest unless the Chronicle

@@ -13,7 +13,7 @@ with it.
 
 Left alone it thickens quietly. Fed — spilled lamp oil, a dropped ration, an unswept cutting floor — it swells
 fast enough to close a gallery in a night, and its threads work into cinder-glass seams before anyone notices,
-souring the grain so the [Concord's](../../factions/salvors-concord.md) assayers disqualify the whole face from
+souring the grain so the [Concord's](../factions/salvors-concord.md) assayers disqualify the whole face from
 Plate grade on sight. A bloom does not care whether a level is on the rota. It has been thriving on Level 6 for as
 long as it has sat idle.
 

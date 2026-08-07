@@ -73,6 +73,31 @@ const headingsOf = (file) => {
   return headingCache.get(key);
 };
 
+// Basename -> every Codex file with that name. Used to turn "broken link" into "you meant this".
+const byBasename = new Map();
+for (const f of files) {
+  const base = f.split(sep).pop();
+  if (!byBasename.has(base)) byBasename.set(base, []);
+  byBasename.get(base).push(f);
+}
+
+// Agents miscount `../` constantly, and a link to a file that exists at another depth is a different (and far
+// cheaper) problem than a link to something nobody wrote. Match on the whole path the agent wrote, minus the
+// `../` it got wrong — `characters/gault-marrow/sheet.md` is unique where `sheet.md` alone matches eight heroes.
+// Only suggest when exactly one file matches, so the hint is always safe to apply blindly.
+const suggestPath = (from, href) => {
+  const base = href.split("/").pop();
+  if (!base || !base.endsWith(".md")) return "";
+  const wanted = href.replace(/^(\.\.?\/)+/, "");
+  const hits = (byBasename.get(base) ?? []).filter((f) => rel(f).endsWith(wanted));
+  if (hits.length !== 1) {
+    const named = byBasename.get(base) ?? [];
+    return named.length ? ` (${named.length} files named ${base}; pick one)` : " (no such file)";
+  }
+  const fixed = relative(dirname(from), hits[0]).split(sep).join("/");
+  return ` (did you mean ${fixed.startsWith(".") ? fixed : "./" + fixed}?)`;
+};
+
 const checkLinks = (file, raw) => {
   const id = rel(file);
   for (const m of stripCode(raw).matchAll(/\[[^\]]*\]\(([^)\s]+)\)/g)) {
@@ -85,7 +110,10 @@ const checkLinks = (file, raw) => {
     const target = href ? resolve(dirname(file), href) : resolve(file);
     if (href) {
       if (!existsSync(target)) {
-        note(id, `broken link -> ${href}`);
+        // Nearly every broken link here is a *depth* mistake, not a wrong target: the file exists, the agent
+        // just miscounted `../`. Resolving the basename against the whole Codex turns an unactionable report
+        // into a one-line fix, so say what it should have been rather than only that it is wrong.
+        note(id, `broken link -> ${href}${suggestPath(file, href)}`);
         continue;
       }
       linkTargets.add(resolve(target));

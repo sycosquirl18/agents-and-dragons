@@ -15,7 +15,7 @@ the Bore's dark-rule requires — but it cannot be unlit. Wick, oil, and flame a
 or starving it of air does nothing. Whoever carries it lit is granting the safety of three lamps to a crew of one,
 which is generous, and also means it never stops burning where someone can see it.
 
-**Where it is:** The [Ashen Covenant](../../factions/ashen-covenant.md) chapterhouse in the Cant, catalogued and
+**Where it is:** The [Ashen Covenant](../factions/ashen-covenant.md) chapterhouse in the Cant, catalogued and
 unseen since 408 — the year [Level 6](../geography/sites/the-weeping-bore.md) was sunk and, the same season, the
 [Last Lens](../history/events/the-last-lens.md) was bought at auction. The Covenant will not confirm it holds a
 Bore-crew lamp at all, which is itself the tell.

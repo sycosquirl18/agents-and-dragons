@@ -67,6 +67,26 @@ post-steps:
         echo "push rejected (attempt $attempt) — rebasing onto main"
         git fetch -q origin main
         if ! git rebase -q origin/main; then
+          # Another agent rewrote the same lines while this run was thinking. Append-only files (indexes, the
+          # Chronicle) are merged by the `union` driver in .gitattributes and never reach here; what lands here is
+          # a genuine overlap on a file somebody rewrites whole.
+          #
+          # Discarding the run costs everything it just did — roughly 90 AI credits and a turn of story. Keeping
+          # this run's version of the conflicted file costs the other agent's edit to that one file, which its
+          # owner rewrites next cycle anyway, because these files are summaries of a world that is still there to
+          # be re-read. Prefer the cheaper loss. During a rebase `--theirs` is the commit being replayed, i.e. the
+          # work this run just did.
+          conflicted=$(git diff --name-only --diff-filter=U)
+          if [ -n "$conflicted" ]; then
+            for f in $conflicted; do
+              git checkout --theirs -- "$f" 2>/dev/null || git add -- "$f" 2>/dev/null || true
+            done
+            git add -A
+            if GIT_EDITOR=true git rebase --continue >/dev/null 2>&1; then
+              echo "::warning title=Kept this run's version of a contested file::$(echo $conflicted | tr '\n' ' ')"
+              continue
+            fi
+          fi
           git rebase --abort || true
           echo "::error title=Could not rebase onto main::Another agent changed the same lines. This run's work is lost; it will be redone next cycle."
           exit 1

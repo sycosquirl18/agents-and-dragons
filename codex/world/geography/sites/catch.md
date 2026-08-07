@@ -32,11 +32,11 @@ the goods are legal, and every year somebody in the Cant proposes fixing this.
 | **Tallow Ashe** | Tide-caller. Rings the Turn. Has rung it four minutes early all year and has told nobody why. |
 | **Mabb Orrin** | Buys anything, asks nothing, and is the fence half of Vaultspire's unlicensed salvage goes through — including [Brannoc's](../../../characters/brannoc-vell/sheet.md). |
 | **The Widow Sarn** | Owns the ladders. Not a figure of speech: she owns them, and access to the upper town is hers to withdraw. |
-| [**Marra Whit**](../people/marra-whit.md) | Blind former tide-caller. Hears the water arriving early too, by ear, for three years — longer than Tallow's four minutes by the clock. |
-| [**Josk Hallin**](../people/josk-hallin.md) | Ladder-boss, answers to the Widow. Means to start hauling the ladders four minutes early on his own clock, bell or no bell. |
-| [**Sella Fenn**](../people/sella-fenn.md) | Net-mender and scrap trader under the drying racks; sitting on a box of matched cinder-glass notation fragments Caude Renne wants badly. |
-| [**Corr Nettle**](../people/corr-nettle.md) | Ladder-warden at the one cargo ladder; checks every chit, missing his own, won't say so. |
-| [**Dovie Wrack**](../people/dovie-wrack.md) | Death-teller under the drying racks; hears a diver's chest for a coin and has noticed the drowned all cough like kiln-workers, not swimmers. |
+| [**Marra Whit**](../../people/marra-whit.md) | Blind former tide-caller. Hears the water arriving early too, by ear, for three years — longer than Tallow's four minutes by the clock. |
+| [**Josk Hallin**](../../people/josk-hallin.md) | Ladder-boss, answers to the Widow. Means to start hauling the ladders four minutes early on his own clock, bell or no bell. |
+| [**Sella Fenn**](../../people/sella-fenn.md) | Net-mender and scrap trader under the drying racks; sitting on a box of matched cinder-glass notation fragments Caude Renne wants badly. |
+| [**Corr Nettle**](../../people/corr-nettle.md) | Ladder-warden at the one cargo ladder; checks every chit, missing his own, won't say so. |
+| [**Dovie Wrack**](../../people/dovie-wrack.md) | Death-teller under the drying racks; hears a diver's chest for a coin and has noticed the drowned all cough like kiln-workers, not swimmers. |
 
 ## Dangers
 
@@ -49,13 +49,13 @@ the goods are legal, and every year somebody in the Cant proposes fixing this.
 - **The four minutes.** Tallow rings early because the water arrives early, and she has worked out that it has been
   creeping for a year. She has not reported it because Catch's exemption depends on Catch being uninteresting.
 - Mabb has been offered a great deal of money to stop buying from unlicensed divers. Not by the Concord.
-- [Marra Whit](../people/marra-whit.md) means to ring the old warning bell herself at the next Turn if nobody
+- [Marra Whit](../../people/marra-whit.md) means to ring the old warning bell herself at the next Turn if nobody
   with standing listens to her first — which would end Catch's exemption on someone else's schedule.
-- [Josk Hallin](../people/josk-hallin.md) means to start hauling the ladders four minutes early on his own
+- [Josk Hallin](../../people/josk-hallin.md) means to start hauling the ladders four minutes early on his own
   reckoning at the next Turn, without telling Tallow or the Widow — someone below when he does will be marooned.
-- [Sella Fenn](../people/sella-fenn.md) is about to hand Caude Renne a working sample of the notation at the next
+- [Sella Fenn](../../people/sella-fenn.md) is about to hand Caude Renne a working sample of the notation at the next
   Turn, unless someone outbids him or talks her out of it first.
-- [Corr Nettle](../people/corr-nettle.md) is missing his own ladder chit and cannot check cargo marks against it —
+- [Corr Nettle](../../people/corr-nettle.md) is missing his own ladder chit and cannot check cargo marks against it —
   a gap someone could slip through, if they find it before the Widow does.
-- [Dovie Wrack](../people/dovie-wrack.md) has noticed every drowned body this year shows a kiln-worker's
+- [Dovie Wrack](../../people/dovie-wrack.md) has noticed every drowned body this year shows a kiln-worker's
   congestion instead of a drowner's — a thread toward what's warming the Kiln's water, hers if someone pays right.

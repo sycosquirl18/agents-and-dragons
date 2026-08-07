@@ -29,7 +29,7 @@ is not connected to the water table. It does it anyway.
 
 | | |
 | --- | --- |
-| [**Dorcas Weel**](../people/dorcas-weel.md) | Concord rota-warden. Countersigns every crew's licence in person and keeps re-chalking Level 6's uncrossed peg, tenday after tenday, for no reason anyone will confirm. |
+| [**Dorcas Weel**](../../people/dorcas-weel.md) | Concord rota-warden. Countersigns every crew's licence in person and keeps re-chalking Level 6's uncrossed peg, tenday after tenday, for no reason anyone will confirm. |
 
 ## The rule about the dark
 
@@ -47,7 +47,7 @@ hero was carrying.
 
 - **Level 6.** Sunk in 408, the year of [the Last Lens](../../history/events/the-last-lens.md), and idle since.
   The rota still lists it. The licence for it is still issued, to nobody. Its tally-peg, uncrossed on the rota
-  board since that year, is [an item](../items/the-uncrossed-peg.md) waiting for someone to claim it.
+  board since that year, is [an item](../../items/the-uncrossed-peg.md) waiting for someone to claim it.
 - The weeping is **warm**, and warm water below Vaultspire is
   [the same open question](../regions/vaultspire.md) forty miles away.
 - Cut faces at level 5 have been found already cut — cleanly, and not by a crew on the rota. `stub`

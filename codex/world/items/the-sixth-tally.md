@@ -22,8 +22,8 @@ did not surface at all — which is worth more than money to whoever notices tha
 
 ## Provenance
 
-Level 6 of the Weeping Bore was sunk in year 408, the year the [Ashen Covenant](../../factions/ashen-covenant.md)
-bought [the Last Lens](../../history/events/the-last-lens.md), and it went idle immediately after — see
+Level 6 of the Weeping Bore was sunk in year 408, the year the [Ashen Covenant](../factions/ashen-covenant.md)
+bought [the Last Lens](../history/events/the-last-lens.md), and it went idle immediately after — see
 [the Weeping Bore](../geography/sites/the-weeping-bore.md#hooks). A rota tag surviving from that first and only
 season means a crew was struck onto Level 6's books before anyone decided the level would never be worked, and
 that crew was never formally stood down.

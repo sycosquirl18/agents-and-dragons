@@ -37,7 +37,7 @@ Both are correct, which is why it never resolves.
 | | |
 | --- | --- |
 | **The ash** | Two feet deep, grey-white, and still fertile after four centuries. Agronomically impossible. Universally taken for granted. |
-| **The granges** | Fortified farms, walled from the [Reaving](../../history/eras/the-reaving.md) and never unwalled. See the [Ashfield Granges](../../factions/ashfield-granges.md). Every one keeps [tally-daws](../bestiary/tally-daw.md) in its rafters. |
+| **The granges** | Fortified farms, walled from the [Reaving](../../history/eras/the-reaving.md) and never unwalled. See the [Ashfield Granges](../../factions/ashfield-granges.md). Every one keeps [tally-daws](../../bestiary/tally-daw.md) in its rafters. |
 | **The Kiln Road** | Kilnworks paving crossing the whole region, straight, and continuing east past where anybody has followed it. [Site](../sites/the-kiln-road.md). |
 | **[Mere Ilyx](../sites/mere-ilyx.md)** | The one standing water in the region. Nobody farms its shore. |
 | **[Harrow Grange](../sites/harrow-grange.md)** | The fourth grange, which sells its risk-certainty to the other ten — and just stopped. |
@@ -60,8 +60,8 @@ outstanding and was not phrased as an offer — see [Threshing](../sites/threshi
 ## Hooks
 
 - **The eleven-year calendar discrepancy** is deliberate. Somebody out here knows why. `stub` —
-  [Enna Tallis](../people/enna-tallis.md) has been measuring it for a decade and nobody has asked her the right
+  [Enna Tallis](../../people/enna-tallis.md) has been measuring it for a decade and nobody has asked her the right
   question yet.
 - The ash is still fertile after four hundred years. **Nothing is.**
 - Three granges have stopped selling to Vaultspire entirely this season and are storing instead. Their
-  [settle-crows](../bestiary/settle-crow.md) have gone quiet along with them.
+  [settle-crows](../../bestiary/settle-crow.md) have gone quiet along with them.
