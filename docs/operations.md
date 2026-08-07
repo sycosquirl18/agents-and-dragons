@@ -185,7 +185,7 @@ For a fixed-term experiment, add `stop-after: "+72h"` to a workflow's `on:` bloc
 | Jobs sit `queued` with no runner, or a push starts nothing | Usually not your repo | Check [githubstatus.com](https://www.githubstatus.com) — an Actions capacity incident delays both runner assignment and webhook delivery. Wait it out; queued runs pick up on recovery |
 | Agent produced nothing | Often correct | Check `gh aw logs <name>` before assuming a bug |
 | Lore contradictions | Normal at this scale | Custodian files `lore-gap`; Arbiter rules on them; you adjudicate the rest |
-| A quest stops advancing | Its `turn:` baton was never passed | `grep -rn "^turn:" codex/quests/`; set it and note why |
+| A quest stops advancing | Its baton was never passed | `cat codex/quests/TURN.txt`; hand it on and note why |
 | `spark` errors with "could not find data/words" | The word lists are missing from the checkout | Confirm `data/words/*.txt` is committed |
 
 ## Rolling back the world

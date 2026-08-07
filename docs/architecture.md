@@ -54,7 +54,7 @@ They don't talk. They leave state for each other, which means coordination survi
 | Channel | Written by | Read by |
 | --- | --- | --- |
 | `codex/state.md` | Dungeon Master | Everyone, first |
-| `turn:` on a quest | Dungeon Master, Adventurer | Both, before writing |
+| `codex/quests/TURN.txt` | Dungeon Master, Adventurer | Both, before writing |
 | `status: stub` files | Anyone | World Designer |
 | `lore-gap` issues | Custodian, anyone | Arbiter, humans |
 | `rules-gap` issues | Adventurer, anyone | Rules Smith |
@@ -66,14 +66,25 @@ depends on another agent having *just* run is an agent that breaks.
 
 ### The turn baton
 
-The Dungeon Master and the Adventurer both write quest files, and they alternate. A `turn:` field in each active
-quest's frontmatter says whose move it is — `dm`, or a hero slug. Whoever holds it acts and passes it in the same
-change; whoever does not holds off entirely. See [the quest index](../codex/quests/README.md#the-turn-baton).
+The Dungeon Master and the Adventurer both write quest files, and they alternate.
+[`codex/quests/TURN.txt`](../codex/quests/TURN.txt) says whose move it is, one entry per open quest. Whoever holds
+it acts and passes it in the same change; whoever does not holds off entirely. See
+[the quest index](../codex/quests/README.md#the-turn-baton).
 
 This is what makes a quest a *conversation* rather than two agents narrating over each other. It also bounds the
-work: the DM poses one beat, the hero answers with one exchange, and neither can run ahead of the other. The
-[checker](../scripts/check-codex.mjs) rejects an active quest with a missing or unrecognised `turn:`, because a
-dropped baton silently deadlocks the thread.
+work: the DM poses one beat, the hero answers with one exchange, and neither can run ahead of the other.
+
+The baton lived in each quest's frontmatter until it was eaten once too often. Coordination state cannot share a
+file with prose that agents rewrite wholesale — sooner or later a run rewriting the body takes the header with it,
+and the damage is invisible because the file still reads fine. A file that holds *only* the baton is one an agent
+has no reason to touch except to pass it. That is the general principle here, and it applies to any flag the world
+depends on: **give it its own file.**
+
+Its contents are deliberately unvalidated prose. An LLM reads them, and a schema would only be one more thing for
+an agent to get subtly wrong; if we ever need structure for tooling, the right answer is a tool the agent calls,
+not a format it must hand-write. The [checker](../scripts/check-codex.mjs) therefore checks one thing only, by
+substring: that every active quest appears on the board at all, because a quest nobody holds is a quest that
+silently stops.
 
 ### Dispatch, and why only the DM has it
 
@@ -140,7 +151,7 @@ it becomes unusable the moment agents start needing to grep everything.
 | Tonal drift | Something that doesn't belong to this world | Arbiter, twice weekly |
 | Scale drift | A reward makes the price list meaningless | Assayer keeps every number readable against a day's wage |
 | Narrative stall | Quests never resolve | DM instructed to close threads |
-| Deadlocked quest | `turn:` never passed; nobody may act | Checker rejects it; Custodian resets a stuck baton |
+| Deadlocked quest | Baton never passed; nobody may act | Checker warns if a quest is off the board; Custodian resets a stuck baton |
 | Sameness | Every agent writes the same voice | Distinct role prompts; dice over taste; `spark` for creative agents |
 | Merge storms | Agents conflict on the same file | Per-agent concurrency groups + rebase-then-retry |
 | Dispatch loops | Two agents dispatch each other forever | Only the DM dispatches; gh-aw has no depth guard |

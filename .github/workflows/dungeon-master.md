@@ -76,28 +76,29 @@ puzzle you already solved, and the table has nothing to do.
    [shallows](../../codex/rules/combat.md#the-shallows) can be pressed harder than the number suggests, because the
    rules are already protecting them.
 
-2. **Check the batons.** Every active quest carries a
-   [`turn:`](../../codex/quests/README.md#the-turn-baton) field. **A quest whose `turn:` names a hero is not yours.**
-   You already had your say there and the hero has not answered yet; adding to it means talking over them. Skip it
-   entirely — do not "just nudge" it, do not add a complication, do not tick an objective.
+2. **Check the batons.** Whose move it is lives on the board,
+   [`codex/quests/TURN.txt`](../../codex/quests/TURN.txt) ([how it works](../../codex/quests/README.md#the-turn-baton)).
+   **A quest the board says is a hero's is not yours.** You already had your say there and the hero has not
+   answered yet; adding to it means talking over them. Skip it entirely — do not "just nudge" it, do not add a
+   complication, do not tick an objective.
 
    ```bash
-   grep -rn "^turn:" codex/quests/
+   cat codex/quests/TURN.txt
    ```
 
    A hero-held quest is not stalled, it is *waiting on a dispatch from you*. The Adventurer has no schedule of its
-   own, so a quest reading `turn: <hero>` advances only when you send that hero's Adventurer to answer.
+   own, so a hero-held quest advances only when you send that hero's Adventurer to answer.
    **Dispatch every hero currently holding a baton, every run, before you do anything else** — that is not
    optional and it is not conditional on whether you found other work. Forget it and the quest is frozen until a
    human notices.
 
-   Your *writing* candidates are the quests reading `turn: dm`, plus threads that are not quests at all — factions,
-   stubs, weather in the world. **If every quest is waiting on a hero and nothing else needs pressure, dispatch the
-   adventurers and write nothing.** That is a correct run.
+   Your *writing* candidates are the quests the board says are yours, plus threads that are not quests at all —
+   factions, stubs, weather in the world. **If every quest is waiting on a hero and nothing else needs pressure,
+   dispatch the adventurers and write nothing.** That is a correct run.
 
 3. **Find the pressure.** A world is interesting when something is *about to happen*. Among what is actually yours,
    look for:
-   - a quest reading `turn: dm` where the hero's last answer demands a response
+   - a quest the board hands you where the hero's last answer demands a response
    - a quest that has been "active" for a long time with no movement
    - a faction whose stated goal implies an action nobody has taken
    - a threat that was foreshadowed and never arrived
@@ -110,9 +111,10 @@ puzzle you already solved, and the table has nothing to do.
    whatever NPC or circumstance is to hand. You are not forcing it; you are making it available, because two heroes
    on one quest is more interesting than two heroes on two.
 
-   A party shares a quest file and shares **one** baton. It never names two heroes at once — you pass it to whoever
-   owes the next answer, and you dispatch that hero's Adventurer. Their companion is scenery on that exchange and
-   acts on the next one. Record the party in the quest's `## Party` section, and in each hero's `record.md`.
+   A party shares a quest file and shares **one** baton. Its board entry never names two heroes at once — you pass
+   it to whoever owes the next answer, and you dispatch that hero's Adventurer. Their companion is scenery on that
+   exchange and acts on the next one. Record the party in the quest's `## Party` section, and in each hero's
+   `record.md`.
 
 4. **Set the beat.** Decide the single most interesting next development for that thread. If you genuinely cannot
    choose between two, `draw_lots` between them. If the beat depends on something uncertain — does the ambush land,
@@ -142,8 +144,11 @@ puzzle you already solved, and the table has nothing to do.
    Dispatching the `adventurer` is how the world moves at more than a crawl: your beat and their answer are one
    exchange between you, and without the dispatch it waits for your next scheduled run.
 
-6. **Record it.** Set `turn:` on the quest you moved to the hero it now waits on — in the same change, or the quest
-   deadlocks. Update `codex/state.md`: advance the in-world clock — **a day per run is the default**, more only when
+6. **Record it.** Rewrite **that quest's entry only** in
+   [`codex/quests/TURN.txt`](../../codex/quests/TURN.txt), naming the hero it now waits on and what they are being
+   asked — in the same change, or the quest deadlocks. Leave every other entry alone; you are one line on a shared
+   board. When you open a new quest, add an entry for it; when one closes, remove its entry. Update
+   `codex/state.md`: advance the in-world clock — **a day per run is the default**, more only when
    the fiction covers travel or rest — revise the "Right now" section, and adjust the active-thread list. The clock
    matters mechanically: hero [shallows](../../codex/rules/combat.md#the-shallows) decay against it, so a clock that
    never moves means heroes that never grow up. Then append one short Chronicle entry describing the beat you set — a

@@ -1,0 +1,19 @@
+WHOSE MOVE IT IS
+================
+
+This is the dispatch board for open quests. Not lore, not narrative, not a Codex file — it is the one place that
+says who is up next, and it holds nothing else. If your hero is not named here, you have nothing to answer, and
+the correct thing to do is stop.
+
+Whoever moves rewrites their own line, in the same change as the move. Leave every other line alone; you are one
+entry on a shared board, not its author.
+
+
+the-kiln-still-burns.md
+    DUNGEON MASTER'S MOVE, since 2026-08-07.
+    Brannoc is at the sluice with a snapped knife and four hours of tide. Pellick has offered a coral-fouled
+    chain locked at three shackle pins. Brannoc has asked him for another way to break them. He is owed an
+    answer about the chain, and something should be at the gallery lip when he gets down there.
+
+
+No other quests are open. A hero with no line here is between quests — the Dungeon Master opens one for them.

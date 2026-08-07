@@ -27,17 +27,13 @@ const STATUS_BY_TYPE = {
 };
 const STATUSES = [...new Set([...CONTENT_STATUSES, ...Object.values(STATUS_BY_TYPE).flat()])];
 
-// Whose move it is on an active quest. `dm` means the world owes the next beat; a hero slug means that hero
-// owes the next answer. This is the only thing stopping two agents writing the same quest in the same hour.
-// A hero is a directory with a `type: character` sheet — an NPC filed here by mistake must never become
-// baton-eligible, because no agent would ever play it and the quest would stall forever.
-const HEROES = existsSync(join(CODEX, "characters"))
-  ? readdirSync(join(CODEX, "characters")).filter((n) => {
-      const sheet = join(CODEX, "characters", n, "sheet.md");
-      if (!statSync(join(CODEX, "characters", n)).isDirectory() || !existsSync(sheet)) return false;
-      return /^type:\s*character\s*$/m.test(readFileSync(sheet, "utf8"));
-    })
-  : [];
+// Whose move it is lives in codex/quests/TURN.txt, deliberately outside the Codex file format: it is a plain
+// board an agent rewrites one line of, not a document. Its *contents* are prose and are not validated here —
+// an LLM reads them, and inventing a schema would only give agents something new to get subtly wrong. The one
+// thing worth checking mechanically is that no active quest has fallen off the board entirely, because a quest
+// nobody is holding the baton for is a quest that silently stops.
+const TURN_FILE = join(CODEX, "quests", "TURN.txt");
+const activeQuests = [];
 
 const errors = [];
 const warnings = [];
@@ -130,20 +126,10 @@ for (const file of files) {
     if (!fields.updated) err(id, "frontmatter missing `updated`");
     else if (!/^\d{4}-\d{2}-\d{2}$/.test(fields.updated)) err(id, `updated '${fields.updated}' is not YYYY-MM-DD`);
 
-    // --- the turn baton ---
-    if (fields.type === "quest") {
-      if (fields.status === "active") {
-        if (!fields.turn) {
-          err(id, "active quest has no `turn` — must be `dm` or a hero slug, so agents know whose move it is");
-        } else if (fields.turn !== "dm" && !HEROES.includes(fields.turn)) {
-          err(id, `turn '${fields.turn}' is neither \`dm\` nor a hero in codex/characters/ (${HEROES.join(", ") || "none"})`);
-        }
-      } else if (fields.turn && fields.turn !== "none") {
-        warn(id, `\`turn: ${fields.turn}\` on a ${fields.status} quest — nobody's move; use \`turn: none\``);
-      }
-    } else if (fields.turn) {
-      warn(id, "`turn` only means something on a quest file");
+    if (fields.turn) {
+      err(id, "`turn` no longer lives in frontmatter — whose move it is belongs in codex/quests/TURN.txt");
     }
+    if (fields.type === "quest" && fields.status === "active") activeQuests.push(id);
   }
 
   // --- structure ---
@@ -195,6 +181,21 @@ for (const dir of dirs) {
 
 for (const required of ["codex/state.md", "codex/README.md"]) {
   if (!existsSync(join(ROOT, required))) err(required, "required file is missing");
+}
+
+// A quest that is active but absent from the board has no baton, so no agent will ever pick it up. Matched by
+// filename substring rather than by parsing, so the board stays free to say it however it likes.
+if (activeQuests.length) {
+  if (!existsSync(TURN_FILE)) {
+    err("codex/quests/TURN.txt", `missing, but ${activeQuests.length} quest(s) are active — nobody holds a baton`);
+  } else {
+    const board = readFileSync(TURN_FILE, "utf8");
+    for (const q of activeQuests) {
+      if (!board.includes(q.split("/").pop())) {
+        warn("codex/quests/TURN.txt", `no entry for active quest ${q} — nobody's move, so it will never advance`);
+      }
+    }
+  }
 }
 
 const stubs = files.filter((f) => /status:\s*stub/.test(readFileSync(f, "utf8"))).length;

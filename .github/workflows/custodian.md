@@ -59,7 +59,7 @@ node scripts/check-codex.mjs
 Then the things it cannot see:
 
 ```bash
-grep -rn "^turn:" codex/quests/             # who each quest is waiting on
+cat codex/quests/TURN.txt                   # who each quest is waiting on
 find codex -name "*.md" -newermt "-7 days"  # what changed lately
 grep -rl "status: stub" codex/ | wc -l      # how much unclaimed work is outstanding
 ```
@@ -77,8 +77,9 @@ days. You cannot read everything; do not try. Fresh contradictions live in fresh
 | Missing or malformed frontmatter, stale `updated:` | Fix it |
 | File over 150 lines | Split it into a directory + index, and update every inbound link |
 | Index table out of step with the files it lists | Reconcile it against the files |
-| An active quest whose `turn:` names a hero who is dead or gone | Set it to `dm`, and say why in an issue |
-| An active quest whose `turn:` has named a *living* hero for more than 3 days | The Adventurer never answered — a run failed or was never dispatched. Set it to `dm` so the world can move, and note it in the issue |
+| A `TURN.txt` entry naming a hero who is dead or gone | Hand it to the Dungeon Master, and say why in an issue |
+| A `TURN.txt` entry that has named a *living* hero for more than 3 days | The Adventurer never answered — a run failed or was never dispatched. Hand it to the Dungeon Master so the world can move, and note it in the issue |
+| An active quest with no `TURN.txt` entry at all | Nobody holds the baton and it will never advance. Add an entry handing it to the Dungeon Master |
 | The identical fact written out in two files | Keep the one in the more specific file; replace the other with a link |
 
 That last row is the only judgement you get, and it is narrow: **identical**, not *related*. Two files both saying

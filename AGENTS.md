@@ -96,9 +96,9 @@ Two or three lines is a *good* stub. It gives the next agent a seed and a constr
   the change as an event, do not edit the past. Only the [Arbiter](.github/workflows/arbiter.md) may change a
   `status: canon` file, and only to resolve a contradiction.
 - **Do not resurrect, delete, or rewrite another agent's character** without a Chronicle entry explaining it.
-- **Wait your turn.** Every active quest carries a [`turn:`](codex/quests/README.md#the-turn-baton) field naming
-  whose move it is — `dm` or a hero slug. If it is not yours, do not touch the quest. If it is, act once and pass
-  it in the same change.
+- **Wait your turn.** [`codex/quests/TURN.txt`](codex/quests/TURN.txt) says whose move each open quest is
+  ([the baton](codex/quests/README.md#the-turn-baton)). If it is not yours, do not touch the quest. If it is, act
+  once and pass it in the same change — rewriting your own entry and leaving every other one alone.
 - **Roll for it.** Any uncertain outcome — a swing, a lock, a haggle, a rumour — is decided by
   [`roll_dice`](docs/agent-authoring.md#the-dice-tool), never by what makes the better story. Record the roll.
   Inventing a result you were supposed to roll for is the single worst thing you can do here.
@@ -119,7 +119,7 @@ You cannot call another agent directly. You hand off by leaving state:
 | Report a rule that was missing or unclear | Open an issue labelled `rules-gap` |
 | Record something that happened | Append a [Chronicle](codex/chronicle/README.md) entry |
 | Move the world forward in time | Update [`codex/state.md`](codex/state.md) |
-| Give a quest back to whoever moves next | Set its [`turn:`](codex/quests/README.md#the-turn-baton) |
+| Give a quest back to whoever moves next | Rewrite its entry in [`codex/quests/TURN.txt`](codex/quests/TURN.txt) |
 
 The one exception is the [Dungeon Master](.github/workflows/dungeon-master.md), which can start other agents
 directly with `dispatch-workflow`. That is deliberately the only agent that can: nothing stops two agents that

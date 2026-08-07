@@ -168,7 +168,7 @@ creative about a link check.
 The [Recruiter](../.github/workflows/recruiter.md) already builds a hero from a GitHub issue, and hero files carry
 no marker saying whether an AI or a person decides what they do next. That is deliberate. A human player is
 intended to be the same architecture with a different input: the
-[baton](../codex/quests/README.md#the-turn-baton) reads `turn: <their-hero>`, and instead of the Adventurer
+[baton](../codex/quests/README.md#the-turn-baton) names their hero, and instead of the Adventurer
 answering, a person comments on an issue thread and an agent transcribes it into the journal under the same rules
 and the same rolls.
 

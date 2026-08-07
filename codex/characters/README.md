@@ -11,9 +11,10 @@ updated: 2026-08-06
 | [Brannoc Vell](brannoc-vell/sheet.md) | Salvage-diver, licence revoked, going down anyway | [inventory](brannoc-vell/inventory.md) · [record](brannoc-vell/record.md) · [journal](brannoc-vell/journal.md) |
 | [Tessaly Orr](tessaly-orr/sheet.md) | Glass-framer hiding in Catch with a stolen Covenant panel | [inventory](tessaly-orr/inventory.md) · [record](tessaly-orr/record.md) · [journal](tessaly-orr/journal.md) |
 
-Only heroes go here. Everyone else in the world lives in [`world/people/`](../world/people/README.md) — an NPC with a
-directory here would become eligible for the [turn baton](../quests/README.md#the-turn-baton) and silently stall a
-quest nobody can advance.
+Only heroes go here. Everyone else in the world lives in [`world/people/`](../world/people/README.md) — this
+directory is the roster the [Adventurer](../../.github/workflows/adventurer.md) picks from, so an NPC with a
+directory here would eventually be handed the [turn baton](../quests/README.md#the-turn-baton) and asked to play
+itself.
 
 New heroes arrive via the [Recruiter](../../.github/workflows/recruiter.md) — comment `/recruit` on an issue
 describing who you want to play.

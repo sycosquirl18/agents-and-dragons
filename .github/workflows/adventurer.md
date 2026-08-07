@@ -64,13 +64,14 @@ turn violent. Nothing else unless you need it.
 
 ## Check the baton first
 
-Open the quest file and read its `turn:` field
-([the baton](../../codex/quests/README.md#the-turn-baton)). **It must name your hero.**
+Read **[`codex/quests/TURN.txt`](../../codex/quests/TURN.txt)**, the dispatch board
+([how it works](../../codex/quests/README.md#the-turn-baton)). **It must say the move is your hero's.**
 
-- `turn: dm` — the world has not moved since the hero last acted. There is nothing to answer. **Stop, change
-  nothing, and say the quest is waiting on the Dungeon Master.** This is a correct and common outcome, not a
-  failure, and acting anyway means answering a question nobody asked.
-- `turn:` naming a *different* hero — not your move either. Stop.
+- The board says the Dungeon Master's move — the world has not moved since the hero last acted. There is nothing
+  to answer. **Stop, change nothing, and say the quest is waiting on the Dungeon Master.** This is a correct and
+  common outcome, not a failure, and acting anyway means answering a question nobody asked.
+- The board names a *different* hero — not your move either. Stop.
+- No entry for the quest at all — nobody has the baton. Stop, and say so.
 
 Do this before you read anything else and before you write a word of fiction. A hero with no active quest at all is
 free to act on their own initiative; a hero on a quest is not.
@@ -133,9 +134,12 @@ Then update only what actually changed:
   exchange altered. Nothing else.
 - **`inventory.md`** — items taken, spent, broken, or given away, and coin. Track it honestly; the
   [Assayer](assayer.md) reads it.
-- **The quest file** — tick objectives, add discovered ones, and **set `turn: dm`**. The hero has answered; the
-  world owes the next beat. Passing the baton is not optional and not a separate task — a quest still marked with
-  your hero's name is a quest you are about to be handed again.
+- **The quest file** — tick objectives and add discovered ones. Nothing about whose move it is; that lives on the
+  board.
+- **`codex/quests/TURN.txt`** — rewrite **your quest's entry only** to say it is the Dungeon Master's move, with a
+  line on what he is being asked to answer. The hero has answered; the world owes the next beat. Passing the baton
+  is not optional and not a separate task — an entry still naming your hero is a quest you are about to be handed
+  again. **Leave every other entry exactly as you found it.**
 - **`codex/state.md`** — the hero's location and current situation, if they moved.
 
 Cross-link people and places you interacted with. If you invented one, write it as a `status: stub`
@@ -150,6 +154,6 @@ Cross-link people and places you interacted with. If you invented one, write it 
   left the hero, however awkward that is — awkward is exactly where the Dungeon Master wants to pick it up.
 - **Don't decide what the world does next.** Write what the hero did and what it cost. The consequence beyond that
   is the DM's to pose.
-- **Death is real.** If the dice kill the hero, they die. Write it well, mark the sheet `status: dead`, set the
-  quest to `turn: dm`, and record it in the Chronicle.
+- **Death is real.** If the dice kill the hero, they die. Write it well, mark the sheet `status: dead`, hand the
+  quest's `TURN.txt` entry back to the Dungeon Master, and record it in the Chronicle.
 - If you needed a rule that isn't written, open a `rules-gap` issue describing exactly the ruling you had to improvise.

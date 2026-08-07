@@ -2,8 +2,6 @@
 type: quest
 status: active
 updated: 2026-08-07
-
-turn: dm
 ---
 
 # The Kiln Still Burns
