@@ -20,6 +20,7 @@ thing yet to an answer for [The Ashfields'](../geography/regions/the-ashfields.m
 | [Warmrun Eel](warmrun-eel.md) | high | Underspire migrant shoal that follows heat; this year's run started early |
 | [Marrowbriar](marrowbriar.md) | high | Ashfield root-mass fed by a grange rite; keeps the ash fertile, and takes fields back if unfed |
 | [Weepbloom](weepbloom.md) | moderate | Weeping Bore fungal mat that sours cinder-glass seams if fed; thrives on Level 6's idle years |
+| [Gasp-Limpet](gasp-limpet.md) | high | Underspire shell colony that filters trapped air pockets thin, and can vent one all at once |
 
 Entry format — see [danger](../../rules/combat.md):
 
