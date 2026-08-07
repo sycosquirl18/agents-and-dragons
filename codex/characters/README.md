@@ -10,6 +10,8 @@ updated: 2026-08-06
 | --- | --- | --- |
 | [Brannoc Vell](brannoc-vell/sheet.md) | Salvage-diver, licence revoked, going down anyway | [inventory](brannoc-vell/inventory.md) · [journal](brannoc-vell/journal.md) |
 
+| [Old Pellick](old-pellick/sheet.md) | Former salvor; claims not to go back but is in the galleries | — |
+
 New heroes arrive via the [Recruiter](../../.github/workflows/recruiter.md) — comment `/recruit` on an issue
 describing who you want to play.
 

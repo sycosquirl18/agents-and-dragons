@@ -1,7 +1,7 @@
 ---
 type: creature
-status: stub
-updated: 2026-08-06
+status: sketch
+updated: 2026-08-07
 ---
 
 # Glass-crake
