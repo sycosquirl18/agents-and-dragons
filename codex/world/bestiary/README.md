@@ -6,6 +6,7 @@ updated: 2026-08-07
 
 # Bestiary
 
+
 The ash's four-hundred-year fertility is [Marrowbriar](marrowbriar.md), fed by an unwritten grange rite — the closest
 thing yet to an answer for [The Ashfields'](../geography/regions/the-ashfields.md) "nothing is" hook.
 
@@ -24,6 +25,7 @@ thing yet to an answer for [The Ashfields'](../geography/regions/the-ashfields.m
 | [Glow-clutch](glow-clutch.md) | moderate | Underspire lamp-grub farmed for light; abandons a hook for any stronger warmth nearby |
 | [Rim-swift](rim-swift.md) | low | Glass Wound rim bird; crews read its flock height as an early warmth warning |
 | [Knotroot Clam](knotroot-clam.md) | low | Drowned Kiln chain-clam, eaten raw by crews; knot size tracks the season's heat |
+| [Mile-crow](mile-crow.md) | low | Kiln Road wagon-rail crow flock; mimics every voice it's carried and strips unlashed cargo |
 
 Entry format — see [danger](../../rules/combat.md):
 
