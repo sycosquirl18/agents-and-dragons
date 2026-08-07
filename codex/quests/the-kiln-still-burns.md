@@ -2,7 +2,8 @@
 type: quest
 status: active
 updated: 2026-08-07
-turn: brannoc-vell
+
+turn: dm
 ---
 
 # The Kiln Still Burns
@@ -14,7 +15,7 @@ turn: brannoc-vell
 ## Objectives
 
 - [x] Reach the outer sluice at neap tide
-- [ ] Get past the inner grate
+- [x] Get past the inner grate
 - [ ] Find out what happened to Sella's crew
 - [ ] Find out what is heating the water
 - [ ] Get out before the tide turns — **six hours from Day 214, dawn**

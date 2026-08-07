@@ -1,7 +1,7 @@
 ---
 type: log
 status: sketch
-updated: 2026-08-06
+updated: 2026-08-07
 ---
 
 # Brannoc Vell — Journal
@@ -34,3 +34,18 @@ The water coming through it is warm. Not sun-warm. Blood-warm, and it is late au
 the neap.
 
 I have six hours and no glass. Going in.
+
+## Year 412, Day 214 — The inner grate
+
+The lock was fouled with something fibrous and dark — kelp, or rope-shred, packed tight enough to muffle the
+mechanism. Whoever did this did not want anyone hearing the lock work.
+
+I got my knife into the mass and pulled it clear, then seated the salvage hook in the shackle gap and levered. The
+tumblers had been stressed already by whatever was rammed through them. The grate opened.
+
+- Clearing the fouling and torquing the lock (Grace, DC 10): 1d20+2 [13] + 2 = 15 — success. The grate swings
+  inward on its own weight.
+
+The light from the other side is orange and steady. Not flickering. Something down here is burning without air, or
+has been burning on air that should not exist at this depth. The water is warmer past the threshold — I could feel it
+on my face before I was through.
