@@ -20,8 +20,8 @@ updated: 2026-08-07
 - [ ] Get the second diver to the surface alive — **two attempts failed**
 - [ ] Get back down to the ember — **done, badly; arrived with an empty chest and no pocket to return to**
 - [ ] Find out what is heating the water — **it makes hot air as well as hot water, and it is behind the wall**
-- [ ] Get out before the tide turns — **forty minutes left, Day 215**
-- [ ] Bring up [Hob Cardew](../world/people/hob-cardew.md) — **found by tag, buried, and Brannoc will not leave a body**
+- [ ] Get out before the tide turns — **the tide turned early, Day 215; the window is gone**
+- [ ] Bring up [Hob Cardew](../world/people/hob-cardew.md) — **he does not come up; he is set into the floor**
 
 ## Known
 
@@ -74,6 +74,13 @@ updated: 2026-08-07
   the same fist. The tag reads **[Hob Cardew](../world/people/hob-cardew.md)** — a fourth name, not one of
   Ress Adair's crew that anyone has said. The arm does **not** come free: it runs back into the silt and is
   heavier than an arm should be.
+- What the arm is attached to 1d20 [6] — the worst plain answer. It does not run into a bundle of roped divers
+  and it is not holding anything. It runs into the **floor**. Fanned clear, the shoulder is *set* into the gallery
+  clay the way a bracket is set into a wall: the clay closed round it and cured. Hob Cardew is a fitting. Three
+  more tags lie in the same line downstream, spaced a pace apart, the same depth.
+- Tide 1d20 [2] — it turns **early**, the way the Saltmarch has been running all year. The forty minutes was
+  never forty. The sluice above is already making, and Brannoc feels it as a slackening of the jet: the Kiln's
+  exhaust is meeting water coming the other way. When they meet, the gap stops blowing.
 
 ## Party
 

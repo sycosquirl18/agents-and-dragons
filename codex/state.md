@@ -6,21 +6,23 @@ updated: 2026-08-07
 
 # World State
 
-**Year 412 since the Sundering, Day 215.** Late autumn, mid-morning. The neap tides are running shorter than the moon says they should.
+**Year 412 since the Sundering, Day 215.** Late autumn, midday. The tide has turned early again — earlier than the neap reckoning allowed for, and nobody above the water is counting.
 
 ## Right now
 
-Brannoc Vell is sixty feet down at the lip of the halted wall in [the Drowned Kiln](world/geography/sites/the-drowned-kiln.md), Wounded and Marked, with an unconscious diver on one turn of harness and forty minutes of tide.
+Brannoc Vell is sixty feet down on the bared gallery floor of [the Drowned Kiln](world/geography/sites/the-drowned-kiln.md), Wounded and Marked, with an unconscious diver on one turn of harness and no window left.
 
-He gave [the Unspooled Line](world/items/the-unspooled-line.md) out of his own mouth to Ress Adair and she took it. The hooded stranger opened the wall behind the cooled ember and walked in, still paying the Line out. Brannoc followed the air instead of the surface — and did not reach it. He went out short of the sill, was cut rib to hip on something he never saw, and came to at the lip on the gallery side with the harness down to one turn.
+He gave [the Unspooled Line](world/items/the-unspooled-line.md) out of his own mouth to Ress Adair and she took it. The hooded stranger opened the wall behind the cooled ember and walked in, still paying the Line out. Brannoc followed the air instead of the surface, was cut rib to hip, and came to at the lip. The wall came on to the Line and could not cut it: it halted with a wrist's width of gap, forcing the whole exhaust through as a hard narrow jet. Ress Adair breathes off the near end.
 
-Then the wall came on to the Line and could not cut it. It stopped with a hand's width of gap: too narrow to pass, wide enough that the whole exhaust is forced through as a hard narrow jet. Ress Adair goes on breathing off the near end. A working breath is available to anyone who can hold a face in front of that jet, and nothing can swim in against it. Downstream the boil has stripped the gallery silt bare six feet out. Brannoc rode it there rather than hold station, and came away with the *Umber Cord* chain in his good hand and a dead man's wrist in the same fist — Concord tag, **[Hob Cardew](world/people/hob-cardew.md)**, a fourth name. The arm does not come free. It runs back into the silt, and it is heavier than an arm.
+Brannoc rode that jet's boil six feet downstream and came away with the *Umber Cord* chain in his good hand and a dead man's wrist in the same fist. The wrist does not come free because it was never buried. **[Hob Cardew](world/people/hob-cardew.md)'s shoulder is set into the gallery floor**, cured into the clay like a bracket into a wall, and three more Concord tags lie downstream of him in a line, a pace apart, at the same depth. Four men, fitted.
+
+The tide turned early. The making water is coming down the sluice to meet the Kiln's breath, and the jet at the gap is already slackening. When they meet there will be no breath at all — and no rising water above a man who cannot climb sixty feet one-handed with a body strapped on.
 
 ## The party
 
 | Hero | Where | Doing what |
 | --- | --- | --- |
-| [Brannoc Vell](characters/brannoc-vell/sheet.md) | [The Drowned Kiln](world/geography/sites/the-drowned-kiln.md), six feet downstream of the halted wall on the bared gallery floor, wounded and marked, chain recovered, a buried wrist in his hand, a diver on one turn of rope | [The Kiln Still Burns](quests/the-kiln-still-burns.md) |
+| [Brannoc Vell](characters/brannoc-vell/sheet.md) | [The Drowned Kiln](world/geography/sites/the-drowned-kiln.md), on the bared gallery floor six feet downstream of the halted wall, wounded and marked, chain in hand, a man's arm growing out of the floor under it, a diver on one turn of rope, and the tide making | [The Kiln Still Burns](quests/the-kiln-still-burns.md) |
 | [Tessaly Orr](characters/tessaly-orr/sheet.md) | [Catch](world/geography/sites/catch.md), upper walkways | Hiding from Covenant retrieval agents — still not found |
 | [Gault Marrow](characters/gault-marrow/sheet.md) | Off the [Kiln Road](world/geography/sites/the-kiln-road.md), the Ashfields | Circling with a won wagon, unwelcome at three granges |
 | [Odrin Slate](characters/odrin-slate/sheet.md) | Shear-shed, Kiln-Road edge of Vaultspire | Cutting condemned salvage, about to go looking for his sister's crew |

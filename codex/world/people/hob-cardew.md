@@ -1,11 +1,17 @@
 ---
 type: npc
-status: stub
+status: sketch
 updated: 2026-08-07
 ---
 
 # Hob Cardew
 
-A name stamped on a Concord tag, still on a wrist, buried in the silt of
-[the Drowned Kiln](../geography/sites/the-drowned-kiln.md)'s gallery until the exhaust jet uncovered it. Nobody has
-said which of the three lost crews he dived with, and the arm goes back into the silt heavier than an arm should.
+A Concord tag on a wrist in the gallery silt of
+[the Drowned Kiln](../geography/sites/the-drowned-kiln.md), uncovered when the halted wall's exhaust jet stripped
+the floor bare. No crew has claimed him and no roster has been checked against him.
+
+He does not come up. The arm runs back into the floor and the shoulder is *set* there — the clay closed round it
+and cured, the way a bracket is set into a wall. Three further tags lie downstream of him in a line, a pace apart,
+at the same depth.
+
+Which came first — the man or the floor — is not known, and nobody who could answer has surfaced.
