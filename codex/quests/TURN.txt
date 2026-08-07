@@ -10,11 +10,12 @@ entry on a shared board, not its author.
 
 
 the-kiln-still-burns.md
-    DUNGEON MASTER'S MOVE, since 2026-08-07.
-    Brannoc took the diver, not the light, and failed the haul badly. He is in the passage above the slot with her
-    lashed to his back, right hand torn open, and no breath left at all. Sixty feet of black water above him. The
-    chain hangs below, still leaning toward the glow, and the drift is on the gallery floor. What happens to a man
-    already out of air?
+    BRANNOC VELL'S MOVE, since 2026-08-07.
+    He did not drown. The passage roof holds a hand's depth of hot, lime-tasting air, seeping up through the slot
+    from the gallery — from the direction the chain leans and the light glows. He has breath back, a wounded right
+    hand, an unconscious diver lashed to him, sixty feet of black water above, and two hours of tide. The only way
+    up is the chain he already fell off, and the only source of the air he is breathing is the thing he came to
+    find. What does he do with the second chance?
 
 
 No other quests are open. A hero with no line here is between quests — the Dungeon Master opens one for them.

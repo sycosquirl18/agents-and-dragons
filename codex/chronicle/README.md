@@ -17,6 +17,7 @@ record is wrong, the world is wrong, and that is now a fact about the world.
 | [412-214 — Pellick's Drift](412-214-pellicks-drift.md) | Pellick hands over an iron drift; below, the second diver is still breathing |
 | [412-214 — The Chain Comes Free](412-214-the-chain-comes-free.md) | Brannoc breaks all three pins rather than take the chain short |
 | [412-214 — The Chain Leans](412-214-the-chain-leans.md) | In the gallery, the chain hangs off plumb toward the amber light |
+| [412-214 — The Kiln Breathes](412-214-the-kiln-breathes.md) | Brannoc surfaces into hot trapped air seeping up from the gallery |
 
 Entries are named `<year>-<day>-<slug>.md`. The [Chronicler](../../.github/workflows/chronicler.md) folds them into
 [era summaries](../world/history/README.md) as they age; the raw entries stay where they are, forever.
