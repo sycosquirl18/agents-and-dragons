@@ -32,8 +32,9 @@ the diver's ribs left-handed rather than test it.
 should have been a second Wounded; they are cut through and need repair before they will do it again.
 
 **No air.** He put [the Unspooled Line](../../world/items/the-unspooled-line.md) in Ress Adair's mouth instead of
-his own. He has since taken one mouthful of the Kiln's exhaust at the lip — foul, searing, and real — and spent it
-on the chain. There is no third blackout in him.
+his own. He has since been living off the Kiln's exhaust — a mouthful at the lip, and now the jet at the halted
+gap, which will serve a face held in front of it. Foul, searing, and not his to keep: it lasts as long as the wall
+stays stopped.
 
 **Shallows: 10** — recruited 412-214. Not yet spent: the fumble at the sill on 412-215 was a roll meant to kill
 him, and the shallows took the DC down to nothing rather than the once-only clause firing. It is the only reason

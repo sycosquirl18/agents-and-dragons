@@ -21,6 +21,7 @@ updated: 2026-08-07
 - [ ] Get back down to the ember — **done, badly; arrived with an empty chest and no pocket to return to**
 - [ ] Find out what is heating the water — **it makes hot air as well as hot water, and it is behind the wall**
 - [ ] Get out before the tide turns — **forty minutes left, Day 215**
+- [ ] Bring up [Hob Cardew](../world/people/hob-cardew.md) — **found by tag, buried, and Brannoc will not leave a body**
 
 ## Known
 
@@ -68,6 +69,11 @@ updated: 2026-08-07
   it as a hard narrow jet. A breath is available to anyone who can hold a face in front of it. Nothing swims up it.
 - The jet boils the silt off the gallery floor downstream. Six feet out it has uncovered the *Umber Cord* chain —
   and beside it a second Concord tag, still on a wrist. Forty minutes of tide.
+- Brannoc drank the jet and then **rode the boil** downstream rather than hold station at the gap. Grace+Diving,
+  DC 15 −2 apt −3 Diving = 10: [16]+2 = 18. He has the *Umber Cord* chain back in his good hand, and the wrist in
+  the same fist. The tag reads **[Hob Cardew](../world/people/hob-cardew.md)** — a fourth name, not one of
+  Ress Adair's crew that anyone has said. The arm does **not** come free: it runs back into the silt and is
+  heavier than an arm should be.
 
 ## Party
 
