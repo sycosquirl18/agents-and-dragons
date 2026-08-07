@@ -22,3 +22,19 @@ does not bend for coin, threat, or a hero's reputation. Getting him to look away
 job, if the Widow finds out.
 
 **Voice:** flat, procedural, repeats the rule rather than arguing it.
+
+## What actually happened to his chit
+
+The Widow took it herself, three weeks back, on a pretext about a cracked tally-notch — and has not given it back
+on purpose. She runs the same private reckoning on everyone who works the ladders for her: take away the one thing
+that lets a man do his job right, and watch what he does instead. Corr has spent three weeks covering the gap by
+memory and by making every trader wait while he double-checks their mark against nothing, and has never once
+waved a load through on a friendly face. He does not know he is being tested. He believes he is failing.
+
+## Useful at the table
+
+- Anyone who works out the chit is missing and *returns it, or a forged double* changes the shape of the test —
+  the Widow is watching for what Corr does with an easy way out, not just what he does without one.
+- He will not say the chit is missing to anyone but the Widow, and he has not worked up the nerve to tell her yet
+  — telling her means admitting he let it go, not that she took it. `stub`
+- If the real reason surfaces, Corr's flat procedural manner cracks once, hard, on the word *test*.
