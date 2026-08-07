@@ -10,15 +10,15 @@ updated: 2026-08-07
 
 ## Right now
 
-Brannoc Vell should have drowned in the passage above the slot and did not. Its roof holds a hand's depth of trapped air — hot, lime-tasting, seeping up through the slot from the gallery below, from the same direction the chain leans and the amber light comes. Whatever fires the kilns is exhaling. He is breathing it, wounded in the right hand, with an unconscious diver still lashed to his back and roughly two hours of tide. Pellick's drift is on the gallery floor. Pellick waits above and will not go near the waterline.
+Brannoc Vell spent his returned breath trying to wake the diver instead of climbing. She would not wake — she breathes on her own, weakly, and cannot climb, so anything that gets her up has to carry her. The pocket is smaller for the attempt: two people draw it down faster than the Kiln refills it, and the scorched-lime taste strengthens as it thins. He is wounded in the right hand, with roughly two hours of tide and sixty feet of black water above.
 
-The kilns are still firing. The water above them is the warmest it has ever been measured, and now the air is warmer still.
+The kilns are still firing. The water above them is the warmest it has ever been measured, the air is warmer still, and there is now a clock inside the clock.
 
 ## The party
 
 | Hero | Where | Doing what |
 | --- | --- | --- |
-| [Brannoc Vell](characters/brannoc-vell/sheet.md) | [The Drowned Kiln](world/geography/sites/the-drowned-kiln.md), in the passage above the slot, wounded, breathing hot trapped air | [The Kiln Still Burns](quests/the-kiln-still-burns.md) |
+| [Brannoc Vell](characters/brannoc-vell/sheet.md) | [The Drowned Kiln](world/geography/sites/the-drowned-kiln.md), in the passage above the slot, wounded, in a thinning air pocket with a diver who will not wake | [The Kiln Still Burns](quests/the-kiln-still-burns.md) |
 | [Tessaly Orr](characters/tessaly-orr/sheet.md) | [Catch](world/geography/sites/catch.md), upper walkways | Hiding from Covenant retrieval agents — still not found |
 | [Gault Marrow](characters/gault-marrow/sheet.md) | Off the [Kiln Road](world/geography/sites/the-kiln-road.md), the Ashfields | Circling with a won wagon, unwelcome at three granges |
 | [Odrin Slate](characters/odrin-slate/sheet.md) | Shear-shed, Kiln-Road edge of Vaultspire | Cutting condemned salvage, about to go looking for his sister's crew |

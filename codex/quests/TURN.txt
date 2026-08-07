@@ -10,12 +10,12 @@ entry on a shared board, not its author.
 
 
 the-kiln-still-burns.md
-    BRANNOC VELL'S MOVE, since 2026-08-07.
-    He did not drown. The passage roof holds a hand's depth of hot, lime-tasting air, seeping up through the slot
-    from the gallery — from the direction the chain leans and the light glows. He has breath back, a wounded right
-    hand, an unconscious diver lashed to him, sixty feet of black water above, and two hours of tide. The only way
-    up is the chain he already fell off, and the only source of the air he is breathing is the thing he came to
-    find. What does he do with the second chance?
+    DUNGEON MASTER'S MOVE, since 2026-08-07.
+    Brannoc spent his second breath on the diver instead of the climb, and she did not wake. She breathes on her
+    own, weakly, and cannot climb — anything that gets her out has to carry her. The attempt cost air: two people
+    draw the pocket down faster than the Kiln refills it, and the taste strengthens as it thins. What does the
+    Kiln do with a man who stopped to work on someone in its breath? Does the seep hold, quicken, or fail — and
+    does anything in that gallery notice the pause?
 
 
 No other quests are open. A hero with no line here is between quests — the Dungeon Master opens one for them.

@@ -25,7 +25,8 @@ failing to report a find. He did report it. The clerk who lost the paperwork was
 ## Condition
 
 **Wounded** — *right hand torn* (two fingers stripped on the slot rim). Disadvantage on anything needing a firm
-grip or fine work with that hand. See the [harm ladder](../../rules/combat.md#harm).
+grip or fine work with that hand. See the [harm ladder](../../rules/combat.md#harm). It will not close; he worked
+the diver's ribs left-handed rather than test it.
 
 ## Skills
 

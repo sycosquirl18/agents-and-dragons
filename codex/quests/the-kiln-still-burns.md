@@ -35,6 +35,8 @@ updated: 2026-08-07
 - Hung in the gallery, the chain leans off plumb toward the amber glow, and the pull strengthens the longer it hangs. The water is warmer in that direction.
 - Brannoc chose the diver over the glow and did not get her up. Both are in the passage above the slot; the chain still hangs below, still leaning. Pellick's drift is on the gallery floor.
 - The passage above the slot holds a hand's depth of trapped air along its highest cut. It is *hot* — hotter than the water — tastes of scorched lime, and seeps up through the slot from the gallery. Whatever heats the water is also making air.
+- The pocket is **consumable**. Two people breathing it drew it down by roughly a finger's depth in minutes; the seep from below replaces it at its own slow rate, not theirs. The taste strengthens as it thins.
+- The second diver breathes unaided but weakly, and did not wake to resuscitation. She cannot climb. Whatever gets her up has to carry her.
 
 ## Unknown
 
