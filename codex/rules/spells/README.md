@@ -24,6 +24,7 @@ Each spell is an inscription pattern that can be cut into [cinder-glass](../magi
 | [The Cool Reckoning](the-cool-reckoning.md) | Kilnworks | 1 | Tells you, in exact degrees, how far a touched point has drifted from its calibrated temperature |
 | [The Stopped Vein](the-stopped-vein.md) | Salvor's | 1 | Stops an open wound bleeding for an hour |
 | [The Last Heed](the-last-heed.md) | Kilnworks | 2 | Tells you, in exact minutes, how long a sealed air pocket stays breathable |
+| [The Held Hitch](the-held-hitch.md) | Kilnworks | 2 | A marked line won't slip while hauling a load, for ten minutes |
 
 Every spell here solves exactly one problem that this world actually has — the dark, the water, the tide, the
 shaking hand. None of them throw fire. Magic in the Kilnworks tradition was industrial, and what survived it is
