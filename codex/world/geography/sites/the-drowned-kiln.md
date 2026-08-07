@@ -1,7 +1,7 @@
 ---
 type: site
-status: sketch
-updated: 2026-08-06
+status: detailed
+updated: 2026-08-07
 ---
 
 # The Drowned Kiln
@@ -35,6 +35,50 @@ away at [the Weeping Bore](the-weeping-bore.md), which is not.
 
 The Kiln stopped for eleven hours in year 380 and nobody knows why — [the Quiet](../../history/events/the-quiet.md).
 It is the only interruption on record.
+
+## The gallery below the passage
+
+A slot in the inner passage floor, barely shoulder-wide, drops into a chamber the licensed charts never
+mapped — it sits below the settling galleries proper, closer to the firing floor than anything else that has
+ever been seen. The amber glow rises through it in visible columns of warmer water.
+
+Inside, the kiln-wights have laid the drowned out in rows, packed shoulder to shoulder against the far
+wall, weighted with ballast stones so the current cannot carry them off — Sella's crew, older salvors nobody
+came back for, and gear stacked beside each in the same order it would be logged on a manifest. It is not
+neglect. Someone, or something, is keeping an inventory.
+
+One of the row is not dead. The second diver Brannoc saw from the lip is breathing, slow and even, laid out
+with the same care as the rest — held, not discarded. Nothing about the gallery explains why that one is
+different.
+
+### Who is there
+
+| Name | Want |
+| --- | --- |
+| **Two kiln-wights on ballast duty** | To finish weighting the newest arrival and return it to the row — they work calmly, without haste, and do not react to the living diver at all |
+| **The unnamed second diver** | Unknown. Breathing, unresponsive to light or sound so far, kit intact |
+
+### Dangers
+
+- **The wights here do not warn off.** Elsewhere in the Kiln they ignore anyone who does not block a route;
+  here, disturbing a body in the row is treated as interfering with the job itself — Heart DC 15 to have
+  approached calmly enough that it does not count as interference, checked the instant a body is touched.
+- **No exit but the slot.** The chamber has no other opening on any chart, mapped or not.
+- **The air.** There is none. Whatever keeps the second diver breathing does not extend to visitors.
+
+### What is hidden
+
+The manifest is real: scratched into a ballast stone at the foot of the row, in the same notation as the
+[settling-gallery ledger](the-settling-galleries.md#what-is-hidden), is a tally that stops one short of the
+number of bodies present. Wits DC 16 to notice the count is wrong, or DC 12 for anyone who counts the row
+first. `stub`
+
+### Hooks
+
+- Whoever the second diver is, they were placed in the row *before* they stopped breathing, by something
+  that treats the living and the dead as the same kind of cargo. `stub`
+- The tally being one short of the body count means either the wights miscounted for the first time in four
+  hundred years, or someone is missing from a row that is otherwise complete. `stub`
 
 ## Dangers
 
