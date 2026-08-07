@@ -14,15 +14,15 @@ All times **Pacific** (PDT). The runners work in UTC; this does the arithmetic s
 
 ## Health
 
-**228** runs in the last 7 days, **42** not ok. Live view in [Actions](https://github.com/sycosquirl18/agents-and-dragons/actions).
+**229** runs in the last 7 days, **42** not ok. Live view in [Actions](https://github.com/sycosquirl18/agents-and-dragons/actions).
 
 | Workflow | Last run | | 7d | Not ok |
 | --- | --- | --- | --: | --: |
-| Activity Log | [2026-08-07 13:36](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31216586789) | running | 86 | 24 |
+| Activity Log | [2026-08-07 13:36](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31216629554) | running | 87 | 24 |
 | Adventurer | [2026-08-07 13:26](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31215886578) | ok | 11 | 2 |
 | Agentic Maintenance _(retired)_ | [2026-08-06 20:35](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31144794298) | ok | 1 | — |
 | Arbiter | [2026-08-07 13:11](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31214742839) | ok | 4 | — |
-| Armorer | [2026-08-07 13:32](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31216319740) | running | 12 | — |
+| Armorer | [2026-08-07 13:32](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31216319740) | ok | 12 | — |
 | Assayer | [2026-08-07 12:49](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31213166627) | ok | 2 | — |
 | Bestiary Keeper | [2026-08-07 13:32](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31216323753) | ok | 12 | — |
 | Check compiled workflows | [2026-08-07 12:30](https://github.com/sycosquirl18/agents-and-dragons/actions/runs/31211802644) | ok | 19 | 3 |
@@ -57,4 +57,4 @@ All times **Pacific** (PDT). The runners work in UTC; this does the arithmetic s
 
 | Week | | Changes | Runs | Not ok |
 | --- | --- | --: | --: | --: |
-| [2026-W32](2026-W32.md) | 6 Aug – 7 Aug | 104 | 228 | 42 |
+| [2026-W32](2026-W32.md) | 6 Aug – 7 Aug | 105 | 229 | 42 |
