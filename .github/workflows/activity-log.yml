@@ -1,0 +1,61 @@
+# Regenerates log/activity.md from the commit history.
+#
+# Not an agent: no model, no cost, one writer. Agents record themselves when they commit, and this renders what
+# they recorded. It cannot conflict with them because nothing else writes log/.
+#
+# The path filters are what stop it triggering itself: agents touch codex/, this job touches log/.
+name: Activity Log
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "codex/**"
+      - "scripts/activity.mjs"
+  schedule:
+    - cron: "17 6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: activity-log
+  cancel-in-progress: true
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.CODEX_PUSH_TOKEN || github.token }}
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Render
+        run: node scripts/activity.mjs --out log/activity.md --limit 300 --days 30
+
+      - name: Push
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- log/activity.md
+          if git diff --cached --quiet; then
+            echo "Activity log is current."
+            exit 0
+          fi
+          git commit -q -m "Render the activity log"
+          # An agent may have pushed while we rendered; rebasing is safe because nothing else writes this file.
+          for attempt in 1 2 3; do
+            if git push -q origin HEAD:main 2>/dev/null; then
+              echo "Activity log updated." >> "$GITHUB_STEP_SUMMARY"
+              exit 0
+            fi
+            git fetch -q origin main && git rebase -q origin/main
+          done
+          echo "::warning title=Could not push the activity log::It will be regenerated on the next push to main."

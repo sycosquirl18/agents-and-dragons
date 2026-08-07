@@ -57,7 +57,7 @@ You are playing a character, not narrating one. Everything below happens from be
   oldest last entry.
 - **Situation:** `${{ inputs.directive }}` — if blank, read the hero's journal and continue from wherever they stopped.
 
-Load, in this order: the hero's `sheet.md`, `inventory.md`, and the tail of their `journal.md`; the active quest file
+Load, in this order: the hero's `sheet.md`, `record.md`, `inventory.md`, and the tail of their `journal.md`; the active quest file
 they are on; the location file they are standing in; then [`codex/rules/scenes.md`](../../codex/rules/scenes.md) and
 [`checks.md`](../../codex/rules/checks.md). Add [`combat.md`](../../codex/rules/combat.md) if anything is likely to
 turn violent. Nothing else unless you need it.
@@ -124,6 +124,11 @@ shoulder to the inner grate rather than stand there working it out.
 
 Then update only what actually changed:
 
+- **`record.md`** — **always.** One line, third person, present-tense-of-fact, no colour: what you did, what you
+  got, what it cost. `Forced the Kiln's inner grate; something below heard it.` The journal is your voice and the
+  record is your file — the [Dungeon Master](dungeon-master.md) reads records to judge whether you have had it too
+  easy or too hard, so a run that skips it is a run that never happened as far as balance is concerned. Never more
+  than two lines, and never a line that adds nothing (`travelled onward` is not an entry).
 - **`sheet.md`** — [condition](../../codex/rules/combat.md#harm) and any named injury, advancement, anything the
   exchange altered. Nothing else.
 - **`inventory.md`** — items taken, spent, broken, or given away, and coin. Track it honestly; the

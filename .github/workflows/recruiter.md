@@ -1,11 +1,14 @@
 ---
 description: >-
-  Rolls up a new hero on demand. Comment `/recruit` on an issue describing who you want to play, and they join the
-  party with a sheet, an inventory, and a journal.
+  Rolls up a new hero. Runs daily while the party has room, and on demand — comment `/recruit` on an issue
+  describing who you want to play.
 emoji: "🧝"
 labels: [agent, simulation, player]
 
 on:
+  # Fixed, not fuzzy: the Custodian runs at 02:20 and rewrites the same indexes a new hero lands in.
+  schedule:
+    - cron: "40 14 * * *"
   slash_command:
     name: recruit
     events: [issues, issue_comment]
@@ -23,6 +26,7 @@ imports:
   - shared/codex.md
   - shared/commit.md
   - shared/dice.md
+  - shared/spark.md
 
 network:
   allowed: [defaults]
@@ -41,11 +45,31 @@ safe-outputs:
 
 # Recruiter
 
-Someone wants to play. Read issue #${{ github.event.issue.number }} with the GitHub tools — the title, the body, and
-the comment that invoked you — and turn whatever they wrote into a real character.
+## First: is there room?
 
-Requests will range from *"a disgraced tax collector who talks to crows"* to *"idk something cool"*. Both are valid
-inputs. Fill every gap they left with dice, not with your own taste.
+The party seats **eight living heroes**. Before anything else:
+
+```bash
+grep -L "status: dead" codex/characters/*/sheet.md | wc -l
+```
+
+**If that is 8 or more, stop.** Write nothing, create nothing. If a human asked via `/recruit`, comment saying the
+party is full and which hero would have to fall first. A full party is a correct run.
+
+## Then: who asked?
+
+You are invoked two ways, and they are different jobs.
+
+**On `/recruit`** — a human wants to play. Read issue #${{ github.event.issue.number }} with the GitHub tools: the
+title, the body, and the comment that invoked you. Turn whatever they wrote into a real character. Requests range
+from *"a disgraced tax collector who talks to crows"* to *"idk something cool"*. Both are valid inputs. Fill every
+gap they left with dice, not with your own taste.
+
+**On the daily schedule** — nobody asked, so the world provides. Call **`spark`** first and build someone around a
+drawn word, then read `codex/state.md` for what the world currently needs walking into it. Do not make a hero who
+duplicates one already on the roster: read `codex/characters/README.md` and go somewhere the party is thin. If the
+party already covers the ground and nothing suggests a new face, **write nothing.** Eight mediocre heroes are worse
+than three good ones.
 
 ## Roll them up
 
@@ -64,14 +88,18 @@ faction, a rumour, a place a hero has visited. A hero with no hooks is a hero no
 Create `codex/characters/<slug>/` with:
 
 - **`sheet.md`** — stats, [condition](../../codex/rules/combat.md#harm), skills, traits, a bond, a flaw, and three lines of background. Include the stat rolls'
-  tape. `status: sketch`.
+  tape. `status: sketch`. Frontmatter must carry **`recruited:`** set to today's world date from `codex/state.md`
+  (format `412-214`) — the [shallows](../../codex/rules/combat.md#the-shallows) are counted from it, and a hero
+  without one cannot be protected.
 - **`inventory.md`** — starting kit and coin per the rules. Nothing extra.
+- **`record.md`** — the ledger. One opening line: where they started and why. Terse, dated, not in voice.
 - **`journal.md`** — one opening entry in the hero's own voice: where they are, what they want, why now.
 
 Add them to `codex/characters/README.md` with a one-line gloss, and to the party roster in `codex/state.md`.
 
-Finally, comment on the issue with the hero's name, their most interesting stat, their flaw, and a link to the sheet.
-Keep it to a few lines and write it in the world's voice.
+If a human asked, comment on the issue with the hero's name, their most interesting stat, their flaw, and a link to
+the sheet. Keep it to a few lines and write it in the world's voice. On a scheduled run there is nobody to answer,
+so skip the comment.
 
 ## Rules
 

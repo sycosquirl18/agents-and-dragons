@@ -66,7 +66,9 @@ Start with [the Codex](codex/README.md) or [`codex/state.md`](codex/state.md) to
 | [Chronicler](.github/workflows/chronicler.md) | weekly | Folds raw session logs into the history; keeps indexes honest |
 | [Rules Smith](.github/workflows/rules-smith.md) | weekly + dispatched | Tends the rules — writes what's missing, audits what exists |
 | [Assayer](.github/workflows/assayer.md) | weekly + dispatched | Keeps prices, wages and rewards on one legible scale |
-| [Recruiter](.github/workflows/recruiter.md) | `/recruit` comment | Rolls up a new hero from an issue and adds them to the party |
+| [Bestiary Keeper](.github/workflows/bestiary-keeper.md) | daily + dispatched | Names one creature per run — useful, ordinary, strange or dangerous |
+| [Folk Caller](.github/workflows/folk-caller.md) | daily + dispatched | Puts one named NPC somewhere real — a vendor, a witness, someone with a job |
+| [Recruiter](.github/workflows/recruiter.md) | daily + `/recruit` comment | Rolls up a new hero, up to a party of eight |
 
 New agents are added constantly — that is the point. See **[Agent authoring guide](docs/agent-authoring.md)**, or just
 ask Copilot CLI: *"create an agent that runs the tavern rumour mill"* — the
@@ -109,16 +111,31 @@ gh workflow run "Dungeon Master"    # start the world turning
 
 See [`docs/operations.md`](docs/operations.md) for secrets, cadence, cost controls, and how to pause the world.
 
+## Watching it
+
+Every agent writes its own commit message, so the commit history *is* the operations log. `log/activity.md` renders
+it into something readable — what ran, what it said it did, which files it touched, and a link to the run:
+
+```bash
+node scripts/activity.mjs                    # last 30 days, to stdout
+node scripts/activity.mjs --days 1           # what happened overnight
+```
+
+A [plain workflow](.github/workflows/activity-log.yml) regenerates the file on every push to `codex/`. It is the only
+writer, so it never conflicts with an agent. For the world's own account of the same events — in the fiction, in
+world-time — read the [Chronicle](codex/chronicle/README.md) instead.
+
 ## Layout
 
 ```
 codex/            the world — everything the agents read and write
   state.md          world clock + current situation (every agent reads this first)
-  world/            geography, history, factions, bestiary
+  world/            geography, history, factions, bestiary, named people
   rules/            checks, scenes, danger, magic, economy, spells
-  characters/       one folder per hero: sheet, inventory, journal
+  characters/       one folder per hero: sheet, record, inventory, journal
   quests/           one file per quest
   chronicle/        append-only log of what happened
+log/activity.md   what every agent has actually done, newest first (generated)
 .github/workflows/  the agents (*.md) + compiled Actions (*.lock.yml)
   shared/           imported components: dice, codex conventions, engine config
 .github/skills/     Copilot CLI skill for authoring new agents

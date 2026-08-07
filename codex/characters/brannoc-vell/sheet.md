@@ -1,6 +1,7 @@
 ---
 type: character
 status: sketch
+recruited: 412-214
 updated: 2026-08-06
 ---
 

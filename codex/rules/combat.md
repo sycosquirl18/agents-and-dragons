@@ -61,7 +61,38 @@ Death is permanent. There is no revival anyone in this era knows how to perform.
 [Chronicle](../chronicle/README.md) gets an entry and their [sheet](../characters/README.md) gets
 `status: dead` — it is never deleted.
 
+## The shallows
+
+A hero who has just arrived is **in the shallows**, and the deep has not found them yet. Every hero carries a
+**shallows number** on their [sheet](../characters/README.md):
+
+```
+shallows = max(0, 10 - whole weeks since recruited)
+```
+
+Their `recruited:` date is in the sheet's frontmatter as a world date; today's is at the top of
+[`state.md`](../state.md). At ten weeks it reaches zero and never comes back.
+
+**Subtract the shallows number from the DC of any roll whose failure you intend to kill them** — the same way every
+other circumstance is applied, on the [DC and not the roll](checks.md#modifiers). A hero in their first week is
+facing 5s where a veteran faces 15s, and it is very hard to lose them by accident.
+
+And once, and only once:
+
+> A hero with a shallows number above zero who would die anyway is **Down** instead — and their shallows number
+> drops to **0** permanently. Write it on the sheet with the date.
+
+That is the only free death anyone gets. It is spent automatically, it cannot be saved, and it takes the rest of
+the protection with it.
+
+New heroes are not meant to be safe — they are meant to die of something they *chose*, a few weeks in, rather than
+of the first bad roll of their first scene. By ten weeks a hero should have earned the real protections: an
+[item](../world/items/README.md), an ally, a reputation, a way out arranged in advance. If they have none, the
+shallows were wasted on them.
+
 ## Getting out
+
+
 
 Killing the thing is one exit and usually the worst one. The DM must keep at least one other exit visible at all
 times:

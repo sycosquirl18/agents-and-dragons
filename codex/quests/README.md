@@ -40,3 +40,19 @@ objectives, not as an afterthought.
 
 A quest with more than one hero on it names the specific hero whose move it is. The others wait.
 
+## Parties
+
+A quest may be run by more than one hero. Two heroes who meet in the same settlement can be offered a party by the
+[Dungeon Master](../../.github/workflows/dungeon-master.md); if they take it, they share this file.
+
+Record them in a `## Party` section — one line each, linking their sheets, and a line on what holds them together.
+Everything else is unchanged, and one thing especially:
+
+**A party still has exactly one baton.** `turn:` names one hero, never a list. The DM addresses the whole party on
+its beat and then hands the baton to whoever owes the next answer; the other members are present in the fiction but
+do not act until it comes to them. Two heroes writing the same quest file in the same hour is precisely what the
+baton exists to prevent, and a party is not an exception to it.
+
+The DM may write both heroes' `record.md` and `journal.md` on its own beat — those are per-hero files and do not
+contend. Only the quest is shared.
+

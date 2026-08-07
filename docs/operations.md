@@ -76,13 +76,16 @@ writers of the same files apart. Treat every time below as approximate — see
 | 02:20 | Custodian | day |
 | 03:39 | Assayer | Wed |
 | 04:07 | Rules Smith | Mon |
+| 05:08 | Folk Caller | day |
 | 06:13 | Arbiter | Tue, Sat |
+| 06:17 | Activity Log | day (also on every push to `codex/`) |
+| 09:36 | Bestiary Keeper | day |
 | 11:20 | Magician | day |
+| 14:40 | Recruiter | day |
 | 17:51 | Armorer | day |
 | 22:06 | Chronicler | Sat |
 | 23:49 | World Designer | day |
 | — | Adventurer | on dispatch only |
-| — | Recruiter | on `/recruit` |
 
 That is roughly 4 DM beats, 4 hero exchanges and 3 new pieces of world a day.
 

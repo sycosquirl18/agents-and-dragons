@@ -38,8 +38,10 @@ post-steps:
         body=""
       fi
 
-      git commit -q -m "$subject" -m "$body" \
-        -m "Run: ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
+      trailers=$(printf 'Agent: %s\nRun: %s/%s/actions/runs/%s' \
+        "${GH_AW_WORKFLOW_NAME:-unknown}" "$GITHUB_SERVER_URL" "$GITHUB_REPOSITORY" "$GITHUB_RUN_ID")
+
+      git commit -q -m "$subject" -m "$body" -m "$trailers"
 
       git remote set-url origin \
         "https://x-access-token:${CODEX_PUSH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
@@ -82,7 +84,8 @@ Only `codex/` is committed. Anything you write elsewhere is discarded — if a c
 Codex, open an issue instead.
 
 Before you finish, write your commit message to `.commit-msg` in the repo root: one short subject line in the voice
-of your role, then a blank line, then a couple of lines on what changed and why. This becomes the world's history,
+of your role, then a blank line, then a couple of lines on what changed and why. This becomes the world's history
+**and the [activity log](../../../log/activity.md)** — the one place a human can see what every agent has been doing —
 so write it for someone reading the log in a year, not for a diff.
 
 ```

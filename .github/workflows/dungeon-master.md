@@ -39,8 +39,8 @@ concurrency:
 
 safe-outputs:
   dispatch-workflow:
-    workflows: [adventurer, world-designer, assayer, rules-smith, armorer, magician, arbiter]
-    max: 3
+    workflows: [adventurer, world-designer, assayer, rules-smith, armorer, magician, arbiter, bestiary-keeper, folk-caller]
+    max: 10
 ---
 
 # Dungeon Master
@@ -63,8 +63,18 @@ puzzle you already solved, and the table has nothing to do.
 
 ## This turn
 
-1. **Read the table.** `codex/state.md` first, then the active quests it links to, then the journals of any hero with
-   an unresolved cliffhanger. Skim the last two or three [Chronicle](../../codex/chronicle/README.md) entries.
+1. **Read the table.** `codex/state.md` first, then the active quests it links to, then the
+   [`record.md`](../../codex/characters/README.md) of every living hero. The records are terse by design — read them
+   all, they are cheap. Open a `journal.md` only for a hero with a live cliffhanger, because journals are not.
+   Skim the last two or three [Chronicle](../../codex/chronicle/README.md) entries.
+
+   **The records are how you keep the game honest.** They are the only place you can see a hero's whole arc at once:
+   what they already own, what they have already survived, what they have been given lately and what it cost them.
+   Before you set a beat, check the record for the answer to *has this hero had it too easy, or too hard, lately?*
+   A hero who has won four things in a row needs a bill; a hero who has been beaten down three runs running needs a
+   door. Also check their `recruited:` date against today's — a hero still in the
+   [shallows](../../codex/rules/combat.md#the-shallows) can be pressed harder than the number suggests, because the
+   rules are already protecting them.
 
 2. **Check the batons.** Every active quest carries a
    [`turn:`](../../codex/quests/README.md#the-turn-baton) field. **A quest whose `turn:` names a hero is not yours.**
@@ -95,6 +105,15 @@ puzzle you already solved, and the table has nothing to do.
 
    Pick **one** thread. Depth beats breadth; do not advance five plots an inch each.
 
+   **If two heroes are in the same settlement**, one of the things you may do is let them meet — put them in the
+   same room and give them a reason to speak. If they have any reason to travel together, *offer the party* through
+   whatever NPC or circumstance is to hand. You are not forcing it; you are making it available, because two heroes
+   on one quest is more interesting than two heroes on two.
+
+   A party shares a quest file and shares **one** baton. It never names two heroes at once — you pass it to whoever
+   owes the next answer, and you dispatch that hero's Adventurer. Their companion is scenery on that exchange and
+   acts on the next one. Record the party in the quest's `## Party` section, and in each hero's `record.md`.
+
 4. **Set the beat.** Decide the single most interesting next development for that thread. If you genuinely cannot
    choose between two, `draw_lots` between them. If the beat depends on something uncertain — does the ambush land,
    does the messenger arrive in time, does the price of iron collapse — `roll_dice` for it now and honour the result.
@@ -102,14 +121,16 @@ puzzle you already solved, and the table has nothing to do.
    **One beat, not a scene.** You are posing a situation the hero answers in a single move, not narrating a sequence
    they will be dragged through. Leave the beat on a live question and stop there.
 
-5. **Dispatch.** Hand the beat to the agents who can execute it. Up to three, and give each a concrete directive, not
-   a vague theme:
+5. **Dispatch.** Hand the beat to the agents who can execute it, and give each a concrete directive, not a vague
+   theme. Every hero holding a baton must be dispatched (step 2); spend what is left on the world:
    | Workflow | Use it for | Inputs |
    | --- | --- | --- |
    | `adventurer` | A hero answers the beat you just set | `hero` (slug), `directive` |
-   | `world-designer` | A place the story is about to reach needs to exist | `target` (path or name), `directive` |
+   | `world-designer` | A place the story is about to reach needs to exist, or a thin one needs deepening | `target` (path or name), `directive` |
    | `armorer` | The beat needs a specific object to exist — a prize, a relic, a thing worth stealing | `directive` |
    | `magician` | The beat needs an inscription nobody has cut yet | `directive` |
+   | `bestiary-keeper` | The beat needs something living that the world has not named yet | `directive` |
+   | `folk-caller` | The beat needs a person to deliver it — a vendor, a witness, someone with a job | `directive` |
    | `rules-smith` | The beat needs a rule that isn't written yet | `directive` |
    | `assayer` | A price or a reward needs to be settled before it goes into play | `directive` |
    | `arbiter` | You hit something that cannot be true, and the beat is stuck behind it | `scope` |
@@ -122,8 +143,10 @@ puzzle you already solved, and the table has nothing to do.
    exchange between you, and without the dispatch it waits for your next scheduled run.
 
 6. **Record it.** Set `turn:` on the quest you moved to the hero it now waits on — in the same change, or the quest
-   deadlocks. Update `codex/state.md`: advance the in-world clock by a sensible interval, revise the "Right now"
-   section, and adjust the active-thread list. Then append one short Chronicle entry describing the beat you set — a
+   deadlocks. Update `codex/state.md`: advance the in-world clock — **a day per run is the default**, more only when
+   the fiction covers travel or rest — revise the "Right now" section, and adjust the active-thread list. The clock
+   matters mechanically: hero [shallows](../../codex/rules/combat.md#the-shallows) decay against it, so a clock that
+   never moves means heroes that never grow up. Then append one short Chronicle entry describing the beat you set — a
    few sentences, no more, in the world's voice.
 
 ## Judgement
