@@ -23,6 +23,7 @@ The kilns are still firing. The water above them is the warmest it has ever been
 | [Gault Marrow](characters/gault-marrow/sheet.md) | Off the [Kiln Road](world/geography/sites/the-kiln-road.md), the Ashfields | Circling with a won wagon, unwelcome at three granges |
 | [Odrin Slate](characters/odrin-slate/sheet.md) | Shear-shed, Kiln-Road edge of Vaultspire | Cutting condemned salvage, about to go looking for his sister's crew |
 | [Nyella Sift](characters/nyella-sift/sheet.md) | Back room near Vaultspire's licensing offices | Forging Concord paperwork for revoked and locked-out divers |
+| [Corwin Ash](characters/corwin-ash/sheet.md) | [Catch](world/geography/sites/catch.md) | Asking around about a bootprint pressed into rotten salvage |
 
 ## Active threads
 

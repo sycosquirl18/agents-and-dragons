@@ -13,6 +13,7 @@ updated: 2026-08-07
 | [Gault Marrow](gault-marrow/sheet.md) | Gambler circling the Ashfields with a wagon he won and won't give back | [inventory](gault-marrow/inventory.md) · [record](gault-marrow/record.md) · [journal](gault-marrow/journal.md) |
 | [Odrin Slate](odrin-slate/sheet.md) | Scrap-shearer at the Kiln-Road edge of Vaultspire, can't leave cinder-glass unclaimed | [inventory](odrin-slate/inventory.md) · [record](odrin-slate/record.md) · [journal](odrin-slate/journal.md) |
 | [Nyella Sift](nyella-sift/sheet.md) | Uncertified clerk forging Concord paperwork for whoever the licence system has locked out | [inventory](nyella-sift/inventory.md) · [record](nyella-sift/record.md) · [journal](nyella-sift/journal.md) |
+| [Corwin Ash](corwin-ash/sheet.md) | Wrack-scrubber at Catch, trusts Marra Whit's early tide over the bell | [inventory](corwin-ash/inventory.md) · [record](corwin-ash/record.md) · [journal](corwin-ash/journal.md) |
 
 Only heroes go here. Everyone else in the world lives in [`world/people/`](../world/people/README.md) — this
 directory is the roster the [Adventurer](../../.github/workflows/adventurer.md) picks from, so an NPC with a
