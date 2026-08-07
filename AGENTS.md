@@ -67,7 +67,7 @@ updated: 2026-08-06
 
 | Field | Values |
 | --- | --- |
-| `type` | `region`, `settlement`, `site`, `era`, `event`, `faction`, `creature`, `item`, `spell`, `rule`, `character`, `quest`, `log`, `index` |
+| `type` | `region`, `settlement`, `site`, `era`, `event`, `faction`, `creature`, `npc`, `item`, `spell`, `rule`, `character`, `quest`, `log`, `index` |
 | `status` | `stub` (name only) → `sketch` (usable) → `detailed` (rich) → `canon` (locked; needs Arbiter sign-off to change) |
 | `updated` | ISO date of your change |
 

@@ -14,14 +14,20 @@ const CODEX = join(ROOT, "codex");
 const STRICT = process.argv.includes("--strict");
 const MAX_LINES = 150;
 
-const TYPES = ["region", "settlement", "site", "era", "event", "faction", "creature", "item", "spell",
+const TYPES = ["region", "settlement", "site", "era", "event", "faction", "creature", "npc", "item", "spell",
   "rule", "character", "quest", "log", "index"];
 const STATUSES = ["stub", "sketch", "detailed", "canon", "active", "resolved", "failed", "abandoned", "dead"];
 
 // Whose move it is on an active quest. `dm` means the world owes the next beat; a hero slug means that hero
 // owes the next answer. This is the only thing stopping two agents writing the same quest in the same hour.
+// A hero is a directory with a `type: character` sheet — an NPC filed here by mistake must never become
+// baton-eligible, because no agent would ever play it and the quest would stall forever.
 const HEROES = existsSync(join(CODEX, "characters"))
-  ? readdirSync(join(CODEX, "characters")).filter((n) => statSync(join(CODEX, "characters", n)).isDirectory())
+  ? readdirSync(join(CODEX, "characters")).filter((n) => {
+      const sheet = join(CODEX, "characters", n, "sheet.md");
+      if (!statSync(join(CODEX, "characters", n)).isDirectory() || !existsSync(sheet)) return false;
+      return /^type:\s*character\s*$/m.test(readFileSync(sheet, "utf8"));
+    })
   : [];
 
 const errors = [];

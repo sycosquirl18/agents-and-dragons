@@ -10,7 +10,9 @@ updated: 2026-08-06
 | --- | --- | --- |
 | [Brannoc Vell](brannoc-vell/sheet.md) | Salvage-diver, licence revoked, going down anyway | [inventory](brannoc-vell/inventory.md) · [journal](brannoc-vell/journal.md) |
 
-| [Old Pellick](old-pellick/sheet.md) | Former salvor; claims not to go back but is in the galleries | — |
+Only heroes go here. Everyone else in the world lives in [`world/people/`](../world/people/README.md) — an NPC with a
+directory here would become eligible for the [turn baton](../quests/README.md#the-turn-baton) and silently stall a
+quest nobody can advance.
 
 New heroes arrive via the [Recruiter](../../.github/workflows/recruiter.md) — comment `/recruit` on an issue
 describing who you want to play.

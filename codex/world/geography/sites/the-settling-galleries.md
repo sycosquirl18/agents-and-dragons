@@ -23,7 +23,7 @@ Someone has cut new handholds into the passage walls at that last stretch, recen
 | Name | Want |
 | --- | --- |
 | **Three kiln-wights** | To finish sorting a load that has no destination — they carry baskets of cinder-glass back and forth between chambers, waiting for a handoff that is four hundred years late |
-| **[Old Pellick](../../../characters/old-pellick/sheet.md)** | To find Sella's crew before he has to admit they are gone — he says he will not go back, and here he is |
+| **[Old Pellick](../../people/old-pellick.md)** | To find Sella's crew before he has to admit they are gone — he says he will not go back, and here he is |
 | **The third crew's rope** | Still tethered to a sorting-channel wall anchor. One end goes down. The other is frayed, not cut |
 
 Old Pellick is not supposed to be here. He will not say why he came back. He knows more about the inner grate
@@ -49,7 +49,7 @@ on sealed oil, and a ledger in the notation nobody can read. The ledger is dated
 
 ## Hooks
 
-- **[Old Pellick](../../../characters/old-pellick/sheet.md)** is here and has no explanation. What he knows
+- **[Old Pellick](../../people/old-pellick.md)** is here and has no explanation. What he knows
   about the inner grate will surface if he is pressed — or if the rope pulls taut.
 - **[The frayed rope](../../../quests/the-kiln-still-burns.md)** of the third crew goes down past the inner grate. The rope did not break; it was cut from below, then frayed to look otherwise.
 - **[The notation ledger](../../../world/history/eras/the-kilnworks.md)** in the hidden pocket is the oldest

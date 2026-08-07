@@ -11,7 +11,7 @@ mcp-scripts:
         type: string
         default: "10"
       parts:
-        description: "Comma-separated parts of speech to draw: 'nouns', 'adjectives', 'verbs'. Defaults to all three."
+        description: "Comma-separated parts of speech to draw: 'nouns', 'adjectives', 'verbs' (singular also accepted). Defaults to all three."
         type: string
         default: "nouns,adjectives,verbs"
     script: |
@@ -51,9 +51,13 @@ mcp-scripts:
         );
       }
 
-      const wanted = String(parts || "nouns,adjectives,verbs")
-        .split(",").map((s) => s.trim().toLowerCase()).filter(Boolean);
       const known = ["nouns", "adjectives", "verbs"];
+      // Agents reach for the singular ("noun, adjective, verb") because that is how the parts of speech are named.
+      // Accepting both spellings saves a failed call and a retry on every run.
+      const ALIASES = { noun: "nouns", adjective: "adjectives", adj: "adjectives", verb: "verbs" };
+      const wanted = String(parts || "nouns,adjectives,verbs")
+        .split(",").map((s) => s.trim().toLowerCase()).filter(Boolean)
+        .map((p) => ALIASES[p] || p);
       const bad = wanted.filter((p) => !known.includes(p));
       if (bad.length) throw new Error(`Unknown part(s) of speech: ${bad.join(", ")}. Known: ${known.join(", ")}`);
 

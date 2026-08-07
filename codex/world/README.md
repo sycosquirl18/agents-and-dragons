@@ -15,6 +15,7 @@ the wreckage and digs through it for a living.
 | [`geography/`](geography/README.md) | Regions, settlements, and sites |
 | [`history/`](history/README.md) | Eras and the events that ended them |
 | [`factions/`](factions/README.md) | Who wants what, and from whom |
+| [`people/`](people/README.md) | Named residents nobody plays |
 | [`bestiary/`](bestiary/README.md) | What lives out there |
 | [`items/`](items/README.md) | Named objects worth naming, and who holds them |
 

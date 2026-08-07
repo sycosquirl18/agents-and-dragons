@@ -69,8 +69,10 @@ Then write:
 
 - **What it is** — two or three sentences. Concrete and sensory. Not "an ancient place of mystery" but "the kilns
   still fire, underwater, and the water above them is warm enough to swim in."
-- **Who is there** — two to four named inhabitants, each with a want that could put them in a hero's way. Link them
-  out as stubs if they deserve their own file.
+- **Who is there** — two to four named inhabitants, each with a want that could put them in a hero's way. Leave them
+  as table rows here. A person only earns their own file in
+  [`codex/world/people/`](../../codex/world/people/README.md) once three files reference them; never put an NPC in
+  `codex/characters/`, which is for played heroes alone.
 - **What is dangerous** — creatures, hazards, or factions, with the DC or stat block reference. Link to
   [`codex/world/bestiary/`](../../codex/world/bestiary/README.md); add a stub there if the creature is new.
 - **What is hidden** — one secret worth finding, and the check that finds it.
@@ -89,7 +91,9 @@ index with a one-line gloss.
   [Rules Smith](rules-smith.md) write it.
 - **Economies are real.** A city needs food, water, and a reason to exist where it is. Ask who feeds it.
 - **Names carry culture.** Places near each other should sound like they share a language. Check the neighbours.
-- **Never write a hero's actions.** You build the stage; the [Adventurer](adventurer.md) walks on it.
+- **Never write a hero's actions.** You build the stage; the [Adventurer](adventurer.md) walks on it. That extends to
+  `codex/characters/` — you never create a directory there. A hero arrives through the
+  [Recruiter](recruiter.md) and through no other door.
 - Use `draw_lots` and `roll_dice` when you catch yourself picking the most interesting option every time — a world
   where everything is remarkable is a world where nothing is.
 

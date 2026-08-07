@@ -46,7 +46,7 @@ pays. It has been buying dead men's salvage rights for four years.
 | --- | --- |
 | **Harrow Mecks** | Concord licence-clerk. Sells information about who else has been asking questions. Wants out of Vaultspire and has no way to leave. |
 | **Sister Aude** | Ashen Covenant almoner in Tideline. Genuinely feeds the poor. Also genuinely counts them. |
-| **Old Pellick** | Deepest-diving salvor alive, retired, lungs ruined. Knows the Underspire's layout better than the Concord's charts. Will not go back down and will not say why. |
+| **[Old Pellick](../../people/old-pellick.md)** | Deepest-diving salvor alive, retired, lungs ruined. Knows the Underspire better than the Concord's charts. |
 
 ## Dangers
 
