@@ -20,7 +20,7 @@ updated: 2026-08-07
 - [ ] Get the second diver to the surface alive — **two attempts failed**
 - [ ] Get back down to the ember — **done, badly; arrived with an empty chest and no pocket to return to**
 - [ ] Find out what is heating the water — **it makes hot air as well as hot water, and it is behind the wall**
-- [ ] Get out before the tide turns — **fifty minutes left, Day 215**
+- [ ] Get out before the tide turns — **forty minutes left, Day 215**
 
 ## Known
 
@@ -62,6 +62,12 @@ updated: 2026-08-07
   the gap. Might, DC 15 −2 apt −3 salvage = 10, disadvantage (torn hand): [2]+1 = 3 — failed. The chain came out
   of his ruined right hand and slewed off the sill onto the gallery floor, out of reach without unlashing her.
   The gap is a hand narrower and nothing now stands between the closing clay and the Line.
+- The wall came on to the Line and **stopped**. Closure 1d20 [1] — fumble, for the wall: the clay could not find
+  threads that fine and halted with a hand's width of gap. The Line is uncut and Ress Adair is still breathing off
+  it. The way in is now a slot the width of a wrist — too narrow to pass, and the whole exhaust is forced through
+  it as a hard narrow jet. A breath is available to anyone who can hold a face in front of it. Nothing swims up it.
+- The jet boils the silt off the gallery floor downstream. Six feet out it has uncovered the *Umber Cord* chain —
+  and beside it a second Concord tag, still on a wrist. Forty minutes of tide.
 
 ## Party
 

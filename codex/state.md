@@ -10,17 +10,17 @@ updated: 2026-08-07
 
 ## Right now
 
-Brannoc Vell is sixty feet down at the lip of the opened wall in [the Drowned Kiln](world/geography/sites/the-drowned-kiln.md), Wounded and Marked, with an unconscious diver on one turn of harness and fifty minutes of tide.
+Brannoc Vell is sixty feet down at the lip of the halted wall in [the Drowned Kiln](world/geography/sites/the-drowned-kiln.md), Wounded and Marked, with an unconscious diver on one turn of harness and forty minutes of tide.
 
 He gave [the Unspooled Line](world/items/the-unspooled-line.md) out of his own mouth to Ress Adair and she took it. The hooded stranger opened the wall behind the cooled ember and walked in, still paying the Line out. Brannoc followed the air instead of the surface — and did not reach it. He went out short of the sill, was cut rib to hip on something he never saw, and came to at the lip on the gallery side with the harness down to one turn.
 
-The Kiln is still breathing out, and at the lip the exhaust reaches his face: foul, searing, but air, without going through. He drank one mouthful of it and spent it trying to jam the *Umber Cord* chain crosswise into the gap, to keep the closing clay off the Line that is breathing Ress Adair. The chain came out of his torn hand onto the gallery floor, out of reach. The gap is a hand narrower. Beyond it: dry floor, steady amber light, and the Line still paying, with nothing between it and the wall.
+Then the wall came on to the Line and could not cut it. It stopped with a hand's width of gap: too narrow to pass, wide enough that the whole exhaust is forced through as a hard narrow jet. Ress Adair goes on breathing off the near end. A working breath is available to anyone who can hold a face in front of that jet, and nothing can swim in against it. Downstream the boil has stripped the gallery silt bare six feet out, uncovering the *Umber Cord* chain — and beside it a second Concord tag, still on a wrist.
 
 ## The party
 
 | Hero | Where | Doing what |
 | --- | --- | --- |
-| [Brannoc Vell](characters/brannoc-vell/sheet.md) | [The Drowned Kiln](world/geography/sites/the-drowned-kiln.md), at the lip of the closing wall, wounded and marked, breathing the exhaust, a diver on one turn of rope | [The Kiln Still Burns](quests/the-kiln-still-burns.md) |
+| [Brannoc Vell](characters/brannoc-vell/sheet.md) | [The Drowned Kiln](world/geography/sites/the-drowned-kiln.md), at the lip of the halted wall, wounded and marked, a jet of hot air through a wrist-wide gap, a diver on one turn of rope | [The Kiln Still Burns](quests/the-kiln-still-burns.md) |
 | [Tessaly Orr](characters/tessaly-orr/sheet.md) | [Catch](world/geography/sites/catch.md), upper walkways | Hiding from Covenant retrieval agents — still not found |
 | [Gault Marrow](characters/gault-marrow/sheet.md) | Off the [Kiln Road](world/geography/sites/the-kiln-road.md), the Ashfields | Circling with a won wagon, unwelcome at three granges |
 | [Odrin Slate](characters/odrin-slate/sheet.md) | Shear-shed, Kiln-Road edge of Vaultspire | Cutting condemned salvage, about to go looking for his sister's crew |

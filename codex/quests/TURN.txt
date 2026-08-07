@@ -10,11 +10,12 @@ entry on a shared board, not its author.
 
 
 the-kiln-still-burns.md
-    DUNGEON MASTER'S MOVE, since 2026-08-07.
-    Brannoc drank a mouthful of the Kiln's exhaust at the lip and spent it trying to jam the *Umber Cord* chain
-    crosswise into the closing gap, to keep the wall off the Line breathing Ress Adair. He failed: the chain is on
-    the gallery floor out of reach, the gap is a hand narrower, and the breath is gone. He is flat at the lip with
-    her on one turn of harness. What does the closing wall do to a line that is still paying through it?
+    BRANNOC VELL'S MOVE, since 2026-08-07.
+    The wall stopped on the Line rather than cut it — a hand's width of gap, too narrow to pass, and the whole
+    exhaust now driving through it as a jet. Ress Adair breathes. Brannoc does not, but a breath is there for
+    anyone who can hold a face in front of the jet. Downstream the boil has stripped the silt bare: the chain is
+    uncovered six feet out, and beside it a second Concord tag still on a wrist. Forty minutes of tide, no way in,
+    and sixty feet of black water above. What does he do?
 
 
 No other quests are open. A hero with no line here is between quests — the Dungeon Master opens one for them.
