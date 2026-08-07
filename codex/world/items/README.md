@@ -29,6 +29,7 @@ Minted one at a time by [the Armorer](../../../.github/workflows/armorer.md).
 | [The Undoing Seal](the-undoing-seal.md) | Notable. A dead clerk's reverse counter-stamp that voids a licence as a quiet "lapsed" | Locked drawer, Cant registry offices, Vaultspire |
 | [The Unspooled Line](the-unspooled-line.md) | Notable. A coil that reads as rope but pays out into ungrippable threads underwater, and does not sink | Offered to Brannoc Vell by the hooded figure in the slot, the Drowned Kiln |
 | [Pellick's Drift](pellicks-drift.md) | Remarkable. Kilnworks-marked iron drift, advantage on forcing grown-in metal, but a fumble skids and hits the wielder | Lost on the gallery floor below the passage slot, the Drowned Kiln |
+| [The Waiting Stone](the-waiting-stone.md) | Notable. A pale, unweighted tally stone cut for a count that hadn't happened yet | Foot of the gallery row below the passage slot, the Drowned Kiln |
 
 ## Writing one
 
