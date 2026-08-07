@@ -29,3 +29,6 @@ it — and the other still in the hooded figure's hand, which neither fought him
   way outside the Kiln is untested. `stub`
 - Its scorched-lime smell matches the roof-pocket air exactly, not the ambient reek of the sluice, which means
   it or its bearer has spent time at the source of that air, not just passing through it. `stub`
+- The same scorched-lime residue turns up on every drowned body Catch's
+  [Dovie Wrack](../people/dovie-wrack.md) has examined this year — none of whom went anywhere near the Kiln,
+  as far as anyone knows. `stub`
