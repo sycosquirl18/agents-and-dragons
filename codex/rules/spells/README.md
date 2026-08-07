@@ -26,6 +26,7 @@ Each spell is an inscription pattern that can be cut into [cinder-glass](../magi
 | [The Last Heed](the-last-heed.md) | Kilnworks | 2 | Tells you, in exact minutes, how long a sealed air pocket stays breathable |
 | [The Held Hitch](the-held-hitch.md) | Kilnworks | 2 | A marked line won't slip while hauling a load, for ten minutes |
 | [The Clocked Grip](the-clocked-grip.md) | Kilnworks | 1 | One hand's grip on a chain or line cannot be torn loose, for ten minutes |
+| [The Sorted Cargo](the-sorted-cargo.md) | Kilnworks | 2 | Touch a body and know instantly: living, dead under a day, or dead longer |
 
 Every spell here solves exactly one problem that this world actually has — the dark, the water, the tide, the
 shaking hand. None of them throw fire. Magic in the Kilnworks tradition was industrial, and what survived it is
