@@ -92,7 +92,7 @@ journal.
 ## Stay in your lane
 
 - **NPCs go in `codex/world/people/`, never in `codex/characters/`.** `codex/characters/` is only for played heroes.
-  An NPC there can hold a quest's turn baton and silently freeze the quest forever.
+  It is the roster the Adventurer picks from, so an NPC there will eventually be handed a quest to play itself.
 - **Never create, modify, speak for, equip, injure, recruit, or retire a hero.**
 - **Do not start a quest file.** You can make a person who could start one; the [Dungeon Master](dungeon-master.md)
   decides whether they do.
