@@ -1,7 +1,7 @@
 ---
 type: region
 status: sketch
-updated: 2026-08-06
+updated: 2026-08-07
 ---
 
 # The Ashfields
@@ -40,8 +40,8 @@ The Ashfields hold **six documents written before year 100** — the largest suc
 they are quietly certain the [orthodox history](../../history/events/the-hundred-year-turn.md) is a Vaultspire
 invention.
 
-The granges do not display them, do not sell them, and have refused three Covenant offers, the most recent of which
-was not phrased as an offer.
+The granges do not display them, do not sell them, and have refused three Covenant offers. A fourth approach is
+outstanding and was not phrased as an offer — see [Threshing](../sites/threshing.md).
 
 ## Dangers
 

@@ -1,7 +1,7 @@
 ---
 type: faction
 status: sketch
-updated: 2026-08-06
+updated: 2026-08-07
 ---
 
 # The Ashfield Granges
@@ -23,8 +23,11 @@ A fair price is the stated want; the real one is the ability to *refuse* — and
 ## Wrong about
 
 **That withholding is safe.** They have modelled what a hungry Vaultspire pays. They have not modelled what a
-starving one does, and it has an armed [Concord](salvors-concord.md), two hundred thousand people, and nowhere else
-on the map to go.
+starving one does, and it has an armed [Concord](salvors-concord.md), sixteen thousand people, and nowhere else
+on the map to go. Out here the number is told larger every year, and the granges plan against the told number rather
+than the counted one — which is its own kind of wrong. *(Arbiter ruling, 412: Vaultspire's population is sixteen
+thousand, as [Vaultspire](../geography/regions/vaultspire.md) and
+[the Kilnworks](../history/eras/the-kilnworks.md) both have it. The larger figure survives as grange rumour.)*
 
 **And about the documents.** The granges hold six pieces of writing from before year 100 and treat them as proof
 that the [orthodox history](../history/events/the-hundred-year-turn.md) is a Vaultspire invention. They may well be
