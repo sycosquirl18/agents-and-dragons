@@ -22,6 +22,8 @@ He is nevertheless in [the settling galleries](../geography/sites/the-settling-g
 crew before he has to admit they are gone. He has no explanation for being there and has not offered one.
 
 - He knows the **inner grate** in ways he has not explained.
+- He carries [a Kilnworks-marked iron drift](../items/pellicks-drift.md), now lost in the Kiln's gallery below the
+  passage — he does not yet know it is gone.
 - The [kiln-wights](../bestiary/kiln-wight.md) remember him. He claims he once talked one into showing him a
   gallery — and will not repeat the claim sober.
 
