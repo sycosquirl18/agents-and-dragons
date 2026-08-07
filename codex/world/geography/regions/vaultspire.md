@@ -48,6 +48,7 @@ pays. It has been buying dead men's salvage rights for four years.
 | **Sister Aude** | Ashen Covenant almoner in Tideline. Genuinely feeds the poor. Also genuinely counts them. |
 | **[Old Pellick](../../people/old-pellick.md)** | Deepest-diving salvor alive, retired, lungs ruined. Knows the Underspire better than the Concord's charts. |
 | **[Caude Renne](../../people/caude-renne.md)** | Covenant factor, Tideline stall. Buys dead men's salvage rights in the open and wants one small name today. |
+| **[Denna Hask](../../people/denna-hask.md)** | Tideline tackle-monger. Sells unlicensed diving gear on Pellick's silent credit; wants to know why he pays it. |
 
 ## Dangers
 

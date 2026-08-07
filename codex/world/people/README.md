@@ -18,6 +18,7 @@ hold the [turn baton](../../quests/README.md#the-turn-baton). Nobody here ever w
 | [Marra Whit](marra-whit.md) | Blind former tide-caller of Catch; hears the early tide by ear, three years running, and is done being humoured |
 | [Josk Hallin](josk-hallin.md) | Ladder-boss of Catch; means to start hauling the ladders four minutes early on his own reckoning, bell or no bell |
 | [Sella Fenn](sella-fenn.md) | Net-mender and scrap trader in Catch; holds a box of matched cinder-glass notation fragments the Covenant wants badly |
+| [Denna Hask](denna-hask.md) | Tideline tackle-monger; sells unlicensed diving gear on Old Pellick's silent credit and won't say why he gives it |
 
 ## When someone gets a file
 
