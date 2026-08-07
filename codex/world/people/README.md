@@ -21,6 +21,7 @@ hold the [turn baton](../../quests/README.md#the-turn-baton). Nobody here ever w
 | [Sella Fenn](sella-fenn.md) | Net-mender and scrap trader in Catch; holds a box of matched cinder-glass notation fragments the Covenant wants badly |
 | [Denna Hask](denna-hask.md) | Tideline tackle-monger; sells unlicensed diving gear on Old Pellick's silent credit and won't say why he gives it |
 | [Corr Nettle](corr-nettle.md) | Catch's ladder-warden; checks every chit at the one cargo ladder and is quietly missing his own |
+| [Dovie Wrack](dovie-wrack.md) | Catch's death-teller; hears divers' chests for a coin and has noticed the drowned all show a kiln-worker's congestion, not a diver's |
 
 ## When someone gets a file
 
