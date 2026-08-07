@@ -32,6 +32,7 @@ eleven farms are not underbid into ruin by four buyers, and point out that they 
 | **Factor Elm Cassardy** | Speaks for the Long Room. Courteous, immovable, and has been quietly storing rather than selling for two seasons. |
 | **Brother Idren** | [Ashen Covenant](../../factions/ashen-covenant.md) almoner. Popular. Has asked to see the pre-Turn documents four times. |
 | **Hesk** | Runs the wagon yard. Knows who has travelled the Kiln Road east and how far, because he sells them the wheels. |
+| [**Wick Sorrel**](../people/wick-sorrel.md) | Wool-and-tallow broker at the wagon yard. Owed a wagon by [Gault Marrow](../../characters/gault-marrow/sheet.md); has noticed two granges hoarding wool along with grain. |
 
 ## Dangers
 
@@ -41,6 +42,8 @@ and overtalk here. Grange law applies: the factors judge, and their judgements a
 ## Hooks
 
 - **Three granges have stopped selling entirely.** Cassardy will not say why and is not bluffing.
+- [Wick Sorrel](../people/wick-sorrel.md) has noticed two of them have stopped selling wool too — a second
+  hoarding pattern nobody at the Long Room has connected to the grain yet.
 - The six pre-year-100 documents are held *here*, in the Long Room's strongbox, and the Covenant's fourth request
   was made by someone who did not ask.
 - Hesk has sold wheels to four eastbound parties in two years. **One came back.**

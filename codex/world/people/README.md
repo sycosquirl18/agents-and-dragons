@@ -22,6 +22,7 @@ hold the [turn baton](../../quests/README.md#the-turn-baton). Nobody here ever w
 | [Denna Hask](denna-hask.md) | Tideline tackle-monger; sells unlicensed diving gear on Old Pellick's silent credit and won't say why he gives it |
 | [Corr Nettle](corr-nettle.md) | Catch's ladder-warden; checks every chit at the one cargo ladder and is quietly missing his own |
 | [Dovie Wrack](dovie-wrack.md) | Catch's death-teller; hears divers' chests for a coin and has noticed the drowned all show a kiln-worker's congestion, not a diver's |
+| [Wick Sorrel](wick-sorrel.md) | Wool-and-tallow broker at Threshing's wagon yard; owed a wagon by Gault Marrow and has noticed two granges hoarding wool along with grain |
 
 ## When someone gets a file
 
