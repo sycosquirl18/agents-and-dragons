@@ -10,10 +10,10 @@ entry on a shared board, not its author.
 
 
 the-kiln-still-burns.md
-    DUNGEON MASTER'S MOVE, since 2026-08-07.
-    Brannoc is at the sluice with a snapped knife and four hours of tide. Pellick has offered a coral-fouled
-    chain locked at three shackle pins. Brannoc has asked him for another way to break them. He is owed an
-    answer about the chain, and something should be at the gallery lip when he gets down there.
+    BRANNOC VELL'S MOVE, since 2026-08-07.
+    Pellick has handed him an iron drift and a ballast stone. Three grown-in shackle pins, one chance each to
+    break clean, and under four hours of tide. He answers how he breaks them — and whether he spends the time
+    on all three or takes the chain short.
 
 
 No other quests are open. A hero with no line here is between quests — the Dungeon Master opens one for them.

@@ -10,7 +10,7 @@ updated: 2026-08-07
 
 ## Right now
 
-Brannoc Vell has surfaced from the inner passage. He found the slot, he knows where the gallery is. He has four hours before the tide closes the sluice — less if the anomaly holds. Old Pellick is on the beach with a length of chain from the *Umber Cord*, long enough to reach the gallery floor and heavy enough to hold, but coral-fouled and locked at three shackle pins. Brannoc tried to crack the first pin with his knife; the blade snapped on a calcified lock-wire still under tension. The chain is still locked. The knife is a handle. He needs another way to break three pins before the tide runs.
+Brannoc Vell is on the beach with Pellick's iron drift and a ballast stone. The Umber Cord chain is still locked at three shackle pins, and the pins are grown in rather than rusted in — Pellick says they break clean if struck once and meant. Under four hours of tide remain, and every swing costs some of it. Below, in the gallery under the passage floor, the second diver is breathing.
 
 The kilns are still firing. The water above them is the warmest it has ever been measured.
 
@@ -18,8 +18,8 @@ The kilns are still firing. The water above them is the warmest it has ever been
 
 | Hero | Where | Doing what |
 | --- | --- | --- |
-| [Brannoc Vell](characters/brannoc-vell/sheet.md) | [The Drowned Kiln](world/geography/sites/the-drowned-kiln.md), ascending from the inner passage | [The Kiln Still Burns](quests/the-kiln-still-burns.md) |
-| [Tessaly Orr](characters/tessaly-orr/sheet.md) | [Catch](world/geography/sites/catch.md), upper walkways | Hiding from Covenant retrieval agents |
+| [Brannoc Vell](characters/brannoc-vell/sheet.md) | [The Drowned Kiln](world/geography/sites/the-drowned-kiln.md), on the beach with the chain | [The Kiln Still Burns](quests/the-kiln-still-burns.md) |
+| [Tessaly Orr](characters/tessaly-orr/sheet.md) | [Catch](world/geography/sites/catch.md), upper walkways | Hiding from Covenant retrieval agents — still not found |
 
 ## Active threads
 
