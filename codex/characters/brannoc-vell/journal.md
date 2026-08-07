@@ -49,3 +49,31 @@ tumblers had been stressed already by whatever was rammed through them. The grat
 The light from the other side is orange and steady. Not flickering. Something down here is burning without air, or
 has been burning on air that should not exist at this depth. The water is warmer past the threshold — I could feel it
 on my face before I was through.
+
+## Year 412, Day 214 — The inner passage
+
+One of Sella's crew, a woman I recognised by her rig, was dead against the wall just inside the grate. No wound. No
+blood. Her eyes were open. Her hand was not gripping anything. She had not drowned — her mouth was shut. She had
+simply stopped.
+
+My flaw is a flaw and not a virtue, but I could not leave her, and I could not carry her, and I had two minutes. So
+I did what I could: I looked at her long enough to remember her, and I went deeper.
+
+There is a rope. There is a rope and I know how much is left on the spool by the weight of it, and I know my own
+lungs by twenty-two years of practice. Going deeper was arithmetic, not courage.
+
+The glow came from a gallery opening below the main passage floor — a slot barely wide enough to fit through
+sideways. The amber light pulsed through it. Warmer water rising from it in visible columns, distorting the passage
+above. I got my head over the edge and looked down.
+
+- Going deeper to the glow on the breath remaining (Wits + Diving, DC 13): 1d20+2 [13] + 2 = 15 — enough. I am at
+  the lip of the gallery. Below: the source of the glow. Still air in my lungs, barely. Rope runs out in four feet.
+
+I can see down into the gallery. I cannot go in. What I saw: a shape on the floor below, unmoving. The glow comes
+from further in, past the shape. The shape has the outline of a person, and of a diving kit, and it is not moving
+at all.
+
+I am out of rope and nearly out of breath. I have seen enough to know there is something down here other than heat
+and water, and someone down there who is not coming up on their own.
+
+I marked the slot in my mind — wall feature, depth, bearing — and turned for the surface.

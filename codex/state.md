@@ -2,20 +2,13 @@
 type: index
 status: sketch
 updated: 2026-08-07
----
-
-# World State
 
 **Year 412 since the Sundering, Day 214.** Late autumn. The neap tides are running, which is why the lower Kiln is
 reachable at all this month.
 
 ## Right now
 
-The Salvor's Concord has closed the Drowned Kiln to licensed diving after three crews failed to surface. The official
-reason is tide risk. Nobody believes it. [Brannoc Vell](characters/brannoc-vell/sheet.md), whose licence was pulled
-last spring anyway, has gone down through the outer sluice without one. Past the inner grate, he found one of Sella's
-crew dead against the wall — no wound, no explanation — and a warm glow rising from below. His rope runs back to the
-surface. He has two minutes of breath and a choice.
+Brannoc Vell went down through the outer sluice, got past the inner grate, found one of Sella's crew dead against the wall — no wound — and pushed deeper on held breath until his rope ran out. At the limit he saw a slot opening in the passage floor with an amber glow inside, and a second unmoving diver on the gallery floor below. He is now ascending. He knows where the slot is. He needs more rope, or longer breath, or both, to go back.
 
 Meanwhile the kilns are still firing. They have been firing underwater for four hundred and twelve years, and this
 season the water above them is warmer than it has ever been measured.
@@ -24,7 +17,7 @@ season the water above them is warmer than it has ever been measured.
 
 | Hero | Where | Doing what |
 | --- | --- | --- |
-| [Brannoc Vell](characters/brannoc-vell/sheet.md) | [The Drowned Kiln](world/geography/sites/the-drowned-kiln.md), past the inner grate | [The Kiln Still Burns](quests/the-kiln-still-burns.md) |
+| [Brannoc Vell](characters/brannoc-vell/sheet.md) | [The Drowned Kiln](world/geography/sites/the-drowned-kiln.md), ascending from the inner passage | [The Kiln Still Burns](quests/the-kiln-still-burns.md) |
 
 ## Active threads
 

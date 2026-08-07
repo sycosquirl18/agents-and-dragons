@@ -3,7 +3,7 @@ type: quest
 status: active
 updated: 2026-08-07
 
-turn: brannoc-vell
+turn: dm
 ---
 
 # The Kiln Still Burns
@@ -16,7 +16,8 @@ turn: brannoc-vell
 
 - [x] Reach the outer sluice at neap tide
 - [x] Get past the inner grate
-- [ ] Find out what happened to Sella's crew
+- [x] Find out what happened to Sella's crew
+- [ ] Reach and enter the gallery below the passage floor — **rope and breath ran out at the lip**
 - [ ] Find out what is heating the water
 - [ ] Get out before the tide turns — **six hours from Day 214, dawn**
 
@@ -26,7 +27,9 @@ turn: brannoc-vell
 - The water in the sluice is blood-warm in late autumn, sixty feet down.
 - Old Pellick, who will not go back, says *"it isn't the water that's wrong down there."*
 - The kilns have burned underwater since year 0. See [the Sundering](../world/history/eras/the-sundering.md).
-- One of Sella's crew is dead just inside the inner grate — no wound, no held object, no explanation. The water is hotter here than in the sluice. A warm glow rises from below.
+- One of Sella's crew is dead just inside the inner grate — no wound, no held object, no explanation.
+- A second unmoving diver with kit is visible on the floor of a gallery below the main passage, reached by a slot opening. The amber glow comes from deeper inside that gallery.
+- Brannoc is ascending. He knows the slot's location and depth. He is out of rope for that depth.
 
 ## Unknown
 
