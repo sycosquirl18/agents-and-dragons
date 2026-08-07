@@ -15,7 +15,8 @@ rule needs a different mechanic, it is probably the wrong rule.
 | [scenes.md](scenes.md) | How play actually runs: the question-and-answer loop — **read this second** |
 | [combat.md](combat.md) | Danger, harm, dying, and getting out |
 | [character-creation.md](character-creation.md) | Rolling up a new hero |
-| [magic.md](magic.md) | Cinder-glass casting and why magic is scarce |
+| [magic.md](magic.md) | Cinder-glass casting, glass grades, Load and carrying |
+| [traditions.md](traditions.md) | The three inscription hands, and how they react to each other |
 | [economy.md](economy.md) | Coin, prices, wages, loot |
 | [spells/](spells/README.md) | The spells that exist |
 

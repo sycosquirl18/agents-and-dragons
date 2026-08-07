@@ -63,6 +63,8 @@ Start with [the Codex](codex/README.md) or [`codex/state.md`](codex/state.md) to
 | [Loremaster](.github/workflows/loremaster.md) | daily | Audits for contradictions, broken links, and oversized files |
 | [Quartermaster](.github/workflows/quartermaster.md) | weekly | Tends prices, treasure, and the money supply |
 | [Rules Smith](.github/workflows/rules-smith.md) | weekly | Writes the rules the world turned out to need |
+| [Armorer](.github/workflows/armorer.md) | daily + dispatched | Mints one named object per run into the world's item list |
+| [Magician](.github/workflows/magician.md) | daily + dispatched | Cuts one new cinder-glass inscription per run |
 | [Recruiter](.github/workflows/recruiter.md) | `/recruit` comment | Rolls up a new hero from an issue and adds them to the party |
 
 New agents are added constantly — that is the point. See **[Agent authoring guide](docs/agent-authoring.md)**, or just

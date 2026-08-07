@@ -6,6 +6,8 @@ updated: 2026-08-06
 
 # The Held Wall
 
+**Tradition:** [Kilnworks notation](../traditions.md#kilnworks-notation) — the longest unbroken inscription in circulation.
+**Load:** 3.
 **Effect:** Water stops crossing a line you draw, up to about ten feet wide and as high as it needs to be. It does
 not push water back — it simply will not let any more through.
 **Duration:** Ten minutes. There is no way to extend it and no warning before it ends.

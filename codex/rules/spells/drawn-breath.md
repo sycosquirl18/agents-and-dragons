@@ -6,6 +6,8 @@ updated: 2026-08-06
 
 # Drawn Breath
 
+**Tradition:** [Salvor's marks](../traditions.md#salvors-marks) — cut cold, on a boat, by someone who needed it.
+**Load:** 2.
 **Effect:** You breathe water as easily as air. Cold, pressure, and the dark are unaffected — this solves exactly one
 of the four things that kill divers.
 **Duration:** One hour.

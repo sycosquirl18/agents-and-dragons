@@ -6,6 +6,8 @@ updated: 2026-08-06
 
 # Cold Light
 
+**Tradition:** [Kilnworks notation](../traditions.md#kilnworks-notation) — numbered, and the numbers are a duty cycle.
+**Load:** 1.
 **Effect:** A palm-sized patch of light, bright as a good lamp, fixed to whatever you were touching when it caught.
 It burns underwater, in wind, and in the dead air below the sluice, where no flame will stay lit.
 **Duration:** Six hours, or until the object it caught on is destroyed.

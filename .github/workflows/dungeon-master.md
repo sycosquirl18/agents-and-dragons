@@ -39,7 +39,7 @@ concurrency:
 
 safe-outputs:
   dispatch-workflow:
-    workflows: [adventurer, world-designer, quartermaster, rules-smith]
+    workflows: [adventurer, world-designer, quartermaster, rules-smith, armorer, magician]
     max: 3
 ---
 
@@ -87,6 +87,8 @@ puzzle you already solved, and the table has nothing to do.
    | `world-designer` | A place the story is about to reach needs to exist | `target` (path or name), `directive` |
    | `quartermaster` | Money, prices, or loot need attention | `directive` |
    | `rules-smith` | The beat needs a rule that isn't written yet | `directive` |
+   | `armorer` | The beat needs a specific object to exist — a prize, a relic, a thing worth stealing | `directive` |
+   | `magician` | The beat needs an inscription nobody has cut yet | `directive` |
 
    Bad directive: *"Brannoc continues his quest."*
    Good directive: *"Brannoc reaches the Drowned Kiln's outer sluice and finds it already forced open from the inside.

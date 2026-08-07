@@ -6,6 +6,8 @@ updated: 2026-08-06
 
 # Glasskin
 
+**Tradition:** [Kilnworks notation](../traditions.md#kilnworks-notation) — a safety mark, cut for someone at a furnace.
+**Load:** 2.
 **Effect:** The next [harm](../combat.md#harm) that would move you along the ladder does not. The glass takes it
 instead and is gone — which it would have been anyway.
 **Duration:** Until it takes something, or until the scene ends.

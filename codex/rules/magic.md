@@ -20,17 +20,33 @@ economics and politics before it is adventure.
 3. **The glass shatters either way.** Success or failure, it is gone.
 4. On a **natural 1**, it shatters *and* the spell goes somewhere it should not have. See the spell's Misfire line.
 
-There is no spell list to memorise and no daily limit. You can cast exactly as much as you can afford.
+There is no spell list to memorise and no daily limit. The limit is what you can afford, and what you dare carry at
+once — see [Carrying glass](#carrying-glass).
 
 ## Grades of glass
 
-| Grade | | Spell DC | Cost |
-| --- | --- | --- | --- |
-| **Chip** | Cloudy, salvage-grade | 15 | ~40 silver |
-| **Plate** | Clear, Wound-cut | 13 | ~200 silver |
-| **Lens** | Kilnworks-made, no longer produced | 11 | not sold |
+| Grade | | Spell DC | Effect | Stability | Cost |
+| --- | --- | --- | --- | --- | --- |
+| **Chip** | Cloudy, salvage-grade | 15 | Reduced — shortest duration, smallest area | Volatile, **+2** | ~40 silver |
+| **Plate** | Clear, Wound-cut | 13 | As written | Sound, **+0** | ~200 silver |
+| **Lens** | Kilnworks-made, no longer produced | 11 | Full, as the inscriber meant it | Inert, **−2** | not sold |
 
-Better glass makes the *same* spell easier — it does not make it stronger.
+Grade changes three things at once: how hard the spell is to cast, how much of it you get, and how likely it is to
+take the glass beside it when it goes wrong. A Chip is not a cheap Plate. It is a worse spell and a worse neighbour.
+
+Cost is grade **and** inscription. A common spell on a Plate is dearer than a rare one on a Chip, and a few
+inscriptions are worth more than any glass they are cut into.
+
+## Carrying glass
+
+Every spell has a **Load** of 1 to 3 — how violent the inscription is when it fails. A salvor's harness holds
+**Load 6** in padded slots. More than that needs a case, both hands, and a reason worth giving.
+
+**Sympathetic misfire.** On a natural 1 the spell misfires *and* may take its neighbours with it. Roll
+`1d20 + Wits` vs **10 + total Load carried**, adjusted by the casting glass's stability above and by
+[tradition](traditions.md#at-the-harness). On a failure the highest-Load crystal you carry shatters too, unspent.
+
+Two Load-1 chips in a pouch are a nuisance. Two Load-3 plates are how a crew loses a season's wages in one bad roll.
 
 ## Inscribing
 
@@ -47,4 +63,4 @@ Almost nobody can do this. Those who can are the most closely watched people in
 - Every casting permanently reduces the world's total magic. The
   [Quartermaster](../../.github/workflows/quartermaster.md) tracks the supply as an economic quantity.
 
-Individual spells: [spells/](spells/README.md).
+Individual spells: [spells/](spells/README.md). Inscription hands: [traditions](traditions.md).
