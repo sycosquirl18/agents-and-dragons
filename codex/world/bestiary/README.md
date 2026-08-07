@@ -1,7 +1,7 @@
 ---
 type: index
 status: sketch
-updated: 2026-08-06
+updated: 2026-08-07
 ---
 
 # Bestiary
@@ -13,6 +13,7 @@ updated: 2026-08-06
 | [Sluice-grebe](sluice-grebe.md) | low | Nesting bird that backs up Vaultspire's drains and breaks flood timing |
 | [Tally-daw](tally-daw.md) | moderate | Ashfield grange bird that raises an alarm on unweighed grain |
 | [Settle-crow](settle-crow.md) | low | Ashfield scavenger that only gathers once a bargain is struck |
+| [Toll-creeper](toll-creeper.md) | low | Catch shore crab swarm that strips drying racks and ropes at ebb |
 
 Entry format — see [danger](../../rules/combat.md):
 
