@@ -15,6 +15,7 @@ updated: 2026-08-07
 | [Nyella Sift](nyella-sift/sheet.md) | Uncertified clerk forging Concord paperwork for whoever the licence system has locked out | [inventory](nyella-sift/inventory.md) · [record](nyella-sift/record.md) · [journal](nyella-sift/journal.md) |
 | [Corwin Ash](corwin-ash/sheet.md) | Wrack-scrubber at Catch, trusts Marra Whit's early tide over the bell | [inventory](corwin-ash/inventory.md) · [record](corwin-ash/record.md) · [journal](corwin-ash/journal.md) |
 | [Perrin Fen](perrin-fen/sheet.md) | Lamp-tinker chasing why every burner in Tideline runs wrong since the Kiln started warming | [inventory](perrin-fen/inventory.md) · [record](perrin-fen/record.md) · [journal](perrin-fen/journal.md) |
+| [Ren Tallow](ren-tallow/sheet.md) | Ex-Covenant tractarian who left the Cant chapterhouse over a document that didn't fit the official story | [inventory](ren-tallow/inventory.md) · [record](ren-tallow/record.md) · [journal](ren-tallow/journal.md) |
 
 Only heroes go here. Everyone else in the world lives in [`world/people/`](../world/people/README.md) — this
 directory is the roster the [Adventurer](../../.github/workflows/adventurer.md) picks from, so an NPC with a

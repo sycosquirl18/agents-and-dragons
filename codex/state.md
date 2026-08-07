@@ -25,6 +25,7 @@ The kilns are still firing. The water above them is the warmest it has ever been
 | [Nyella Sift](characters/nyella-sift/sheet.md) | Back room near Vaultspire's licensing offices | Forging Concord paperwork for revoked and locked-out divers |
 | [Corwin Ash](characters/corwin-ash/sheet.md) | [Catch](world/geography/sites/catch.md) | Asking around about a bootprint pressed into rotten salvage |
 | [Perrin Fen](characters/perrin-fen/sheet.md) | Underspire waterline, Vaultspire | Newly arrived, chasing why Tideline's lamps have started burning wrong |
+| [Ren Tallow](characters/ren-tallow/sheet.md) | [Catch](world/geography/sites/catch.md) | Newly arrived, carrying a pre-Turn fragment the Covenant wanted buried |
 
 ## Active threads
 
