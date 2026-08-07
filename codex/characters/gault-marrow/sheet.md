@@ -7,7 +7,8 @@ recruited: 412-214
 
 # Gault Marrow
 
-Gambler out of the Ashfields, currently unwelcome in three granges and owed money by a fourth.
+Gambler out of the Ashfields, currently unwelcome in three granges and owed money by a fourth —
+[Harrow Grange](../../world/geography/sites/harrow-grange.md).
 
 ## Stats
 

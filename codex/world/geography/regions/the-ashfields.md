@@ -40,6 +40,7 @@ Both are correct, which is why it never resolves.
 | **The granges** | Fortified farms, walled from the [Reaving](../../history/eras/the-reaving.md) and never unwalled. See the [Ashfield Granges](../../factions/ashfield-granges.md). Every one keeps [tally-daws](../bestiary/tally-daw.md) in its rafters. |
 | **The Kiln Road** | Kilnworks paving crossing the whole region, straight, and continuing east past where anybody has followed it. [Site](../sites/the-kiln-road.md). |
 | **[Mere Ilyx](../sites/mere-ilyx.md)** | The one standing water in the region. Nobody farms its shore. |
+| **[Harrow Grange](../sites/harrow-grange.md)** | The fourth grange, which sells its risk-certainty to the other ten — and just stopped. |
 
 ## What they keep
 
