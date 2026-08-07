@@ -26,6 +26,7 @@ thing yet to an answer for [The Ashfields'](../geography/regions/the-ashfields.m
 | [Rim-swift](rim-swift.md) | low | Glass Wound rim bird; crews read its flock height as an early warmth warning |
 | [Knotroot Clam](knotroot-clam.md) | low | Drowned Kiln chain-clam, eaten raw by crews; knot size tracks the season's heat |
 | [Mile-crow](mile-crow.md) | low | Kiln Road wagon-rail crow flock; mimics every voice it's carried and strips unlashed cargo |
+| [Sizzlewax Barnacle](sizzlewax-barnacle.md) | high | Catch piling colony that jets hot resin at flood and can seal a rung or rope solid |
 
 Entry format — see [danger](../../rules/combat.md):
 
