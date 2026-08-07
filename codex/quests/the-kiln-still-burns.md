@@ -39,11 +39,13 @@ updated: 2026-08-07
 - The second diver breathes unaided but weakly, and did not wake to resuscitation. She cannot climb. Whatever gets her up has to carry her.
 - The seep **stopped** — no more air is entering the pocket; what is in the roof is all there is. At the same moment the amber glow dimmed to an ember, the leaning pull on the chain slackened, and the chain hung plumb. The water in the slot is cooling.
 - The chain hangs plumb, but its links are worn round from forty years in a fairlead: a salvage hook lashed over a crippled wrist will not stay on them. Brannoc came off at twenty feet with Ress Adair lashed to his chest, kept hold of her, and lost the hook into the slot.
-- With the seep stopped, the pocket does not refill. Every further attempt is paid for out of a fixed quantity of air, and two have been paid already.
+- With the seep stopped, the pocket does not refill. Every further attempt is paid for out of a fixed quantity of air, and two have been paid already. What is left is a finger's depth — enough for **one**.
+- Someone came up through the slot from the gallery: hooded, breathing without surfacing, carrying a coil that is not rope. They did not take the air. They offered the coil and pointed **down**, toward the ember — not up. Ninety minutes of tide.
 
 ## Unknown
 
 - Whether any of the three crews are alive.
+- Who the hooded diver in the slot is, how they are breathing, and why the way out they are offering goes down.
 - Why the Concord's stated reason is a lie, and what the true one is.
 - Why the [Ashen Covenant](../world/factions/ashen-covenant.md) has been buying salvage rights around this site for
   four years.

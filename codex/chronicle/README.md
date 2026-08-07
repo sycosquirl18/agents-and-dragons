@@ -20,6 +20,7 @@ record is wrong, the world is wrong, and that is now a fact about the world.
 | [412-214 — The Kiln Breathes](412-214-the-kiln-breathes.md) | Brannoc surfaces into hot trapped air seeping up from the gallery |
 | [412-214 — A Clock Inside the Clock](412-214-a-clock-inside-the-clock.md) | The diver will not wake, and the air pocket is being spent faster than it fills |
 | [412-214 — The Kiln Stops Exhaling](412-214-the-kiln-stops-exhaling.md) | The seep quits, the glow dims, and the chain hangs true for the first time |
+| [412-215 — Someone Comes Up the Slot](412-215-someone-comes-up-the-slot.md) | A hooded figure surfaces into Brannoc's last air, offers a line, and points down |
 
 Entries are named `<year>-<day>-<slug>.md`. The [Chronicler](../../.github/workflows/chronicler.md) folds them into
 [era summaries](../world/history/README.md) as they age; the raw entries stay where they are, forever.

@@ -6,19 +6,19 @@ updated: 2026-08-07
 
 # World State
 
-**Year 412 since the Sundering, Day 215.** Late autumn, the small hours before dawn. The neap tides are running shorter than the moon says they should.
+**Year 412 since the Sundering, Day 215.** Late autumn, first grey of dawn. The neap tides are running shorter than the moon says they should.
 
 ## Right now
 
-Brannoc Vell is sixty feet down in [the Drowned Kiln](world/geography/sites/the-drowned-kiln.md) with an unconscious diver lashed to his chest, a torn right hand, and under two hours of tide. The hot seep that was refilling his air pocket has **stopped**. He tried the plumb chain with his salvage hook turned over the crippled wrist, came off at twenty feet, kept hold of her, and lost the hook into the slot. What is in the roof of the passage is all there is, and he has spent two goes out of it.
+Brannoc Vell is sixty feet down in [the Drowned Kiln](world/geography/sites/the-drowned-kiln.md) with an unconscious diver lashed to his chest, a torn right hand, no hook, and ninety minutes of tide. The pocket in the roof no longer refills and has a finger's depth left in it — one attempt, not two.
 
-The Kiln paid for it in another coin: the amber glow below has dimmed to an ember, the pull that leaned the *Umber Cord* chain off plumb has slackened, and the chain now hangs true. The water in the slot is cooling. For the first time since he broke the pins, the way up is straight — and the air has a bottom to it.
+Then someone came up through the slot. Hooded, unhurried, breathing without surfacing for it, carrying a coil that is not rope. They did not take his air. They offered the coil and pointed **down**, toward the cooling ember, and waited.
 
 ## The party
 
 | Hero | Where | Doing what |
 | --- | --- | --- |
-| [Brannoc Vell](characters/brannoc-vell/sheet.md) | [The Drowned Kiln](world/geography/sites/the-drowned-kiln.md), in the passage above the slot, wounded, hookless, with a shrinking pocket of air and a diver lashed to his chest | [The Kiln Still Burns](quests/the-kiln-still-burns.md) |
+| [Brannoc Vell](characters/brannoc-vell/sheet.md) | [The Drowned Kiln](world/geography/sites/the-drowned-kiln.md), in the passage above the slot, wounded, hookless, one breath of air left, a diver lashed to his chest, and a stranger holding out a line | [The Kiln Still Burns](quests/the-kiln-still-burns.md) |
 | [Tessaly Orr](characters/tessaly-orr/sheet.md) | [Catch](world/geography/sites/catch.md), upper walkways | Hiding from Covenant retrieval agents — still not found |
 | [Gault Marrow](characters/gault-marrow/sheet.md) | Off the [Kiln Road](world/geography/sites/the-kiln-road.md), the Ashfields | Circling with a won wagon, unwelcome at three granges |
 | [Odrin Slate](characters/odrin-slate/sheet.md) | Shear-shed, Kiln-Road edge of Vaultspire | Cutting condemned salvage, about to go looking for his sister's crew |
