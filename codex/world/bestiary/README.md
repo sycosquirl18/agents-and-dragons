@@ -23,6 +23,7 @@ thing yet to an answer for [The Ashfields'](../geography/regions/the-ashfields.m
 | [Gasp-Limpet](gasp-limpet.md) | high | Underspire shell colony that filters trapped air pockets thin, and can vent one all at once |
 | [Glow-clutch](glow-clutch.md) | moderate | Underspire lamp-grub farmed for light; abandons a hook for any stronger warmth nearby |
 | [Rim-swift](rim-swift.md) | low | Glass Wound rim bird; crews read its flock height as an early warmth warning |
+| [Knotroot Clam](knotroot-clam.md) | low | Drowned Kiln chain-clam, eaten raw by crews; knot size tracks the season's heat |
 
 Entry format — see [danger](../../rules/combat.md):
 
