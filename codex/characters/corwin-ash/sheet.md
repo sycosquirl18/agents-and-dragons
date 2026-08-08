@@ -3,6 +3,9 @@ type: character
 status: sketch
 updated: 2026-08-07
 recruited: 412-214
+where: Catch
+where_link: world/geography/sites/catch.md
+doing: Asking around about a bootprint pressed into rotten salvage
 ---
 
 # Corwin Ash

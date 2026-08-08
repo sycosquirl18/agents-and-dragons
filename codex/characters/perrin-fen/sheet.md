@@ -3,6 +3,9 @@ type: character
 status: sketch
 updated: 2026-08-07
 recruited: 412-214
+where: Vaultspire
+where_link: world/geography/regions/vaultspire.md
+doing: Newly arrived at the Underspire waterline, chasing why Tideline's lamps have started burning wrong
 ---
 
 # Perrin Fen

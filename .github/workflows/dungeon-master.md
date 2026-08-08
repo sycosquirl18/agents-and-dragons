@@ -149,7 +149,11 @@ puzzle you already solved, and the table has nothing to do.
    asked — in the same change, or the quest deadlocks. Leave every other entry alone; you are one line on a shared
    board. When you open a new quest, add an entry for it; when one closes, remove its entry. Update
    `codex/state.md`: advance the in-world clock — **a day per run is the default**, more only when
-   the fiction covers travel or rest — revise the "Right now" section, and adjust the active-thread list. The clock
+   the fiction covers travel or rest — revise the "Right now" section, and adjust the active-thread list. Keep
+   "Right now" to a few lines per live scene that *point* at the quest; it is an orientation note read by every
+   agent on every run, not a retelling of the quest file. **Do not edit the party roster** between the
+   `<!-- party:begin -->` markers — it is generated from the hero sheets, so move a hero by editing the `where:`,
+   `where_link:`, `doing:` and `quest:` fields in their own `sheet.md`. The clock
    matters mechanically: hero [shallows](../../codex/rules/combat.md#the-shallows) decay against it, so a clock that
    never moves means heroes that never grow up. Then append one short Chronicle entry describing the beat you set — a
    few sentences, no more, in the world's voice.

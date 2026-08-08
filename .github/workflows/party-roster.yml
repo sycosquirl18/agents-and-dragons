@@ -1,0 +1,58 @@
+# Renders the party roster in codex/state.md from the hero sheets.
+#
+# Not an agent: no model, no cost, one writer. The roster is derived from frontmatter each hero's own sheet already
+# carries, so this removes the last shared table three agents were editing in parallel.
+#
+# The path filter is what stops it triggering itself: it reads sheets, it writes state.md.
+name: Party Roster
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "codex/characters/*/sheet.md"
+      - "scripts/party.mjs"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: party-roster
+  cancel-in-progress: true
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.CODEX_PUSH_TOKEN || github.token }}
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Render
+        run: node scripts/party.mjs --write
+
+      - name: Push
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- codex/state.md
+          if git diff --cached --quiet; then
+            echo "The roster is current."
+            exit 0
+          fi
+          git commit -q -m "Render the party roster"
+          # An agent may have pushed while we rendered. Rebasing is safe: nothing else writes between the markers,
+          # and if an agent changed the prose above them the rebase keeps their prose and our table.
+          for attempt in 1 2 3; do
+            if git push -q origin HEAD:main 2>/dev/null; then
+              exit 0
+            fi
+            git fetch -q origin main && git rebase -q origin/main
+          done
+          echo "::warning title=Could not push the roster::It will be regenerated on the next sheet change."

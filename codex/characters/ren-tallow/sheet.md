@@ -3,6 +3,10 @@ type: character
 status: sketch
 updated: 2026-08-07
 recruited: 412-214
+where: Catch
+where_link: world/geography/sites/catch.md
+doing: Named the bought ladders aloud on the market floor; both agents closed
+quest: quests/what-the-covenant-buys.md
 ---
 
 # Ren Tallow

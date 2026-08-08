@@ -132,6 +132,16 @@ node scripts/activity.mjs --out log      # regenerate log/ (needs gh auth for ru
 Weeks are chunked so no file grows unbounded, and old weeks are never rewritten. For the world's own account of the
 same events — in the fiction, in world-time — read the [Chronicle](codex/chronicle/README.md) instead.
 
+The party roster in [`codex/state.md`](codex/state.md) is derived the same way, and for the same reason: every fact
+in it already lives on a hero's sheet, and three agents hand-editing eight shared table rows was the single worst
+source of merge conflicts in the world. Agents write their own hero's frontmatter; the
+[renderer](.github/workflows/party-roster.yml) assembles the table.
+
+```bash
+node scripts/party.mjs                   # the roster, to stdout
+node scripts/party.mjs --write           # splice it into codex/state.md
+```
+
 ## Layout
 
 ```

@@ -3,6 +3,9 @@ type: character
 status: sketch
 recruited: 412-214
 updated: 2026-08-07
+where: Vaultspire
+where_link: world/geography/regions/vaultspire.md
+doing: Forging Concord paperwork for revoked divers, in a back room near the licensing offices
 ---
 
 # Nyella Sift

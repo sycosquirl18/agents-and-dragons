@@ -3,6 +3,10 @@ type: character
 status: sketch
 recruited: 412-214
 updated: 2026-08-07
+where: The Drowned Kiln
+where_link: world/geography/sites/the-drowned-kiln.md
+doing: Sixty feet down on the bared gallery floor, wounded and marked, a diver on one turn of rope, tide making
+quest: quests/the-kiln-still-burns.md
 ---
 
 # Brannoc Vell

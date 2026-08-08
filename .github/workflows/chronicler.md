@@ -73,7 +73,9 @@ history index (one line, with a link down)
    what the file now says. This is unglamorous and it is the most valuable thing you do.
 
 5. **Close the loop.** If a quest in `codex/quests/` is finished in the Chronicle but still marked active, resolve it.
-   If `codex/state.md` claims something the Chronicle contradicts, `state.md` is wrong — fix it.
+   If `codex/state.md` claims something the Chronicle contradicts, `state.md` is wrong — fix it. Except the party
+   roster: it is generated from the hero sheets, so correct the hero's `sheet.md` frontmatter instead and leave the
+   table between the `<!-- party:begin -->` markers alone.
 
 ## Rules
 

@@ -3,6 +3,9 @@ type: character
 status: sketch
 recruited: 412-214
 updated: 2026-08-07
+where: Vaultspire
+where_link: world/geography/regions/vaultspire.md
+doing: Cutting condemned salvage in a Kiln-Road shear-shed, about to go looking for his sister's crew
 ---
 
 # Odrin Slate

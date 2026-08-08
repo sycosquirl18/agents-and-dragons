@@ -34,6 +34,18 @@ Split Rule, stub protocol, canon discipline. Follow it. This section is only the
 
 Do not `find` the whole tree and read everything. A well-scoped run opens fewer than ten files.
 
+### Generated files — read them, never write them
+
+Two things in the repo are assembled from other files. Editing them by hand is wasted work: the next render
+overwrites it, and meanwhile you have taken a lock on a file every other agent is also holding.
+
+| File | Generated from | Change it by |
+| --- | --- | --- |
+| The party roster in `codex/state.md`, between `<!-- party:begin -->` and `<!-- party:end -->` | the `where:`, `where_link:`, `doing:` and `quest:` frontmatter on each `codex/characters/*/sheet.md` | editing that hero's sheet |
+| `log/` | the commit history and the Actions API | committing, as you already do |
+
+The rest of `codex/state.md` is ordinary prose and belongs to the [Dungeon Master](../dungeon-master.md).
+
 ### Useful sweeps
 
 ```bash

@@ -131,7 +131,10 @@ Then update only what actually changed:
   easy or too hard, so a run that skips it is a run that never happened as far as balance is concerned. Never more
   than two lines, and never a line that adds nothing (`travelled onward` is not an entry).
 - **`sheet.md`** — [condition](../../codex/rules/combat.md#harm) and any named injury, advancement, anything the
-  exchange altered. Nothing else.
+  exchange altered. Also the frontmatter **`where:`**, **`where_link:`**, **`doing:`** and **`quest:`** fields if the
+  hero moved or their situation changed: `where` is a short place name, `where_link` and `quest` are paths from
+  `codex/`, and `doing` is one present-tense clause. The party roster in `codex/state.md` is generated from those
+  four fields, so this is how your hero's line there stays true. Nothing else.
 - **`inventory.md`** — items taken, spent, broken, or given away, and coin. Track it honestly; the
   [Assayer](assayer.md) reads it.
 - **The quest file** — tick objectives and add discovered ones. Nothing about whose move it is; that lives on the
@@ -140,7 +143,9 @@ Then update only what actually changed:
   line on what he is being asked to answer. The hero has answered; the world owes the next beat. Passing the baton
   is not optional and not a separate task — an entry still naming your hero is a quest you are about to be handed
   again. **Leave every other entry exactly as you found it.**
-- **`codex/state.md`** — the hero's location and current situation, if they moved.
+
+**Do not edit `codex/state.md`.** Its party roster is generated from the sheets — yours included — and its prose
+belongs to the Dungeon Master. Writing your hero's `sheet.md` frontmatter *is* how you update the world state.
 
 Cross-link people and places you interacted with. If you invented one, write it as a `status: stub`
 ([AGENTS.md §5](../../AGENTS.md)) so it becomes real later — do not detail it yourself.

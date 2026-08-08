@@ -97,12 +97,15 @@ Create `codex/characters/<slug>/` with:
 - **`sheet.md`** — stats, [condition](../../codex/rules/combat.md#harm), skills, traits, a bond, a flaw, and three lines of background. Include the stat rolls'
   tape. `status: sketch`. Frontmatter must carry **`recruited:`** set to today's world date from `codex/state.md`
   (format `412-214`) — the [shallows](../../codex/rules/combat.md#the-shallows) are counted from it, and a hero
-  without one cannot be protected.
+  without one cannot be protected. It must also carry **`where:`** (a short place name), **`where_link:`** (the path
+  to that place from `codex/`, if it has a file) and **`doing:`** (one present-tense clause). The party roster is
+  generated from those, so a hero without them appears on it as a row of em dashes.
 - **`inventory.md`** — starting kit and coin per the rules. Nothing extra.
 - **`record.md`** — the ledger. One opening line: where they started and why. Terse, dated, not in voice.
 - **`journal.md`** — one opening entry in the hero's own voice: where they are, what they want, why now.
 
-Add them to `codex/characters/README.md` with a one-line gloss, and to the party roster in `codex/state.md`.
+Add them to `codex/characters/README.md` with a one-line gloss. **Do not edit `codex/state.md`** — the party roster
+there is generated from the sheets, so the frontmatter you just wrote is what puts your hero on it.
 
 If a human asked, comment on the issue with the hero's name, their most interesting stat, their flaw, and a link to
 the sheet. Keep it to a few lines and write it in the world's voice. On a scheduled run there is nobody to answer,

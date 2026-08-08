@@ -3,6 +3,9 @@ type: character
 status: sketch
 updated: 2026-08-07
 recruited: 412-214
+where: The Ashfields
+where_link: world/geography/regions/the-ashfields.md
+doing: Circling off the Kiln Road with a won wagon, unwelcome at three granges
 ---
 
 # Gault Marrow
